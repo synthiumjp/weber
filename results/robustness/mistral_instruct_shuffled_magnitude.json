@@ -1,0 +1,352 @@
+{
+  "model": "mistral_instruct",
+  "check": "shuffled_magnitude",
+  "mapping": {
+    "1": "70",
+    "2": "30",
+    "3": "10",
+    "4": "1000",
+    "5": "100",
+    "6": "7",
+    "7": "6",
+    "8": "15",
+    "9": "60",
+    "10": "300",
+    "15": "20",
+    "20": "90",
+    "30": "2",
+    "40": "50",
+    "50": "500",
+    "60": "40",
+    "70": "3",
+    "80": "80",
+    "90": "700",
+    "100": "5",
+    "150": "200",
+    "200": "8",
+    "300": "9",
+    "500": "1",
+    "700": "4",
+    "1000": "150"
+  },
+  "original_order": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    15,
+    20,
+    30,
+    40,
+    50,
+    60,
+    70,
+    80,
+    90,
+    100,
+    150,
+    200,
+    300,
+    500,
+    700,
+    1000
+  ],
+  "shuffled_order": [
+    70,
+    30,
+    10,
+    1000,
+    100,
+    7,
+    6,
+    15,
+    60,
+    300,
+    20,
+    90,
+    2,
+    50,
+    500,
+    40,
+    3,
+    80,
+    700,
+    5,
+    200,
+    8,
+    9,
+    1,
+    4,
+    150
+  ],
+  "layers": [
+    {
+      "layer": 0,
+      "rho_shuffled": 0.7233475263528049,
+      "p_shuffled": 6.809185777226687e-54,
+      "rho_original": 0.0402801968801184,
+      "p_original": 0.4692760695750114,
+      "winner": "shuffled"
+    },
+    {
+      "layer": 1,
+      "rho_shuffled": 0.8997183130357805,
+      "p_shuffled": 2.5013986483054455e-118,
+      "rho_original": -0.005806976505245473,
+      "p_original": 0.9169437517666849,
+      "winner": "shuffled"
+    },
+    {
+      "layer": 2,
+      "rho_shuffled": 0.891476643383176,
+      "p_shuffled": 4.3341771064457546e-113,
+      "rho_original": 0.005072495881711626,
+      "p_original": 0.927417925914549,
+      "winner": "shuffled"
+    },
+    {
+      "layer": 3,
+      "rho_shuffled": 0.9068481237530451,
+      "p_shuffled": 3.052637337882063e-123,
+      "rho_original": -0.008592479412583738,
+      "p_original": 0.8773659942471727,
+      "winner": "shuffled"
+    },
+    {
+      "layer": 4,
+      "rho_shuffled": 0.9154280180621318,
+      "p_shuffled": 1.0426393486905875e-129,
+      "rho_original": -0.02735914103697963,
+      "p_original": 0.6231325682795545,
+      "winner": "shuffled"
+    },
+    {
+      "layer": 5,
+      "rho_shuffled": 0.9223961451580805,
+      "p_shuffled": 1.7323255403736416e-135,
+      "rho_original": -0.020091593353664467,
+      "p_original": 0.7182136716456863,
+      "winner": "shuffled"
+    },
+    {
+      "layer": 6,
+      "rho_shuffled": 0.9290884487357198,
+      "p_shuffled": 1.4252729410764974e-141,
+      "rho_original": -0.02753585686525015,
+      "p_original": 0.6208889553344011,
+      "winner": "shuffled"
+    },
+    {
+      "layer": 7,
+      "rho_shuffled": 0.9348538244821836,
+      "p_shuffled": 2.587055256993702e-147,
+      "rho_original": -0.024940528855200036,
+      "p_original": 0.6541827246384325,
+      "winner": "shuffled"
+    },
+    {
+      "layer": 8,
+      "rho_shuffled": 0.9346505401020859,
+      "p_shuffled": 4.2077705789458175e-147,
+      "rho_original": -0.013991663605905256,
+      "p_original": 0.8015986144774677,
+      "winner": "shuffled"
+    },
+    {
+      "layer": 9,
+      "rho_shuffled": 0.9352787465183118,
+      "p_shuffled": 9.311671608816751e-148,
+      "rho_original": -0.005962017988604474,
+      "p_original": 0.9147345303440746,
+      "winner": "shuffled"
+    },
+    {
+      "layer": 10,
+      "rho_shuffled": 0.9336293987877871,
+      "p_shuffled": 4.7314455289853736e-146,
+      "rho_original": -0.0045266170175288075,
+      "p_original": 0.9352107349703639,
+      "winner": "shuffled"
+    },
+    {
+      "layer": 11,
+      "rho_shuffled": 0.9358744414171702,
+      "p_shuffled": 2.1968173811714878e-148,
+      "rho_original": -0.00010714817282871217,
+      "p_original": 0.9984647126034969,
+      "winner": "shuffled"
+    },
+    {
+      "layer": 12,
+      "rho_shuffled": 0.9337409167882188,
+      "p_shuffled": 3.6394784695021663e-146,
+      "rho_original": 0.005052045088528984,
+      "p_original": 0.9277097553072176,
+      "winner": "shuffled"
+    },
+    {
+      "layer": 13,
+      "rho_shuffled": 0.9394764029138771,
+      "p_shuffled": 2.605134352491867e-152,
+      "rho_original": 0.0013632114190719842,
+      "p_original": 0.9804689666862256,
+      "winner": "shuffled"
+    },
+    {
+      "layer": 14,
+      "rho_shuffled": 0.9445135905885554,
+      "p_shuffled": 3.167715525268895e-158,
+      "rho_original": 0.001176357590762207,
+      "p_original": 0.9831456352077382,
+      "winner": "shuffled"
+    },
+    {
+      "layer": 15,
+      "rho_shuffled": 0.9384029984614445,
+      "p_shuffled": 4.0786918563603206e-151,
+      "rho_original": 6.292551748505119e-05,
+      "p_original": 0.999098362666986,
+      "winner": "shuffled"
+    },
+    {
+      "layer": 16,
+      "rho_shuffled": 0.9174713494493547,
+      "p_shuffled": 2.3797981187881125e-131,
+      "rho_original": -0.008830023241089809,
+      "p_original": 0.8740035209639434,
+      "winner": "shuffled"
+    },
+    {
+      "layer": 17,
+      "rho_shuffled": 0.9197303755270679,
+      "p_shuffled": 3.246542608383454e-133,
+      "rho_original": 0.005719929539391153,
+      "p_original": 0.9181843848095375,
+      "winner": "shuffled"
+    },
+    {
+      "layer": 18,
+      "rho_shuffled": 0.8942679144629504,
+      "p_shuffled": 8.154279030280798e-115,
+      "rho_original": -0.006164603196285515,
+      "p_original": 0.9118488379080805,
+      "winner": "shuffled"
+    },
+    {
+      "layer": 19,
+      "rho_shuffled": 0.9210102106354724,
+      "p_shuffled": 2.6930913142650415e-134,
+      "rho_original": -0.030292868496616016,
+      "p_original": 0.5863498221698266,
+      "winner": "shuffled"
+    },
+    {
+      "layer": 20,
+      "rho_shuffled": 0.9518384704100238,
+      "p_shuffled": 6.777668131885456e-168,
+      "rho_original": -0.03351780126772489,
+      "p_original": 0.5471130375864411,
+      "winner": "shuffled"
+    },
+    {
+      "layer": 21,
+      "rho_shuffled": 0.9552633664922516,
+      "p_shuffled": 6.005158815432279e-173,
+      "rho_original": -0.028561542800256485,
+      "p_original": 0.607936413183643,
+      "winner": "shuffled"
+    },
+    {
+      "layer": 22,
+      "rho_shuffled": 0.9533977996919241,
+      "p_shuffled": 3.783808019120221e-170,
+      "rho_original": -0.021328778944662227,
+      "p_original": 0.7016663022325941,
+      "winner": "shuffled"
+    },
+    {
+      "layer": 23,
+      "rho_shuffled": 0.9467984860456793,
+      "p_shuffled": 4.2919721549991325e-161,
+      "rho_original": -0.022237178706800587,
+      "p_original": 0.6896049575285293,
+      "winner": "shuffled"
+    },
+    {
+      "layer": 24,
+      "rho_shuffled": 0.9423421358560089,
+      "p_shuffled": 1.3058317950541649e-155,
+      "rho_original": -0.01582052385436662,
+      "p_original": 0.7763127257514296,
+      "winner": "shuffled"
+    },
+    {
+      "layer": 25,
+      "rho_shuffled": 0.941722144715677,
+      "p_shuffled": 6.981497551616188e-155,
+      "rho_original": -0.015404691059652906,
+      "p_original": 0.7820424043616369,
+      "winner": "shuffled"
+    },
+    {
+      "layer": 26,
+      "rho_shuffled": 0.9394458141206552,
+      "p_shuffled": 2.8195332680616612e-152,
+      "rho_original": -0.013309970499817204,
+      "p_original": 0.8110784610097564,
+      "winner": "shuffled"
+    },
+    {
+      "layer": 27,
+      "rho_shuffled": 0.9218609286732493,
+      "p_shuffled": 5.028277404599498e-135,
+      "rho_original": 0.0036075548760388094,
+      "p_original": 0.9483445887583614,
+      "winner": "shuffled"
+    },
+    {
+      "layer": 28,
+      "rho_shuffled": 0.9051805975396913,
+      "p_shuffled": 4.6618854708080445e-122,
+      "rho_original": -0.005647040814970969,
+      "p_original": 0.9192233808143854,
+      "winner": "shuffled"
+    },
+    {
+      "layer": 29,
+      "rho_shuffled": 0.9130681363633382,
+      "p_shuffled": 7.296355548066346e-128,
+      "rho_original": -0.0020758429045901884,
+      "p_original": 0.9702628356190279,
+      "winner": "shuffled"
+    },
+    {
+      "layer": 30,
+      "rho_shuffled": 0.9277643909719719,
+      "p_shuffled": 2.534567101057209e-140,
+      "rho_original": -0.004661732087017542,
+      "p_original": 0.9332812666997584,
+      "winner": "shuffled"
+    },
+    {
+      "layer": 31,
+      "rho_shuffled": 0.9309141627083071,
+      "p_shuffled": 2.454338723694253e-143,
+      "rho_original": -0.0005567160366385779,
+      "p_original": 0.9920231447288057,
+      "winner": "shuffled"
+    }
+  ],
+  "summary": {
+    "primary_shuffled_wins": 16,
+    "primary_original_wins": 0,
+    "primary_mean_rho_shuffled": 0.9301297677289764,
+    "primary_mean_rho_original": -0.012442614343441225
+  }
+}

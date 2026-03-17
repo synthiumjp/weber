@@ -1,0 +1,32 @@
+{
+  "model_key": "llama_instruct",
+  "control": "frequency_matched_nouns",
+  "nouns": [
+    "window",
+    "student",
+    "state",
+    "road",
+    "bird",
+    "word",
+    "study",
+    "water",
+    "game",
+    "food",
+    "car",
+    "work",
+    "family",
+    "problem",
+    "building",
+    "world",
+    "book",
+    "power",
+    "way",
+    "group",
+    "man",
+    "story",
+    "time",
+    "number",
+    "lot",
+    "life"
+  ]
+}

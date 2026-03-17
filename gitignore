@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+venv/
+.venv/
+*.egg-info/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Models (large files)
+models/
+*.gguf
+*.safetensors
+*.bin
+
+# HuggingFace cache
+.cache/
+
+# Registration documents (go on OSF, not GitHub)
+*.pdf
+*.docx
+
+# Session logs (reference docs)
+Session_Log_*.md
+
+# Temporary
+*.tmp
+*.log

@@ -1,0 +1,125 @@
+{
+  "model": "meta-llama/Meta-Llama-3-8B-Instruct",
+  "model_name": "llama3_instruct",
+  "layers": {
+    "16": {
+      "pearson_r": 0.9999898076057434,
+      "pearson_p": 0.0,
+      "spearman_rho": 0.9996047430830038,
+      "spearman_p": 2.4325027971466404e-68,
+      "pass": true
+    },
+    "17": {
+      "pearson_r": 0.9999897480010986,
+      "pearson_p": 0.0,
+      "spearman_rho": 0.9998682476943345,
+      "spearman_p": 1.3460691472223034e-78,
+      "pass": true
+    },
+    "18": {
+      "pearson_r": 0.9999912977218628,
+      "pearson_p": 0.0,
+      "spearman_rho": 0.9997364953886693,
+      "spearman_p": 3.987051034476248e-72,
+      "pass": true
+    },
+    "19": {
+      "pearson_r": 0.9999934434890747,
+      "pearson_p": 0.0,
+      "spearman_rho": 0.9998682476943345,
+      "spearman_p": 1.3460691472223034e-78,
+      "pass": true
+    },
+    "20": {
+      "pearson_r": 0.9999954700469971,
+      "pearson_p": 0.0,
+      "spearman_rho": 0.9998682476943345,
+      "spearman_p": 1.3460691472223034e-78,
+      "pass": true
+    },
+    "21": {
+      "pearson_r": 0.999996542930603,
+      "pearson_p": 0.0,
+      "spearman_rho": 0.9999999999999999,
+      "spearman_p": 0.0,
+      "pass": true
+    },
+    "22": {
+      "pearson_r": 0.9999958276748657,
+      "pearson_p": 0.0,
+      "spearman_rho": 0.9998682476943345,
+      "spearman_p": 1.3460691472223034e-78,
+      "pass": true
+    },
+    "23": {
+      "pearson_r": 0.9999907612800598,
+      "pearson_p": 0.0,
+      "spearman_rho": 0.9996047430830038,
+      "spearman_p": 2.4325027971466404e-68,
+      "pass": true
+    },
+    "24": {
+      "pearson_r": 0.9999877214431763,
+      "pearson_p": 0.0,
+      "spearman_rho": 0.9998682476943345,
+      "spearman_p": 1.3460691472223034e-78,
+      "pass": true
+    },
+    "25": {
+      "pearson_r": 0.9999871850013733,
+      "pearson_p": 0.0,
+      "spearman_rho": 0.9998682476943345,
+      "spearman_p": 1.3460691472223034e-78,
+      "pass": true
+    },
+    "26": {
+      "pearson_r": 0.9999808669090271,
+      "pearson_p": 0.0,
+      "spearman_rho": 0.9994729907773384,
+      "spearman_p": 1.179439410431696e-65,
+      "pass": true
+    },
+    "27": {
+      "pearson_r": 0.9999758005142212,
+      "pearson_p": 0.0,
+      "spearman_rho": 0.9997364953886693,
+      "spearman_p": 3.987051034476248e-72,
+      "pass": true
+    },
+    "28": {
+      "pearson_r": 0.9999791979789734,
+      "pearson_p": 0.0,
+      "spearman_rho": 0.9996047430830038,
+      "spearman_p": 2.4325027971466404e-68,
+      "pass": true
+    },
+    "29": {
+      "pearson_r": 0.9999741911888123,
+      "pearson_p": 0.0,
+      "spearman_rho": 0.9994729907773384,
+      "spearman_p": 1.179439410431696e-65,
+      "pass": true
+    },
+    "30": {
+      "pearson_r": 0.9999748468399048,
+      "pearson_p": 0.0,
+      "spearman_rho": 0.9997364953886693,
+      "spearman_p": 3.987051034476248e-72,
+      "pass": true
+    },
+    "31": {
+      "pearson_r": 0.9999808669090271,
+      "pearson_p": 0.0,
+      "spearman_rho": 0.9997364953886693,
+      "spearman_p": 3.987051034476248e-72,
+      "pass": true
+    }
+  },
+  "overall_pass": true,
+  "worst_pearson": 0.9999741911888123,
+  "worst_spearman": 0.9994729907773384,
+  "worst_layer": 29,
+  "criterion": "> 0.99 for both Pearson and Spearman at all layers 16\u201331 (FP16 vs BF16)",
+  "comparison": "FP16 vs BF16",
+  "rationale": "BF16 has less mantissa precision (7 bits) than FP16 (10 bits) but more exponent range (8 bits vs 5 bits). Agreement across both formats demonstrates geometry is robust to precision variation in both directions."
+}

@@ -1,0 +1,234 @@
+{
+  "matches": [
+    {
+      "magnitude": "700",
+      "noun": "window",
+      "mag_logprob": -12.045371663570403,
+      "noun_logprob": -12.035542106628418,
+      "deviation": 0.009829556941985729
+    },
+    {
+      "magnitude": "150",
+      "noun": "student",
+      "mag_logprob": -10.695371568202972,
+      "noun_logprob": -10.709663200378419,
+      "deviation": 0.014291632175446267
+    },
+    {
+      "magnitude": "1000",
+      "noun": "state",
+      "mag_logprob": -10.653066074848175,
+      "noun_logprob": -10.620600700378418,
+      "deviation": 0.032465374469756725
+    },
+    {
+      "magnitude": "500",
+      "noun": "road",
+      "mag_logprob": -10.610996663570404,
+      "noun_logprob": -10.604389762878418,
+      "deviation": 0.006606900691986439
+    },
+    {
+      "magnitude": "300",
+      "noun": "bird",
+      "mag_logprob": -10.464121568202973,
+      "noun_logprob": -10.464350700378418,
+      "deviation": 0.0002291321754448461
+    },
+    {
+      "magnitude": "80",
+      "noun": "word",
+      "mag_logprob": -10.004746568202972,
+      "noun_logprob": -9.99911642074585,
+      "deviation": 0.005630147457122092
+    },
+    {
+      "magnitude": "70",
+      "noun": "study",
+      "mag_logprob": -9.550059068202973,
+      "noun_logprob": -9.546381950378418,
+      "deviation": 0.003677117824555154
+    },
+    {
+      "magnitude": "60",
+      "noun": "water",
+      "mag_logprob": -9.351621568202972,
+      "noun_logprob": -9.406928825378419,
+      "deviation": 0.05530725717544627
+    },
+    {
+      "magnitude": "90",
+      "noun": "game",
+      "mag_logprob": -9.271934068202972,
+      "noun_logprob": -9.498335075378417,
+      "deviation": 0.2264010071754452
+    },
+    {
+      "magnitude": "8",
+      "noun": "food",
+      "mag_logprob": -8.898496568202972,
+      "noun_logprob": -9.072553825378417,
+      "deviation": 0.17405725717544485
+    },
+    {
+      "magnitude": "200",
+      "noun": "car",
+      "mag_logprob": -8.712559068202973,
+      "noun_logprob": -9.537006950378418,
+      "deviation": 0.8244478821754448
+    },
+    {
+      "magnitude": "40",
+      "noun": "work",
+      "mag_logprob": -8.628184068202973,
+      "noun_logprob": -9.279975700378419,
+      "deviation": 0.6517916321754456
+    },
+    {
+      "magnitude": "50",
+      "noun": "family",
+      "mag_logprob": -8.209434068202972,
+      "noun_logprob": -9.293256950378417,
+      "deviation": 1.0838228821754452
+    },
+    {
+      "magnitude": "9",
+      "noun": "problem",
+      "mag_logprob": -8.170371568202972,
+      "noun_logprob": -9.09286642074585,
+      "deviation": 0.9224948525428776
+    },
+    {
+      "magnitude": "100",
+      "noun": "building",
+      "mag_logprob": -8.129746568202972,
+      "noun_logprob": -9.519819450378417,
+      "deviation": 1.3900728821754456
+    },
+    {
+      "magnitude": "6",
+      "noun": "world",
+      "mag_logprob": -7.714121568202972,
+      "noun_logprob": -8.98075704574585,
+      "deviation": 1.266635477542878
+    },
+    {
+      "magnitude": "15",
+      "noun": "book",
+      "mag_logprob": -7.678184068202972,
+      "noun_logprob": -9.19989767074585,
+      "deviation": 1.521713602542878
+    },
+    {
+      "magnitude": "30",
+      "noun": "power",
+      "mag_logprob": -7.642246568202973,
+      "noun_logprob": -9.216694545745849,
+      "deviation": 1.5744479775428761
+    },
+    {
+      "magnitude": "7",
+      "noun": "way",
+      "mag_logprob": -7.604746568202972,
+      "noun_logprob": -9.06200704574585,
+      "deviation": 1.457260477542877
+    },
+    {
+      "magnitude": "20",
+      "noun": "group",
+      "mag_logprob": -7.392246568202973,
+      "noun_logprob": -9.208882045745849,
+      "deviation": 1.8166354775428761
+    },
+    {
+      "magnitude": "1",
+      "noun": "man",
+      "mag_logprob": -7.357871568202972,
+      "noun_logprob": -8.443257045745849,
+      "deviation": 1.0853854775428768
+    },
+    {
+      "magnitude": "4",
+      "noun": "story",
+      "mag_logprob": -7.051621568202973,
+      "noun_logprob": -8.894917201995849,
+      "deviation": 1.8432956337928763
+    },
+    {
+      "magnitude": "2",
+      "noun": "time",
+      "mag_logprob": -7.004746568202973,
+      "noun_logprob": -7.176069545745849,
+      "deviation": 0.17132297754287684
+    },
+    {
+      "magnitude": "5",
+      "noun": "number",
+      "mag_logprob": -6.910996568202973,
+      "noun_logprob": -8.94091329574585,
+      "deviation": 2.0299167275428767
+    },
+    {
+      "magnitude": "3",
+      "noun": "lot",
+      "mag_logprob": -6.476621592044831,
+      "noun_logprob": -8.597163319587708,
+      "deviation": 2.120541727542877
+    },
+    {
+      "magnitude": "10",
+      "noun": "life",
+      "mag_logprob": -6.22037159204483,
+      "noun_logprob": -9.156538200378417,
+      "deviation": 2.936166608333587
+    }
+  ],
+  "selected_nouns": [
+    "window",
+    "student",
+    "state",
+    "road",
+    "bird",
+    "word",
+    "study",
+    "water",
+    "game",
+    "food",
+    "car",
+    "work",
+    "family",
+    "problem",
+    "building",
+    "world",
+    "book",
+    "power",
+    "way",
+    "group",
+    "man",
+    "story",
+    "time",
+    "number",
+    "lot",
+    "life"
+  ],
+  "match_spearman_rho": 0.8858119658119656,
+  "match_spearman_p": 1.7902762089458094e-09,
+  "pearson_r": 0.8646193907095021,
+  "pearson_p": 1.232438745995429e-08,
+  "noun_vs_logmag_spearman": -0.9794871794871794,
+  "noun_vs_logmag_p": 3.30024078749921e-18,
+  "max_deviation": 2.936166608333587,
+  "mean_deviation": 0.8932479876738326,
+  "match_pass": true,
+  "deviation_diagnostic": false,
+  "overall_pass": true,
+  "prompts_used": [
+    "The",
+    "I saw a",
+    "There is a",
+    "It was about",
+    "They found"
+  ],
+  "matching_algorithm": "Hungarian (scipy.optimize.linear_sum_assignment)",
+  "criterion": "GATE: Spearman of matched log-prob pairs > 0.85. DIAGNOSTIC: max deviation < 1.0 log-units."
+}

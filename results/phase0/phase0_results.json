@@ -1,0 +1,52 @@
+{
+  "vulkan": {
+    "backend": "Vulkan (GPU)",
+    "n_gpu_layers": -1,
+    "model_loaded": true,
+    "load_time_s": 0.33631253242492676,
+    "method_a": true,
+    "method_b": false,
+    "method_c": true,
+    "any_method_works": true,
+    "tokens": [
+      1,
+      1183,
+      2242,
+      29473,
+      29549,
+      29518,
+      1117,
+      1032,
+      15837,
+      29491
+    ],
+    "n_tokens": 10,
+    "note": "At least one extraction method works"
+  },
+  "cpu": {
+    "backend": "CPU",
+    "n_gpu_layers": 0,
+    "model_loaded": true,
+    "load_time_s": 0.33223891258239746,
+    "method_a": true,
+    "method_b": false,
+    "method_c": true,
+    "any_method_works": true,
+    "tokens": [
+      1,
+      1183,
+      2242,
+      29473,
+      29549,
+      29518,
+      1117,
+      1032,
+      15837,
+      29491
+    ],
+    "n_tokens": 10,
+    "note": "At least one extraction method works"
+  },
+  "huggingface": null,
+  "recommended_strategy": "vulkan"
+}

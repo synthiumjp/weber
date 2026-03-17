@@ -1,0 +1,234 @@
+{
+  "matches": [
+    {
+      "magnitude": "700",
+      "noun": "canyon",
+      "mag_logprob": -23.283654177188872,
+      "noun_logprob": -22.955023477971555,
+      "deviation": 0.32863069921731736
+    },
+    {
+      "magnitude": "150",
+      "noun": "anchor",
+      "mag_logprob": -22.902542972564696,
+      "noun_logprob": -14.820954513549804,
+      "deviation": 8.081588459014892
+    },
+    {
+      "magnitude": "1000",
+      "noun": "glacier",
+      "mag_logprob": -22.893094229698182,
+      "noun_logprob": -14.91360387802124,
+      "deviation": 7.979490351676942
+    },
+    {
+      "magnitude": "300",
+      "noun": "ribbon",
+      "mag_logprob": -22.8864066362381,
+      "noun_logprob": -15.939755630493163,
+      "deviation": 6.946651005744936
+    },
+    {
+      "magnitude": "500",
+      "noun": "fortress",
+      "mag_logprob": -22.82703592777252,
+      "noun_logprob": -15.765624952316283,
+      "deviation": 7.061410975456237
+    },
+    {
+      "magnitude": "90",
+      "noun": "cliff",
+      "mag_logprob": -22.29475905895233,
+      "noun_logprob": -16.415203857421876,
+      "deviation": 5.879555201530454
+    },
+    {
+      "magnitude": "200",
+      "noun": "furnace",
+      "mag_logprob": -22.163901996612548,
+      "noun_logprob": -16.19575719833374,
+      "deviation": 5.968144798278807
+    },
+    {
+      "magnitude": "80",
+      "noun": "fountain",
+      "mag_logprob": -22.03428008556366,
+      "noun_logprob": -16.64380221813917,
+      "deviation": 5.390477867424487
+    },
+    {
+      "magnitude": "70",
+      "noun": "ridge",
+      "mag_logprob": -21.91217210292816,
+      "noun_logprob": -21.52728843688965,
+      "deviation": 0.38488366603851176
+    },
+    {
+      "magnitude": "50",
+      "noun": "trench",
+      "mag_logprob": -21.439806628227235,
+      "noun_logprob": -21.408176231384278,
+      "deviation": 0.03163039684295654
+    },
+    {
+      "magnitude": "40",
+      "noun": "dungeon",
+      "mag_logprob": -21.371564197540284,
+      "noun_logprob": -16.649694752693176,
+      "deviation": 4.721869444847108
+    },
+    {
+      "magnitude": "30",
+      "noun": "dune",
+      "mag_logprob": -21.325112175941467,
+      "noun_logprob": -20.158502197265626,
+      "deviation": 1.1666099786758402
+    },
+    {
+      "magnitude": "60",
+      "noun": "meadow",
+      "mag_logprob": -21.236285400390624,
+      "noun_logprob": -20.717362689971925,
+      "deviation": 0.5189227104186998
+    },
+    {
+      "magnitude": "100",
+      "noun": "harbor",
+      "mag_logprob": -21.064943814277648,
+      "noun_logprob": -16.56911702156067,
+      "deviation": 4.495826792716979
+    },
+    {
+      "magnitude": "15",
+      "noun": "reef",
+      "mag_logprob": -20.651270031929016,
+      "noun_logprob": -20.364167404174804,
+      "deviation": 0.28710262775421214
+    },
+    {
+      "magnitude": "20",
+      "noun": "lighthouse",
+      "mag_logprob": -20.569821786880492,
+      "noun_logprob": -20.446559020131826,
+      "deviation": 0.12326276674866676
+    },
+    {
+      "magnitude": "8",
+      "noun": "crater",
+      "mag_logprob": -19.64189693927765,
+      "noun_logprob": -16.655391025543214,
+      "deviation": 2.9865059137344367
+    },
+    {
+      "magnitude": "10",
+      "noun": "hedge",
+      "mag_logprob": -19.547363781929015,
+      "noun_logprob": -16.747214913368225,
+      "deviation": 2.8001488685607896
+    },
+    {
+      "magnitude": "9",
+      "noun": "quarry",
+      "mag_logprob": -19.289870572090148,
+      "noun_logprob": -16.88723201751709,
+      "deviation": 2.402638554573059
+    },
+    {
+      "magnitude": "5",
+      "noun": "wharf",
+      "mag_logprob": -19.23537838459015,
+      "noun_logprob": -17.078549483418463,
+      "deviation": 2.1568289011716857
+    },
+    {
+      "magnitude": "6",
+      "noun": "grove",
+      "mag_logprob": -19.21330807209015,
+      "noun_logprob": -17.20988087654114,
+      "deviation": 2.003427195549012
+    },
+    {
+      "magnitude": "7",
+      "noun": "cove",
+      "mag_logprob": -19.180300259590148,
+      "noun_logprob": -17.999015426635744,
+      "deviation": 1.181284832954404
+    },
+    {
+      "magnitude": "3",
+      "noun": "lantern",
+      "mag_logprob": -19.062136197090148,
+      "noun_logprob": -19.03963158726692,
+      "deviation": 0.022504609823226218
+    },
+    {
+      "magnitude": "4",
+      "noun": "orchard",
+      "mag_logprob": -19.047194790840148,
+      "noun_logprob": -18.350009560585022,
+      "deviation": 0.6971852302551262
+    },
+    {
+      "magnitude": "2",
+      "noun": "anvil",
+      "mag_logprob": -18.703933072090148,
+      "noun_logprob": -18.442913150787355,
+      "deviation": 0.2610199213027933
+    },
+    {
+      "magnitude": "1",
+      "noun": "chimney",
+      "mag_logprob": -17.747292637825012,
+      "noun_logprob": -17.298318338394164,
+      "deviation": 0.4489742994308479
+    }
+  ],
+  "selected_nouns": [
+    "canyon",
+    "anchor",
+    "glacier",
+    "ribbon",
+    "fortress",
+    "cliff",
+    "furnace",
+    "fountain",
+    "ridge",
+    "trench",
+    "dungeon",
+    "dune",
+    "meadow",
+    "harbor",
+    "reef",
+    "lighthouse",
+    "crater",
+    "hedge",
+    "quarry",
+    "wharf",
+    "grove",
+    "cove",
+    "lantern",
+    "orchard",
+    "anvil",
+    "chimney"
+  ],
+  "match_spearman_rho": -0.3531623931623932,
+  "match_spearman_p": 0.07676884671105765,
+  "pearson_r": -0.03970180271623277,
+  "pearson_p": 0.8473039099058424,
+  "noun_vs_logmag_spearman": 0.3928205128205128,
+  "noun_vs_logmag_p": 0.047132302381488946,
+  "max_deviation": 8.081588459014892,
+  "mean_deviation": 2.858714464220862,
+  "match_pass": false,
+  "deviation_diagnostic": false,
+  "overall_pass": false,
+  "prompts_used": [
+    "The",
+    "I saw a",
+    "There is a",
+    "It was about",
+    "They found"
+  ],
+  "matching_algorithm": "Hungarian (scipy.optimize.linear_sum_assignment)",
+  "criterion": "GATE: Spearman of matched log-prob pairs > 0.85. DIAGNOSTIC: max deviation < 1.0 log-units."
+}

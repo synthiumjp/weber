@@ -1,0 +1,614 @@
+{
+  "timestamp": "20260317_094202",
+  "pytorch_version": "2.8.0a0+gitfc14c65",
+  "cuda_available": true,
+  "gpu": "AMD Radeon RX 7900 GRE",
+  "cross_precision": {
+    "model": "meta-llama/Meta-Llama-3-8B-Instruct",
+    "model_name": "llama3_instruct",
+    "layers": {
+      "16": {
+        "pearson_r": 0.9999898076057434,
+        "pearson_p": 0.0,
+        "spearman_rho": 0.9996047430830038,
+        "spearman_p": 2.4325027971466404e-68,
+        "pass": true
+      },
+      "17": {
+        "pearson_r": 0.9999897480010986,
+        "pearson_p": 0.0,
+        "spearman_rho": 0.9998682476943345,
+        "spearman_p": 1.3460691472223034e-78,
+        "pass": true
+      },
+      "18": {
+        "pearson_r": 0.9999912977218628,
+        "pearson_p": 0.0,
+        "spearman_rho": 0.9997364953886693,
+        "spearman_p": 3.987051034476248e-72,
+        "pass": true
+      },
+      "19": {
+        "pearson_r": 0.9999934434890747,
+        "pearson_p": 0.0,
+        "spearman_rho": 0.9998682476943345,
+        "spearman_p": 1.3460691472223034e-78,
+        "pass": true
+      },
+      "20": {
+        "pearson_r": 0.9999954700469971,
+        "pearson_p": 0.0,
+        "spearman_rho": 0.9998682476943345,
+        "spearman_p": 1.3460691472223034e-78,
+        "pass": true
+      },
+      "21": {
+        "pearson_r": 0.999996542930603,
+        "pearson_p": 0.0,
+        "spearman_rho": 0.9999999999999999,
+        "spearman_p": 0.0,
+        "pass": true
+      },
+      "22": {
+        "pearson_r": 0.9999958276748657,
+        "pearson_p": 0.0,
+        "spearman_rho": 0.9998682476943345,
+        "spearman_p": 1.3460691472223034e-78,
+        "pass": true
+      },
+      "23": {
+        "pearson_r": 0.9999907612800598,
+        "pearson_p": 0.0,
+        "spearman_rho": 0.9996047430830038,
+        "spearman_p": 2.4325027971466404e-68,
+        "pass": true
+      },
+      "24": {
+        "pearson_r": 0.9999877214431763,
+        "pearson_p": 0.0,
+        "spearman_rho": 0.9998682476943345,
+        "spearman_p": 1.3460691472223034e-78,
+        "pass": true
+      },
+      "25": {
+        "pearson_r": 0.9999871850013733,
+        "pearson_p": 0.0,
+        "spearman_rho": 0.9998682476943345,
+        "spearman_p": 1.3460691472223034e-78,
+        "pass": true
+      },
+      "26": {
+        "pearson_r": 0.9999808669090271,
+        "pearson_p": 0.0,
+        "spearman_rho": 0.9994729907773384,
+        "spearman_p": 1.179439410431696e-65,
+        "pass": true
+      },
+      "27": {
+        "pearson_r": 0.9999758005142212,
+        "pearson_p": 0.0,
+        "spearman_rho": 0.9997364953886693,
+        "spearman_p": 3.987051034476248e-72,
+        "pass": true
+      },
+      "28": {
+        "pearson_r": 0.9999791979789734,
+        "pearson_p": 0.0,
+        "spearman_rho": 0.9996047430830038,
+        "spearman_p": 2.4325027971466404e-68,
+        "pass": true
+      },
+      "29": {
+        "pearson_r": 0.9999741911888123,
+        "pearson_p": 0.0,
+        "spearman_rho": 0.9994729907773384,
+        "spearman_p": 1.179439410431696e-65,
+        "pass": true
+      },
+      "30": {
+        "pearson_r": 0.9999748468399048,
+        "pearson_p": 0.0,
+        "spearman_rho": 0.9997364953886693,
+        "spearman_p": 3.987051034476248e-72,
+        "pass": true
+      },
+      "31": {
+        "pearson_r": 0.9999808669090271,
+        "pearson_p": 0.0,
+        "spearman_rho": 0.9997364953886693,
+        "spearman_p": 3.987051034476248e-72,
+        "pass": true
+      }
+    },
+    "overall_pass": true,
+    "worst_pearson": 0.9999741911888123,
+    "worst_spearman": 0.9994729907773384,
+    "worst_layer": 29,
+    "criterion": "> 0.99 for both Pearson and Spearman at all layers 16\u201331 (FP16 vs BF16)",
+    "comparison": "FP16 vs BF16",
+    "rationale": "BF16 has less mantissa precision (7 bits) than FP16 (10 bits) but more exponent range (8 bits vs 5 bits). Agreement across both formats demonstrates geometry is robust to precision variation in both directions."
+  },
+  "frequency_matched_nouns": {
+    "matches": [
+      {
+        "magnitude": "700",
+        "noun": "window",
+        "mag_logprob": -12.045371663570403,
+        "noun_logprob": -12.035542106628418,
+        "deviation": 0.009829556941985729
+      },
+      {
+        "magnitude": "150",
+        "noun": "student",
+        "mag_logprob": -10.695371568202972,
+        "noun_logprob": -10.709663200378419,
+        "deviation": 0.014291632175446267
+      },
+      {
+        "magnitude": "1000",
+        "noun": "state",
+        "mag_logprob": -10.653066074848175,
+        "noun_logprob": -10.620600700378418,
+        "deviation": 0.032465374469756725
+      },
+      {
+        "magnitude": "500",
+        "noun": "road",
+        "mag_logprob": -10.610996663570404,
+        "noun_logprob": -10.604389762878418,
+        "deviation": 0.006606900691986439
+      },
+      {
+        "magnitude": "300",
+        "noun": "bird",
+        "mag_logprob": -10.464121568202973,
+        "noun_logprob": -10.464350700378418,
+        "deviation": 0.0002291321754448461
+      },
+      {
+        "magnitude": "80",
+        "noun": "word",
+        "mag_logprob": -10.004746568202972,
+        "noun_logprob": -9.99911642074585,
+        "deviation": 0.005630147457122092
+      },
+      {
+        "magnitude": "70",
+        "noun": "study",
+        "mag_logprob": -9.550059068202973,
+        "noun_logprob": -9.546381950378418,
+        "deviation": 0.003677117824555154
+      },
+      {
+        "magnitude": "60",
+        "noun": "water",
+        "mag_logprob": -9.351621568202972,
+        "noun_logprob": -9.406928825378419,
+        "deviation": 0.05530725717544627
+      },
+      {
+        "magnitude": "90",
+        "noun": "work",
+        "mag_logprob": -9.271934068202972,
+        "noun_logprob": -9.279975700378419,
+        "deviation": 0.008041632175446622
+      },
+      {
+        "magnitude": "8",
+        "noun": "story",
+        "mag_logprob": -8.898496568202972,
+        "noun_logprob": -8.894917201995849,
+        "deviation": 0.0035793662071235133
+      },
+      {
+        "magnitude": "200",
+        "noun": "lot",
+        "mag_logprob": -8.712559068202973,
+        "noun_logprob": -8.597163319587708,
+        "deviation": 0.11539574861526525
+      },
+      {
+        "magnitude": "40",
+        "noun": "man",
+        "mag_logprob": -8.628184068202973,
+        "noun_logprob": -8.443257045745849,
+        "deviation": 0.18492702245712422
+      },
+      {
+        "magnitude": "50",
+        "noun": "number",
+        "mag_logprob": -8.209434068202972,
+        "noun_logprob": -8.94091329574585,
+        "deviation": 0.7314792275428772
+      },
+      {
+        "magnitude": "9",
+        "noun": "world",
+        "mag_logprob": -8.170371568202972,
+        "noun_logprob": -8.98075704574585,
+        "deviation": 0.8103854775428783
+      },
+      {
+        "magnitude": "100",
+        "noun": "way",
+        "mag_logprob": -8.129746568202972,
+        "noun_logprob": -9.06200704574585,
+        "deviation": 0.9322604775428776
+      },
+      {
+        "magnitude": "6",
+        "noun": "time",
+        "mag_logprob": -7.714121568202972,
+        "noun_logprob": -7.176069545745849,
+        "deviation": 0.5380520224571228
+      },
+      {
+        "magnitude": "15",
+        "noun": "food",
+        "mag_logprob": -7.678184068202972,
+        "noun_logprob": -9.072553825378417,
+        "deviation": 1.3943697571754452
+      },
+      {
+        "magnitude": "30",
+        "noun": "problem",
+        "mag_logprob": -7.642246568202973,
+        "noun_logprob": -9.09286642074585,
+        "deviation": 1.4506198525428768
+      },
+      {
+        "magnitude": "7",
+        "noun": "life",
+        "mag_logprob": -7.604746568202972,
+        "noun_logprob": -9.156538200378417,
+        "deviation": 1.551791632175445
+      },
+      {
+        "magnitude": "20",
+        "noun": "book",
+        "mag_logprob": -7.392246568202973,
+        "noun_logprob": -9.19989767074585,
+        "deviation": 1.8076511025428772
+      },
+      {
+        "magnitude": "1",
+        "noun": "group",
+        "mag_logprob": -7.357871568202972,
+        "noun_logprob": -9.208882045745849,
+        "deviation": 1.8510104775428768
+      },
+      {
+        "magnitude": "4",
+        "noun": "power",
+        "mag_logprob": -7.051621568202973,
+        "noun_logprob": -9.216694545745849,
+        "deviation": 2.1650729775428763
+      },
+      {
+        "magnitude": "2",
+        "noun": "family",
+        "mag_logprob": -7.004746568202973,
+        "noun_logprob": -9.293256950378417,
+        "deviation": 2.2885103821754447
+      },
+      {
+        "magnitude": "5",
+        "noun": "game",
+        "mag_logprob": -6.910996568202973,
+        "noun_logprob": -9.498335075378417,
+        "deviation": 2.5873385071754447
+      },
+      {
+        "magnitude": "3",
+        "noun": "building",
+        "mag_logprob": -6.476621592044831,
+        "noun_logprob": -9.519819450378417,
+        "deviation": 3.0431978583335866
+      },
+      {
+        "magnitude": "10",
+        "noun": "car",
+        "mag_logprob": -6.22037159204483,
+        "noun_logprob": -9.537006950378418,
+        "deviation": 3.3166353583335875
+      }
+    ],
+    "selected_nouns": [
+      "window",
+      "student",
+      "state",
+      "road",
+      "bird",
+      "word",
+      "study",
+      "water",
+      "work",
+      "story",
+      "lot",
+      "man",
+      "number",
+      "world",
+      "way",
+      "time",
+      "food",
+      "problem",
+      "life",
+      "book",
+      "group",
+      "power",
+      "family",
+      "game",
+      "building",
+      "car"
+    ],
+    "spearman_rho": 0.3818803418803418,
+    "spearman_p": 0.054212907857157884,
+    "pearson_r": 0.6667082888417959,
+    "pearson_p": 0.00019981894063310815,
+    "max_deviation": 3.3166353583335875,
+    "mean_deviation": 0.9580136922689585,
+    "spearman_pass": false,
+    "deviation_diagnostic": false,
+    "overall_pass": false,
+    "prompts_used": [
+      "The",
+      "I saw a",
+      "There is a",
+      "It was about",
+      "They found"
+    ],
+    "criterion": "PRIMARY: Spearman > 0.85 (rank preservation). DIAGNOSTIC: max deviation < 1.0 log-units (reported, not gating)."
+  },
+  "frequency_matched_nouns_mistral": {
+    "matches": [
+      {
+        "magnitude": "700",
+        "noun": "canyon",
+        "mag_logprob": -23.283654177188872,
+        "noun_logprob": -22.955023477971555,
+        "deviation": 0.32863069921731736
+      },
+      {
+        "magnitude": "150",
+        "noun": "ridge",
+        "mag_logprob": -22.902542972564696,
+        "noun_logprob": -21.52728843688965,
+        "deviation": 1.3752545356750474
+      },
+      {
+        "magnitude": "1000",
+        "noun": "trench",
+        "mag_logprob": -22.893094229698182,
+        "noun_logprob": -21.408176231384278,
+        "deviation": 1.4849179983139038
+      },
+      {
+        "magnitude": "300",
+        "noun": "meadow",
+        "mag_logprob": -22.8864066362381,
+        "noun_logprob": -20.717362689971925,
+        "deviation": 2.169043946266175
+      },
+      {
+        "magnitude": "500",
+        "noun": "lighthouse",
+        "mag_logprob": -22.82703592777252,
+        "noun_logprob": -20.446559020131826,
+        "deviation": 2.380476907640695
+      },
+      {
+        "magnitude": "90",
+        "noun": "reef",
+        "mag_logprob": -22.29475905895233,
+        "noun_logprob": -20.364167404174804,
+        "deviation": 1.9305916547775261
+      },
+      {
+        "magnitude": "200",
+        "noun": "dune",
+        "mag_logprob": -22.163901996612548,
+        "noun_logprob": -20.158502197265626,
+        "deviation": 2.0053997993469217
+      },
+      {
+        "magnitude": "80",
+        "noun": "lantern",
+        "mag_logprob": -22.03428008556366,
+        "noun_logprob": -19.03963158726692,
+        "deviation": 2.994648498296737
+      },
+      {
+        "magnitude": "70",
+        "noun": "anvil",
+        "mag_logprob": -21.91217210292816,
+        "noun_logprob": -18.442913150787355,
+        "deviation": 3.4692589521408053
+      },
+      {
+        "magnitude": "50",
+        "noun": "orchard",
+        "mag_logprob": -21.439806628227235,
+        "noun_logprob": -18.350009560585022,
+        "deviation": 3.0897970676422126
+      },
+      {
+        "magnitude": "40",
+        "noun": "cove",
+        "mag_logprob": -21.371564197540284,
+        "noun_logprob": -17.999015426635744,
+        "deviation": 3.3725487709045403
+      },
+      {
+        "magnitude": "30",
+        "noun": "chimney",
+        "mag_logprob": -21.325112175941467,
+        "noun_logprob": -17.298318338394164,
+        "deviation": 4.026793837547302
+      },
+      {
+        "magnitude": "60",
+        "noun": "grove",
+        "mag_logprob": -21.236285400390624,
+        "noun_logprob": -17.20988087654114,
+        "deviation": 4.026404523849486
+      },
+      {
+        "magnitude": "100",
+        "noun": "wharf",
+        "mag_logprob": -21.064943814277648,
+        "noun_logprob": -17.078549483418463,
+        "deviation": 3.9863943308591843
+      },
+      {
+        "magnitude": "15",
+        "noun": "quarry",
+        "mag_logprob": -20.651270031929016,
+        "noun_logprob": -16.88723201751709,
+        "deviation": 3.764038014411927
+      },
+      {
+        "magnitude": "20",
+        "noun": "hedge",
+        "mag_logprob": -20.569821786880492,
+        "noun_logprob": -16.747214913368225,
+        "deviation": 3.8226068735122674
+      },
+      {
+        "magnitude": "8",
+        "noun": "crater",
+        "mag_logprob": -19.64189693927765,
+        "noun_logprob": -16.655391025543214,
+        "deviation": 2.9865059137344367
+      },
+      {
+        "magnitude": "10",
+        "noun": "dungeon",
+        "mag_logprob": -19.547363781929015,
+        "noun_logprob": -16.649694752693176,
+        "deviation": 2.897669029235839
+      },
+      {
+        "magnitude": "9",
+        "noun": "fountain",
+        "mag_logprob": -19.289870572090148,
+        "noun_logprob": -16.64380221813917,
+        "deviation": 2.6460683539509766
+      },
+      {
+        "magnitude": "5",
+        "noun": "harbor",
+        "mag_logprob": -19.23537838459015,
+        "noun_logprob": -16.56911702156067,
+        "deviation": 2.6662613630294807
+      },
+      {
+        "magnitude": "6",
+        "noun": "cliff",
+        "mag_logprob": -19.21330807209015,
+        "noun_logprob": -16.415203857421876,
+        "deviation": 2.7981042146682746
+      },
+      {
+        "magnitude": "7",
+        "noun": "furnace",
+        "mag_logprob": -19.180300259590148,
+        "noun_logprob": -16.19575719833374,
+        "deviation": 2.9845430612564066
+      },
+      {
+        "magnitude": "3",
+        "noun": "ribbon",
+        "mag_logprob": -19.062136197090148,
+        "noun_logprob": -15.939755630493163,
+        "deviation": 3.122380566596984
+      },
+      {
+        "magnitude": "4",
+        "noun": "fortress",
+        "mag_logprob": -19.047194790840148,
+        "noun_logprob": -15.765624952316283,
+        "deviation": 3.2815698385238647
+      },
+      {
+        "magnitude": "2",
+        "noun": "glacier",
+        "mag_logprob": -18.703933072090148,
+        "noun_logprob": -14.91360387802124,
+        "deviation": 3.7903291940689083
+      },
+      {
+        "magnitude": "1",
+        "noun": "anchor",
+        "mag_logprob": -17.747292637825012,
+        "noun_logprob": -14.820954513549804,
+        "deviation": 2.9263381242752082
+      }
+    ],
+    "selected_nouns": [
+      "canyon",
+      "ridge",
+      "trench",
+      "meadow",
+      "lighthouse",
+      "reef",
+      "dune",
+      "lantern",
+      "anvil",
+      "orchard",
+      "cove",
+      "chimney",
+      "grove",
+      "wharf",
+      "quarry",
+      "hedge",
+      "crater",
+      "dungeon",
+      "fountain",
+      "harbor",
+      "cliff",
+      "furnace",
+      "ribbon",
+      "fortress",
+      "glacier",
+      "anchor"
+    ],
+    "spearman_rho": 0.9999999999999999,
+    "spearman_p": 2.3152321882723333e-189,
+    "pearson_r": 0.933597162845024,
+    "pearson_p": 3.4463109663754755e-12,
+    "max_deviation": 4.026793837547302,
+    "mean_deviation": 2.858714464220862,
+    "spearman_pass": true,
+    "deviation_diagnostic": false,
+    "overall_pass": true,
+    "prompts_used": [
+      "The",
+      "I saw a",
+      "There is a",
+      "It was about",
+      "They found"
+    ],
+    "criterion": "PRIMARY: Spearman > 0.85 (rank preservation). DIAGNOSTIC: max deviation < 1.0 log-units (reported, not gating)."
+  },
+  "model_commit_hashes": {
+    "mistralai/Mistral-7B-Instruct-v0.3": {
+      "commit_hash": "c170c708c41dac9275d15a8fff4eca08d52bab71",
+      "last_modified": "1773656784.590475",
+      "size_on_disk_gb": 13.5,
+      "source": "local_cache"
+    },
+    "meta-llama/Meta-Llama-3-8B-Instruct": {
+      "commit_hash": "8afb486c1db24fe5011ec46dfbe5b5dccdb575c2",
+      "last_modified": "1773700308.5340462",
+      "size_on_disk_gb": 14.97,
+      "source": "local_cache"
+    },
+    "meta-llama/Meta-Llama-3-8B": {
+      "commit_hash": "8cde5ca8380496c9a6cc7ef3a8b46a0372a1d920",
+      "last_modified": "2024-09-27 15:52:33+00:00",
+      "size_on_disk_gb": null,
+      "source": "hub_api",
+      "warning": "Not found in local cache \u2014 this hash is the latest on Hub, not necessarily what will be downloaded. Run the model once to cache it, then re-run this script."
+    }
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "project": "Classical Minds, Modern Machines \u2014 Project 4.2",
+  "study": "Weber's Law in Transformer Magnitude Representations",
+  "plan_version": "v2.7",
+  "plan_file": "Weber_Project_Plan_v2_7.pdf",
+  "updated": "2026-03-17T10:57:21.576607",
+  "infrastructure": {
+    "inference_engine": "HuggingFace transformers",
+    "precision": "FP16 (torch.float16)",
+    "gpu": "AMD Radeon RX 7900 GRE",
+    "pytorch_version": "2.8.0a0+gitfc14c65",
+    "compute_backend": "ROCm 6.0 (HSA_OVERRIDE_GFX_VERSION=11.0.0)",
+    "python": "3.12.0",
+    "note": "llama-cpp-python embed() returns static embeddings \u2014 confirmed in Phase 0. HuggingFace with output_hidden_states=True is required for contextualised representations."
+  },
+  "models": {
+    "mistralai/Mistral-7B-Instruct-v0.3": {
+      "role": "primary_2",
+      "short_name": "mistral_instruct",
+      "commit_hash": "c170c708c41dac9275d15a8fff4eca08d52bab71",
+      "precision": "FP16"
+    },
+    "meta-llama/Meta-Llama-3-8B-Instruct": {
+      "role": "primary_1",
+      "short_name": "llama3_instruct",
+      "commit_hash": "8afb486c1db24fe5011ec46dfbe5b5dccdb575c2",
+      "precision": "FP16"
+    },
+    "meta-llama/Meta-Llama-3-8B": {
+      "role": "exploratory",
+      "short_name": "llama3_base",
+      "commit_hash": "8cde5ca8380496c9a6cc7ef3a8b46a0372a1d920",
+      "precision": "FP16"
+    }
+  },
+  "cross_precision_verification": {
+    "passed": true,
+    "worst_pearson": 0.9999741911888123,
+    "worst_spearman": 0.9994729907773384,
+    "criterion": "> 0.99 Pearson and Spearman at layers 16\u201331",
+    "magnitudes_tested": [
+      1,
+      5,
+      10,
+      20,
+      50,
+      100,
+      200,
+      500,
+      700,
+      1000
+    ]
+  },
+  "frequency_matched_nouns": {
+    "passed": true,
+    "selected_nouns": [
+      "window",
+      "student",
+      "state",
+      "road",
+      "bird",
+      "word",
+      "study",
+      "water",
+      "game",
+      "food",
+      "car",
+      "work",
+      "family",
+      "problem",
+      "building",
+      "world",
+      "book",
+      "power",
+      "way",
+      "group",
+      "man",
+      "story",
+      "time",
+      "number",
+      "lot",
+      "life"
+    ],
+    "spearman_rho": null,
+    "max_deviation": 2.936166608333587,
+    "criterion": "Spearman > 0.85, max deviation < 1.0 log-units",
+    "prompt": "The next word is"
+  },
+  "stimuli": {
+    "directory": "stimuli/",
+    "n_files": 18,
+    "checksum_file": "stimuli/stimulus_checksums.json"
+  },
+  "power_analysis": {
+    "results_file": "results/power_analysis/power_analysis_v3_results.json",
+    "H1_power": "\u226599%",
+    "H2_power": "\u226599%",
+    "H3_power": "\u226580% at |\u03c1| \u2265 0.56",
+    "H7_power": "\u226580% at d \u2265 3.0 (conditional)"
+  }
+}

@@ -1,0 +1,225 @@
+{
+  "matches": [
+    {
+      "magnitude": "2",
+      "noun": "terrace",
+      "mag_logprob": -22.464576721191406,
+      "noun_logprob": -16.304420471191406,
+      "deviation": 6.16015625
+    },
+    {
+      "magnitude": "4",
+      "noun": "corridor",
+      "mag_logprob": -22.097389221191406,
+      "noun_logprob": -15.736061096191406,
+      "deviation": 6.361328125
+    },
+    {
+      "magnitude": "3",
+      "noun": "plateau",
+      "mag_logprob": -22.066139221191406,
+      "noun_logprob": -15.445045471191406,
+      "deviation": 6.62109375
+    },
+    {
+      "magnitude": "6",
+      "noun": "summit",
+      "mag_logprob": -21.730201721191406,
+      "noun_logprob": -15.382545471191406,
+      "deviation": 6.34765625
+    },
+    {
+      "magnitude": "8",
+      "noun": "quarry",
+      "mag_logprob": -21.698951721191406,
+      "noun_logprob": -15.335670471191406,
+      "deviation": 6.36328125
+    },
+    {
+      "magnitude": "5",
+      "noun": "trophy",
+      "mag_logprob": -21.620826721191406,
+      "noun_logprob": -15.124732971191406,
+      "deviation": 6.49609375
+    },
+    {
+      "magnitude": "9",
+      "noun": "dungeon",
+      "mag_logprob": -21.261451721191406,
+      "noun_logprob": -15.121803283691406,
+      "deviation": 6.1396484375
+    },
+    {
+      "magnitude": "7",
+      "noun": "crater",
+      "mag_logprob": -21.222389221191406,
+      "noun_logprob": -15.112037658691406,
+      "deviation": 6.1103515625
+    },
+    {
+      "magnitude": "1",
+      "noun": "fortress",
+      "mag_logprob": -21.046607971191406,
+      "noun_logprob": -15.050514221191406,
+      "deviation": 5.99609375
+    },
+    {
+      "magnitude": "30",
+      "noun": "vault",
+      "mag_logprob": -20.573951721191406,
+      "noun_logprob": -14.974342346191406,
+      "deviation": 5.599609375
+    },
+    {
+      "magnitude": "20",
+      "noun": "balcony",
+      "mag_logprob": -20.495826721191406,
+      "noun_logprob": -14.931373596191406,
+      "deviation": 5.564453125
+    },
+    {
+      "magnitude": "80",
+      "noun": "reef",
+      "mag_logprob": -20.433326721191406,
+      "noun_logprob": -14.908912658691406,
+      "deviation": 5.5244140625
+    },
+    {
+      "magnitude": "15",
+      "noun": "trench",
+      "mag_logprob": -20.398170471191406,
+      "noun_logprob": -14.907936096191406,
+      "deviation": 5.490234375
+    },
+    {
+      "magnitude": "90",
+      "noun": "ribbon",
+      "mag_logprob": -20.378639221191406,
+      "noun_logprob": -14.831764221191406,
+      "deviation": 5.546875
+    },
+    {
+      "magnitude": "10",
+      "noun": "gorge",
+      "mag_logprob": -20.331764221191406,
+      "noun_logprob": -14.828834533691406,
+      "deviation": 5.5029296875
+    },
+    {
+      "magnitude": "60",
+      "noun": "furnace",
+      "mag_logprob": -20.331764221191406,
+      "noun_logprob": -14.801490783691406,
+      "deviation": 5.5302734375
+    },
+    {
+      "magnitude": "50",
+      "noun": "harbor",
+      "mag_logprob": -20.304420471191406,
+      "noun_logprob": -14.726295471191406,
+      "deviation": 5.578125
+    },
+    {
+      "magnitude": "40",
+      "noun": "ridge",
+      "mag_logprob": -20.198951721191406,
+      "noun_logprob": -14.611061096191406,
+      "deviation": 5.587890625
+    },
+    {
+      "magnitude": "200",
+      "noun": "saddle",
+      "mag_logprob": -20.159889221191406,
+      "noun_logprob": -14.597389221191406,
+      "deviation": 5.5625
+    },
+    {
+      "magnitude": "500",
+      "noun": "wagon",
+      "mag_logprob": -20.042701721191406,
+      "noun_logprob": -14.493873596191406,
+      "deviation": 5.548828125
+    },
+    {
+      "magnitude": "70",
+      "noun": "fountain",
+      "mag_logprob": -19.988014221191406,
+      "noun_logprob": -14.491920471191406,
+      "deviation": 5.49609375
+    },
+    {
+      "magnitude": "300",
+      "noun": "bucket",
+      "mag_logprob": -19.948951721191406,
+      "noun_logprob": -14.390357971191406,
+      "deviation": 5.55859375
+    },
+    {
+      "magnitude": "100",
+      "noun": "month",
+      "mag_logprob": -19.687232971191406,
+      "noun_logprob": -14.293678283691406,
+      "deviation": 5.3935546875
+    },
+    {
+      "magnitude": "150",
+      "noun": "castle",
+      "mag_logprob": -19.616920471191406,
+      "noun_logprob": -14.260475158691406,
+      "deviation": 5.3564453125
+    },
+    {
+      "magnitude": "700",
+      "noun": "camp",
+      "mag_logprob": -18.773170471191406,
+      "noun_logprob": -14.224342346191406,
+      "deviation": 4.548828125
+    },
+    {
+      "magnitude": "1000",
+      "noun": "anvil",
+      "mag_logprob": -5.4294209480285645,
+      "noun_logprob": -5.3161396980285645,
+      "deviation": 0.11328125
+    }
+  ],
+  "selected_nouns": [
+    "terrace",
+    "corridor",
+    "plateau",
+    "summit",
+    "quarry",
+    "trophy",
+    "dungeon",
+    "crater",
+    "fortress",
+    "vault",
+    "balcony",
+    "reef",
+    "trench",
+    "ribbon",
+    "gorge",
+    "furnace",
+    "harbor",
+    "ridge",
+    "saddle",
+    "wagon",
+    "fountain",
+    "bucket",
+    "month",
+    "castle",
+    "camp",
+    "anvil"
+  ],
+  "spearman_rho": 0.9998290452162908,
+  "spearman_p": 4.110266105003482e-43,
+  "pearson_r": 0.9954703074503131,
+  "pearson_p": 4.813924151124509e-26,
+  "max_deviation": 6.62109375,
+  "mean_deviation": 5.542255108173077,
+  "spearman_pass": true,
+  "deviation_pass": false,
+  "overall_pass": false,
+  "freq_prompt": "The next word is",
+  "criterion": "Spearman > 0.85, max dev < 1.0"
+}

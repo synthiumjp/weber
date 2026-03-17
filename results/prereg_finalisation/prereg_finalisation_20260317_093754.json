@@ -1,0 +1,602 @@
+{
+  "timestamp": "20260317_093754",
+  "pytorch_version": "2.8.0a0+gitfc14c65",
+  "cuda_available": true,
+  "gpu": "AMD Radeon RX 7900 GRE",
+  "cross_precision": {
+    "model": "meta-llama/Meta-Llama-3-8B-Instruct",
+    "model_name": "llama3_instruct",
+    "layers": {
+      "16": {
+        "pearson_r": 0.9999898076057434,
+        "pearson_p": 0.0,
+        "spearman_rho": 0.9996047430830038,
+        "spearman_p": 2.4325027971466404e-68,
+        "pass": true
+      },
+      "17": {
+        "pearson_r": 0.9999897480010986,
+        "pearson_p": 0.0,
+        "spearman_rho": 0.9998682476943345,
+        "spearman_p": 1.3460691472223034e-78,
+        "pass": true
+      },
+      "18": {
+        "pearson_r": 0.9999912977218628,
+        "pearson_p": 0.0,
+        "spearman_rho": 0.9997364953886693,
+        "spearman_p": 3.987051034476248e-72,
+        "pass": true
+      },
+      "19": {
+        "pearson_r": 0.9999934434890747,
+        "pearson_p": 0.0,
+        "spearman_rho": 0.9998682476943345,
+        "spearman_p": 1.3460691472223034e-78,
+        "pass": true
+      },
+      "20": {
+        "pearson_r": 0.9999954700469971,
+        "pearson_p": 0.0,
+        "spearman_rho": 0.9998682476943345,
+        "spearman_p": 1.3460691472223034e-78,
+        "pass": true
+      },
+      "21": {
+        "pearson_r": 0.999996542930603,
+        "pearson_p": 0.0,
+        "spearman_rho": 0.9999999999999999,
+        "spearman_p": 0.0,
+        "pass": true
+      },
+      "22": {
+        "pearson_r": 0.9999958276748657,
+        "pearson_p": 0.0,
+        "spearman_rho": 0.9998682476943345,
+        "spearman_p": 1.3460691472223034e-78,
+        "pass": true
+      },
+      "23": {
+        "pearson_r": 0.9999907612800598,
+        "pearson_p": 0.0,
+        "spearman_rho": 0.9996047430830038,
+        "spearman_p": 2.4325027971466404e-68,
+        "pass": true
+      },
+      "24": {
+        "pearson_r": 0.9999877214431763,
+        "pearson_p": 0.0,
+        "spearman_rho": 0.9998682476943345,
+        "spearman_p": 1.3460691472223034e-78,
+        "pass": true
+      },
+      "25": {
+        "pearson_r": 0.9999871850013733,
+        "pearson_p": 0.0,
+        "spearman_rho": 0.9998682476943345,
+        "spearman_p": 1.3460691472223034e-78,
+        "pass": true
+      },
+      "26": {
+        "pearson_r": 0.9999808669090271,
+        "pearson_p": 0.0,
+        "spearman_rho": 0.9994729907773384,
+        "spearman_p": 1.179439410431696e-65,
+        "pass": true
+      },
+      "27": {
+        "pearson_r": 0.9999758005142212,
+        "pearson_p": 0.0,
+        "spearman_rho": 0.9997364953886693,
+        "spearman_p": 3.987051034476248e-72,
+        "pass": true
+      },
+      "28": {
+        "pearson_r": 0.9999791979789734,
+        "pearson_p": 0.0,
+        "spearman_rho": 0.9996047430830038,
+        "spearman_p": 2.4325027971466404e-68,
+        "pass": true
+      },
+      "29": {
+        "pearson_r": 0.9999741911888123,
+        "pearson_p": 0.0,
+        "spearman_rho": 0.9994729907773384,
+        "spearman_p": 1.179439410431696e-65,
+        "pass": true
+      },
+      "30": {
+        "pearson_r": 0.9999748468399048,
+        "pearson_p": 0.0,
+        "spearman_rho": 0.9997364953886693,
+        "spearman_p": 3.987051034476248e-72,
+        "pass": true
+      },
+      "31": {
+        "pearson_r": 0.9999808669090271,
+        "pearson_p": 0.0,
+        "spearman_rho": 0.9997364953886693,
+        "spearman_p": 3.987051034476248e-72,
+        "pass": true
+      }
+    },
+    "overall_pass": true,
+    "worst_pearson": 0.9999741911888123,
+    "worst_spearman": 0.9994729907773384,
+    "worst_layer": 29,
+    "criterion": "> 0.99 for both Pearson and Spearman at all layers 16\u201331 (FP16 vs BF16)",
+    "comparison": "FP16 vs BF16",
+    "rationale": "BF16 has less mantissa precision (7 bits) than FP16 (10 bits) but more exponent range (8 bits vs 5 bits). Agreement across both formats demonstrates geometry is robust to precision variation in both directions."
+  },
+  "frequency_matched_nouns": {
+    "matches": [
+      {
+        "magnitude": "2",
+        "noun": "terrace",
+        "mag_logprob": -22.464576721191406,
+        "noun_logprob": -16.304420471191406,
+        "deviation": 6.16015625
+      },
+      {
+        "magnitude": "4",
+        "noun": "corridor",
+        "mag_logprob": -22.097389221191406,
+        "noun_logprob": -15.736061096191406,
+        "deviation": 6.361328125
+      },
+      {
+        "magnitude": "3",
+        "noun": "plateau",
+        "mag_logprob": -22.066139221191406,
+        "noun_logprob": -15.445045471191406,
+        "deviation": 6.62109375
+      },
+      {
+        "magnitude": "6",
+        "noun": "summit",
+        "mag_logprob": -21.730201721191406,
+        "noun_logprob": -15.382545471191406,
+        "deviation": 6.34765625
+      },
+      {
+        "magnitude": "8",
+        "noun": "quarry",
+        "mag_logprob": -21.698951721191406,
+        "noun_logprob": -15.335670471191406,
+        "deviation": 6.36328125
+      },
+      {
+        "magnitude": "5",
+        "noun": "trophy",
+        "mag_logprob": -21.620826721191406,
+        "noun_logprob": -15.124732971191406,
+        "deviation": 6.49609375
+      },
+      {
+        "magnitude": "9",
+        "noun": "dungeon",
+        "mag_logprob": -21.261451721191406,
+        "noun_logprob": -15.121803283691406,
+        "deviation": 6.1396484375
+      },
+      {
+        "magnitude": "7",
+        "noun": "crater",
+        "mag_logprob": -21.222389221191406,
+        "noun_logprob": -15.112037658691406,
+        "deviation": 6.1103515625
+      },
+      {
+        "magnitude": "1",
+        "noun": "fortress",
+        "mag_logprob": -21.046607971191406,
+        "noun_logprob": -15.050514221191406,
+        "deviation": 5.99609375
+      },
+      {
+        "magnitude": "30",
+        "noun": "vault",
+        "mag_logprob": -20.573951721191406,
+        "noun_logprob": -14.974342346191406,
+        "deviation": 5.599609375
+      },
+      {
+        "magnitude": "20",
+        "noun": "balcony",
+        "mag_logprob": -20.495826721191406,
+        "noun_logprob": -14.931373596191406,
+        "deviation": 5.564453125
+      },
+      {
+        "magnitude": "80",
+        "noun": "reef",
+        "mag_logprob": -20.433326721191406,
+        "noun_logprob": -14.908912658691406,
+        "deviation": 5.5244140625
+      },
+      {
+        "magnitude": "15",
+        "noun": "trench",
+        "mag_logprob": -20.398170471191406,
+        "noun_logprob": -14.907936096191406,
+        "deviation": 5.490234375
+      },
+      {
+        "magnitude": "90",
+        "noun": "ribbon",
+        "mag_logprob": -20.378639221191406,
+        "noun_logprob": -14.831764221191406,
+        "deviation": 5.546875
+      },
+      {
+        "magnitude": "10",
+        "noun": "gorge",
+        "mag_logprob": -20.331764221191406,
+        "noun_logprob": -14.828834533691406,
+        "deviation": 5.5029296875
+      },
+      {
+        "magnitude": "60",
+        "noun": "furnace",
+        "mag_logprob": -20.331764221191406,
+        "noun_logprob": -14.801490783691406,
+        "deviation": 5.5302734375
+      },
+      {
+        "magnitude": "50",
+        "noun": "harbor",
+        "mag_logprob": -20.304420471191406,
+        "noun_logprob": -14.726295471191406,
+        "deviation": 5.578125
+      },
+      {
+        "magnitude": "40",
+        "noun": "ridge",
+        "mag_logprob": -20.198951721191406,
+        "noun_logprob": -14.611061096191406,
+        "deviation": 5.587890625
+      },
+      {
+        "magnitude": "200",
+        "noun": "saddle",
+        "mag_logprob": -20.159889221191406,
+        "noun_logprob": -14.597389221191406,
+        "deviation": 5.5625
+      },
+      {
+        "magnitude": "500",
+        "noun": "wagon",
+        "mag_logprob": -20.042701721191406,
+        "noun_logprob": -14.493873596191406,
+        "deviation": 5.548828125
+      },
+      {
+        "magnitude": "70",
+        "noun": "fountain",
+        "mag_logprob": -19.988014221191406,
+        "noun_logprob": -14.491920471191406,
+        "deviation": 5.49609375
+      },
+      {
+        "magnitude": "300",
+        "noun": "bucket",
+        "mag_logprob": -19.948951721191406,
+        "noun_logprob": -14.390357971191406,
+        "deviation": 5.55859375
+      },
+      {
+        "magnitude": "100",
+        "noun": "month",
+        "mag_logprob": -19.687232971191406,
+        "noun_logprob": -14.293678283691406,
+        "deviation": 5.3935546875
+      },
+      {
+        "magnitude": "150",
+        "noun": "castle",
+        "mag_logprob": -19.616920471191406,
+        "noun_logprob": -14.260475158691406,
+        "deviation": 5.3564453125
+      },
+      {
+        "magnitude": "700",
+        "noun": "camp",
+        "mag_logprob": -18.773170471191406,
+        "noun_logprob": -14.224342346191406,
+        "deviation": 4.548828125
+      },
+      {
+        "magnitude": "1000",
+        "noun": "anvil",
+        "mag_logprob": -5.4294209480285645,
+        "noun_logprob": -5.3161396980285645,
+        "deviation": 0.11328125
+      }
+    ],
+    "selected_nouns": [
+      "terrace",
+      "corridor",
+      "plateau",
+      "summit",
+      "quarry",
+      "trophy",
+      "dungeon",
+      "crater",
+      "fortress",
+      "vault",
+      "balcony",
+      "reef",
+      "trench",
+      "ribbon",
+      "gorge",
+      "furnace",
+      "harbor",
+      "ridge",
+      "saddle",
+      "wagon",
+      "fountain",
+      "bucket",
+      "month",
+      "castle",
+      "camp",
+      "anvil"
+    ],
+    "spearman_rho": 0.9998290452162908,
+    "spearman_p": 4.110266105003482e-43,
+    "pearson_r": 0.9954703074503131,
+    "pearson_p": 4.813924151124509e-26,
+    "max_deviation": 6.62109375,
+    "mean_deviation": 5.542255108173077,
+    "spearman_pass": true,
+    "deviation_pass": false,
+    "overall_pass": false,
+    "freq_prompt": "The next word is",
+    "criterion": "Spearman > 0.85, max dev < 1.0"
+  },
+  "frequency_matched_nouns_mistral": {
+    "matches": [
+      {
+        "magnitude": "1",
+        "noun": "anvil",
+        "mag_logprob": -5.6957783699035645,
+        "noun_logprob": -4.0824971199035645,
+        "deviation": 1.61328125
+      },
+      {
+        "magnitude": "2",
+        "noun": "dune",
+        "mag_logprob": -5.6957783699035645,
+        "noun_logprob": -7.3403096199035645,
+        "deviation": 1.64453125
+      },
+      {
+        "magnitude": "3",
+        "noun": "cove",
+        "mag_logprob": -5.6957783699035645,
+        "noun_logprob": -7.3832783699035645,
+        "deviation": 1.6875
+      },
+      {
+        "magnitude": "4",
+        "noun": "part",
+        "mag_logprob": -5.6957783699035645,
+        "noun_logprob": -7.4535908699035645,
+        "deviation": 1.7578125
+      },
+      {
+        "magnitude": "5",
+        "noun": "home",
+        "mag_logprob": -5.6957783699035645,
+        "noun_logprob": -7.5082783699035645,
+        "deviation": 1.8125
+      },
+      {
+        "magnitude": "6",
+        "noun": "lighthouse",
+        "mag_logprob": -5.6957783699035645,
+        "noun_logprob": -7.5199971199035645,
+        "deviation": 1.82421875
+      },
+      {
+        "magnitude": "7",
+        "noun": "reef",
+        "mag_logprob": -5.6957783699035645,
+        "noun_logprob": -7.6449971199035645,
+        "deviation": 1.94921875
+      },
+      {
+        "magnitude": "8",
+        "noun": "time",
+        "mag_logprob": -5.6957783699035645,
+        "noun_logprob": -7.8910908699035645,
+        "deviation": 2.1953125
+      },
+      {
+        "magnitude": "9",
+        "noun": "trench",
+        "mag_logprob": -5.6957783699035645,
+        "noun_logprob": -7.9223408699035645,
+        "deviation": 2.2265625
+      },
+      {
+        "magnitude": "10",
+        "noun": "meadow",
+        "mag_logprob": -5.6957783699035645,
+        "noun_logprob": -8.039527893066406,
+        "deviation": 2.343749523162842
+      },
+      {
+        "magnitude": "15",
+        "noun": "war",
+        "mag_logprob": -5.6957783699035645,
+        "noun_logprob": -8.164527893066406,
+        "deviation": 2.468749523162842
+      },
+      {
+        "magnitude": "20",
+        "noun": "fountain",
+        "mag_logprob": -5.6957783699035645,
+        "noun_logprob": -8.217262268066406,
+        "deviation": 2.521483898162842
+      },
+      {
+        "magnitude": "30",
+        "noun": "water",
+        "mag_logprob": -5.6957783699035645,
+        "noun_logprob": -8.260231018066406,
+        "deviation": 2.564452648162842
+      },
+      {
+        "magnitude": "40",
+        "noun": "right",
+        "mag_logprob": -5.6957783699035645,
+        "noun_logprob": -8.285621643066406,
+        "deviation": 2.589843273162842
+      },
+      {
+        "magnitude": "50",
+        "noun": "car",
+        "mag_logprob": -5.6957783699035645,
+        "noun_logprob": -8.285621643066406,
+        "deviation": 2.589843273162842
+      },
+      {
+        "magnitude": "60",
+        "noun": "life",
+        "mag_logprob": -5.6957783699035645,
+        "noun_logprob": -8.303199768066406,
+        "deviation": 2.607421398162842
+      },
+      {
+        "magnitude": "70",
+        "noun": "ridge",
+        "mag_logprob": -5.6957783699035645,
+        "noun_logprob": -8.344215393066406,
+        "deviation": 2.648437023162842
+      },
+      {
+        "magnitude": "80",
+        "noun": "table",
+        "mag_logprob": -5.6957783699035645,
+        "noun_logprob": -8.359840393066406,
+        "deviation": 2.664062023162842
+      },
+      {
+        "magnitude": "90",
+        "noun": "fire",
+        "mag_logprob": -5.6957783699035645,
+        "noun_logprob": -8.375465393066406,
+        "deviation": 2.679687023162842
+      },
+      {
+        "magnitude": "100",
+        "noun": "cliff",
+        "mag_logprob": -5.6957783699035645,
+        "noun_logprob": -8.430152893066406,
+        "deviation": 2.734374523162842
+      },
+      {
+        "magnitude": "150",
+        "noun": "marsh",
+        "mag_logprob": -5.6957783699035645,
+        "noun_logprob": -8.455543518066406,
+        "deviation": 2.759765148162842
+      },
+      {
+        "magnitude": "200",
+        "noun": "family",
+        "mag_logprob": -5.6957783699035645,
+        "noun_logprob": -8.500465393066406,
+        "deviation": 2.804687023162842
+      },
+      {
+        "magnitude": "300",
+        "noun": "glacier",
+        "mag_logprob": -5.6957783699035645,
+        "noun_logprob": -8.602027893066406,
+        "deviation": 2.906249523162842
+      },
+      {
+        "magnitude": "500",
+        "noun": "team",
+        "mag_logprob": -5.6957783699035645,
+        "noun_logprob": -8.617652893066406,
+        "deviation": 2.921874523162842
+      },
+      {
+        "magnitude": "700",
+        "noun": "sun",
+        "mag_logprob": -5.6957783699035645,
+        "noun_logprob": -8.623512268066406,
+        "deviation": 2.927733898162842
+      },
+      {
+        "magnitude": "1000",
+        "noun": "man",
+        "mag_logprob": -5.6957783699035645,
+        "noun_logprob": -8.703590393066406,
+        "deviation": 3.007812023162842
+      }
+    ],
+    "selected_nouns": [
+      "anvil",
+      "dune",
+      "cove",
+      "part",
+      "home",
+      "lighthouse",
+      "reef",
+      "time",
+      "trench",
+      "meadow",
+      "war",
+      "fountain",
+      "water",
+      "right",
+      "car",
+      "life",
+      "ridge",
+      "table",
+      "fire",
+      "cliff",
+      "marsh",
+      "family",
+      "glacier",
+      "team",
+      "sun",
+      "man"
+    ],
+    "spearman_rho": NaN,
+    "spearman_p": NaN,
+    "pearson_r": NaN,
+    "pearson_p": NaN,
+    "max_deviation": 3.007812023162842,
+    "mean_deviation": 2.4019678372603197,
+    "spearman_pass": false,
+    "deviation_pass": false,
+    "overall_pass": false,
+    "freq_prompt": "The next word is",
+    "criterion": "Spearman > 0.85, max dev < 1.0"
+  },
+  "model_commit_hashes": {
+    "mistralai/Mistral-7B-Instruct-v0.3": {
+      "commit_hash": "c170c708c41dac9275d15a8fff4eca08d52bab71",
+      "last_modified": "1773656784.590475",
+      "size_on_disk_gb": 13.5,
+      "source": "local_cache"
+    },
+    "meta-llama/Meta-Llama-3-8B-Instruct": {
+      "commit_hash": "8afb486c1db24fe5011ec46dfbe5b5dccdb575c2",
+      "last_modified": "1773700308.5340462",
+      "size_on_disk_gb": 14.97,
+      "source": "local_cache"
+    },
+    "meta-llama/Meta-Llama-3-8B": {
+      "commit_hash": "8cde5ca8380496c9a6cc7ef3a8b46a0372a1d920",
+      "last_modified": "2024-09-27 15:52:33+00:00",
+      "size_on_disk_gb": null,
+      "source": "hub_api",
+      "warning": "Not found in local cache \u2014 this hash is the latest on Hub, not necessarily what will be downloaded. Run the model once to cache it, then re-run this script."
+    }
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "H1": {
+    "hypothesis": "H1",
+    "power": 1.0,
+    "method": "Monte Carlo (5000 sims)",
+    "note": "Power at ceiling; design massively overpowered for geometry detection"
+  },
+  "H2": {
+    "hypothesis": "H2",
+    "power": 1.0,
+    "method": "Monte Carlo (5000 sims)",
+    "note": "Power at ceiling; 1500 items provides overwhelming power"
+  },
+  "H3": {
+    "hypothesis": "H3",
+    "method": "analytic (Fisher z-transform)",
+    "n_adjacent_pairs": 25,
+    "alpha": 0.017,
+    "power_curve": {
+      "rho_-0.2": 0.1211672256958441,
+      "rho_-0.3": 0.2519723138592703,
+      "rho_-0.4": 0.4471037799397506,
+      "rho_-0.5": 0.6759497182078407,
+      "rho_-0.6": 0.8709886096027359,
+      "rho_-0.7": 0.9742882329149973,
+      "rho_-0.8": 0.9987888272478807,
+      "rho_-0.9": 0.9999991461260137
+    },
+    "min_rho_80pct_power": -0.559,
+    "expected_rho_log_geometry": -1.0,
+    "expected_power_log_geometry": 1.0,
+    "mc_verification": {
+      "rho": -0.6,
+      "analytic": 0.871,
+      "mc": 0.827
+    }
+  },
+  "H7": {
+    "hypothesis": "H7",
+    "method": "analytic (binomial + normal)",
+    "null_threshold": 2.241,
+    "power_curve": {
+      "d_0.5": {
+        "d": 0.5,
+        "p_exceed_per_prompt": 0.0439,
+        "expected_prompts_exceeding": 8.8,
+        "p_75pct_criterion": 0.0
+      },
+      "d_1.0": {
+        "d": 1.0,
+        "p_exceed_per_prompt": 0.1078,
+        "expected_prompts_exceeding": 21.6,
+        "p_75pct_criterion": 0.0
+      },
+      "d_1.5": {
+        "d": 1.5,
+        "p_exceed_per_prompt": 0.2293,
+        "expected_prompts_exceeding": 45.9,
+        "p_75pct_criterion": 0.0
+      },
+      "d_2.0": {
+        "d": 2.0,
+        "p_exceed_per_prompt": 0.4046,
+        "expected_prompts_exceeding": 80.9,
+        "p_75pct_criterion": 0.0
+      },
+      "d_2.5": {
+        "d": 2.5,
+        "p_exceed_per_prompt": 0.602,
+        "expected_prompts_exceeding": 120.4,
+        "p_75pct_criterion": 0.0
+      },
+      "d_3.0": {
+        "d": 3.0,
+        "p_exceed_per_prompt": 0.776,
+        "expected_prompts_exceeding": 155.2,
+        "p_75pct_criterion": 0.8331
+      },
+      "d_3.5": {
+        "d": 3.5,
+        "p_exceed_per_prompt": 0.8959,
+        "expected_prompts_exceeding": 179.2,
+        "p_75pct_criterion": 1.0
+      },
+      "d_4.0": {
+        "d": 4.0,
+        "p_exceed_per_prompt": 0.9607,
+        "expected_prompts_exceeding": 192.1,
+        "p_75pct_criterion": 1.0
+      },
+      "d_5.0": {
+        "d": 5.0,
+        "p_exceed_per_prompt": 0.9971,
+        "expected_prompts_exceeding": 199.4,
+        "p_75pct_criterion": 1.0
+      }
+    },
+    "min_d_80pct_power": 2.99,
+    "note": "Power is conditional on true effect size, which is unknown a priori for activation patching."
+  }
+}

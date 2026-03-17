@@ -1,0 +1,21 @@
+{
+  "mistralai/Mistral-7B-Instruct-v0.3": {
+    "commit_hash": "c170c708c41dac9275d15a8fff4eca08d52bab71",
+    "last_modified": "1773656784.590475",
+    "size_on_disk_gb": 13.5,
+    "source": "local_cache"
+  },
+  "meta-llama/Meta-Llama-3-8B-Instruct": {
+    "commit_hash": "8afb486c1db24fe5011ec46dfbe5b5dccdb575c2",
+    "last_modified": "1773700308.5340462",
+    "size_on_disk_gb": 14.97,
+    "source": "local_cache"
+  },
+  "meta-llama/Meta-Llama-3-8B": {
+    "commit_hash": "8cde5ca8380496c9a6cc7ef3a8b46a0372a1d920",
+    "last_modified": "2024-09-27 15:52:33+00:00",
+    "size_on_disk_gb": null,
+    "source": "hub_api",
+    "warning": "Not found in local cache \u2014 this hash is the latest on Hub, not necessarily what will be downloaded. Run the model once to cache it, then re-run this script."
+  }
+}

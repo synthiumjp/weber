@@ -1,0 +1,66 @@
+{
+  "H1": {
+    "hypothesis": "H1",
+    "power": 1.0,
+    "note": "confirmed in v1"
+  },
+  "H2": {
+    "hypothesis": "H2",
+    "power": 1.0,
+    "note": "confirmed in v1"
+  },
+  "H3": {
+    "hypothesis": "H3",
+    "power": 0.0898,
+    "n_sims": 5000,
+    "target_rho": -0.4,
+    "calibrated_noise_sd": 9.999995236396789,
+    "n_adjacent": 25,
+    "alpha": 0.017
+  },
+  "H7_per_prompt": {
+    "hypothesis": "H7",
+    "power": 0.0,
+    "n_sims": 5000,
+    "effect_d": 0.5,
+    "n_prompts": 200,
+    "n_random_dirs": 10,
+    "alpha": 0.025
+  },
+  "H7_pooled": {
+    "hypothesis": "H7_pooled",
+    "power": 0.0,
+    "n_sims": 5000,
+    "effect_d": 0.5,
+    "n_prompts": 200,
+    "n_random_dirs": 10,
+    "alpha": 0.025
+  },
+  "H7_pooled_d1.0": {
+    "hypothesis": "H7_pooled",
+    "power": 0.0,
+    "n_sims": 1000,
+    "effect_d": 1.0,
+    "n_prompts": 200,
+    "n_random_dirs": 10,
+    "alpha": 0.025
+  },
+  "H7_pooled_d1.5": {
+    "hypothesis": "H7_pooled",
+    "power": 0.0,
+    "n_sims": 1000,
+    "effect_d": 1.5,
+    "n_prompts": 200,
+    "n_random_dirs": 10,
+    "alpha": 0.025
+  },
+  "H7_pooled_d2.0": {
+    "hypothesis": "H7_pooled",
+    "power": 0.0,
+    "n_sims": 1000,
+    "effect_d": 2.0,
+    "n_prompts": 200,
+    "n_random_dirs": 10,
+    "alpha": 0.025
+  }
+}

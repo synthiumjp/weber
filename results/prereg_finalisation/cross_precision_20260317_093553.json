@@ -1,0 +1,10 @@
+{
+  "model": "meta-llama/Meta-Llama-3-8B-Instruct",
+  "model_name": "llama3_instruct",
+  "layers": {
+    "16": {
+      "pearson_r": 0.9999898076057434,
+      "pearson_p": 0.0,
+      "spearman_rho": 0.9996047430830038,
+      "spearman_p": 2.4325027971466404e-68,
+      "pass": 

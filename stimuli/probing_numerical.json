@@ -1,0 +1,912 @@
+[
+  {
+    "magnitude": 1,
+    "magnitude_log": 0.0,
+    "carrier_template": "The number {N} is a quantity.",
+    "sentence": "The number 1 is a quantity.",
+    "domain": "numerical"
+  },
+  {
+    "magnitude": 1,
+    "magnitude_log": 0.0,
+    "carrier_template": "There are {N} items.",
+    "sentence": "There are 1 items.",
+    "domain": "numerical"
+  },
+  {
+    "magnitude": 1,
+    "magnitude_log": 0.0,
+    "carrier_template": "{N} was the value.",
+    "sentence": "1 was the value.",
+    "domain": "numerical"
+  },
+  {
+    "magnitude": 1,
+    "magnitude_log": 0.0,
+    "carrier_template": "The count reached {N}.",
+    "sentence": "The count reached 1.",
+    "domain": "numerical"
+  },
+  {
+    "magnitude": 1,
+    "magnitude_log": 0.0,
+    "carrier_template": "Exactly {N} were measured.",
+    "sentence": "Exactly 1 were measured.",
+    "domain": "numerical"
+  },
+  {
+    "magnitude": 2,
+    "magnitude_log": 0.693147,
+    "carrier_template": "The number {N} is a quantity.",
+    "sentence": "The number 2 is a quantity.",
+    "domain": "numerical"
+  },
+  {
+    "magnitude": 2,
+    "magnitude_log": 0.693147,
+    "carrier_template": "There are {N} items.",
+    "sentence": "There are 2 items.",
+    "domain": "numerical"
+  },
+  {
+    "magnitude": 2,
+    "magnitude_log": 0.693147,
+    "carrier_template": "{N} was the value.",
+    "sentence": "2 was the value.",
+    "domain": "numerical"
+  },
+  {
+    "magnitude": 2,
+    "magnitude_log": 0.693147,
+    "carrier_template": "The count reached {N}.",
+    "sentence": "The count reached 2.",
+    "domain": "numerical"
+  },
+  {
+    "magnitude": 2,
+    "magnitude_log": 0.693147,
+    "carrier_template": "Exactly {N} were measured.",
+    "sentence": "Exactly 2 were measured.",
+    "domain": "numerical"
+  },
+  {
+    "magnitude": 3,
+    "magnitude_log": 1.098612,
+    "carrier_template": "The number {N} is a quantity.",
+    "sentence": "The number 3 is a quantity.",
+    "domain": "numerical"
+  },
+  {
+    "magnitude": 3,
+    "magnitude_log": 1.098612,
+    "carrier_template": "There are {N} items.",
+    "sentence": "There are 3 items.",
+    "domain": "numerical"
+  },
+  {
+    "magnitude": 3,
+    "magnitude_log": 1.098612,
+    "carrier_template": "{N} was the value.",
+    "sentence": "3 was the value.",
+    "domain": "numerical"
+  },
+  {
+    "magnitude": 3,
+    "magnitude_log": 1.098612,
+    "carrier_template": "The count reached {N}.",
+    "sentence": "The count reached 3.",
+    "domain": "numerical"
+  },
+  {
+    "magnitude": 3,
+    "magnitude_log": 1.098612,
+    "carrier_template": "Exactly {N} were measured.",
+    "sentence": "Exactly 3 were measured.",
+    "domain": "numerical"
+  },
+  {
+    "magnitude": 4,
+    "magnitude_log": 1.386294,
+    "carrier_template": "The number {N} is a quantity.",
+    "sentence": "The number 4 is a quantity.",
+    "domain": "numerical"
+  },
+  {
+    "magnitude": 4,
+    "magnitude_log": 1.386294,
+    "carrier_template": "There are {N} items.",
+    "sentence": "There are 4 items.",
+    "domain": "numerical"
+  },
+  {
+    "magnitude": 4,
+    "magnitude_log": 1.386294,
+    "carrier_template": "{N} was the value.",
+    "sentence": "4 was the value.",
+    "domain": "numerical"
+  },
+  {
+    "magnitude": 4,
+    "magnitude_log": 1.386294,
+    "carrier_template": "The count reached {N}.",
+    "sentence": "The count reached 4.",
+    "domain": "numerical"
+  },
+  {
+    "magnitude": 4,
+    "magnitude_log": 1.386294,
+    "carrier_template": "Exactly {N} were measured.",
+    "sentence": "Exactly 4 were measured.",
+    "domain": "numerical"
+  },
+  {
+    "magnitude": 5,
+    "magnitude_log": 1.609438,
+    "carrier_template": "The number {N} is a quantity.",
+    "sentence": "The number 5 is a quantity.",
+    "domain": "numerical"
+  },
+  {
+    "magnitude": 5,
+    "magnitude_log": 1.609438,
+    "carrier_template": "There are {N} items.",
+    "sentence": "There are 5 items.",
+    "domain": "numerical"
+  },
+  {
+    "magnitude": 5,
+    "magnitude_log": 1.609438,
+    "carrier_template": "{N} was the value.",
+    "sentence": "5 was the value.",
+    "domain": "numerical"
+  },
+  {
+    "magnitude": 5,
+    "magnitude_log": 1.609438,
+    "carrier_template": "The count reached {N}.",
+    "sentence": "The count reached 5.",
+    "domain": "numerical"
+  },
+  {
+    "magnitude": 5,
+    "magnitude_log": 1.609438,
+    "carrier_template": "Exactly {N} were measured.",
+    "sentence": "Exactly 5 were measured.",
+    "domain": "numerical"
+  },
+  {
+    "magnitude": 6,
+    "magnitude_log": 1.791759,
+    "carrier_template": "The number {N} is a quantity.",
+    "sentence": "The number 6 is a quantity.",
+    "domain": "numerical"
+  },
+  {
+    "magnitude": 6,
+    "magnitude_log": 1.791759,
+    "carrier_template": "There are {N} items.",
+    "sentence": "There are 6 items.",
+    "domain": "numerical"
+  },
+  {
+    "magnitude": 6,
+    "magnitude_log": 1.791759,
+    "carrier_template": "{N} was the value.",
+    "sentence": "6 was the value.",
+    "domain": "numerical"
+  },
+  {
+    "magnitude": 6,
+    "magnitude_log": 1.791759,
+    "carrier_template": "The count reached {N}.",
+    "sentence": "The count reached 6.",
+    "domain": "numerical"
+  },
+  {
+    "magnitude": 6,
+    "magnitude_log": 1.791759,
+    "carrier_template": "Exactly {N} were measured.",
+    "sentence": "Exactly 6 were measured.",
+    "domain": "numerical"
+  },
+  {
+    "magnitude": 7,
+    "magnitude_log": 1.94591,
+    "carrier_template": "The number {N} is a quantity.",
+    "sentence": "The number 7 is a quantity.",
+    "domain": "numerical"
+  },
+  {
+    "magnitude": 7,
+    "magnitude_log": 1.94591,
+    "carrier_template": "There are {N} items.",
+    "sentence": "There are 7 items.",
+    "domain": "numerical"
+  },
+  {
+    "magnitude": 7,
+    "magnitude_log": 1.94591,
+    "carrier_template": "{N} was the value.",
+    "sentence": "7 was the value.",
+    "domain": "numerical"
+  },
+  {
+    "magnitude": 7,
+    "magnitude_log": 1.94591,
+    "carrier_template": "The count reached {N}.",
+    "sentence": "The count reached 7.",
+    "domain": "numerical"
+  },
+  {
+    "magnitude": 7,
+    "magnitude_log": 1.94591,
+    "carrier_template": "Exactly {N} were measured.",
+    "sentence": "Exactly 7 were measured.",
+    "domain": "numerical"
+  },
+  {
+    "magnitude": 8,
+    "magnitude_log": 2.079442,
+    "carrier_template": "The number {N} is a quantity.",
+    "sentence": "The number 8 is a quantity.",
+    "domain": "numerical"
+  },
+  {
+    "magnitude": 8,
+    "magnitude_log": 2.079442,
+    "carrier_template": "There are {N} items.",
+    "sentence": "There are 8 items.",
+    "domain": "numerical"
+  },
+  {
+    "magnitude": 8,
+    "magnitude_log": 2.079442,
+    "carrier_template": "{N} was the value.",
+    "sentence": "8 was the value.",
+    "domain": "numerical"
+  },
+  {
+    "magnitude": 8,
+    "magnitude_log": 2.079442,
+    "carrier_template": "The count reached {N}.",
+    "sentence": "The count reached 8.",
+    "domain": "numerical"
+  },
+  {
+    "magnitude": 8,
+    "magnitude_log": 2.079442,
+    "carrier_template": "Exactly {N} were measured.",
+    "sentence": "Exactly 8 were measured.",
+    "domain": "numerical"
+  },
+  {
+    "magnitude": 9,
+    "magnitude_log": 2.197225,
+    "carrier_template": "The number {N} is a quantity.",
+    "sentence": "The number 9 is a quantity.",
+    "domain": "numerical"
+  },
+  {
+    "magnitude": 9,
+    "magnitude_log": 2.197225,
+    "carrier_template": "There are {N} items.",
+    "sentence": "There are 9 items.",
+    "domain": "numerical"
+  },
+  {
+    "magnitude": 9,
+    "magnitude_log": 2.197225,
+    "carrier_template": "{N} was the value.",
+    "sentence": "9 was the value.",
+    "domain": "numerical"
+  },
+  {
+    "magnitude": 9,
+    "magnitude_log": 2.197225,
+    "carrier_template": "The count reached {N}.",
+    "sentence": "The count reached 9.",
+    "domain": "numerical"
+  },
+  {
+    "magnitude": 9,
+    "magnitude_log": 2.197225,
+    "carrier_template": "Exactly {N} were measured.",
+    "sentence": "Exactly 9 were measured.",
+    "domain": "numerical"
+  },
+  {
+    "magnitude": 10,
+    "magnitude_log": 2.302585,
+    "carrier_template": "The number {N} is a quantity.",
+    "sentence": "The number 10 is a quantity.",
+    "domain": "numerical"
+  },
+  {
+    "magnitude": 10,
+    "magnitude_log": 2.302585,
+    "carrier_template": "There are {N} items.",
+    "sentence": "There are 10 items.",
+    "domain": "numerical"
+  },
+  {
+    "magnitude": 10,
+    "magnitude_log": 2.302585,
+    "carrier_template": "{N} was the value.",
+    "sentence": "10 was the value.",
+    "domain": "numerical"
+  },
+  {
+    "magnitude": 10,
+    "magnitude_log": 2.302585,
+    "carrier_template": "The count reached {N}.",
+    "sentence": "The count reached 10.",
+    "domain": "numerical"
+  },
+  {
+    "magnitude": 10,
+    "magnitude_log": 2.302585,
+    "carrier_template": "Exactly {N} were measured.",
+    "sentence": "Exactly 10 were measured.",
+    "domain": "numerical"
+  },
+  {
+    "magnitude": 15,
+    "magnitude_log": 2.70805,
+    "carrier_template": "The number {N} is a quantity.",
+    "sentence": "The number 15 is a quantity.",
+    "domain": "numerical"
+  },
+  {
+    "magnitude": 15,
+    "magnitude_log": 2.70805,
+    "carrier_template": "There are {N} items.",
+    "sentence": "There are 15 items.",
+    "domain": "numerical"
+  },
+  {
+    "magnitude": 15,
+    "magnitude_log": 2.70805,
+    "carrier_template": "{N} was the value.",
+    "sentence": "15 was the value.",
+    "domain": "numerical"
+  },
+  {
+    "magnitude": 15,
+    "magnitude_log": 2.70805,
+    "carrier_template": "The count reached {N}.",
+    "sentence": "The count reached 15.",
+    "domain": "numerical"
+  },
+  {
+    "magnitude": 15,
+    "magnitude_log": 2.70805,
+    "carrier_template": "Exactly {N} were measured.",
+    "sentence": "Exactly 15 were measured.",
+    "domain": "numerical"
+  },
+  {
+    "magnitude": 20,
+    "magnitude_log": 2.995732,
+    "carrier_template": "The number {N} is a quantity.",
+    "sentence": "The number 20 is a quantity.",
+    "domain": "numerical"
+  },
+  {
+    "magnitude": 20,
+    "magnitude_log": 2.995732,
+    "carrier_template": "There are {N} items.",
+    "sentence": "There are 20 items.",
+    "domain": "numerical"
+  },
+  {
+    "magnitude": 20,
+    "magnitude_log": 2.995732,
+    "carrier_template": "{N} was the value.",
+    "sentence": "20 was the value.",
+    "domain": "numerical"
+  },
+  {
+    "magnitude": 20,
+    "magnitude_log": 2.995732,
+    "carrier_template": "The count reached {N}.",
+    "sentence": "The count reached 20.",
+    "domain": "numerical"
+  },
+  {
+    "magnitude": 20,
+    "magnitude_log": 2.995732,
+    "carrier_template": "Exactly {N} were measured.",
+    "sentence": "Exactly 20 were measured.",
+    "domain": "numerical"
+  },
+  {
+    "magnitude": 30,
+    "magnitude_log": 3.401197,
+    "carrier_template": "The number {N} is a quantity.",
+    "sentence": "The number 30 is a quantity.",
+    "domain": "numerical"
+  },
+  {
+    "magnitude": 30,
+    "magnitude_log": 3.401197,
+    "carrier_template": "There are {N} items.",
+    "sentence": "There are 30 items.",
+    "domain": "numerical"
+  },
+  {
+    "magnitude": 30,
+    "magnitude_log": 3.401197,
+    "carrier_template": "{N} was the value.",
+    "sentence": "30 was the value.",
+    "domain": "numerical"
+  },
+  {
+    "magnitude": 30,
+    "magnitude_log": 3.401197,
+    "carrier_template": "The count reached {N}.",
+    "sentence": "The count reached 30.",
+    "domain": "numerical"
+  },
+  {
+    "magnitude": 30,
+    "magnitude_log": 3.401197,
+    "carrier_template": "Exactly {N} were measured.",
+    "sentence": "Exactly 30 were measured.",
+    "domain": "numerical"
+  },
+  {
+    "magnitude": 40,
+    "magnitude_log": 3.688879,
+    "carrier_template": "The number {N} is a quantity.",
+    "sentence": "The number 40 is a quantity.",
+    "domain": "numerical"
+  },
+  {
+    "magnitude": 40,
+    "magnitude_log": 3.688879,
+    "carrier_template": "There are {N} items.",
+    "sentence": "There are 40 items.",
+    "domain": "numerical"
+  },
+  {
+    "magnitude": 40,
+    "magnitude_log": 3.688879,
+    "carrier_template": "{N} was the value.",
+    "sentence": "40 was the value.",
+    "domain": "numerical"
+  },
+  {
+    "magnitude": 40,
+    "magnitude_log": 3.688879,
+    "carrier_template": "The count reached {N}.",
+    "sentence": "The count reached 40.",
+    "domain": "numerical"
+  },
+  {
+    "magnitude": 40,
+    "magnitude_log": 3.688879,
+    "carrier_template": "Exactly {N} were measured.",
+    "sentence": "Exactly 40 were measured.",
+    "domain": "numerical"
+  },
+  {
+    "magnitude": 50,
+    "magnitude_log": 3.912023,
+    "carrier_template": "The number {N} is a quantity.",
+    "sentence": "The number 50 is a quantity.",
+    "domain": "numerical"
+  },
+  {
+    "magnitude": 50,
+    "magnitude_log": 3.912023,
+    "carrier_template": "There are {N} items.",
+    "sentence": "There are 50 items.",
+    "domain": "numerical"
+  },
+  {
+    "magnitude": 50,
+    "magnitude_log": 3.912023,
+    "carrier_template": "{N} was the value.",
+    "sentence": "50 was the value.",
+    "domain": "numerical"
+  },
+  {
+    "magnitude": 50,
+    "magnitude_log": 3.912023,
+    "carrier_template": "The count reached {N}.",
+    "sentence": "The count reached 50.",
+    "domain": "numerical"
+  },
+  {
+    "magnitude": 50,
+    "magnitude_log": 3.912023,
+    "carrier_template": "Exactly {N} were measured.",
+    "sentence": "Exactly 50 were measured.",
+    "domain": "numerical"
+  },
+  {
+    "magnitude": 60,
+    "magnitude_log": 4.094345,
+    "carrier_template": "The number {N} is a quantity.",
+    "sentence": "The number 60 is a quantity.",
+    "domain": "numerical"
+  },
+  {
+    "magnitude": 60,
+    "magnitude_log": 4.094345,
+    "carrier_template": "There are {N} items.",
+    "sentence": "There are 60 items.",
+    "domain": "numerical"
+  },
+  {
+    "magnitude": 60,
+    "magnitude_log": 4.094345,
+    "carrier_template": "{N} was the value.",
+    "sentence": "60 was the value.",
+    "domain": "numerical"
+  },
+  {
+    "magnitude": 60,
+    "magnitude_log": 4.094345,
+    "carrier_template": "The count reached {N}.",
+    "sentence": "The count reached 60.",
+    "domain": "numerical"
+  },
+  {
+    "magnitude": 60,
+    "magnitude_log": 4.094345,
+    "carrier_template": "Exactly {N} were measured.",
+    "sentence": "Exactly 60 were measured.",
+    "domain": "numerical"
+  },
+  {
+    "magnitude": 70,
+    "magnitude_log": 4.248495,
+    "carrier_template": "The number {N} is a quantity.",
+    "sentence": "The number 70 is a quantity.",
+    "domain": "numerical"
+  },
+  {
+    "magnitude": 70,
+    "magnitude_log": 4.248495,
+    "carrier_template": "There are {N} items.",
+    "sentence": "There are 70 items.",
+    "domain": "numerical"
+  },
+  {
+    "magnitude": 70,
+    "magnitude_log": 4.248495,
+    "carrier_template": "{N} was the value.",
+    "sentence": "70 was the value.",
+    "domain": "numerical"
+  },
+  {
+    "magnitude": 70,
+    "magnitude_log": 4.248495,
+    "carrier_template": "The count reached {N}.",
+    "sentence": "The count reached 70.",
+    "domain": "numerical"
+  },
+  {
+    "magnitude": 70,
+    "magnitude_log": 4.248495,
+    "carrier_template": "Exactly {N} were measured.",
+    "sentence": "Exactly 70 were measured.",
+    "domain": "numerical"
+  },
+  {
+    "magnitude": 80,
+    "magnitude_log": 4.382027,
+    "carrier_template": "The number {N} is a quantity.",
+    "sentence": "The number 80 is a quantity.",
+    "domain": "numerical"
+  },
+  {
+    "magnitude": 80,
+    "magnitude_log": 4.382027,
+    "carrier_template": "There are {N} items.",
+    "sentence": "There are 80 items.",
+    "domain": "numerical"
+  },
+  {
+    "magnitude": 80,
+    "magnitude_log": 4.382027,
+    "carrier_template": "{N} was the value.",
+    "sentence": "80 was the value.",
+    "domain": "numerical"
+  },
+  {
+    "magnitude": 80,
+    "magnitude_log": 4.382027,
+    "carrier_template": "The count reached {N}.",
+    "sentence": "The count reached 80.",
+    "domain": "numerical"
+  },
+  {
+    "magnitude": 80,
+    "magnitude_log": 4.382027,
+    "carrier_template": "Exactly {N} were measured.",
+    "sentence": "Exactly 80 were measured.",
+    "domain": "numerical"
+  },
+  {
+    "magnitude": 90,
+    "magnitude_log": 4.49981,
+    "carrier_template": "The number {N} is a quantity.",
+    "sentence": "The number 90 is a quantity.",
+    "domain": "numerical"
+  },
+  {
+    "magnitude": 90,
+    "magnitude_log": 4.49981,
+    "carrier_template": "There are {N} items.",
+    "sentence": "There are 90 items.",
+    "domain": "numerical"
+  },
+  {
+    "magnitude": 90,
+    "magnitude_log": 4.49981,
+    "carrier_template": "{N} was the value.",
+    "sentence": "90 was the value.",
+    "domain": "numerical"
+  },
+  {
+    "magnitude": 90,
+    "magnitude_log": 4.49981,
+    "carrier_template": "The count reached {N}.",
+    "sentence": "The count reached 90.",
+    "domain": "numerical"
+  },
+  {
+    "magnitude": 90,
+    "magnitude_log": 4.49981,
+    "carrier_template": "Exactly {N} were measured.",
+    "sentence": "Exactly 90 were measured.",
+    "domain": "numerical"
+  },
+  {
+    "magnitude": 100,
+    "magnitude_log": 4.60517,
+    "carrier_template": "The number {N} is a quantity.",
+    "sentence": "The number 100 is a quantity.",
+    "domain": "numerical"
+  },
+  {
+    "magnitude": 100,
+    "magnitude_log": 4.60517,
+    "carrier_template": "There are {N} items.",
+    "sentence": "There are 100 items.",
+    "domain": "numerical"
+  },
+  {
+    "magnitude": 100,
+    "magnitude_log": 4.60517,
+    "carrier_template": "{N} was the value.",
+    "sentence": "100 was the value.",
+    "domain": "numerical"
+  },
+  {
+    "magnitude": 100,
+    "magnitude_log": 4.60517,
+    "carrier_template": "The count reached {N}.",
+    "sentence": "The count reached 100.",
+    "domain": "numerical"
+  },
+  {
+    "magnitude": 100,
+    "magnitude_log": 4.60517,
+    "carrier_template": "Exactly {N} were measured.",
+    "sentence": "Exactly 100 were measured.",
+    "domain": "numerical"
+  },
+  {
+    "magnitude": 150,
+    "magnitude_log": 5.010635,
+    "carrier_template": "The number {N} is a quantity.",
+    "sentence": "The number 150 is a quantity.",
+    "domain": "numerical"
+  },
+  {
+    "magnitude": 150,
+    "magnitude_log": 5.010635,
+    "carrier_template": "There are {N} items.",
+    "sentence": "There are 150 items.",
+    "domain": "numerical"
+  },
+  {
+    "magnitude": 150,
+    "magnitude_log": 5.010635,
+    "carrier_template": "{N} was the value.",
+    "sentence": "150 was the value.",
+    "domain": "numerical"
+  },
+  {
+    "magnitude": 150,
+    "magnitude_log": 5.010635,
+    "carrier_template": "The count reached {N}.",
+    "sentence": "The count reached 150.",
+    "domain": "numerical"
+  },
+  {
+    "magnitude": 150,
+    "magnitude_log": 5.010635,
+    "carrier_template": "Exactly {N} were measured.",
+    "sentence": "Exactly 150 were measured.",
+    "domain": "numerical"
+  },
+  {
+    "magnitude": 200,
+    "magnitude_log": 5.298317,
+    "carrier_template": "The number {N} is a quantity.",
+    "sentence": "The number 200 is a quantity.",
+    "domain": "numerical"
+  },
+  {
+    "magnitude": 200,
+    "magnitude_log": 5.298317,
+    "carrier_template": "There are {N} items.",
+    "sentence": "There are 200 items.",
+    "domain": "numerical"
+  },
+  {
+    "magnitude": 200,
+    "magnitude_log": 5.298317,
+    "carrier_template": "{N} was the value.",
+    "sentence": "200 was the value.",
+    "domain": "numerical"
+  },
+  {
+    "magnitude": 200,
+    "magnitude_log": 5.298317,
+    "carrier_template": "The count reached {N}.",
+    "sentence": "The count reached 200.",
+    "domain": "numerical"
+  },
+  {
+    "magnitude": 200,
+    "magnitude_log": 5.298317,
+    "carrier_template": "Exactly {N} were measured.",
+    "sentence": "Exactly 200 were measured.",
+    "domain": "numerical"
+  },
+  {
+    "magnitude": 300,
+    "magnitude_log": 5.703782,
+    "carrier_template": "The number {N} is a quantity.",
+    "sentence": "The number 300 is a quantity.",
+    "domain": "numerical"
+  },
+  {
+    "magnitude": 300,
+    "magnitude_log": 5.703782,
+    "carrier_template": "There are {N} items.",
+    "sentence": "There are 300 items.",
+    "domain": "numerical"
+  },
+  {
+    "magnitude": 300,
+    "magnitude_log": 5.703782,
+    "carrier_template": "{N} was the value.",
+    "sentence": "300 was the value.",
+    "domain": "numerical"
+  },
+  {
+    "magnitude": 300,
+    "magnitude_log": 5.703782,
+    "carrier_template": "The count reached {N}.",
+    "sentence": "The count reached 300.",
+    "domain": "numerical"
+  },
+  {
+    "magnitude": 300,
+    "magnitude_log": 5.703782,
+    "carrier_template": "Exactly {N} were measured.",
+    "sentence": "Exactly 300 were measured.",
+    "domain": "numerical"
+  },
+  {
+    "magnitude": 500,
+    "magnitude_log": 6.214608,
+    "carrier_template": "The number {N} is a quantity.",
+    "sentence": "The number 500 is a quantity.",
+    "domain": "numerical"
+  },
+  {
+    "magnitude": 500,
+    "magnitude_log": 6.214608,
+    "carrier_template": "There are {N} items.",
+    "sentence": "There are 500 items.",
+    "domain": "numerical"
+  },
+  {
+    "magnitude": 500,
+    "magnitude_log": 6.214608,
+    "carrier_template": "{N} was the value.",
+    "sentence": "500 was the value.",
+    "domain": "numerical"
+  },
+  {
+    "magnitude": 500,
+    "magnitude_log": 6.214608,
+    "carrier_template": "The count reached {N}.",
+    "sentence": "The count reached 500.",
+    "domain": "numerical"
+  },
+  {
+    "magnitude": 500,
+    "magnitude_log": 6.214608,
+    "carrier_template": "Exactly {N} were measured.",
+    "sentence": "Exactly 500 were measured.",
+    "domain": "numerical"
+  },
+  {
+    "magnitude": 700,
+    "magnitude_log": 6.55108,
+    "carrier_template": "The number {N} is a quantity.",
+    "sentence": "The number 700 is a quantity.",
+    "domain": "numerical"
+  },
+  {
+    "magnitude": 700,
+    "magnitude_log": 6.55108,
+    "carrier_template": "There are {N} items.",
+    "sentence": "There are 700 items.",
+    "domain": "numerical"
+  },
+  {
+    "magnitude": 700,
+    "magnitude_log": 6.55108,
+    "carrier_template": "{N} was the value.",
+    "sentence": "700 was the value.",
+    "domain": "numerical"
+  },
+  {
+    "magnitude": 700,
+    "magnitude_log": 6.55108,
+    "carrier_template": "The count reached {N}.",
+    "sentence": "The count reached 700.",
+    "domain": "numerical"
+  },
+  {
+    "magnitude": 700,
+    "magnitude_log": 6.55108,
+    "carrier_template": "Exactly {N} were measured.",
+    "sentence": "Exactly 700 were measured.",
+    "domain": "numerical"
+  },
+  {
+    "magnitude": 1000,
+    "magnitude_log": 6.907755,
+    "carrier_template": "The number {N} is a quantity.",
+    "sentence": "The number 1000 is a quantity.",
+    "domain": "numerical"
+  },
+  {
+    "magnitude": 1000,
+    "magnitude_log": 6.907755,
+    "carrier_template": "There are {N} items.",
+    "sentence": "There are 1000 items.",
+    "domain": "numerical"
+  },
+  {
+    "magnitude": 1000,
+    "magnitude_log": 6.907755,
+    "carrier_template": "{N} was the value.",
+    "sentence": "1000 was the value.",
+    "domain": "numerical"
+  },
+  {
+    "magnitude": 1000,
+    "magnitude_log": 6.907755,
+    "carrier_template": "The count reached {N}.",
+    "sentence": "The count reached 1000.",
+    "domain": "numerical"
+  },
+  {
+    "magnitude": 1000,
+    "magnitude_log": 6.907755,
+    "carrier_template": "Exactly {N} were measured.",
+    "sentence": "Exactly 1000 were measured.",
+    "domain": "numerical"
+  }
+]

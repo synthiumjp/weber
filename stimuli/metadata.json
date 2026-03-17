@@ -1,0 +1,102 @@
+{
+  "project": "Classical Minds, Modern Machines \u2014 Project 4.2",
+  "version": "v2.6",
+  "generated": "2026-03-17T13:05:17.360399",
+  "seed": 42,
+  "specifications": {
+    "numerical_magnitudes": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      15,
+      20,
+      30,
+      40,
+      50,
+      60,
+      70,
+      80,
+      90,
+      100,
+      150,
+      200,
+      300,
+      500,
+      700,
+      1000
+    ],
+    "numerical_baselines": [
+      10,
+      30,
+      100,
+      300,
+      1000
+    ],
+    "numerical_ratios": [
+      1.05,
+      1.1,
+      1.2,
+      1.5,
+      2.0,
+      3.0
+    ],
+    "numerical_pairs_per_cell": 50,
+    "numerical_jittered_per_cell": 30,
+    "temporal_baselines": [
+      "10 seconds",
+      "2 minutes",
+      "15 minutes",
+      "2 hours",
+      "1 day"
+    ],
+    "temporal_ratios": [
+      1.1,
+      1.2,
+      1.5,
+      2.0,
+      3.0,
+      5.0
+    ],
+    "temporal_pairs_per_cell": 30,
+    "spatial_baselines": [
+      "10 metres",
+      "200 metres",
+      "5 km",
+      "50 km",
+      "500 km"
+    ],
+    "spatial_ratios": [
+      1.05,
+      1.1,
+      1.2,
+      1.5,
+      2.0,
+      3.0
+    ],
+    "spatial_pairs_per_cell": 30,
+    "paradigm_d_total": 200,
+    "paradigm_d_per_baseline": 40
+  },
+  "counts": {
+    "probing_numerical": 130,
+    "probing_temporal": 95,
+    "probing_spatial": 70,
+    "comparison_numerical": 1500,
+    "comparison_temporal": 900,
+    "comparison_spatial": 900,
+    "prompts_b1": 1500,
+    "prompts_b2": 1500,
+    "prompts_b3": 1500,
+    "prompts_symbolic_control": 1500,
+    "paradigm_d": 200,
+    "digit_boundary": 40,
+    "word_form_probing": 130
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "model_key": "mistral_instruct",
+  "domains": {
+    "numerical": {
+      "n_checked": 130,
+      "n_matched": 130,
+      "n_errors": 0,
+      "n_single_token": 36,
+      "n_multi_token": 94
+    },
+    "temporal": {
+      "n_checked": 95,
+      "n_matched": 95,
+      "n_errors": 0,
+      "n_single_token": 0,
+      "n_multi_token": 95
+    },
+    "spatial": {
+      "n_checked": 70,
+      "n_matched": 70,
+      "n_errors": 0,
+      "n_single_token": 0,
+      "n_multi_token": 70
+    }
+  },
+  "summary": {
+    "total_checked": 295,
+    "total_matched": 295,
+    "total_mismatched": 0,
+    "pass": true
+  }
+}

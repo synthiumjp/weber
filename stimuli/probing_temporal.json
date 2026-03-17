@@ -1,0 +1,762 @@
+[
+  {
+    "magnitude_text": "1 second",
+    "magnitude_seconds": 1,
+    "magnitude_log": 0.0,
+    "carrier_template": "The event lasted {D}.",
+    "sentence": "The event lasted 1 second.",
+    "domain": "temporal"
+  },
+  {
+    "magnitude_text": "1 second",
+    "magnitude_seconds": 1,
+    "magnitude_log": 0.0,
+    "carrier_template": "It took {D} to complete.",
+    "sentence": "It took 1 second to complete.",
+    "domain": "temporal"
+  },
+  {
+    "magnitude_text": "1 second",
+    "magnitude_seconds": 1,
+    "magnitude_log": 0.0,
+    "carrier_template": "The delay was {D}.",
+    "sentence": "The delay was 1 second.",
+    "domain": "temporal"
+  },
+  {
+    "magnitude_text": "1 second",
+    "magnitude_seconds": 1,
+    "magnitude_log": 0.0,
+    "carrier_template": "After {D} had passed, the process finished.",
+    "sentence": "After 1 second had passed, the process finished.",
+    "domain": "temporal"
+  },
+  {
+    "magnitude_text": "1 second",
+    "magnitude_seconds": 1,
+    "magnitude_log": 0.0,
+    "carrier_template": "The total duration was {D}.",
+    "sentence": "The total duration was 1 second.",
+    "domain": "temporal"
+  },
+  {
+    "magnitude_text": "2 seconds",
+    "magnitude_seconds": 2,
+    "magnitude_log": 0.693147,
+    "carrier_template": "The event lasted {D}.",
+    "sentence": "The event lasted 2 seconds.",
+    "domain": "temporal"
+  },
+  {
+    "magnitude_text": "2 seconds",
+    "magnitude_seconds": 2,
+    "magnitude_log": 0.693147,
+    "carrier_template": "It took {D} to complete.",
+    "sentence": "It took 2 seconds to complete.",
+    "domain": "temporal"
+  },
+  {
+    "magnitude_text": "2 seconds",
+    "magnitude_seconds": 2,
+    "magnitude_log": 0.693147,
+    "carrier_template": "The delay was {D}.",
+    "sentence": "The delay was 2 seconds.",
+    "domain": "temporal"
+  },
+  {
+    "magnitude_text": "2 seconds",
+    "magnitude_seconds": 2,
+    "magnitude_log": 0.693147,
+    "carrier_template": "After {D} had passed, the process finished.",
+    "sentence": "After 2 seconds had passed, the process finished.",
+    "domain": "temporal"
+  },
+  {
+    "magnitude_text": "2 seconds",
+    "magnitude_seconds": 2,
+    "magnitude_log": 0.693147,
+    "carrier_template": "The total duration was {D}.",
+    "sentence": "The total duration was 2 seconds.",
+    "domain": "temporal"
+  },
+  {
+    "magnitude_text": "5 seconds",
+    "magnitude_seconds": 5,
+    "magnitude_log": 1.609438,
+    "carrier_template": "The event lasted {D}.",
+    "sentence": "The event lasted 5 seconds.",
+    "domain": "temporal"
+  },
+  {
+    "magnitude_text": "5 seconds",
+    "magnitude_seconds": 5,
+    "magnitude_log": 1.609438,
+    "carrier_template": "It took {D} to complete.",
+    "sentence": "It took 5 seconds to complete.",
+    "domain": "temporal"
+  },
+  {
+    "magnitude_text": "5 seconds",
+    "magnitude_seconds": 5,
+    "magnitude_log": 1.609438,
+    "carrier_template": "The delay was {D}.",
+    "sentence": "The delay was 5 seconds.",
+    "domain": "temporal"
+  },
+  {
+    "magnitude_text": "5 seconds",
+    "magnitude_seconds": 5,
+    "magnitude_log": 1.609438,
+    "carrier_template": "After {D} had passed, the process finished.",
+    "sentence": "After 5 seconds had passed, the process finished.",
+    "domain": "temporal"
+  },
+  {
+    "magnitude_text": "5 seconds",
+    "magnitude_seconds": 5,
+    "magnitude_log": 1.609438,
+    "carrier_template": "The total duration was {D}.",
+    "sentence": "The total duration was 5 seconds.",
+    "domain": "temporal"
+  },
+  {
+    "magnitude_text": "10 seconds",
+    "magnitude_seconds": 10,
+    "magnitude_log": 2.302585,
+    "carrier_template": "The event lasted {D}.",
+    "sentence": "The event lasted 10 seconds.",
+    "domain": "temporal"
+  },
+  {
+    "magnitude_text": "10 seconds",
+    "magnitude_seconds": 10,
+    "magnitude_log": 2.302585,
+    "carrier_template": "It took {D} to complete.",
+    "sentence": "It took 10 seconds to complete.",
+    "domain": "temporal"
+  },
+  {
+    "magnitude_text": "10 seconds",
+    "magnitude_seconds": 10,
+    "magnitude_log": 2.302585,
+    "carrier_template": "The delay was {D}.",
+    "sentence": "The delay was 10 seconds.",
+    "domain": "temporal"
+  },
+  {
+    "magnitude_text": "10 seconds",
+    "magnitude_seconds": 10,
+    "magnitude_log": 2.302585,
+    "carrier_template": "After {D} had passed, the process finished.",
+    "sentence": "After 10 seconds had passed, the process finished.",
+    "domain": "temporal"
+  },
+  {
+    "magnitude_text": "10 seconds",
+    "magnitude_seconds": 10,
+    "magnitude_log": 2.302585,
+    "carrier_template": "The total duration was {D}.",
+    "sentence": "The total duration was 10 seconds.",
+    "domain": "temporal"
+  },
+  {
+    "magnitude_text": "30 seconds",
+    "magnitude_seconds": 30,
+    "magnitude_log": 3.401197,
+    "carrier_template": "The event lasted {D}.",
+    "sentence": "The event lasted 30 seconds.",
+    "domain": "temporal"
+  },
+  {
+    "magnitude_text": "30 seconds",
+    "magnitude_seconds": 30,
+    "magnitude_log": 3.401197,
+    "carrier_template": "It took {D} to complete.",
+    "sentence": "It took 30 seconds to complete.",
+    "domain": "temporal"
+  },
+  {
+    "magnitude_text": "30 seconds",
+    "magnitude_seconds": 30,
+    "magnitude_log": 3.401197,
+    "carrier_template": "The delay was {D}.",
+    "sentence": "The delay was 30 seconds.",
+    "domain": "temporal"
+  },
+  {
+    "magnitude_text": "30 seconds",
+    "magnitude_seconds": 30,
+    "magnitude_log": 3.401197,
+    "carrier_template": "After {D} had passed, the process finished.",
+    "sentence": "After 30 seconds had passed, the process finished.",
+    "domain": "temporal"
+  },
+  {
+    "magnitude_text": "30 seconds",
+    "magnitude_seconds": 30,
+    "magnitude_log": 3.401197,
+    "carrier_template": "The total duration was {D}.",
+    "sentence": "The total duration was 30 seconds.",
+    "domain": "temporal"
+  },
+  {
+    "magnitude_text": "1 minute",
+    "magnitude_seconds": 60,
+    "magnitude_log": 4.094345,
+    "carrier_template": "The event lasted {D}.",
+    "sentence": "The event lasted 1 minute.",
+    "domain": "temporal"
+  },
+  {
+    "magnitude_text": "1 minute",
+    "magnitude_seconds": 60,
+    "magnitude_log": 4.094345,
+    "carrier_template": "It took {D} to complete.",
+    "sentence": "It took 1 minute to complete.",
+    "domain": "temporal"
+  },
+  {
+    "magnitude_text": "1 minute",
+    "magnitude_seconds": 60,
+    "magnitude_log": 4.094345,
+    "carrier_template": "The delay was {D}.",
+    "sentence": "The delay was 1 minute.",
+    "domain": "temporal"
+  },
+  {
+    "magnitude_text": "1 minute",
+    "magnitude_seconds": 60,
+    "magnitude_log": 4.094345,
+    "carrier_template": "After {D} had passed, the process finished.",
+    "sentence": "After 1 minute had passed, the process finished.",
+    "domain": "temporal"
+  },
+  {
+    "magnitude_text": "1 minute",
+    "magnitude_seconds": 60,
+    "magnitude_log": 4.094345,
+    "carrier_template": "The total duration was {D}.",
+    "sentence": "The total duration was 1 minute.",
+    "domain": "temporal"
+  },
+  {
+    "magnitude_text": "2 minutes",
+    "magnitude_seconds": 120,
+    "magnitude_log": 4.787492,
+    "carrier_template": "The event lasted {D}.",
+    "sentence": "The event lasted 2 minutes.",
+    "domain": "temporal"
+  },
+  {
+    "magnitude_text": "2 minutes",
+    "magnitude_seconds": 120,
+    "magnitude_log": 4.787492,
+    "carrier_template": "It took {D} to complete.",
+    "sentence": "It took 2 minutes to complete.",
+    "domain": "temporal"
+  },
+  {
+    "magnitude_text": "2 minutes",
+    "magnitude_seconds": 120,
+    "magnitude_log": 4.787492,
+    "carrier_template": "The delay was {D}.",
+    "sentence": "The delay was 2 minutes.",
+    "domain": "temporal"
+  },
+  {
+    "magnitude_text": "2 minutes",
+    "magnitude_seconds": 120,
+    "magnitude_log": 4.787492,
+    "carrier_template": "After {D} had passed, the process finished.",
+    "sentence": "After 2 minutes had passed, the process finished.",
+    "domain": "temporal"
+  },
+  {
+    "magnitude_text": "2 minutes",
+    "magnitude_seconds": 120,
+    "magnitude_log": 4.787492,
+    "carrier_template": "The total duration was {D}.",
+    "sentence": "The total duration was 2 minutes.",
+    "domain": "temporal"
+  },
+  {
+    "magnitude_text": "5 minutes",
+    "magnitude_seconds": 300,
+    "magnitude_log": 5.703782,
+    "carrier_template": "The event lasted {D}.",
+    "sentence": "The event lasted 5 minutes.",
+    "domain": "temporal"
+  },
+  {
+    "magnitude_text": "5 minutes",
+    "magnitude_seconds": 300,
+    "magnitude_log": 5.703782,
+    "carrier_template": "It took {D} to complete.",
+    "sentence": "It took 5 minutes to complete.",
+    "domain": "temporal"
+  },
+  {
+    "magnitude_text": "5 minutes",
+    "magnitude_seconds": 300,
+    "magnitude_log": 5.703782,
+    "carrier_template": "The delay was {D}.",
+    "sentence": "The delay was 5 minutes.",
+    "domain": "temporal"
+  },
+  {
+    "magnitude_text": "5 minutes",
+    "magnitude_seconds": 300,
+    "magnitude_log": 5.703782,
+    "carrier_template": "After {D} had passed, the process finished.",
+    "sentence": "After 5 minutes had passed, the process finished.",
+    "domain": "temporal"
+  },
+  {
+    "magnitude_text": "5 minutes",
+    "magnitude_seconds": 300,
+    "magnitude_log": 5.703782,
+    "carrier_template": "The total duration was {D}.",
+    "sentence": "The total duration was 5 minutes.",
+    "domain": "temporal"
+  },
+  {
+    "magnitude_text": "10 minutes",
+    "magnitude_seconds": 600,
+    "magnitude_log": 6.39693,
+    "carrier_template": "The event lasted {D}.",
+    "sentence": "The event lasted 10 minutes.",
+    "domain": "temporal"
+  },
+  {
+    "magnitude_text": "10 minutes",
+    "magnitude_seconds": 600,
+    "magnitude_log": 6.39693,
+    "carrier_template": "It took {D} to complete.",
+    "sentence": "It took 10 minutes to complete.",
+    "domain": "temporal"
+  },
+  {
+    "magnitude_text": "10 minutes",
+    "magnitude_seconds": 600,
+    "magnitude_log": 6.39693,
+    "carrier_template": "The delay was {D}.",
+    "sentence": "The delay was 10 minutes.",
+    "domain": "temporal"
+  },
+  {
+    "magnitude_text": "10 minutes",
+    "magnitude_seconds": 600,
+    "magnitude_log": 6.39693,
+    "carrier_template": "After {D} had passed, the process finished.",
+    "sentence": "After 10 minutes had passed, the process finished.",
+    "domain": "temporal"
+  },
+  {
+    "magnitude_text": "10 minutes",
+    "magnitude_seconds": 600,
+    "magnitude_log": 6.39693,
+    "carrier_template": "The total duration was {D}.",
+    "sentence": "The total duration was 10 minutes.",
+    "domain": "temporal"
+  },
+  {
+    "magnitude_text": "30 minutes",
+    "magnitude_seconds": 1800,
+    "magnitude_log": 7.495542,
+    "carrier_template": "The event lasted {D}.",
+    "sentence": "The event lasted 30 minutes.",
+    "domain": "temporal"
+  },
+  {
+    "magnitude_text": "30 minutes",
+    "magnitude_seconds": 1800,
+    "magnitude_log": 7.495542,
+    "carrier_template": "It took {D} to complete.",
+    "sentence": "It took 30 minutes to complete.",
+    "domain": "temporal"
+  },
+  {
+    "magnitude_text": "30 minutes",
+    "magnitude_seconds": 1800,
+    "magnitude_log": 7.495542,
+    "carrier_template": "The delay was {D}.",
+    "sentence": "The delay was 30 minutes.",
+    "domain": "temporal"
+  },
+  {
+    "magnitude_text": "30 minutes",
+    "magnitude_seconds": 1800,
+    "magnitude_log": 7.495542,
+    "carrier_template": "After {D} had passed, the process finished.",
+    "sentence": "After 30 minutes had passed, the process finished.",
+    "domain": "temporal"
+  },
+  {
+    "magnitude_text": "30 minutes",
+    "magnitude_seconds": 1800,
+    "magnitude_log": 7.495542,
+    "carrier_template": "The total duration was {D}.",
+    "sentence": "The total duration was 30 minutes.",
+    "domain": "temporal"
+  },
+  {
+    "magnitude_text": "1 hour",
+    "magnitude_seconds": 3600,
+    "magnitude_log": 8.188689,
+    "carrier_template": "The event lasted {D}.",
+    "sentence": "The event lasted 1 hour.",
+    "domain": "temporal"
+  },
+  {
+    "magnitude_text": "1 hour",
+    "magnitude_seconds": 3600,
+    "magnitude_log": 8.188689,
+    "carrier_template": "It took {D} to complete.",
+    "sentence": "It took 1 hour to complete.",
+    "domain": "temporal"
+  },
+  {
+    "magnitude_text": "1 hour",
+    "magnitude_seconds": 3600,
+    "magnitude_log": 8.188689,
+    "carrier_template": "The delay was {D}.",
+    "sentence": "The delay was 1 hour.",
+    "domain": "temporal"
+  },
+  {
+    "magnitude_text": "1 hour",
+    "magnitude_seconds": 3600,
+    "magnitude_log": 8.188689,
+    "carrier_template": "After {D} had passed, the process finished.",
+    "sentence": "After 1 hour had passed, the process finished.",
+    "domain": "temporal"
+  },
+  {
+    "magnitude_text": "1 hour",
+    "magnitude_seconds": 3600,
+    "magnitude_log": 8.188689,
+    "carrier_template": "The total duration was {D}.",
+    "sentence": "The total duration was 1 hour.",
+    "domain": "temporal"
+  },
+  {
+    "magnitude_text": "2 hours",
+    "magnitude_seconds": 7200,
+    "magnitude_log": 8.881836,
+    "carrier_template": "The event lasted {D}.",
+    "sentence": "The event lasted 2 hours.",
+    "domain": "temporal"
+  },
+  {
+    "magnitude_text": "2 hours",
+    "magnitude_seconds": 7200,
+    "magnitude_log": 8.881836,
+    "carrier_template": "It took {D} to complete.",
+    "sentence": "It took 2 hours to complete.",
+    "domain": "temporal"
+  },
+  {
+    "magnitude_text": "2 hours",
+    "magnitude_seconds": 7200,
+    "magnitude_log": 8.881836,
+    "carrier_template": "The delay was {D}.",
+    "sentence": "The delay was 2 hours.",
+    "domain": "temporal"
+  },
+  {
+    "magnitude_text": "2 hours",
+    "magnitude_seconds": 7200,
+    "magnitude_log": 8.881836,
+    "carrier_template": "After {D} had passed, the process finished.",
+    "sentence": "After 2 hours had passed, the process finished.",
+    "domain": "temporal"
+  },
+  {
+    "magnitude_text": "2 hours",
+    "magnitude_seconds": 7200,
+    "magnitude_log": 8.881836,
+    "carrier_template": "The total duration was {D}.",
+    "sentence": "The total duration was 2 hours.",
+    "domain": "temporal"
+  },
+  {
+    "magnitude_text": "5 hours",
+    "magnitude_seconds": 18000,
+    "magnitude_log": 9.798127,
+    "carrier_template": "The event lasted {D}.",
+    "sentence": "The event lasted 5 hours.",
+    "domain": "temporal"
+  },
+  {
+    "magnitude_text": "5 hours",
+    "magnitude_seconds": 18000,
+    "magnitude_log": 9.798127,
+    "carrier_template": "It took {D} to complete.",
+    "sentence": "It took 5 hours to complete.",
+    "domain": "temporal"
+  },
+  {
+    "magnitude_text": "5 hours",
+    "magnitude_seconds": 18000,
+    "magnitude_log": 9.798127,
+    "carrier_template": "The delay was {D}.",
+    "sentence": "The delay was 5 hours.",
+    "domain": "temporal"
+  },
+  {
+    "magnitude_text": "5 hours",
+    "magnitude_seconds": 18000,
+    "magnitude_log": 9.798127,
+    "carrier_template": "After {D} had passed, the process finished.",
+    "sentence": "After 5 hours had passed, the process finished.",
+    "domain": "temporal"
+  },
+  {
+    "magnitude_text": "5 hours",
+    "magnitude_seconds": 18000,
+    "magnitude_log": 9.798127,
+    "carrier_template": "The total duration was {D}.",
+    "sentence": "The total duration was 5 hours.",
+    "domain": "temporal"
+  },
+  {
+    "magnitude_text": "12 hours",
+    "magnitude_seconds": 43200,
+    "magnitude_log": 10.673596,
+    "carrier_template": "The event lasted {D}.",
+    "sentence": "The event lasted 12 hours.",
+    "domain": "temporal"
+  },
+  {
+    "magnitude_text": "12 hours",
+    "magnitude_seconds": 43200,
+    "magnitude_log": 10.673596,
+    "carrier_template": "It took {D} to complete.",
+    "sentence": "It took 12 hours to complete.",
+    "domain": "temporal"
+  },
+  {
+    "magnitude_text": "12 hours",
+    "magnitude_seconds": 43200,
+    "magnitude_log": 10.673596,
+    "carrier_template": "The delay was {D}.",
+    "sentence": "The delay was 12 hours.",
+    "domain": "temporal"
+  },
+  {
+    "magnitude_text": "12 hours",
+    "magnitude_seconds": 43200,
+    "magnitude_log": 10.673596,
+    "carrier_template": "After {D} had passed, the process finished.",
+    "sentence": "After 12 hours had passed, the process finished.",
+    "domain": "temporal"
+  },
+  {
+    "magnitude_text": "12 hours",
+    "magnitude_seconds": 43200,
+    "magnitude_log": 10.673596,
+    "carrier_template": "The total duration was {D}.",
+    "sentence": "The total duration was 12 hours.",
+    "domain": "temporal"
+  },
+  {
+    "magnitude_text": "1 day",
+    "magnitude_seconds": 86400,
+    "magnitude_log": 11.366743,
+    "carrier_template": "The event lasted {D}.",
+    "sentence": "The event lasted 1 day.",
+    "domain": "temporal"
+  },
+  {
+    "magnitude_text": "1 day",
+    "magnitude_seconds": 86400,
+    "magnitude_log": 11.366743,
+    "carrier_template": "It took {D} to complete.",
+    "sentence": "It took 1 day to complete.",
+    "domain": "temporal"
+  },
+  {
+    "magnitude_text": "1 day",
+    "magnitude_seconds": 86400,
+    "magnitude_log": 11.366743,
+    "carrier_template": "The delay was {D}.",
+    "sentence": "The delay was 1 day.",
+    "domain": "temporal"
+  },
+  {
+    "magnitude_text": "1 day",
+    "magnitude_seconds": 86400,
+    "magnitude_log": 11.366743,
+    "carrier_template": "After {D} had passed, the process finished.",
+    "sentence": "After 1 day had passed, the process finished.",
+    "domain": "temporal"
+  },
+  {
+    "magnitude_text": "1 day",
+    "magnitude_seconds": 86400,
+    "magnitude_log": 11.366743,
+    "carrier_template": "The total duration was {D}.",
+    "sentence": "The total duration was 1 day.",
+    "domain": "temporal"
+  },
+  {
+    "magnitude_text": "3 days",
+    "magnitude_seconds": 259200,
+    "magnitude_log": 12.465355,
+    "carrier_template": "The event lasted {D}.",
+    "sentence": "The event lasted 3 days.",
+    "domain": "temporal"
+  },
+  {
+    "magnitude_text": "3 days",
+    "magnitude_seconds": 259200,
+    "magnitude_log": 12.465355,
+    "carrier_template": "It took {D} to complete.",
+    "sentence": "It took 3 days to complete.",
+    "domain": "temporal"
+  },
+  {
+    "magnitude_text": "3 days",
+    "magnitude_seconds": 259200,
+    "magnitude_log": 12.465355,
+    "carrier_template": "The delay was {D}.",
+    "sentence": "The delay was 3 days.",
+    "domain": "temporal"
+  },
+  {
+    "magnitude_text": "3 days",
+    "magnitude_seconds": 259200,
+    "magnitude_log": 12.465355,
+    "carrier_template": "After {D} had passed, the process finished.",
+    "sentence": "After 3 days had passed, the process finished.",
+    "domain": "temporal"
+  },
+  {
+    "magnitude_text": "3 days",
+    "magnitude_seconds": 259200,
+    "magnitude_log": 12.465355,
+    "carrier_template": "The total duration was {D}.",
+    "sentence": "The total duration was 3 days.",
+    "domain": "temporal"
+  },
+  {
+    "magnitude_text": "1 week",
+    "magnitude_seconds": 604800,
+    "magnitude_log": 13.312653,
+    "carrier_template": "The event lasted {D}.",
+    "sentence": "The event lasted 1 week.",
+    "domain": "temporal"
+  },
+  {
+    "magnitude_text": "1 week",
+    "magnitude_seconds": 604800,
+    "magnitude_log": 13.312653,
+    "carrier_template": "It took {D} to complete.",
+    "sentence": "It took 1 week to complete.",
+    "domain": "temporal"
+  },
+  {
+    "magnitude_text": "1 week",
+    "magnitude_seconds": 604800,
+    "magnitude_log": 13.312653,
+    "carrier_template": "The delay was {D}.",
+    "sentence": "The delay was 1 week.",
+    "domain": "temporal"
+  },
+  {
+    "magnitude_text": "1 week",
+    "magnitude_seconds": 604800,
+    "magnitude_log": 13.312653,
+    "carrier_template": "After {D} had passed, the process finished.",
+    "sentence": "After 1 week had passed, the process finished.",
+    "domain": "temporal"
+  },
+  {
+    "magnitude_text": "1 week",
+    "magnitude_seconds": 604800,
+    "magnitude_log": 13.312653,
+    "carrier_template": "The total duration was {D}.",
+    "sentence": "The total duration was 1 week.",
+    "domain": "temporal"
+  },
+  {
+    "magnitude_text": "1 month",
+    "magnitude_seconds": 2592000,
+    "magnitude_log": 14.76794,
+    "carrier_template": "The event lasted {D}.",
+    "sentence": "The event lasted 1 month.",
+    "domain": "temporal"
+  },
+  {
+    "magnitude_text": "1 month",
+    "magnitude_seconds": 2592000,
+    "magnitude_log": 14.76794,
+    "carrier_template": "It took {D} to complete.",
+    "sentence": "It took 1 month to complete.",
+    "domain": "temporal"
+  },
+  {
+    "magnitude_text": "1 month",
+    "magnitude_seconds": 2592000,
+    "magnitude_log": 14.76794,
+    "carrier_template": "The delay was {D}.",
+    "sentence": "The delay was 1 month.",
+    "domain": "temporal"
+  },
+  {
+    "magnitude_text": "1 month",
+    "magnitude_seconds": 2592000,
+    "magnitude_log": 14.76794,
+    "carrier_template": "After {D} had passed, the process finished.",
+    "sentence": "After 1 month had passed, the process finished.",
+    "domain": "temporal"
+  },
+  {
+    "magnitude_text": "1 month",
+    "magnitude_seconds": 2592000,
+    "magnitude_log": 14.76794,
+    "carrier_template": "The total duration was {D}.",
+    "sentence": "The total duration was 1 month.",
+    "domain": "temporal"
+  },
+  {
+    "magnitude_text": "1 year",
+    "magnitude_seconds": 31536000,
+    "magnitude_log": 17.26664,
+    "carrier_template": "The event lasted {D}.",
+    "sentence": "The event lasted 1 year.",
+    "domain": "temporal"
+  },
+  {
+    "magnitude_text": "1 year",
+    "magnitude_seconds": 31536000,
+    "magnitude_log": 17.26664,
+    "carrier_template": "It took {D} to complete.",
+    "sentence": "It took 1 year to complete.",
+    "domain": "temporal"
+  },
+  {
+    "magnitude_text": "1 year",
+    "magnitude_seconds": 31536000,
+    "magnitude_log": 17.26664,
+    "carrier_template": "The delay was {D}.",
+    "sentence": "The delay was 1 year.",
+    "domain": "temporal"
+  },
+  {
+    "magnitude_text": "1 year",
+    "magnitude_seconds": 31536000,
+    "magnitude_log": 17.26664,
+    "carrier_template": "After {D} had passed, the process finished.",
+    "sentence": "After 1 year had passed, the process finished.",
+    "domain": "temporal"
+  },
+  {
+    "magnitude_text": "1 year",
+    "magnitude_seconds": 31536000,
+    "magnitude_log": 17.26664,
+    "carrier_template": "The total duration was {D}.",
+    "sentence": "The total duration was 1 year.",
+    "domain": "temporal"
+  }
+]

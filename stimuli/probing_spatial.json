@@ -1,0 +1,562 @@
+[
+  {
+    "magnitude_text": "1 metre",
+    "magnitude_metres": 1,
+    "magnitude_log": 0.0,
+    "carrier_template": "The distance was {D}.",
+    "sentence": "The distance was 1 metre.",
+    "domain": "spatial"
+  },
+  {
+    "magnitude_text": "1 metre",
+    "magnitude_metres": 1,
+    "magnitude_log": 0.0,
+    "carrier_template": "They travelled {D} to get there.",
+    "sentence": "They travelled 1 metre to get there.",
+    "domain": "spatial"
+  },
+  {
+    "magnitude_text": "1 metre",
+    "magnitude_metres": 1,
+    "magnitude_log": 0.0,
+    "carrier_template": "It was {D} away.",
+    "sentence": "It was 1 metre away.",
+    "domain": "spatial"
+  },
+  {
+    "magnitude_text": "1 metre",
+    "magnitude_metres": 1,
+    "magnitude_log": 0.0,
+    "carrier_template": "The gap measured {D}.",
+    "sentence": "The gap measured 1 metre.",
+    "domain": "spatial"
+  },
+  {
+    "magnitude_text": "1 metre",
+    "magnitude_metres": 1,
+    "magnitude_log": 0.0,
+    "carrier_template": "The total route covered {D}.",
+    "sentence": "The total route covered 1 metre.",
+    "domain": "spatial"
+  },
+  {
+    "magnitude_text": "2 metres",
+    "magnitude_metres": 2,
+    "magnitude_log": 0.693147,
+    "carrier_template": "The distance was {D}.",
+    "sentence": "The distance was 2 metres.",
+    "domain": "spatial"
+  },
+  {
+    "magnitude_text": "2 metres",
+    "magnitude_metres": 2,
+    "magnitude_log": 0.693147,
+    "carrier_template": "They travelled {D} to get there.",
+    "sentence": "They travelled 2 metres to get there.",
+    "domain": "spatial"
+  },
+  {
+    "magnitude_text": "2 metres",
+    "magnitude_metres": 2,
+    "magnitude_log": 0.693147,
+    "carrier_template": "It was {D} away.",
+    "sentence": "It was 2 metres away.",
+    "domain": "spatial"
+  },
+  {
+    "magnitude_text": "2 metres",
+    "magnitude_metres": 2,
+    "magnitude_log": 0.693147,
+    "carrier_template": "The gap measured {D}.",
+    "sentence": "The gap measured 2 metres.",
+    "domain": "spatial"
+  },
+  {
+    "magnitude_text": "2 metres",
+    "magnitude_metres": 2,
+    "magnitude_log": 0.693147,
+    "carrier_template": "The total route covered {D}.",
+    "sentence": "The total route covered 2 metres.",
+    "domain": "spatial"
+  },
+  {
+    "magnitude_text": "5 metres",
+    "magnitude_metres": 5,
+    "magnitude_log": 1.609438,
+    "carrier_template": "The distance was {D}.",
+    "sentence": "The distance was 5 metres.",
+    "domain": "spatial"
+  },
+  {
+    "magnitude_text": "5 metres",
+    "magnitude_metres": 5,
+    "magnitude_log": 1.609438,
+    "carrier_template": "They travelled {D} to get there.",
+    "sentence": "They travelled 5 metres to get there.",
+    "domain": "spatial"
+  },
+  {
+    "magnitude_text": "5 metres",
+    "magnitude_metres": 5,
+    "magnitude_log": 1.609438,
+    "carrier_template": "It was {D} away.",
+    "sentence": "It was 5 metres away.",
+    "domain": "spatial"
+  },
+  {
+    "magnitude_text": "5 metres",
+    "magnitude_metres": 5,
+    "magnitude_log": 1.609438,
+    "carrier_template": "The gap measured {D}.",
+    "sentence": "The gap measured 5 metres.",
+    "domain": "spatial"
+  },
+  {
+    "magnitude_text": "5 metres",
+    "magnitude_metres": 5,
+    "magnitude_log": 1.609438,
+    "carrier_template": "The total route covered {D}.",
+    "sentence": "The total route covered 5 metres.",
+    "domain": "spatial"
+  },
+  {
+    "magnitude_text": "10 metres",
+    "magnitude_metres": 10,
+    "magnitude_log": 2.302585,
+    "carrier_template": "The distance was {D}.",
+    "sentence": "The distance was 10 metres.",
+    "domain": "spatial"
+  },
+  {
+    "magnitude_text": "10 metres",
+    "magnitude_metres": 10,
+    "magnitude_log": 2.302585,
+    "carrier_template": "They travelled {D} to get there.",
+    "sentence": "They travelled 10 metres to get there.",
+    "domain": "spatial"
+  },
+  {
+    "magnitude_text": "10 metres",
+    "magnitude_metres": 10,
+    "magnitude_log": 2.302585,
+    "carrier_template": "It was {D} away.",
+    "sentence": "It was 10 metres away.",
+    "domain": "spatial"
+  },
+  {
+    "magnitude_text": "10 metres",
+    "magnitude_metres": 10,
+    "magnitude_log": 2.302585,
+    "carrier_template": "The gap measured {D}.",
+    "sentence": "The gap measured 10 metres.",
+    "domain": "spatial"
+  },
+  {
+    "magnitude_text": "10 metres",
+    "magnitude_metres": 10,
+    "magnitude_log": 2.302585,
+    "carrier_template": "The total route covered {D}.",
+    "sentence": "The total route covered 10 metres.",
+    "domain": "spatial"
+  },
+  {
+    "magnitude_text": "50 metres",
+    "magnitude_metres": 50,
+    "magnitude_log": 3.912023,
+    "carrier_template": "The distance was {D}.",
+    "sentence": "The distance was 50 metres.",
+    "domain": "spatial"
+  },
+  {
+    "magnitude_text": "50 metres",
+    "magnitude_metres": 50,
+    "magnitude_log": 3.912023,
+    "carrier_template": "They travelled {D} to get there.",
+    "sentence": "They travelled 50 metres to get there.",
+    "domain": "spatial"
+  },
+  {
+    "magnitude_text": "50 metres",
+    "magnitude_metres": 50,
+    "magnitude_log": 3.912023,
+    "carrier_template": "It was {D} away.",
+    "sentence": "It was 50 metres away.",
+    "domain": "spatial"
+  },
+  {
+    "magnitude_text": "50 metres",
+    "magnitude_metres": 50,
+    "magnitude_log": 3.912023,
+    "carrier_template": "The gap measured {D}.",
+    "sentence": "The gap measured 50 metres.",
+    "domain": "spatial"
+  },
+  {
+    "magnitude_text": "50 metres",
+    "magnitude_metres": 50,
+    "magnitude_log": 3.912023,
+    "carrier_template": "The total route covered {D}.",
+    "sentence": "The total route covered 50 metres.",
+    "domain": "spatial"
+  },
+  {
+    "magnitude_text": "100 metres",
+    "magnitude_metres": 100,
+    "magnitude_log": 4.60517,
+    "carrier_template": "The distance was {D}.",
+    "sentence": "The distance was 100 metres.",
+    "domain": "spatial"
+  },
+  {
+    "magnitude_text": "100 metres",
+    "magnitude_metres": 100,
+    "magnitude_log": 4.60517,
+    "carrier_template": "They travelled {D} to get there.",
+    "sentence": "They travelled 100 metres to get there.",
+    "domain": "spatial"
+  },
+  {
+    "magnitude_text": "100 metres",
+    "magnitude_metres": 100,
+    "magnitude_log": 4.60517,
+    "carrier_template": "It was {D} away.",
+    "sentence": "It was 100 metres away.",
+    "domain": "spatial"
+  },
+  {
+    "magnitude_text": "100 metres",
+    "magnitude_metres": 100,
+    "magnitude_log": 4.60517,
+    "carrier_template": "The gap measured {D}.",
+    "sentence": "The gap measured 100 metres.",
+    "domain": "spatial"
+  },
+  {
+    "magnitude_text": "100 metres",
+    "magnitude_metres": 100,
+    "magnitude_log": 4.60517,
+    "carrier_template": "The total route covered {D}.",
+    "sentence": "The total route covered 100 metres.",
+    "domain": "spatial"
+  },
+  {
+    "magnitude_text": "500 metres",
+    "magnitude_metres": 500,
+    "magnitude_log": 6.214608,
+    "carrier_template": "The distance was {D}.",
+    "sentence": "The distance was 500 metres.",
+    "domain": "spatial"
+  },
+  {
+    "magnitude_text": "500 metres",
+    "magnitude_metres": 500,
+    "magnitude_log": 6.214608,
+    "carrier_template": "They travelled {D} to get there.",
+    "sentence": "They travelled 500 metres to get there.",
+    "domain": "spatial"
+  },
+  {
+    "magnitude_text": "500 metres",
+    "magnitude_metres": 500,
+    "magnitude_log": 6.214608,
+    "carrier_template": "It was {D} away.",
+    "sentence": "It was 500 metres away.",
+    "domain": "spatial"
+  },
+  {
+    "magnitude_text": "500 metres",
+    "magnitude_metres": 500,
+    "magnitude_log": 6.214608,
+    "carrier_template": "The gap measured {D}.",
+    "sentence": "The gap measured 500 metres.",
+    "domain": "spatial"
+  },
+  {
+    "magnitude_text": "500 metres",
+    "magnitude_metres": 500,
+    "magnitude_log": 6.214608,
+    "carrier_template": "The total route covered {D}.",
+    "sentence": "The total route covered 500 metres.",
+    "domain": "spatial"
+  },
+  {
+    "magnitude_text": "1 km",
+    "magnitude_metres": 1000,
+    "magnitude_log": 6.907755,
+    "carrier_template": "The distance was {D}.",
+    "sentence": "The distance was 1 km.",
+    "domain": "spatial"
+  },
+  {
+    "magnitude_text": "1 km",
+    "magnitude_metres": 1000,
+    "magnitude_log": 6.907755,
+    "carrier_template": "They travelled {D} to get there.",
+    "sentence": "They travelled 1 km to get there.",
+    "domain": "spatial"
+  },
+  {
+    "magnitude_text": "1 km",
+    "magnitude_metres": 1000,
+    "magnitude_log": 6.907755,
+    "carrier_template": "It was {D} away.",
+    "sentence": "It was 1 km away.",
+    "domain": "spatial"
+  },
+  {
+    "magnitude_text": "1 km",
+    "magnitude_metres": 1000,
+    "magnitude_log": 6.907755,
+    "carrier_template": "The gap measured {D}.",
+    "sentence": "The gap measured 1 km.",
+    "domain": "spatial"
+  },
+  {
+    "magnitude_text": "1 km",
+    "magnitude_metres": 1000,
+    "magnitude_log": 6.907755,
+    "carrier_template": "The total route covered {D}.",
+    "sentence": "The total route covered 1 km.",
+    "domain": "spatial"
+  },
+  {
+    "magnitude_text": "5 km",
+    "magnitude_metres": 5000,
+    "magnitude_log": 8.517193,
+    "carrier_template": "The distance was {D}.",
+    "sentence": "The distance was 5 km.",
+    "domain": "spatial"
+  },
+  {
+    "magnitude_text": "5 km",
+    "magnitude_metres": 5000,
+    "magnitude_log": 8.517193,
+    "carrier_template": "They travelled {D} to get there.",
+    "sentence": "They travelled 5 km to get there.",
+    "domain": "spatial"
+  },
+  {
+    "magnitude_text": "5 km",
+    "magnitude_metres": 5000,
+    "magnitude_log": 8.517193,
+    "carrier_template": "It was {D} away.",
+    "sentence": "It was 5 km away.",
+    "domain": "spatial"
+  },
+  {
+    "magnitude_text": "5 km",
+    "magnitude_metres": 5000,
+    "magnitude_log": 8.517193,
+    "carrier_template": "The gap measured {D}.",
+    "sentence": "The gap measured 5 km.",
+    "domain": "spatial"
+  },
+  {
+    "magnitude_text": "5 km",
+    "magnitude_metres": 5000,
+    "magnitude_log": 8.517193,
+    "carrier_template": "The total route covered {D}.",
+    "sentence": "The total route covered 5 km.",
+    "domain": "spatial"
+  },
+  {
+    "magnitude_text": "10 km",
+    "magnitude_metres": 10000,
+    "magnitude_log": 9.21034,
+    "carrier_template": "The distance was {D}.",
+    "sentence": "The distance was 10 km.",
+    "domain": "spatial"
+  },
+  {
+    "magnitude_text": "10 km",
+    "magnitude_metres": 10000,
+    "magnitude_log": 9.21034,
+    "carrier_template": "They travelled {D} to get there.",
+    "sentence": "They travelled 10 km to get there.",
+    "domain": "spatial"
+  },
+  {
+    "magnitude_text": "10 km",
+    "magnitude_metres": 10000,
+    "magnitude_log": 9.21034,
+    "carrier_template": "It was {D} away.",
+    "sentence": "It was 10 km away.",
+    "domain": "spatial"
+  },
+  {
+    "magnitude_text": "10 km",
+    "magnitude_metres": 10000,
+    "magnitude_log": 9.21034,
+    "carrier_template": "The gap measured {D}.",
+    "sentence": "The gap measured 10 km.",
+    "domain": "spatial"
+  },
+  {
+    "magnitude_text": "10 km",
+    "magnitude_metres": 10000,
+    "magnitude_log": 9.21034,
+    "carrier_template": "The total route covered {D}.",
+    "sentence": "The total route covered 10 km.",
+    "domain": "spatial"
+  },
+  {
+    "magnitude_text": "50 km",
+    "magnitude_metres": 50000,
+    "magnitude_log": 10.819778,
+    "carrier_template": "The distance was {D}.",
+    "sentence": "The distance was 50 km.",
+    "domain": "spatial"
+  },
+  {
+    "magnitude_text": "50 km",
+    "magnitude_metres": 50000,
+    "magnitude_log": 10.819778,
+    "carrier_template": "They travelled {D} to get there.",
+    "sentence": "They travelled 50 km to get there.",
+    "domain": "spatial"
+  },
+  {
+    "magnitude_text": "50 km",
+    "magnitude_metres": 50000,
+    "magnitude_log": 10.819778,
+    "carrier_template": "It was {D} away.",
+    "sentence": "It was 50 km away.",
+    "domain": "spatial"
+  },
+  {
+    "magnitude_text": "50 km",
+    "magnitude_metres": 50000,
+    "magnitude_log": 10.819778,
+    "carrier_template": "The gap measured {D}.",
+    "sentence": "The gap measured 50 km.",
+    "domain": "spatial"
+  },
+  {
+    "magnitude_text": "50 km",
+    "magnitude_metres": 50000,
+    "magnitude_log": 10.819778,
+    "carrier_template": "The total route covered {D}.",
+    "sentence": "The total route covered 50 km.",
+    "domain": "spatial"
+  },
+  {
+    "magnitude_text": "100 km",
+    "magnitude_metres": 100000,
+    "magnitude_log": 11.512925,
+    "carrier_template": "The distance was {D}.",
+    "sentence": "The distance was 100 km.",
+    "domain": "spatial"
+  },
+  {
+    "magnitude_text": "100 km",
+    "magnitude_metres": 100000,
+    "magnitude_log": 11.512925,
+    "carrier_template": "They travelled {D} to get there.",
+    "sentence": "They travelled 100 km to get there.",
+    "domain": "spatial"
+  },
+  {
+    "magnitude_text": "100 km",
+    "magnitude_metres": 100000,
+    "magnitude_log": 11.512925,
+    "carrier_template": "It was {D} away.",
+    "sentence": "It was 100 km away.",
+    "domain": "spatial"
+  },
+  {
+    "magnitude_text": "100 km",
+    "magnitude_metres": 100000,
+    "magnitude_log": 11.512925,
+    "carrier_template": "The gap measured {D}.",
+    "sentence": "The gap measured 100 km.",
+    "domain": "spatial"
+  },
+  {
+    "magnitude_text": "100 km",
+    "magnitude_metres": 100000,
+    "magnitude_log": 11.512925,
+    "carrier_template": "The total route covered {D}.",
+    "sentence": "The total route covered 100 km.",
+    "domain": "spatial"
+  },
+  {
+    "magnitude_text": "500 km",
+    "magnitude_metres": 500000,
+    "magnitude_log": 13.122363,
+    "carrier_template": "The distance was {D}.",
+    "sentence": "The distance was 500 km.",
+    "domain": "spatial"
+  },
+  {
+    "magnitude_text": "500 km",
+    "magnitude_metres": 500000,
+    "magnitude_log": 13.122363,
+    "carrier_template": "They travelled {D} to get there.",
+    "sentence": "They travelled 500 km to get there.",
+    "domain": "spatial"
+  },
+  {
+    "magnitude_text": "500 km",
+    "magnitude_metres": 500000,
+    "magnitude_log": 13.122363,
+    "carrier_template": "It was {D} away.",
+    "sentence": "It was 500 km away.",
+    "domain": "spatial"
+  },
+  {
+    "magnitude_text": "500 km",
+    "magnitude_metres": 500000,
+    "magnitude_log": 13.122363,
+    "carrier_template": "The gap measured {D}.",
+    "sentence": "The gap measured 500 km.",
+    "domain": "spatial"
+  },
+  {
+    "magnitude_text": "500 km",
+    "magnitude_metres": 500000,
+    "magnitude_log": 13.122363,
+    "carrier_template": "The total route covered {D}.",
+    "sentence": "The total route covered 500 km.",
+    "domain": "spatial"
+  },
+  {
+    "magnitude_text": "1000 km",
+    "magnitude_metres": 1000000,
+    "magnitude_log": 13.815511,
+    "carrier_template": "The distance was {D}.",
+    "sentence": "The distance was 1000 km.",
+    "domain": "spatial"
+  },
+  {
+    "magnitude_text": "1000 km",
+    "magnitude_metres": 1000000,
+    "magnitude_log": 13.815511,
+    "carrier_template": "They travelled {D} to get there.",
+    "sentence": "They travelled 1000 km to get there.",
+    "domain": "spatial"
+  },
+  {
+    "magnitude_text": "1000 km",
+    "magnitude_metres": 1000000,
+    "magnitude_log": 13.815511,
+    "carrier_template": "It was {D} away.",
+    "sentence": "It was 1000 km away.",
+    "domain": "spatial"
+  },
+  {
+    "magnitude_text": "1000 km",
+    "magnitude_metres": 1000000,
+    "magnitude_log": 13.815511,
+    "carrier_template": "The gap measured {D}.",
+    "sentence": "The gap measured 1000 km.",
+    "domain": "spatial"
+  },
+  {
+    "magnitude_text": "1000 km",
+    "magnitude_metres": 1000000,
+    "magnitude_log": 13.815511,
+    "carrier_template": "The total route covered {D}.",
+    "sentence": "The total route covered 1000 km.",
+    "domain": "spatial"
+  }
+]

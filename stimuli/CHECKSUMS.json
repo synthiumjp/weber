@@ -1,0 +1,87 @@
+{
+  "comparison_numerical.json": {
+    "md5": "1fd6e9c07ec63febe2e578591505cb8c",
+    "sha256": "5673a9984c19a7b33030a4706ec5bff20d35de09433318682d3007c53163cf09",
+    "path": "stimuli\\comparison_numerical.json"
+  },
+  "comparison_spatial.json": {
+    "md5": "20d9680c2a09f9a4b330d5e7adc73799",
+    "sha256": "0e8567353fce231e9e1e24b965a126535631ccead3db3f86190a3e587bddc66b",
+    "path": "stimuli\\comparison_spatial.json"
+  },
+  "comparison_temporal.json": {
+    "md5": "a11200ba08411662e116492ad33db710",
+    "sha256": "7fdbbe4237c96ab22e53c0a606b6dba6870bf9303530d40ce1bbd7a05aacc6c0",
+    "path": "stimuli\\comparison_temporal.json"
+  },
+  "digit_boundary_pairs.json": {
+    "md5": "730477cda7292712add804900c48de1d",
+    "sha256": "23e545fb5a5fab2619aa0861270e049b8452347debcf3840c6b79f7d23b52d24",
+    "path": "stimuli\\digit_boundary_pairs.json"
+  },
+  "metadata.json": {
+    "md5": "df5bbaab3e55e8f876da4df9db31003f",
+    "sha256": "2a94c5f8a0436eea8ffc62305e2c1e12d1874db27a1f63c6255caf1e4cc51621",
+    "path": "stimuli\\metadata.json"
+  },
+  "paradigm_d_prompts.json": {
+    "md5": "1425ba8afc07250ffbc7588baa8c3757",
+    "sha256": "3085f844adc4c5f44005ed0161bf327259bae3da568e8dce77b591c605ba90ea",
+    "path": "stimuli\\paradigm_d_prompts.json"
+  },
+  "probing_numerical.json": {
+    "md5": "5f59067289175c26e0bff9455b3e9d34",
+    "sha256": "b701728ed90897a66357f1391c11a5c9a3002a6ed8aa5f3d7b3ac8837810ef01",
+    "path": "stimuli\\probing_numerical.json"
+  },
+  "probing_spatial.json": {
+    "md5": "2315c02b733a38feaa4bcc3c3df64205",
+    "sha256": "37314182b62642e6e13d8a3b04b4a94bbee5c7aecfc49a56c7468f9483dd39af",
+    "path": "stimuli\\probing_spatial.json"
+  },
+  "probing_temporal.json": {
+    "md5": "7378d6a2dd6c6e4b272058031e20f386",
+    "sha256": "967fa4970e540c917d450bf6edf4dbd496cccba573699415de33594f1fc08802",
+    "path": "stimuli\\probing_temporal.json"
+  },
+  "prompts_b1.json": {
+    "md5": "487b44d6c55f1d6a5163d160bb910bf1",
+    "sha256": "26193a26871f5873e8dfe38a1d3a9f8627f2a9ac4fb0b97fa2a4035107e4d213",
+    "path": "stimuli\\prompts_b1.json"
+  },
+  "prompts_b2.json": {
+    "md5": "91e285518c36c5984b728d382d9ebf4c",
+    "sha256": "4ce70a7d3a98f592a12a6fc8e4931f8002f45686f884121c11dfd8cdbc782a2a",
+    "path": "stimuli\\prompts_b2.json"
+  },
+  "prompts_b3.json": {
+    "md5": "aa0db65bdb7e0cb86cb7e10e05e1701f",
+    "sha256": "ad53bb599ff97dbe7e2a3fe8f9b7c73efbcd46e00d5fce395d8a8e517febc0e9",
+    "path": "stimuli\\prompts_b3.json"
+  },
+  "prompts_symbolic_control.json": {
+    "md5": "d07ed7fb0ad22313d04f9f9df7ebac94",
+    "sha256": "bb1a9a36abb2651719ea14eea0e23749575c62827fa7cbadfd2b4377e99bcff2",
+    "path": "stimuli\\prompts_symbolic_control.json"
+  },
+  "random_directions_verification.json": {
+    "md5": "daa67faa15d22bba4f52acdd32cb10ae",
+    "sha256": "449cafdc3cb89a338a551e2ffee951d595bfaba53af707bbde78a2fdf930ea06",
+    "path": "stimuli\\random_directions_verification.json"
+  },
+  "shuffled_magnitudes.json": {
+    "md5": "e94eff611c0a4348713991096c5bb25c",
+    "sha256": "bf2f62b34be649598d402e26f12bca6653e05d40e1fe9dec3a0fd2cb6ad6252c",
+    "path": "stimuli\\shuffled_magnitudes.json"
+  },
+  "unit_boundary_check.json": {
+    "md5": "1dfe7b821857bcceeba43d0ba7361471",
+    "sha256": "356e966dfd769e2fbb775edd552150100b7ca7637b79c2d31e89ca1494002ee0",
+    "path": "stimuli\\unit_boundary_check.json"
+  },
+  "word_form_probing.json": {
+    "md5": "91732a4eec903d89ba2174ceff35b6d1",
+    "sha256": "28454b5adf0f1931e2c42f85de806573ead72fe58eb5d01ee81d80b84667bbfa",
+    "path": "stimuli\\word_form_probing.json"
+  }
+}

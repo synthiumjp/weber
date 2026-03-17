@@ -1,0 +1,442 @@
+[
+  {
+    "type": "cross_digit",
+    "boundary": "1to2",
+    "a": 8,
+    "b": 12,
+    "ratio": 1.5,
+    "digits_a": 1,
+    "digits_b": 2
+  },
+  {
+    "type": "within_digit",
+    "boundary": "1to2",
+    "a": 16,
+    "b": 24,
+    "ratio": 1.5,
+    "digits_a": 2,
+    "digits_b": 2,
+    "matched_to_cross": [
+      8,
+      12
+    ]
+  },
+  {
+    "type": "cross_digit",
+    "boundary": "1to2",
+    "a": 9,
+    "b": 11,
+    "ratio": 1.2222,
+    "digits_a": 1,
+    "digits_b": 2
+  },
+  {
+    "type": "within_digit",
+    "boundary": "1to2",
+    "a": 18,
+    "b": 22,
+    "ratio": 1.2222,
+    "digits_a": 2,
+    "digits_b": 2,
+    "matched_to_cross": [
+      9,
+      11
+    ]
+  },
+  {
+    "type": "cross_digit",
+    "boundary": "1to2",
+    "a": 7,
+    "b": 13,
+    "ratio": 1.8571,
+    "digits_a": 1,
+    "digits_b": 2
+  },
+  {
+    "type": "within_digit",
+    "boundary": "1to2",
+    "a": 14,
+    "b": 26,
+    "ratio": 1.8571,
+    "digits_a": 2,
+    "digits_b": 2,
+    "matched_to_cross": [
+      7,
+      13
+    ]
+  },
+  {
+    "type": "cross_digit",
+    "boundary": "1to2",
+    "a": 8,
+    "b": 11,
+    "ratio": 1.375,
+    "digits_a": 1,
+    "digits_b": 2
+  },
+  {
+    "type": "within_digit",
+    "boundary": "1to2",
+    "a": 16,
+    "b": 22,
+    "ratio": 1.375,
+    "digits_a": 2,
+    "digits_b": 2,
+    "matched_to_cross": [
+      8,
+      11
+    ]
+  },
+  {
+    "type": "cross_digit",
+    "boundary": "1to2",
+    "a": 9,
+    "b": 12,
+    "ratio": 1.3333,
+    "digits_a": 1,
+    "digits_b": 2
+  },
+  {
+    "type": "within_digit",
+    "boundary": "1to2",
+    "a": 18,
+    "b": 24,
+    "ratio": 1.3333,
+    "digits_a": 2,
+    "digits_b": 2,
+    "matched_to_cross": [
+      9,
+      12
+    ]
+  },
+  {
+    "type": "cross_digit",
+    "boundary": "1to2",
+    "a": 7,
+    "b": 11,
+    "ratio": 1.5714,
+    "digits_a": 1,
+    "digits_b": 2
+  },
+  {
+    "type": "within_digit",
+    "boundary": "1to2",
+    "a": 14,
+    "b": 22,
+    "ratio": 1.5714,
+    "digits_a": 2,
+    "digits_b": 2,
+    "matched_to_cross": [
+      7,
+      11
+    ]
+  },
+  {
+    "type": "cross_digit",
+    "boundary": "1to2",
+    "a": 8,
+    "b": 13,
+    "ratio": 1.625,
+    "digits_a": 1,
+    "digits_b": 2
+  },
+  {
+    "type": "within_digit",
+    "boundary": "1to2",
+    "a": 16,
+    "b": 26,
+    "ratio": 1.625,
+    "digits_a": 2,
+    "digits_b": 2,
+    "matched_to_cross": [
+      8,
+      13
+    ]
+  },
+  {
+    "type": "cross_digit",
+    "boundary": "1to2",
+    "a": 9,
+    "b": 13,
+    "ratio": 1.4444,
+    "digits_a": 1,
+    "digits_b": 2
+  },
+  {
+    "type": "within_digit",
+    "boundary": "1to2",
+    "a": 18,
+    "b": 26,
+    "ratio": 1.4444,
+    "digits_a": 2,
+    "digits_b": 2,
+    "matched_to_cross": [
+      9,
+      13
+    ]
+  },
+  {
+    "type": "cross_digit",
+    "boundary": "1to2",
+    "a": 7,
+    "b": 12,
+    "ratio": 1.7143,
+    "digits_a": 1,
+    "digits_b": 2
+  },
+  {
+    "type": "within_digit",
+    "boundary": "1to2",
+    "a": 14,
+    "b": 24,
+    "ratio": 1.7143,
+    "digits_a": 2,
+    "digits_b": 2,
+    "matched_to_cross": [
+      7,
+      12
+    ]
+  },
+  {
+    "type": "cross_digit",
+    "boundary": "1to2",
+    "a": 8,
+    "b": 10,
+    "ratio": 1.25,
+    "digits_a": 1,
+    "digits_b": 2
+  },
+  {
+    "type": "within_digit",
+    "boundary": "1to2",
+    "a": 16,
+    "b": 20,
+    "ratio": 1.25,
+    "digits_a": 2,
+    "digits_b": 2,
+    "matched_to_cross": [
+      8,
+      10
+    ]
+  },
+  {
+    "type": "cross_digit",
+    "boundary": "2to3",
+    "a": 90,
+    "b": 110,
+    "ratio": 1.2222,
+    "digits_a": 2,
+    "digits_b": 3
+  },
+  {
+    "type": "within_digit",
+    "boundary": "2to3",
+    "a": 54,
+    "b": 66,
+    "ratio": 1.2222,
+    "digits_a": 2,
+    "digits_b": 2,
+    "matched_to_cross": [
+      90,
+      110
+    ]
+  },
+  {
+    "type": "cross_digit",
+    "boundary": "2to3",
+    "a": 95,
+    "b": 105,
+    "ratio": 1.1053,
+    "digits_a": 2,
+    "digits_b": 3
+  },
+  {
+    "type": "within_digit",
+    "boundary": "2to3",
+    "a": 57,
+    "b": 63,
+    "ratio": 1.1053,
+    "digits_a": 2,
+    "digits_b": 2,
+    "matched_to_cross": [
+      95,
+      105
+    ]
+  },
+  {
+    "type": "cross_digit",
+    "boundary": "2to3",
+    "a": 92,
+    "b": 108,
+    "ratio": 1.1739,
+    "digits_a": 2,
+    "digits_b": 3
+  },
+  {
+    "type": "within_digit",
+    "boundary": "2to3",
+    "a": 55,
+    "b": 65,
+    "ratio": 1.1818,
+    "digits_a": 2,
+    "digits_b": 2,
+    "matched_to_cross": [
+      92,
+      108
+    ]
+  },
+  {
+    "type": "cross_digit",
+    "boundary": "2to3",
+    "a": 88,
+    "b": 112,
+    "ratio": 1.2727,
+    "digits_a": 2,
+    "digits_b": 3
+  },
+  {
+    "type": "within_digit",
+    "boundary": "2to3",
+    "a": 53,
+    "b": 67,
+    "ratio": 1.2642,
+    "digits_a": 2,
+    "digits_b": 2,
+    "matched_to_cross": [
+      88,
+      112
+    ]
+  },
+  {
+    "type": "cross_digit",
+    "boundary": "2to3",
+    "a": 98,
+    "b": 102,
+    "ratio": 1.0408,
+    "digits_a": 2,
+    "digits_b": 3
+  },
+  {
+    "type": "within_digit",
+    "boundary": "2to3",
+    "a": 59,
+    "b": 61,
+    "ratio": 1.0339,
+    "digits_a": 2,
+    "digits_b": 2,
+    "matched_to_cross": [
+      98,
+      102
+    ]
+  },
+  {
+    "type": "cross_digit",
+    "boundary": "2to3",
+    "a": 85,
+    "b": 115,
+    "ratio": 1.3529,
+    "digits_a": 2,
+    "digits_b": 3
+  },
+  {
+    "type": "within_digit",
+    "boundary": "2to3",
+    "a": 51,
+    "b": 69,
+    "ratio": 1.3529,
+    "digits_a": 2,
+    "digits_b": 2,
+    "matched_to_cross": [
+      85,
+      115
+    ]
+  },
+  {
+    "type": "cross_digit",
+    "boundary": "2to3",
+    "a": 91,
+    "b": 109,
+    "ratio": 1.1978,
+    "digits_a": 2,
+    "digits_b": 3
+  },
+  {
+    "type": "within_digit",
+    "boundary": "2to3",
+    "a": 55,
+    "b": 66,
+    "ratio": 1.2,
+    "digits_a": 2,
+    "digits_b": 2,
+    "matched_to_cross": [
+      91,
+      109
+    ]
+  },
+  {
+    "type": "cross_digit",
+    "boundary": "2to3",
+    "a": 93,
+    "b": 107,
+    "ratio": 1.1505,
+    "digits_a": 2,
+    "digits_b": 3
+  },
+  {
+    "type": "within_digit",
+    "boundary": "2to3",
+    "a": 56,
+    "b": 64,
+    "ratio": 1.1429,
+    "digits_a": 2,
+    "digits_b": 2,
+    "matched_to_cross": [
+      93,
+      107
+    ]
+  },
+  {
+    "type": "cross_digit",
+    "boundary": "2to3",
+    "a": 96,
+    "b": 104,
+    "ratio": 1.0833,
+    "digits_a": 2,
+    "digits_b": 3
+  },
+  {
+    "type": "within_digit",
+    "boundary": "2to3",
+    "a": 58,
+    "b": 63,
+    "ratio": 1.0862,
+    "digits_a": 2,
+    "digits_b": 2,
+    "matched_to_cross": [
+      96,
+      104
+    ]
+  },
+  {
+    "type": "cross_digit",
+    "boundary": "2to3",
+    "a": 99,
+    "b": 101,
+    "ratio": 1.0202,
+    "digits_a": 2,
+    "digits_b": 3
+  },
+  {
+    "type": "within_digit",
+    "boundary": "2to3",
+    "a": 59,
+    "b": 60,
+    "ratio": 1.0169,
+    "digits_a": 2,
+    "digits_b": 2,
+    "matched_to_cross": [
+      99,
+      101
+    ]
+  }
+]

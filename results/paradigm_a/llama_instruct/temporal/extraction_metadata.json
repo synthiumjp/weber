@@ -1,0 +1,719 @@
+{
+  "model_key": "llama_instruct",
+  "domain_key": "temporal",
+  "magnitudes_raw": [
+    "1 second",
+    "2 seconds",
+    "5 seconds",
+    "10 seconds",
+    "30 seconds",
+    "1 minute",
+    "2 minutes",
+    "5 minutes",
+    "10 minutes",
+    "30 minutes",
+    "1 hour",
+    "2 hours",
+    "5 hours",
+    "12 hours",
+    "1 day",
+    "3 days",
+    "1 week",
+    "1 month",
+    "1 year"
+  ],
+  "magnitudes_numeric": [
+    1.0,
+    2.0,
+    5.0,
+    10.0,
+    30.0,
+    60.0,
+    120.0,
+    300.0,
+    600.0,
+    1800.0,
+    3600.0,
+    7200.0,
+    18000.0,
+    43200.0,
+    86400.0,
+    259200.0,
+    604800.0,
+    2592000.0,
+    31536000.0
+  ],
+  "n_excluded": 0,
+  "centroid_shape": [
+    19,
+    33,
+    4096
+  ],
+  "extraction_log": [
+    {
+      "magnitude": "1 second",
+      "carrier_idx": 0,
+      "sentence": "The event lasted 1 second.",
+      "elapsed_s": 1.869,
+      "status": "ok"
+    },
+    {
+      "magnitude": "1 second",
+      "carrier_idx": 1,
+      "sentence": "It took 1 second to complete.",
+      "elapsed_s": 0.1805,
+      "status": "ok"
+    },
+    {
+      "magnitude": "1 second",
+      "carrier_idx": 2,
+      "sentence": "The delay was 1 second.",
+      "elapsed_s": 0.18,
+      "status": "ok"
+    },
+    {
+      "magnitude": "1 second",
+      "carrier_idx": 3,
+      "sentence": "After 1 second had passed, the process finished.",
+      "elapsed_s": 0.1845,
+      "status": "ok"
+    },
+    {
+      "magnitude": "1 second",
+      "carrier_idx": 4,
+      "sentence": "The total duration was 1 second.",
+      "elapsed_s": 0.184,
+      "status": "ok"
+    },
+    {
+      "magnitude": "2 seconds",
+      "carrier_idx": 0,
+      "sentence": "The event lasted 2 seconds.",
+      "elapsed_s": 0.183,
+      "status": "ok"
+    },
+    {
+      "magnitude": "2 seconds",
+      "carrier_idx": 1,
+      "sentence": "It took 2 seconds to complete.",
+      "elapsed_s": 0.206,
+      "status": "ok"
+    },
+    {
+      "magnitude": "2 seconds",
+      "carrier_idx": 2,
+      "sentence": "The delay was 2 seconds.",
+      "elapsed_s": 0.184,
+      "status": "ok"
+    },
+    {
+      "magnitude": "2 seconds",
+      "carrier_idx": 3,
+      "sentence": "After 2 seconds had passed, the process finished.",
+      "elapsed_s": 0.185,
+      "status": "ok"
+    },
+    {
+      "magnitude": "2 seconds",
+      "carrier_idx": 4,
+      "sentence": "The total duration was 2 seconds.",
+      "elapsed_s": 0.1835,
+      "status": "ok"
+    },
+    {
+      "magnitude": "5 seconds",
+      "carrier_idx": 0,
+      "sentence": "The event lasted 5 seconds.",
+      "elapsed_s": 0.1815,
+      "status": "ok"
+    },
+    {
+      "magnitude": "5 seconds",
+      "carrier_idx": 1,
+      "sentence": "It took 5 seconds to complete.",
+      "elapsed_s": 0.183,
+      "status": "ok"
+    },
+    {
+      "magnitude": "5 seconds",
+      "carrier_idx": 2,
+      "sentence": "The delay was 5 seconds.",
+      "elapsed_s": 0.183,
+      "status": "ok"
+    },
+    {
+      "magnitude": "5 seconds",
+      "carrier_idx": 3,
+      "sentence": "After 5 seconds had passed, the process finished.",
+      "elapsed_s": 0.1846,
+      "status": "ok"
+    },
+    {
+      "magnitude": "5 seconds",
+      "carrier_idx": 4,
+      "sentence": "The total duration was 5 seconds.",
+      "elapsed_s": 0.1815,
+      "status": "ok"
+    },
+    {
+      "magnitude": "10 seconds",
+      "carrier_idx": 0,
+      "sentence": "The event lasted 10 seconds.",
+      "elapsed_s": 0.1806,
+      "status": "ok"
+    },
+    {
+      "magnitude": "10 seconds",
+      "carrier_idx": 1,
+      "sentence": "It took 10 seconds to complete.",
+      "elapsed_s": 0.1825,
+      "status": "ok"
+    },
+    {
+      "magnitude": "10 seconds",
+      "carrier_idx": 2,
+      "sentence": "The delay was 10 seconds.",
+      "elapsed_s": 0.1861,
+      "status": "ok"
+    },
+    {
+      "magnitude": "10 seconds",
+      "carrier_idx": 3,
+      "sentence": "After 10 seconds had passed, the process finished.",
+      "elapsed_s": 0.1825,
+      "status": "ok"
+    },
+    {
+      "magnitude": "10 seconds",
+      "carrier_idx": 4,
+      "sentence": "The total duration was 10 seconds.",
+      "elapsed_s": 0.181,
+      "status": "ok"
+    },
+    {
+      "magnitude": "30 seconds",
+      "carrier_idx": 0,
+      "sentence": "The event lasted 30 seconds.",
+      "elapsed_s": 0.1815,
+      "status": "ok"
+    },
+    {
+      "magnitude": "30 seconds",
+      "carrier_idx": 1,
+      "sentence": "It took 30 seconds to complete.",
+      "elapsed_s": 0.1807,
+      "status": "ok"
+    },
+    {
+      "magnitude": "30 seconds",
+      "carrier_idx": 2,
+      "sentence": "The delay was 30 seconds.",
+      "elapsed_s": 0.183,
+      "status": "ok"
+    },
+    {
+      "magnitude": "30 seconds",
+      "carrier_idx": 3,
+      "sentence": "After 30 seconds had passed, the process finished.",
+      "elapsed_s": 0.1845,
+      "status": "ok"
+    },
+    {
+      "magnitude": "30 seconds",
+      "carrier_idx": 4,
+      "sentence": "The total duration was 30 seconds.",
+      "elapsed_s": 0.1811,
+      "status": "ok"
+    },
+    {
+      "magnitude": "1 minute",
+      "carrier_idx": 0,
+      "sentence": "The event lasted 1 minute.",
+      "elapsed_s": 0.182,
+      "status": "ok"
+    },
+    {
+      "magnitude": "1 minute",
+      "carrier_idx": 1,
+      "sentence": "It took 1 minute to complete.",
+      "elapsed_s": 0.18,
+      "status": "ok"
+    },
+    {
+      "magnitude": "1 minute",
+      "carrier_idx": 2,
+      "sentence": "The delay was 1 minute.",
+      "elapsed_s": 0.1865,
+      "status": "ok"
+    },
+    {
+      "magnitude": "1 minute",
+      "carrier_idx": 3,
+      "sentence": "After 1 minute had passed, the process finished.",
+      "elapsed_s": 0.1875,
+      "status": "ok"
+    },
+    {
+      "magnitude": "1 minute",
+      "carrier_idx": 4,
+      "sentence": "The total duration was 1 minute.",
+      "elapsed_s": 0.1805,
+      "status": "ok"
+    },
+    {
+      "magnitude": "2 minutes",
+      "carrier_idx": 0,
+      "sentence": "The event lasted 2 minutes.",
+      "elapsed_s": 0.1796,
+      "status": "ok"
+    },
+    {
+      "magnitude": "2 minutes",
+      "carrier_idx": 1,
+      "sentence": "It took 2 minutes to complete.",
+      "elapsed_s": 0.183,
+      "status": "ok"
+    },
+    {
+      "magnitude": "2 minutes",
+      "carrier_idx": 2,
+      "sentence": "The delay was 2 minutes.",
+      "elapsed_s": 0.182,
+      "status": "ok"
+    },
+    {
+      "magnitude": "2 minutes",
+      "carrier_idx": 3,
+      "sentence": "After 2 minutes had passed, the process finished.",
+      "elapsed_s": 0.2045,
+      "status": "ok"
+    },
+    {
+      "magnitude": "2 minutes",
+      "carrier_idx": 4,
+      "sentence": "The total duration was 2 minutes.",
+      "elapsed_s": 0.1841,
+      "status": "ok"
+    },
+    {
+      "magnitude": "5 minutes",
+      "carrier_idx": 0,
+      "sentence": "The event lasted 5 minutes.",
+      "elapsed_s": 0.1806,
+      "status": "ok"
+    },
+    {
+      "magnitude": "5 minutes",
+      "carrier_idx": 1,
+      "sentence": "It took 5 minutes to complete.",
+      "elapsed_s": 0.1845,
+      "status": "ok"
+    },
+    {
+      "magnitude": "5 minutes",
+      "carrier_idx": 2,
+      "sentence": "The delay was 5 minutes.",
+      "elapsed_s": 0.186,
+      "status": "ok"
+    },
+    {
+      "magnitude": "5 minutes",
+      "carrier_idx": 3,
+      "sentence": "After 5 minutes had passed, the process finished.",
+      "elapsed_s": 0.185,
+      "status": "ok"
+    },
+    {
+      "magnitude": "5 minutes",
+      "carrier_idx": 4,
+      "sentence": "The total duration was 5 minutes.",
+      "elapsed_s": 0.1801,
+      "status": "ok"
+    },
+    {
+      "magnitude": "10 minutes",
+      "carrier_idx": 0,
+      "sentence": "The event lasted 10 minutes.",
+      "elapsed_s": 0.1825,
+      "status": "ok"
+    },
+    {
+      "magnitude": "10 minutes",
+      "carrier_idx": 1,
+      "sentence": "It took 10 minutes to complete.",
+      "elapsed_s": 0.1826,
+      "status": "ok"
+    },
+    {
+      "magnitude": "10 minutes",
+      "carrier_idx": 2,
+      "sentence": "The delay was 10 minutes.",
+      "elapsed_s": 0.187,
+      "status": "ok"
+    },
+    {
+      "magnitude": "10 minutes",
+      "carrier_idx": 3,
+      "sentence": "After 10 minutes had passed, the process finished.",
+      "elapsed_s": 0.189,
+      "status": "ok"
+    },
+    {
+      "magnitude": "10 minutes",
+      "carrier_idx": 4,
+      "sentence": "The total duration was 10 minutes.",
+      "elapsed_s": 0.1836,
+      "status": "ok"
+    },
+    {
+      "magnitude": "30 minutes",
+      "carrier_idx": 0,
+      "sentence": "The event lasted 30 minutes.",
+      "elapsed_s": 0.1875,
+      "status": "ok"
+    },
+    {
+      "magnitude": "30 minutes",
+      "carrier_idx": 1,
+      "sentence": "It took 30 minutes to complete.",
+      "elapsed_s": 0.181,
+      "status": "ok"
+    },
+    {
+      "magnitude": "30 minutes",
+      "carrier_idx": 2,
+      "sentence": "The delay was 30 minutes.",
+      "elapsed_s": 0.1836,
+      "status": "ok"
+    },
+    {
+      "magnitude": "30 minutes",
+      "carrier_idx": 3,
+      "sentence": "After 30 minutes had passed, the process finished.",
+      "elapsed_s": 0.188,
+      "status": "ok"
+    },
+    {
+      "magnitude": "30 minutes",
+      "carrier_idx": 4,
+      "sentence": "The total duration was 30 minutes.",
+      "elapsed_s": 0.1875,
+      "status": "ok"
+    },
+    {
+      "magnitude": "1 hour",
+      "carrier_idx": 0,
+      "sentence": "The event lasted 1 hour.",
+      "elapsed_s": 0.186,
+      "status": "ok"
+    },
+    {
+      "magnitude": "1 hour",
+      "carrier_idx": 1,
+      "sentence": "It took 1 hour to complete.",
+      "elapsed_s": 0.1795,
+      "status": "ok"
+    },
+    {
+      "magnitude": "1 hour",
+      "carrier_idx": 2,
+      "sentence": "The delay was 1 hour.",
+      "elapsed_s": 0.1895,
+      "status": "ok"
+    },
+    {
+      "magnitude": "1 hour",
+      "carrier_idx": 3,
+      "sentence": "After 1 hour had passed, the process finished.",
+      "elapsed_s": 0.187,
+      "status": "ok"
+    },
+    {
+      "magnitude": "1 hour",
+      "carrier_idx": 4,
+      "sentence": "The total duration was 1 hour.",
+      "elapsed_s": 0.182,
+      "status": "ok"
+    },
+    {
+      "magnitude": "2 hours",
+      "carrier_idx": 0,
+      "sentence": "The event lasted 2 hours.",
+      "elapsed_s": 0.1816,
+      "status": "ok"
+    },
+    {
+      "magnitude": "2 hours",
+      "carrier_idx": 1,
+      "sentence": "It took 2 hours to complete.",
+      "elapsed_s": 0.1805,
+      "status": "ok"
+    },
+    {
+      "magnitude": "2 hours",
+      "carrier_idx": 2,
+      "sentence": "The delay was 2 hours.",
+      "elapsed_s": 0.182,
+      "status": "ok"
+    },
+    {
+      "magnitude": "2 hours",
+      "carrier_idx": 3,
+      "sentence": "After 2 hours had passed, the process finished.",
+      "elapsed_s": 0.1845,
+      "status": "ok"
+    },
+    {
+      "magnitude": "2 hours",
+      "carrier_idx": 4,
+      "sentence": "The total duration was 2 hours.",
+      "elapsed_s": 0.1841,
+      "status": "ok"
+    },
+    {
+      "magnitude": "5 hours",
+      "carrier_idx": 0,
+      "sentence": "The event lasted 5 hours.",
+      "elapsed_s": 0.2025,
+      "status": "ok"
+    },
+    {
+      "magnitude": "5 hours",
+      "carrier_idx": 1,
+      "sentence": "It took 5 hours to complete.",
+      "elapsed_s": 0.1835,
+      "status": "ok"
+    },
+    {
+      "magnitude": "5 hours",
+      "carrier_idx": 2,
+      "sentence": "The delay was 5 hours.",
+      "elapsed_s": 0.1821,
+      "status": "ok"
+    },
+    {
+      "magnitude": "5 hours",
+      "carrier_idx": 3,
+      "sentence": "After 5 hours had passed, the process finished.",
+      "elapsed_s": 0.1855,
+      "status": "ok"
+    },
+    {
+      "magnitude": "5 hours",
+      "carrier_idx": 4,
+      "sentence": "The total duration was 5 hours.",
+      "elapsed_s": 0.1825,
+      "status": "ok"
+    },
+    {
+      "magnitude": "12 hours",
+      "carrier_idx": 0,
+      "sentence": "The event lasted 12 hours.",
+      "elapsed_s": 0.1805,
+      "status": "ok"
+    },
+    {
+      "magnitude": "12 hours",
+      "carrier_idx": 1,
+      "sentence": "It took 12 hours to complete.",
+      "elapsed_s": 0.1836,
+      "status": "ok"
+    },
+    {
+      "magnitude": "12 hours",
+      "carrier_idx": 2,
+      "sentence": "The delay was 12 hours.",
+      "elapsed_s": 0.1805,
+      "status": "ok"
+    },
+    {
+      "magnitude": "12 hours",
+      "carrier_idx": 3,
+      "sentence": "After 12 hours had passed, the process finished.",
+      "elapsed_s": 0.1836,
+      "status": "ok"
+    },
+    {
+      "magnitude": "12 hours",
+      "carrier_idx": 4,
+      "sentence": "The total duration was 12 hours.",
+      "elapsed_s": 0.1825,
+      "status": "ok"
+    },
+    {
+      "magnitude": "1 day",
+      "carrier_idx": 0,
+      "sentence": "The event lasted 1 day.",
+      "elapsed_s": 0.182,
+      "status": "ok"
+    },
+    {
+      "magnitude": "1 day",
+      "carrier_idx": 1,
+      "sentence": "It took 1 day to complete.",
+      "elapsed_s": 0.1851,
+      "status": "ok"
+    },
+    {
+      "magnitude": "1 day",
+      "carrier_idx": 2,
+      "sentence": "The delay was 1 day.",
+      "elapsed_s": 0.1805,
+      "status": "ok"
+    },
+    {
+      "magnitude": "1 day",
+      "carrier_idx": 3,
+      "sentence": "After 1 day had passed, the process finished.",
+      "elapsed_s": 0.1831,
+      "status": "ok"
+    },
+    {
+      "magnitude": "1 day",
+      "carrier_idx": 4,
+      "sentence": "The total duration was 1 day.",
+      "elapsed_s": 0.1835,
+      "status": "ok"
+    },
+    {
+      "magnitude": "3 days",
+      "carrier_idx": 0,
+      "sentence": "The event lasted 3 days.",
+      "elapsed_s": 0.184,
+      "status": "ok"
+    },
+    {
+      "magnitude": "3 days",
+      "carrier_idx": 1,
+      "sentence": "It took 3 days to complete.",
+      "elapsed_s": 0.1845,
+      "status": "ok"
+    },
+    {
+      "magnitude": "3 days",
+      "carrier_idx": 2,
+      "sentence": "The delay was 3 days.",
+      "elapsed_s": 0.1835,
+      "status": "ok"
+    },
+    {
+      "magnitude": "3 days",
+      "carrier_idx": 3,
+      "sentence": "After 3 days had passed, the process finished.",
+      "elapsed_s": 0.1835,
+      "status": "ok"
+    },
+    {
+      "magnitude": "3 days",
+      "carrier_idx": 4,
+      "sentence": "The total duration was 3 days.",
+      "elapsed_s": 0.1775,
+      "status": "ok"
+    },
+    {
+      "magnitude": "1 week",
+      "carrier_idx": 0,
+      "sentence": "The event lasted 1 week.",
+      "elapsed_s": 0.182,
+      "status": "ok"
+    },
+    {
+      "magnitude": "1 week",
+      "carrier_idx": 1,
+      "sentence": "It took 1 week to complete.",
+      "elapsed_s": 0.1815,
+      "status": "ok"
+    },
+    {
+      "magnitude": "1 week",
+      "carrier_idx": 2,
+      "sentence": "The delay was 1 week.",
+      "elapsed_s": 0.1821,
+      "status": "ok"
+    },
+    {
+      "magnitude": "1 week",
+      "carrier_idx": 3,
+      "sentence": "After 1 week had passed, the process finished.",
+      "elapsed_s": 0.1835,
+      "status": "ok"
+    },
+    {
+      "magnitude": "1 week",
+      "carrier_idx": 4,
+      "sentence": "The total duration was 1 week.",
+      "elapsed_s": 0.1825,
+      "status": "ok"
+    },
+    {
+      "magnitude": "1 month",
+      "carrier_idx": 0,
+      "sentence": "The event lasted 1 month.",
+      "elapsed_s": 0.1871,
+      "status": "ok"
+    },
+    {
+      "magnitude": "1 month",
+      "carrier_idx": 1,
+      "sentence": "It took 1 month to complete.",
+      "elapsed_s": 0.182,
+      "status": "ok"
+    },
+    {
+      "magnitude": "1 month",
+      "carrier_idx": 2,
+      "sentence": "The delay was 1 month.",
+      "elapsed_s": 0.182,
+      "status": "ok"
+    },
+    {
+      "magnitude": "1 month",
+      "carrier_idx": 3,
+      "sentence": "After 1 month had passed, the process finished.",
+      "elapsed_s": 0.199,
+      "status": "ok"
+    },
+    {
+      "magnitude": "1 month",
+      "carrier_idx": 4,
+      "sentence": "The total duration was 1 month.",
+      "elapsed_s": 0.183,
+      "status": "ok"
+    },
+    {
+      "magnitude": "1 year",
+      "carrier_idx": 0,
+      "sentence": "The event lasted 1 year.",
+      "elapsed_s": 0.183,
+      "status": "ok"
+    },
+    {
+      "magnitude": "1 year",
+      "carrier_idx": 1,
+      "sentence": "It took 1 year to complete.",
+      "elapsed_s": 0.1815,
+      "status": "ok"
+    },
+    {
+      "magnitude": "1 year",
+      "carrier_idx": 2,
+      "sentence": "The delay was 1 year.",
+      "elapsed_s": 0.1845,
+      "status": "ok"
+    },
+    {
+      "magnitude": "1 year",
+      "carrier_idx": 3,
+      "sentence": "After 1 year had passed, the process finished.",
+      "elapsed_s": 0.1836,
+      "status": "ok"
+    },
+    {
+      "magnitude": "1 year",
+      "carrier_idx": 4,
+      "sentence": "The total duration was 1 year.",
+      "elapsed_s": 0.1815,
+      "status": "ok"
+    }
+  ]
+}

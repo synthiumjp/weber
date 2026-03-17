@@ -1,0 +1,2002 @@
+[
+  {
+    "paradigm_d_id": "PD-000",
+    "source_pair_id": "NUM-0057",
+    "prompt": "Which is larger, 11 or 10? Answer with only the larger number.",
+    "first_presented": 11,
+    "second_presented": 10,
+    "correct_answer": "11",
+    "nominal_baseline": 10,
+    "nominal_ratio": 1.1
+  },
+  {
+    "paradigm_d_id": "PD-001",
+    "source_pair_id": "NUM-0012",
+    "prompt": "Which is larger, 9 or 10? Answer with only the larger number.",
+    "first_presented": 9,
+    "second_presented": 10,
+    "correct_answer": "10",
+    "nominal_baseline": 10,
+    "nominal_ratio": 1.05
+  },
+  {
+    "paradigm_d_id": "PD-002",
+    "source_pair_id": "NUM-0140",
+    "prompt": "Which is larger, 10 or 12? Answer with only the larger number.",
+    "first_presented": 10,
+    "second_presented": 12,
+    "correct_answer": "12",
+    "nominal_baseline": 10,
+    "nominal_ratio": 1.2
+  },
+  {
+    "paradigm_d_id": "PD-003",
+    "source_pair_id": "NUM-0125",
+    "prompt": "Which is larger, 11 or 9? Answer with only the larger number.",
+    "first_presented": 11,
+    "second_presented": 9,
+    "correct_answer": "11",
+    "nominal_baseline": 10,
+    "nominal_ratio": 1.2
+  },
+  {
+    "paradigm_d_id": "PD-004",
+    "source_pair_id": "NUM-0114",
+    "prompt": "Which is larger, 10 or 12? Answer with only the larger number.",
+    "first_presented": 10,
+    "second_presented": 12,
+    "correct_answer": "12",
+    "nominal_baseline": 10,
+    "nominal_ratio": 1.2
+  },
+  {
+    "paradigm_d_id": "PD-005",
+    "source_pair_id": "NUM-0071",
+    "prompt": "Which is larger, 10 or 9? Answer with only the larger number.",
+    "first_presented": 10,
+    "second_presented": 9,
+    "correct_answer": "10",
+    "nominal_baseline": 10,
+    "nominal_ratio": 1.1
+  },
+  {
+    "paradigm_d_id": "PD-006",
+    "source_pair_id": "NUM-0052",
+    "prompt": "Which is larger, 10 or 11? Answer with only the larger number.",
+    "first_presented": 10,
+    "second_presented": 11,
+    "correct_answer": "11",
+    "nominal_baseline": 10,
+    "nominal_ratio": 1.1
+  },
+  {
+    "paradigm_d_id": "PD-007",
+    "source_pair_id": "NUM-0279",
+    "prompt": "Which is larger, 30 or 10? Answer with only the larger number.",
+    "first_presented": 30,
+    "second_presented": 10,
+    "correct_answer": "30",
+    "nominal_baseline": 10,
+    "nominal_ratio": 3.0
+  },
+  {
+    "paradigm_d_id": "PD-008",
+    "source_pair_id": "NUM-0044",
+    "prompt": "Which is larger, 10 or 11? Answer with only the larger number.",
+    "first_presented": 10,
+    "second_presented": 11,
+    "correct_answer": "11",
+    "nominal_baseline": 10,
+    "nominal_ratio": 1.05
+  },
+  {
+    "paradigm_d_id": "PD-009",
+    "source_pair_id": "NUM-0216",
+    "prompt": "Which is larger, 9 or 18? Answer with only the larger number.",
+    "first_presented": 9,
+    "second_presented": 18,
+    "correct_answer": "18",
+    "nominal_baseline": 10,
+    "nominal_ratio": 2.0
+  },
+  {
+    "paradigm_d_id": "PD-010",
+    "source_pair_id": "NUM-0016",
+    "prompt": "Which is larger, 9 or 10? Answer with only the larger number.",
+    "first_presented": 9,
+    "second_presented": 10,
+    "correct_answer": "10",
+    "nominal_baseline": 10,
+    "nominal_ratio": 1.05
+  },
+  {
+    "paradigm_d_id": "PD-011",
+    "source_pair_id": "NUM-0015",
+    "prompt": "Which is larger, 11 or 10? Answer with only the larger number.",
+    "first_presented": 11,
+    "second_presented": 10,
+    "correct_answer": "11",
+    "nominal_baseline": 10,
+    "nominal_ratio": 1.05
+  },
+  {
+    "paradigm_d_id": "PD-012",
+    "source_pair_id": "NUM-0047",
+    "prompt": "Which is larger, 11 or 10? Answer with only the larger number.",
+    "first_presented": 11,
+    "second_presented": 10,
+    "correct_answer": "11",
+    "nominal_baseline": 10,
+    "nominal_ratio": 1.05
+  },
+  {
+    "paradigm_d_id": "PD-013",
+    "source_pair_id": "NUM-0111",
+    "prompt": "Which is larger, 13 or 11? Answer with only the larger number.",
+    "first_presented": 13,
+    "second_presented": 11,
+    "correct_answer": "13",
+    "nominal_baseline": 10,
+    "nominal_ratio": 1.2
+  },
+  {
+    "paradigm_d_id": "PD-014",
+    "source_pair_id": "NUM-0119",
+    "prompt": "Which is larger, 11 or 9? Answer with only the larger number.",
+    "first_presented": 11,
+    "second_presented": 9,
+    "correct_answer": "11",
+    "nominal_baseline": 10,
+    "nominal_ratio": 1.2
+  },
+  {
+    "paradigm_d_id": "PD-015",
+    "source_pair_id": "NUM-0258",
+    "prompt": "Which is larger, 9 or 27? Answer with only the larger number.",
+    "first_presented": 9,
+    "second_presented": 27,
+    "correct_answer": "27",
+    "nominal_baseline": 10,
+    "nominal_ratio": 3.0
+  },
+  {
+    "paradigm_d_id": "PD-016",
+    "source_pair_id": "NUM-0013",
+    "prompt": "Which is larger, 10 or 9? Answer with only the larger number.",
+    "first_presented": 10,
+    "second_presented": 9,
+    "correct_answer": "10",
+    "nominal_baseline": 10,
+    "nominal_ratio": 1.05
+  },
+  {
+    "paradigm_d_id": "PD-017",
+    "source_pair_id": "NUM-0287",
+    "prompt": "Which is larger, 30 or 10? Answer with only the larger number.",
+    "first_presented": 30,
+    "second_presented": 10,
+    "correct_answer": "30",
+    "nominal_baseline": 10,
+    "nominal_ratio": 3.0
+  },
+  {
+    "paradigm_d_id": "PD-018",
+    "source_pair_id": "NUM-0101",
+    "prompt": "Which is larger, 12 or 10? Answer with only the larger number.",
+    "first_presented": 12,
+    "second_presented": 10,
+    "correct_answer": "12",
+    "nominal_baseline": 10,
+    "nominal_ratio": 1.2
+  },
+  {
+    "paradigm_d_id": "PD-019",
+    "source_pair_id": "NUM-0214",
+    "prompt": "Which is larger, 9 or 18? Answer with only the larger number.",
+    "first_presented": 9,
+    "second_presented": 18,
+    "correct_answer": "18",
+    "nominal_baseline": 10,
+    "nominal_ratio": 2.0
+  },
+  {
+    "paradigm_d_id": "PD-020",
+    "source_pair_id": "NUM-0112",
+    "prompt": "Which is larger, 11 or 13? Answer with only the larger number.",
+    "first_presented": 11,
+    "second_presented": 13,
+    "correct_answer": "13",
+    "nominal_baseline": 10,
+    "nominal_ratio": 1.2
+  },
+  {
+    "paradigm_d_id": "PD-021",
+    "source_pair_id": "NUM-0229",
+    "prompt": "Which is larger, 18 or 9? Answer with only the larger number.",
+    "first_presented": 18,
+    "second_presented": 9,
+    "correct_answer": "18",
+    "nominal_baseline": 10,
+    "nominal_ratio": 2.0
+  },
+  {
+    "paradigm_d_id": "PD-022",
+    "source_pair_id": "NUM-0142",
+    "prompt": "Which is larger, 10 or 12? Answer with only the larger number.",
+    "first_presented": 10,
+    "second_presented": 12,
+    "correct_answer": "12",
+    "nominal_baseline": 10,
+    "nominal_ratio": 1.2
+  },
+  {
+    "paradigm_d_id": "PD-023",
+    "source_pair_id": "NUM-0003",
+    "prompt": "Which is larger, 10 or 9? Answer with only the larger number.",
+    "first_presented": 10,
+    "second_presented": 9,
+    "correct_answer": "10",
+    "nominal_baseline": 10,
+    "nominal_ratio": 1.05
+  },
+  {
+    "paradigm_d_id": "PD-024",
+    "source_pair_id": "NUM-0081",
+    "prompt": "Which is larger, 11 or 10? Answer with only the larger number.",
+    "first_presented": 11,
+    "second_presented": 10,
+    "correct_answer": "11",
+    "nominal_baseline": 10,
+    "nominal_ratio": 1.1
+  },
+  {
+    "paradigm_d_id": "PD-025",
+    "source_pair_id": "NUM-0174",
+    "prompt": "Which is larger, 11 or 16? Answer with only the larger number.",
+    "first_presented": 11,
+    "second_presented": 16,
+    "correct_answer": "16",
+    "nominal_baseline": 10,
+    "nominal_ratio": 1.5
+  },
+  {
+    "paradigm_d_id": "PD-026",
+    "source_pair_id": "NUM-0079",
+    "prompt": "Which is larger, 11 or 10? Answer with only the larger number.",
+    "first_presented": 11,
+    "second_presented": 10,
+    "correct_answer": "11",
+    "nominal_baseline": 10,
+    "nominal_ratio": 1.1
+  },
+  {
+    "paradigm_d_id": "PD-027",
+    "source_pair_id": "NUM-0110",
+    "prompt": "Which is larger, 9 or 11? Answer with only the larger number.",
+    "first_presented": 9,
+    "second_presented": 11,
+    "correct_answer": "11",
+    "nominal_baseline": 10,
+    "nominal_ratio": 1.2
+  },
+  {
+    "paradigm_d_id": "PD-028",
+    "source_pair_id": "NUM-0172",
+    "prompt": "Which is larger, 10 or 15? Answer with only the larger number.",
+    "first_presented": 10,
+    "second_presented": 15,
+    "correct_answer": "15",
+    "nominal_baseline": 10,
+    "nominal_ratio": 1.5
+  },
+  {
+    "paradigm_d_id": "PD-029",
+    "source_pair_id": "NUM-0194",
+    "prompt": "Which is larger, 10 or 15? Answer with only the larger number.",
+    "first_presented": 10,
+    "second_presented": 15,
+    "correct_answer": "15",
+    "nominal_baseline": 10,
+    "nominal_ratio": 1.5
+  },
+  {
+    "paradigm_d_id": "PD-030",
+    "source_pair_id": "NUM-0049",
+    "prompt": "Which is larger, 11 or 10? Answer with only the larger number.",
+    "first_presented": 11,
+    "second_presented": 10,
+    "correct_answer": "11",
+    "nominal_baseline": 10,
+    "nominal_ratio": 1.05
+  },
+  {
+    "paradigm_d_id": "PD-031",
+    "source_pair_id": "NUM-0183",
+    "prompt": "Which is larger, 15 or 10? Answer with only the larger number.",
+    "first_presented": 15,
+    "second_presented": 10,
+    "correct_answer": "15",
+    "nominal_baseline": 10,
+    "nominal_ratio": 1.5
+  },
+  {
+    "paradigm_d_id": "PD-032",
+    "source_pair_id": "NUM-0176",
+    "prompt": "Which is larger, 9 or 14? Answer with only the larger number.",
+    "first_presented": 9,
+    "second_presented": 14,
+    "correct_answer": "14",
+    "nominal_baseline": 10,
+    "nominal_ratio": 1.5
+  },
+  {
+    "paradigm_d_id": "PD-033",
+    "source_pair_id": "NUM-0135",
+    "prompt": "Which is larger, 12 or 10? Answer with only the larger number.",
+    "first_presented": 12,
+    "second_presented": 10,
+    "correct_answer": "12",
+    "nominal_baseline": 10,
+    "nominal_ratio": 1.2
+  },
+  {
+    "paradigm_d_id": "PD-034",
+    "source_pair_id": "NUM-0022",
+    "prompt": "Which is larger, 10 or 11? Answer with only the larger number.",
+    "first_presented": 10,
+    "second_presented": 11,
+    "correct_answer": "11",
+    "nominal_baseline": 10,
+    "nominal_ratio": 1.05
+  },
+  {
+    "paradigm_d_id": "PD-035",
+    "source_pair_id": "NUM-0235",
+    "prompt": "Which is larger, 20 or 10? Answer with only the larger number.",
+    "first_presented": 20,
+    "second_presented": 10,
+    "correct_answer": "20",
+    "nominal_baseline": 10,
+    "nominal_ratio": 2.0
+  },
+  {
+    "paradigm_d_id": "PD-036",
+    "source_pair_id": "NUM-0274",
+    "prompt": "Which is larger, 11 or 33? Answer with only the larger number.",
+    "first_presented": 11,
+    "second_presented": 33,
+    "correct_answer": "33",
+    "nominal_baseline": 10,
+    "nominal_ratio": 3.0
+  },
+  {
+    "paradigm_d_id": "PD-037",
+    "source_pair_id": "NUM-0063",
+    "prompt": "Which is larger, 10 or 9? Answer with only the larger number.",
+    "first_presented": 10,
+    "second_presented": 9,
+    "correct_answer": "10",
+    "nominal_baseline": 10,
+    "nominal_ratio": 1.1
+  },
+  {
+    "paradigm_d_id": "PD-038",
+    "source_pair_id": "NUM-0193",
+    "prompt": "Which is larger, 15 or 10? Answer with only the larger number.",
+    "first_presented": 15,
+    "second_presented": 10,
+    "correct_answer": "15",
+    "nominal_baseline": 10,
+    "nominal_ratio": 1.5
+  },
+  {
+    "paradigm_d_id": "PD-039",
+    "source_pair_id": "NUM-0040",
+    "prompt": "Which is larger, 10 or 11? Answer with only the larger number.",
+    "first_presented": 10,
+    "second_presented": 11,
+    "correct_answer": "11",
+    "nominal_baseline": 10,
+    "nominal_ratio": 1.05
+  },
+  {
+    "paradigm_d_id": "PD-040",
+    "source_pair_id": "NUM-0582",
+    "prompt": "Which is larger, 30 or 90? Answer with only the larger number.",
+    "first_presented": 30,
+    "second_presented": 90,
+    "correct_answer": "90",
+    "nominal_baseline": 30,
+    "nominal_ratio": 3.0
+  },
+  {
+    "paradigm_d_id": "PD-041",
+    "source_pair_id": "NUM-0450",
+    "prompt": "Which is larger, 33 or 50? Answer with only the larger number.",
+    "first_presented": 33,
+    "second_presented": 50,
+    "correct_answer": "50",
+    "nominal_baseline": 30,
+    "nominal_ratio": 1.5
+  },
+  {
+    "paradigm_d_id": "PD-042",
+    "source_pair_id": "NUM-0485",
+    "prompt": "Which is larger, 45 or 30? Answer with only the larger number.",
+    "first_presented": 45,
+    "second_presented": 30,
+    "correct_answer": "45",
+    "nominal_baseline": 30,
+    "nominal_ratio": 1.5
+  },
+  {
+    "paradigm_d_id": "PD-043",
+    "source_pair_id": "NUM-0595",
+    "prompt": "Which is larger, 90 or 30? Answer with only the larger number.",
+    "first_presented": 90,
+    "second_presented": 30,
+    "correct_answer": "90",
+    "nominal_baseline": 30,
+    "nominal_ratio": 3.0
+  },
+  {
+    "paradigm_d_id": "PD-044",
+    "source_pair_id": "NUM-0398",
+    "prompt": "Which is larger, 30 or 33? Answer with only the larger number.",
+    "first_presented": 30,
+    "second_presented": 33,
+    "correct_answer": "33",
+    "nominal_baseline": 30,
+    "nominal_ratio": 1.1
+  },
+  {
+    "paradigm_d_id": "PD-045",
+    "source_pair_id": "NUM-0335",
+    "prompt": "Which is larger, 32 or 30? Answer with only the larger number.",
+    "first_presented": 32,
+    "second_presented": 30,
+    "correct_answer": "32",
+    "nominal_baseline": 30,
+    "nominal_ratio": 1.05
+  },
+  {
+    "paradigm_d_id": "PD-046",
+    "source_pair_id": "NUM-0323",
+    "prompt": "Which is larger, 28 or 27? Answer with only the larger number.",
+    "first_presented": 28,
+    "second_presented": 27,
+    "correct_answer": "28",
+    "nominal_baseline": 30,
+    "nominal_ratio": 1.05
+  },
+  {
+    "paradigm_d_id": "PD-047",
+    "source_pair_id": "NUM-0416",
+    "prompt": "Which is larger, 26 or 31? Answer with only the larger number.",
+    "first_presented": 26,
+    "second_presented": 31,
+    "correct_answer": "31",
+    "nominal_baseline": 30,
+    "nominal_ratio": 1.2
+  },
+  {
+    "paradigm_d_id": "PD-048",
+    "source_pair_id": "NUM-0448",
+    "prompt": "Which is larger, 30 or 36? Answer with only the larger number.",
+    "first_presented": 30,
+    "second_presented": 36,
+    "correct_answer": "36",
+    "nominal_baseline": 30,
+    "nominal_ratio": 1.2
+  },
+  {
+    "paradigm_d_id": "PD-049",
+    "source_pair_id": "NUM-0340",
+    "prompt": "Which is larger, 30 or 32? Answer with only the larger number.",
+    "first_presented": 30,
+    "second_presented": 32,
+    "correct_answer": "32",
+    "nominal_baseline": 30,
+    "nominal_ratio": 1.05
+  },
+  {
+    "paradigm_d_id": "PD-050",
+    "source_pair_id": "NUM-0419",
+    "prompt": "Which is larger, 41 or 34? Answer with only the larger number.",
+    "first_presented": 41,
+    "second_presented": 34,
+    "correct_answer": "41",
+    "nominal_baseline": 30,
+    "nominal_ratio": 1.2
+  },
+  {
+    "paradigm_d_id": "PD-051",
+    "source_pair_id": "NUM-0351",
+    "prompt": "Which is larger, 36 or 33? Answer with only the larger number.",
+    "first_presented": 36,
+    "second_presented": 33,
+    "correct_answer": "36",
+    "nominal_baseline": 30,
+    "nominal_ratio": 1.1
+  },
+  {
+    "paradigm_d_id": "PD-052",
+    "source_pair_id": "NUM-0494",
+    "prompt": "Which is larger, 30 or 45? Answer with only the larger number.",
+    "first_presented": 30,
+    "second_presented": 45,
+    "correct_answer": "45",
+    "nominal_baseline": 30,
+    "nominal_ratio": 1.5
+  },
+  {
+    "paradigm_d_id": "PD-053",
+    "source_pair_id": "NUM-0442",
+    "prompt": "Which is larger, 30 or 36? Answer with only the larger number.",
+    "first_presented": 30,
+    "second_presented": 36,
+    "correct_answer": "36",
+    "nominal_baseline": 30,
+    "nominal_ratio": 1.2
+  },
+  {
+    "paradigm_d_id": "PD-054",
+    "source_pair_id": "NUM-0532",
+    "prompt": "Which is larger, 30 or 60? Answer with only the larger number.",
+    "first_presented": 30,
+    "second_presented": 60,
+    "correct_answer": "60",
+    "nominal_baseline": 30,
+    "nominal_ratio": 2.0
+  },
+  {
+    "paradigm_d_id": "PD-055",
+    "source_pair_id": "NUM-0486",
+    "prompt": "Which is larger, 30 or 45? Answer with only the larger number.",
+    "first_presented": 30,
+    "second_presented": 45,
+    "correct_answer": "45",
+    "nominal_baseline": 30,
+    "nominal_ratio": 1.5
+  },
+  {
+    "paradigm_d_id": "PD-056",
+    "source_pair_id": "NUM-0383",
+    "prompt": "Which is larger, 33 or 30? Answer with only the larger number.",
+    "first_presented": 33,
+    "second_presented": 30,
+    "correct_answer": "33",
+    "nominal_baseline": 30,
+    "nominal_ratio": 1.1
+  },
+  {
+    "paradigm_d_id": "PD-057",
+    "source_pair_id": "NUM-0489",
+    "prompt": "Which is larger, 45 or 30? Answer with only the larger number.",
+    "first_presented": 45,
+    "second_presented": 30,
+    "correct_answer": "45",
+    "nominal_baseline": 30,
+    "nominal_ratio": 1.5
+  },
+  {
+    "paradigm_d_id": "PD-058",
+    "source_pair_id": "NUM-0481",
+    "prompt": "Which is larger, 45 or 30? Answer with only the larger number.",
+    "first_presented": 45,
+    "second_presented": 30,
+    "correct_answer": "45",
+    "nominal_baseline": 30,
+    "nominal_ratio": 1.5
+  },
+  {
+    "paradigm_d_id": "PD-059",
+    "source_pair_id": "NUM-0407",
+    "prompt": "Which is larger, 35 or 29? Answer with only the larger number.",
+    "first_presented": 35,
+    "second_presented": 29,
+    "correct_answer": "35",
+    "nominal_baseline": 30,
+    "nominal_ratio": 1.2
+  },
+  {
+    "paradigm_d_id": "PD-060",
+    "source_pair_id": "NUM-0436",
+    "prompt": "Which is larger, 30 or 36? Answer with only the larger number.",
+    "first_presented": 30,
+    "second_presented": 36,
+    "correct_answer": "36",
+    "nominal_baseline": 30,
+    "nominal_ratio": 1.2
+  },
+  {
+    "paradigm_d_id": "PD-061",
+    "source_pair_id": "NUM-0336",
+    "prompt": "Which is larger, 30 or 32? Answer with only the larger number.",
+    "first_presented": 30,
+    "second_presented": 32,
+    "correct_answer": "32",
+    "nominal_baseline": 30,
+    "nominal_ratio": 1.05
+  },
+  {
+    "paradigm_d_id": "PD-062",
+    "source_pair_id": "NUM-0387",
+    "prompt": "Which is larger, 33 or 30? Answer with only the larger number.",
+    "first_presented": 33,
+    "second_presented": 30,
+    "correct_answer": "33",
+    "nominal_baseline": 30,
+    "nominal_ratio": 1.1
+  },
+  {
+    "paradigm_d_id": "PD-063",
+    "source_pair_id": "NUM-0573",
+    "prompt": "Which is larger, 81 or 27? Answer with only the larger number.",
+    "first_presented": 81,
+    "second_presented": 27,
+    "correct_answer": "81",
+    "nominal_baseline": 30,
+    "nominal_ratio": 3.0
+  },
+  {
+    "paradigm_d_id": "PD-064",
+    "source_pair_id": "NUM-0425",
+    "prompt": "Which is larger, 38 or 32? Answer with only the larger number.",
+    "first_presented": 38,
+    "second_presented": 32,
+    "correct_answer": "38",
+    "nominal_baseline": 30,
+    "nominal_ratio": 1.2
+  },
+  {
+    "paradigm_d_id": "PD-065",
+    "source_pair_id": "NUM-0536",
+    "prompt": "Which is larger, 30 or 60? Answer with only the larger number.",
+    "first_presented": 30,
+    "second_presented": 60,
+    "correct_answer": "60",
+    "nominal_baseline": 30,
+    "nominal_ratio": 2.0
+  },
+  {
+    "paradigm_d_id": "PD-066",
+    "source_pair_id": "NUM-0438",
+    "prompt": "Which is larger, 30 or 36? Answer with only the larger number.",
+    "first_presented": 30,
+    "second_presented": 36,
+    "correct_answer": "36",
+    "nominal_baseline": 30,
+    "nominal_ratio": 1.2
+  },
+  {
+    "paradigm_d_id": "PD-067",
+    "source_pair_id": "NUM-0585",
+    "prompt": "Which is larger, 90 or 30? Answer with only the larger number.",
+    "first_presented": 90,
+    "second_presented": 30,
+    "correct_answer": "90",
+    "nominal_baseline": 30,
+    "nominal_ratio": 3.0
+  },
+  {
+    "paradigm_d_id": "PD-068",
+    "source_pair_id": "NUM-0412",
+    "prompt": "Which is larger, 26 or 31? Answer with only the larger number.",
+    "first_presented": 26,
+    "second_presented": 31,
+    "correct_answer": "31",
+    "nominal_baseline": 30,
+    "nominal_ratio": 1.2
+  },
+  {
+    "paradigm_d_id": "PD-069",
+    "source_pair_id": "NUM-0466",
+    "prompt": "Which is larger, 33 or 50? Answer with only the larger number.",
+    "first_presented": 33,
+    "second_presented": 50,
+    "correct_answer": "50",
+    "nominal_baseline": 30,
+    "nominal_ratio": 1.5
+  },
+  {
+    "paradigm_d_id": "PD-070",
+    "source_pair_id": "NUM-0328",
+    "prompt": "Which is larger, 29 or 30? Answer with only the larger number.",
+    "first_presented": 29,
+    "second_presented": 30,
+    "correct_answer": "30",
+    "nominal_baseline": 30,
+    "nominal_ratio": 1.05
+  },
+  {
+    "paradigm_d_id": "PD-071",
+    "source_pair_id": "NUM-0417",
+    "prompt": "Which is larger, 32 or 27? Answer with only the larger number.",
+    "first_presented": 32,
+    "second_presented": 27,
+    "correct_answer": "32",
+    "nominal_baseline": 30,
+    "nominal_ratio": 1.2
+  },
+  {
+    "paradigm_d_id": "PD-072",
+    "source_pair_id": "NUM-0316",
+    "prompt": "Which is larger, 30 or 32? Answer with only the larger number.",
+    "first_presented": 30,
+    "second_presented": 32,
+    "correct_answer": "32",
+    "nominal_baseline": 30,
+    "nominal_ratio": 1.05
+  },
+  {
+    "paradigm_d_id": "PD-073",
+    "source_pair_id": "NUM-0461",
+    "prompt": "Which is larger, 40 or 27? Answer with only the larger number.",
+    "first_presented": 40,
+    "second_presented": 27,
+    "correct_answer": "40",
+    "nominal_baseline": 30,
+    "nominal_ratio": 1.5
+  },
+  {
+    "paradigm_d_id": "PD-074",
+    "source_pair_id": "NUM-0505",
+    "prompt": "Which is larger, 54 or 27? Answer with only the larger number.",
+    "first_presented": 54,
+    "second_presented": 27,
+    "correct_answer": "54",
+    "nominal_baseline": 30,
+    "nominal_ratio": 2.0
+  },
+  {
+    "paradigm_d_id": "PD-075",
+    "source_pair_id": "NUM-0437",
+    "prompt": "Which is larger, 36 or 30? Answer with only the larger number.",
+    "first_presented": 36,
+    "second_presented": 30,
+    "correct_answer": "36",
+    "nominal_baseline": 30,
+    "nominal_ratio": 1.2
+  },
+  {
+    "paradigm_d_id": "PD-076",
+    "source_pair_id": "NUM-0333",
+    "prompt": "Which is larger, 32 or 30? Answer with only the larger number.",
+    "first_presented": 32,
+    "second_presented": 30,
+    "correct_answer": "32",
+    "nominal_baseline": 30,
+    "nominal_ratio": 1.05
+  },
+  {
+    "paradigm_d_id": "PD-077",
+    "source_pair_id": "NUM-0408",
+    "prompt": "Which is larger, 32 or 38? Answer with only the larger number.",
+    "first_presented": 32,
+    "second_presented": 38,
+    "correct_answer": "38",
+    "nominal_baseline": 30,
+    "nominal_ratio": 1.2
+  },
+  {
+    "paradigm_d_id": "PD-078",
+    "source_pair_id": "NUM-0590",
+    "prompt": "Which is larger, 30 or 90? Answer with only the larger number.",
+    "first_presented": 30,
+    "second_presented": 90,
+    "correct_answer": "90",
+    "nominal_baseline": 30,
+    "nominal_ratio": 3.0
+  },
+  {
+    "paradigm_d_id": "PD-079",
+    "source_pair_id": "NUM-0555",
+    "prompt": "Which is larger, 99 or 33? Answer with only the larger number.",
+    "first_presented": 99,
+    "second_presented": 33,
+    "correct_answer": "99",
+    "nominal_baseline": 30,
+    "nominal_ratio": 3.0
+  },
+  {
+    "paradigm_d_id": "PD-080",
+    "source_pair_id": "NUM-0802",
+    "prompt": "Which is larger, 96 or 192? Answer with only the larger number.",
+    "first_presented": 96,
+    "second_presented": 192,
+    "correct_answer": "192",
+    "nominal_baseline": 100,
+    "nominal_ratio": 2.0
+  },
+  {
+    "paradigm_d_id": "PD-081",
+    "source_pair_id": "NUM-0834",
+    "prompt": "Which is larger, 100 or 200? Answer with only the larger number.",
+    "first_presented": 100,
+    "second_presented": 200,
+    "correct_answer": "200",
+    "nominal_baseline": 100,
+    "nominal_ratio": 2.0
+  },
+  {
+    "paradigm_d_id": "PD-082",
+    "source_pair_id": "NUM-0673",
+    "prompt": "Which is larger, 101 or 92? Answer with only the larger number.",
+    "first_presented": 101,
+    "second_presented": 92,
+    "correct_answer": "101",
+    "nominal_baseline": 100,
+    "nominal_ratio": 1.1
+  },
+  {
+    "paradigm_d_id": "PD-083",
+    "source_pair_id": "NUM-0735",
+    "prompt": "Which is larger, 120 or 100? Answer with only the larger number.",
+    "first_presented": 120,
+    "second_presented": 100,
+    "correct_answer": "120",
+    "nominal_baseline": 100,
+    "nominal_ratio": 1.2
+  },
+  {
+    "paradigm_d_id": "PD-084",
+    "source_pair_id": "NUM-0671",
+    "prompt": "Which is larger, 119 or 108? Answer with only the larger number.",
+    "first_presented": 119,
+    "second_presented": 108,
+    "correct_answer": "119",
+    "nominal_baseline": 100,
+    "nominal_ratio": 1.1
+  },
+  {
+    "paradigm_d_id": "PD-085",
+    "source_pair_id": "NUM-0726",
+    "prompt": "Which is larger, 107 or 128? Answer with only the larger number.",
+    "first_presented": 107,
+    "second_presented": 128,
+    "correct_answer": "128",
+    "nominal_baseline": 100,
+    "nominal_ratio": 1.2
+  },
+  {
+    "paradigm_d_id": "PD-086",
+    "source_pair_id": "NUM-0887",
+    "prompt": "Which is larger, 300 or 100? Answer with only the larger number.",
+    "first_presented": 300,
+    "second_presented": 100,
+    "correct_answer": "300",
+    "nominal_baseline": 100,
+    "nominal_ratio": 3.0
+  },
+  {
+    "paradigm_d_id": "PD-087",
+    "source_pair_id": "NUM-0875",
+    "prompt": "Which is larger, 324 or 108? Answer with only the larger number.",
+    "first_presented": 324,
+    "second_presented": 108,
+    "correct_answer": "324",
+    "nominal_baseline": 100,
+    "nominal_ratio": 3.0
+  },
+  {
+    "paradigm_d_id": "PD-088",
+    "source_pair_id": "NUM-0734",
+    "prompt": "Which is larger, 100 or 120? Answer with only the larger number.",
+    "first_presented": 100,
+    "second_presented": 120,
+    "correct_answer": "120",
+    "nominal_baseline": 100,
+    "nominal_ratio": 1.2
+  },
+  {
+    "paradigm_d_id": "PD-089",
+    "source_pair_id": "NUM-0899",
+    "prompt": "Which is larger, 300 or 100? Answer with only the larger number.",
+    "first_presented": 300,
+    "second_presented": 100,
+    "correct_answer": "300",
+    "nominal_baseline": 100,
+    "nominal_ratio": 3.0
+  },
+  {
+    "paradigm_d_id": "PD-090",
+    "source_pair_id": "NUM-0819",
+    "prompt": "Which is larger, 178 or 89? Answer with only the larger number.",
+    "first_presented": 178,
+    "second_presented": 89,
+    "correct_answer": "178",
+    "nominal_baseline": 100,
+    "nominal_ratio": 2.0
+  },
+  {
+    "paradigm_d_id": "PD-091",
+    "source_pair_id": "NUM-0898",
+    "prompt": "Which is larger, 100 or 300? Answer with only the larger number.",
+    "first_presented": 100,
+    "second_presented": 300,
+    "correct_answer": "300",
+    "nominal_baseline": 100,
+    "nominal_ratio": 3.0
+  },
+  {
+    "paradigm_d_id": "PD-092",
+    "source_pair_id": "NUM-0804",
+    "prompt": "Which is larger, 111 or 222? Answer with only the larger number.",
+    "first_presented": 111,
+    "second_presented": 222,
+    "correct_answer": "222",
+    "nominal_baseline": 100,
+    "nominal_ratio": 2.0
+  },
+  {
+    "paradigm_d_id": "PD-093",
+    "source_pair_id": "NUM-0785",
+    "prompt": "Which is larger, 150 or 100? Answer with only the larger number.",
+    "first_presented": 150,
+    "second_presented": 100,
+    "correct_answer": "150",
+    "nominal_baseline": 100,
+    "nominal_ratio": 1.5
+  },
+  {
+    "paradigm_d_id": "PD-094",
+    "source_pair_id": "NUM-0712",
+    "prompt": "Which is larger, 90 or 108? Answer with only the larger number.",
+    "first_presented": 90,
+    "second_presented": 108,
+    "correct_answer": "108",
+    "nominal_baseline": 100,
+    "nominal_ratio": 1.2
+  },
+  {
+    "paradigm_d_id": "PD-095",
+    "source_pair_id": "NUM-0670",
+    "prompt": "Which is larger, 110 or 121? Answer with only the larger number.",
+    "first_presented": 110,
+    "second_presented": 121,
+    "correct_answer": "121",
+    "nominal_baseline": 100,
+    "nominal_ratio": 1.1
+  },
+  {
+    "paradigm_d_id": "PD-096",
+    "source_pair_id": "NUM-0860",
+    "prompt": "Which is larger, 115 or 345? Answer with only the larger number.",
+    "first_presented": 115,
+    "second_presented": 345,
+    "correct_answer": "345",
+    "nominal_baseline": 100,
+    "nominal_ratio": 3.0
+  },
+  {
+    "paradigm_d_id": "PD-097",
+    "source_pair_id": "NUM-0852",
+    "prompt": "Which is larger, 108 or 324? Answer with only the larger number.",
+    "first_presented": 108,
+    "second_presented": 324,
+    "correct_answer": "324",
+    "nominal_baseline": 100,
+    "nominal_ratio": 3.0
+  },
+  {
+    "paradigm_d_id": "PD-098",
+    "source_pair_id": "NUM-0646",
+    "prompt": "Which is larger, 100 or 105? Answer with only the larger number.",
+    "first_presented": 100,
+    "second_presented": 105,
+    "correct_answer": "105",
+    "nominal_baseline": 100,
+    "nominal_ratio": 1.05
+  },
+  {
+    "paradigm_d_id": "PD-099",
+    "source_pair_id": "NUM-0624",
+    "prompt": "Which is larger, 97 or 102? Answer with only the larger number.",
+    "first_presented": 97,
+    "second_presented": 102,
+    "correct_answer": "102",
+    "nominal_baseline": 100,
+    "nominal_ratio": 1.05
+  },
+  {
+    "paradigm_d_id": "PD-100",
+    "source_pair_id": "NUM-0656",
+    "prompt": "Which is larger, 98 or 108? Answer with only the larger number.",
+    "first_presented": 98,
+    "second_presented": 108,
+    "correct_answer": "108",
+    "nominal_baseline": 100,
+    "nominal_ratio": 1.1
+  },
+  {
+    "paradigm_d_id": "PD-101",
+    "source_pair_id": "NUM-0678",
+    "prompt": "Which is larger, 110 or 121? Answer with only the larger number.",
+    "first_presented": 110,
+    "second_presented": 121,
+    "correct_answer": "121",
+    "nominal_baseline": 100,
+    "nominal_ratio": 1.1
+  },
+  {
+    "paradigm_d_id": "PD-102",
+    "source_pair_id": "NUM-0681",
+    "prompt": "Which is larger, 110 or 100? Answer with only the larger number.",
+    "first_presented": 110,
+    "second_presented": 100,
+    "correct_answer": "110",
+    "nominal_baseline": 100,
+    "nominal_ratio": 1.1
+  },
+  {
+    "paradigm_d_id": "PD-103",
+    "source_pair_id": "NUM-0816",
+    "prompt": "Which is larger, 97 or 194? Answer with only the larger number.",
+    "first_presented": 97,
+    "second_presented": 194,
+    "correct_answer": "194",
+    "nominal_baseline": 100,
+    "nominal_ratio": 2.0
+  },
+  {
+    "paradigm_d_id": "PD-104",
+    "source_pair_id": "NUM-0632",
+    "prompt": "Which is larger, 100 or 105? Answer with only the larger number.",
+    "first_presented": 100,
+    "second_presented": 105,
+    "correct_answer": "105",
+    "nominal_baseline": 100,
+    "nominal_ratio": 1.05
+  },
+  {
+    "paradigm_d_id": "PD-105",
+    "source_pair_id": "NUM-0797",
+    "prompt": "Which is larger, 150 or 100? Answer with only the larger number.",
+    "first_presented": 150,
+    "second_presented": 100,
+    "correct_answer": "150",
+    "nominal_baseline": 100,
+    "nominal_ratio": 1.5
+  },
+  {
+    "paradigm_d_id": "PD-106",
+    "source_pair_id": "NUM-0795",
+    "prompt": "Which is larger, 150 or 100? Answer with only the larger number.",
+    "first_presented": 150,
+    "second_presented": 100,
+    "correct_answer": "150",
+    "nominal_baseline": 100,
+    "nominal_ratio": 1.5
+  },
+  {
+    "paradigm_d_id": "PD-107",
+    "source_pair_id": "NUM-0839",
+    "prompt": "Which is larger, 200 or 100? Answer with only the larger number.",
+    "first_presented": 200,
+    "second_presented": 100,
+    "correct_answer": "200",
+    "nominal_baseline": 100,
+    "nominal_ratio": 2.0
+  },
+  {
+    "paradigm_d_id": "PD-108",
+    "source_pair_id": "NUM-0870",
+    "prompt": "Which is larger, 89 or 267? Answer with only the larger number.",
+    "first_presented": 89,
+    "second_presented": 267,
+    "correct_answer": "267",
+    "nominal_baseline": 100,
+    "nominal_ratio": 3.0
+  },
+  {
+    "paradigm_d_id": "PD-109",
+    "source_pair_id": "NUM-0728",
+    "prompt": "Which is larger, 110 or 132? Answer with only the larger number.",
+    "first_presented": 110,
+    "second_presented": 132,
+    "correct_answer": "132",
+    "nominal_baseline": 100,
+    "nominal_ratio": 1.2
+  },
+  {
+    "paradigm_d_id": "PD-110",
+    "source_pair_id": "NUM-0883",
+    "prompt": "Which is larger, 300 or 100? Answer with only the larger number.",
+    "first_presented": 300,
+    "second_presented": 100,
+    "correct_answer": "300",
+    "nominal_baseline": 100,
+    "nominal_ratio": 3.0
+  },
+  {
+    "paradigm_d_id": "PD-111",
+    "source_pair_id": "NUM-0605",
+    "prompt": "Which is larger, 107 or 102? Answer with only the larger number.",
+    "first_presented": 107,
+    "second_presented": 102,
+    "correct_answer": "107",
+    "nominal_baseline": 100,
+    "nominal_ratio": 1.05
+  },
+  {
+    "paradigm_d_id": "PD-112",
+    "source_pair_id": "NUM-0658",
+    "prompt": "Which is larger, 105 or 116? Answer with only the larger number.",
+    "first_presented": 105,
+    "second_presented": 116,
+    "correct_answer": "116",
+    "nominal_baseline": 100,
+    "nominal_ratio": 1.1
+  },
+  {
+    "paradigm_d_id": "PD-113",
+    "source_pair_id": "NUM-0874",
+    "prompt": "Which is larger, 106 or 318? Answer with only the larger number.",
+    "first_presented": 106,
+    "second_presented": 318,
+    "correct_answer": "318",
+    "nominal_baseline": 100,
+    "nominal_ratio": 3.0
+  },
+  {
+    "paradigm_d_id": "PD-114",
+    "source_pair_id": "NUM-0736",
+    "prompt": "Which is larger, 100 or 120? Answer with only the larger number.",
+    "first_presented": 100,
+    "second_presented": 120,
+    "correct_answer": "120",
+    "nominal_baseline": 100,
+    "nominal_ratio": 1.2
+  },
+  {
+    "paradigm_d_id": "PD-115",
+    "source_pair_id": "NUM-0774",
+    "prompt": "Which is larger, 98 or 147? Answer with only the larger number.",
+    "first_presented": 98,
+    "second_presented": 147,
+    "correct_answer": "147",
+    "nominal_baseline": 100,
+    "nominal_ratio": 1.5
+  },
+  {
+    "paradigm_d_id": "PD-116",
+    "source_pair_id": "NUM-0657",
+    "prompt": "Which is larger, 112 or 102? Answer with only the larger number.",
+    "first_presented": 112,
+    "second_presented": 102,
+    "correct_answer": "112",
+    "nominal_baseline": 100,
+    "nominal_ratio": 1.1
+  },
+  {
+    "paradigm_d_id": "PD-117",
+    "source_pair_id": "NUM-0750",
+    "prompt": "Which is larger, 112 or 168? Answer with only the larger number.",
+    "first_presented": 112,
+    "second_presented": 168,
+    "correct_answer": "168",
+    "nominal_baseline": 100,
+    "nominal_ratio": 1.5
+  },
+  {
+    "paradigm_d_id": "PD-118",
+    "source_pair_id": "NUM-0822",
+    "prompt": "Which is larger, 97 or 194? Answer with only the larger number.",
+    "first_presented": 97,
+    "second_presented": 194,
+    "correct_answer": "194",
+    "nominal_baseline": 100,
+    "nominal_ratio": 2.0
+  },
+  {
+    "paradigm_d_id": "PD-119",
+    "source_pair_id": "NUM-0680",
+    "prompt": "Which is larger, 100 or 110? Answer with only the larger number.",
+    "first_presented": 100,
+    "second_presented": 110,
+    "correct_answer": "110",
+    "nominal_baseline": 100,
+    "nominal_ratio": 1.1
+  },
+  {
+    "paradigm_d_id": "PD-120",
+    "source_pair_id": "NUM-1132",
+    "prompt": "Which is larger, 300 or 600? Answer with only the larger number.",
+    "first_presented": 300,
+    "second_presented": 600,
+    "correct_answer": "600",
+    "nominal_baseline": 300,
+    "nominal_ratio": 2.0
+  },
+  {
+    "paradigm_d_id": "PD-121",
+    "source_pair_id": "NUM-0901",
+    "prompt": "Which is larger, 359 or 342? Answer with only the larger number.",
+    "first_presented": 359,
+    "second_presented": 342,
+    "correct_answer": "359",
+    "nominal_baseline": 300,
+    "nominal_ratio": 1.05
+  },
+  {
+    "paradigm_d_id": "PD-122",
+    "source_pair_id": "NUM-1034",
+    "prompt": "Which is larger, 300 or 360? Answer with only the larger number.",
+    "first_presented": 300,
+    "second_presented": 360,
+    "correct_answer": "360",
+    "nominal_baseline": 300,
+    "nominal_ratio": 1.2
+  },
+  {
+    "paradigm_d_id": "PD-123",
+    "source_pair_id": "NUM-1156",
+    "prompt": "Which is larger, 315 or 945? Answer with only the larger number.",
+    "first_presented": 315,
+    "second_presented": 945,
+    "correct_answer": "945",
+    "nominal_baseline": 300,
+    "nominal_ratio": 3.0
+  },
+  {
+    "paradigm_d_id": "PD-124",
+    "source_pair_id": "NUM-0991",
+    "prompt": "Which is larger, 330 or 300? Answer with only the larger number.",
+    "first_presented": 330,
+    "second_presented": 300,
+    "correct_answer": "330",
+    "nominal_baseline": 300,
+    "nominal_ratio": 1.1
+  },
+  {
+    "paradigm_d_id": "PD-125",
+    "source_pair_id": "NUM-1159",
+    "prompt": "Which is larger, 912 or 304? Answer with only the larger number.",
+    "first_presented": 912,
+    "second_presented": 304,
+    "correct_answer": "912",
+    "nominal_baseline": 300,
+    "nominal_ratio": 3.0
+  },
+  {
+    "paradigm_d_id": "PD-126",
+    "source_pair_id": "NUM-0954",
+    "prompt": "Which is larger, 279 or 307? Answer with only the larger number.",
+    "first_presented": 279,
+    "second_presented": 307,
+    "correct_answer": "307",
+    "nominal_baseline": 300,
+    "nominal_ratio": 1.1
+  },
+  {
+    "paradigm_d_id": "PD-127",
+    "source_pair_id": "NUM-1052",
+    "prompt": "Which is larger, 280 or 420? Answer with only the larger number.",
+    "first_presented": 280,
+    "second_presented": 420,
+    "correct_answer": "420",
+    "nominal_baseline": 300,
+    "nominal_ratio": 1.5
+  },
+  {
+    "paradigm_d_id": "PD-128",
+    "source_pair_id": "NUM-1001",
+    "prompt": "Which is larger, 384 or 320? Answer with only the larger number.",
+    "first_presented": 384,
+    "second_presented": 320,
+    "correct_answer": "384",
+    "nominal_baseline": 300,
+    "nominal_ratio": 1.2
+  },
+  {
+    "paradigm_d_id": "PD-129",
+    "source_pair_id": "NUM-0978",
+    "prompt": "Which is larger, 256 or 282? Answer with only the larger number.",
+    "first_presented": 256,
+    "second_presented": 282,
+    "correct_answer": "282",
+    "nominal_baseline": 300,
+    "nominal_ratio": 1.1
+  },
+  {
+    "paradigm_d_id": "PD-130",
+    "source_pair_id": "NUM-1091",
+    "prompt": "Which is larger, 450 or 300? Answer with only the larger number.",
+    "first_presented": 450,
+    "second_presented": 300,
+    "correct_answer": "450",
+    "nominal_baseline": 300,
+    "nominal_ratio": 1.5
+  },
+  {
+    "paradigm_d_id": "PD-131",
+    "source_pair_id": "NUM-0982",
+    "prompt": "Which is larger, 300 or 330? Answer with only the larger number.",
+    "first_presented": 300,
+    "second_presented": 330,
+    "correct_answer": "330",
+    "nominal_baseline": 300,
+    "nominal_ratio": 1.1
+  },
+  {
+    "paradigm_d_id": "PD-132",
+    "source_pair_id": "NUM-1176",
+    "prompt": "Which is larger, 259 or 777? Answer with only the larger number.",
+    "first_presented": 259,
+    "second_presented": 777,
+    "correct_answer": "777",
+    "nominal_baseline": 300,
+    "nominal_ratio": 3.0
+  },
+  {
+    "paradigm_d_id": "PD-133",
+    "source_pair_id": "NUM-1171",
+    "prompt": "Which is larger, 954 or 318? Answer with only the larger number.",
+    "first_presented": 954,
+    "second_presented": 318,
+    "correct_answer": "954",
+    "nominal_baseline": 300,
+    "nominal_ratio": 3.0
+  },
+  {
+    "paradigm_d_id": "PD-134",
+    "source_pair_id": "NUM-0900",
+    "prompt": "Which is larger, 329 or 345? Answer with only the larger number.",
+    "first_presented": 329,
+    "second_presented": 345,
+    "correct_answer": "345",
+    "nominal_baseline": 300,
+    "nominal_ratio": 1.05
+  },
+  {
+    "paradigm_d_id": "PD-135",
+    "source_pair_id": "NUM-1065",
+    "prompt": "Which is larger, 448 or 299? Answer with only the larger number.",
+    "first_presented": 448,
+    "second_presented": 299,
+    "correct_answer": "448",
+    "nominal_baseline": 300,
+    "nominal_ratio": 1.5
+  },
+  {
+    "paradigm_d_id": "PD-136",
+    "source_pair_id": "NUM-1150",
+    "prompt": "Which is larger, 318 or 954? Answer with only the larger number.",
+    "first_presented": 318,
+    "second_presented": 954,
+    "correct_answer": "954",
+    "nominal_baseline": 300,
+    "nominal_ratio": 3.0
+  },
+  {
+    "paradigm_d_id": "PD-137",
+    "source_pair_id": "NUM-0909",
+    "prompt": "Which is larger, 275 or 262? Answer with only the larger number.",
+    "first_presented": 275,
+    "second_presented": 262,
+    "correct_answer": "275",
+    "nominal_baseline": 300,
+    "nominal_ratio": 1.05
+  },
+  {
+    "paradigm_d_id": "PD-138",
+    "source_pair_id": "NUM-0957",
+    "prompt": "Which is larger, 329 or 299? Answer with only the larger number.",
+    "first_presented": 329,
+    "second_presented": 299,
+    "correct_answer": "329",
+    "nominal_baseline": 300,
+    "nominal_ratio": 1.1
+  },
+  {
+    "paradigm_d_id": "PD-139",
+    "source_pair_id": "NUM-1085",
+    "prompt": "Which is larger, 450 or 300? Answer with only the larger number.",
+    "first_presented": 450,
+    "second_presented": 300,
+    "correct_answer": "450",
+    "nominal_baseline": 300,
+    "nominal_ratio": 1.5
+  },
+  {
+    "paradigm_d_id": "PD-140",
+    "source_pair_id": "NUM-1057",
+    "prompt": "Which is larger, 384 or 256? Answer with only the larger number.",
+    "first_presented": 384,
+    "second_presented": 256,
+    "correct_answer": "384",
+    "nominal_baseline": 300,
+    "nominal_ratio": 1.5
+  },
+  {
+    "paradigm_d_id": "PD-141",
+    "source_pair_id": "NUM-1022",
+    "prompt": "Which is larger, 272 or 326? Answer with only the larger number.",
+    "first_presented": 272,
+    "second_presented": 326,
+    "correct_answer": "326",
+    "nominal_baseline": 300,
+    "nominal_ratio": 1.2
+  },
+  {
+    "paradigm_d_id": "PD-142",
+    "source_pair_id": "NUM-0929",
+    "prompt": "Which is larger, 346 or 330? Answer with only the larger number.",
+    "first_presented": 346,
+    "second_presented": 330,
+    "correct_answer": "346",
+    "nominal_baseline": 300,
+    "nominal_ratio": 1.05
+  },
+  {
+    "paradigm_d_id": "PD-143",
+    "source_pair_id": "NUM-1023",
+    "prompt": "Which is larger, 319 or 266? Answer with only the larger number.",
+    "first_presented": 319,
+    "second_presented": 266,
+    "correct_answer": "319",
+    "nominal_baseline": 300,
+    "nominal_ratio": 1.2
+  },
+  {
+    "paradigm_d_id": "PD-144",
+    "source_pair_id": "NUM-1190",
+    "prompt": "Which is larger, 300 or 900? Answer with only the larger number.",
+    "first_presented": 300,
+    "second_presented": 900,
+    "correct_answer": "900",
+    "nominal_baseline": 300,
+    "nominal_ratio": 3.0
+  },
+  {
+    "paradigm_d_id": "PD-145",
+    "source_pair_id": "NUM-0940",
+    "prompt": "Which is larger, 300 or 315? Answer with only the larger number.",
+    "first_presented": 300,
+    "second_presented": 315,
+    "correct_answer": "315",
+    "nominal_baseline": 300,
+    "nominal_ratio": 1.05
+  },
+  {
+    "paradigm_d_id": "PD-146",
+    "source_pair_id": "NUM-0943",
+    "prompt": "Which is larger, 315 or 300? Answer with only the larger number.",
+    "first_presented": 315,
+    "second_presented": 300,
+    "correct_answer": "315",
+    "nominal_baseline": 300,
+    "nominal_ratio": 1.05
+  },
+  {
+    "paradigm_d_id": "PD-147",
+    "source_pair_id": "NUM-1148",
+    "prompt": "Which is larger, 300 or 600? Answer with only the larger number.",
+    "first_presented": 300,
+    "second_presented": 600,
+    "correct_answer": "600",
+    "nominal_baseline": 300,
+    "nominal_ratio": 2.0
+  },
+  {
+    "paradigm_d_id": "PD-148",
+    "source_pair_id": "NUM-0935",
+    "prompt": "Which is larger, 315 or 300? Answer with only the larger number.",
+    "first_presented": 315,
+    "second_presented": 300,
+    "correct_answer": "315",
+    "nominal_baseline": 300,
+    "nominal_ratio": 1.05
+  },
+  {
+    "paradigm_d_id": "PD-149",
+    "source_pair_id": "NUM-1172",
+    "prompt": "Which is larger, 340 or 1020? Answer with only the larger number.",
+    "first_presented": 340,
+    "second_presented": 1020,
+    "correct_answer": "1020",
+    "nominal_baseline": 300,
+    "nominal_ratio": 3.0
+  },
+  {
+    "paradigm_d_id": "PD-150",
+    "source_pair_id": "NUM-0964",
+    "prompt": "Which is larger, 334 or 367? Answer with only the larger number.",
+    "first_presented": 334,
+    "second_presented": 367,
+    "correct_answer": "367",
+    "nominal_baseline": 300,
+    "nominal_ratio": 1.1
+  },
+  {
+    "paradigm_d_id": "PD-151",
+    "source_pair_id": "NUM-0965",
+    "prompt": "Which is larger, 305 or 277? Answer with only the larger number.",
+    "first_presented": 305,
+    "second_presented": 277,
+    "correct_answer": "305",
+    "nominal_baseline": 300,
+    "nominal_ratio": 1.1
+  },
+  {
+    "paradigm_d_id": "PD-152",
+    "source_pair_id": "NUM-1143",
+    "prompt": "Which is larger, 600 or 300? Answer with only the larger number.",
+    "first_presented": 600,
+    "second_presented": 300,
+    "correct_answer": "600",
+    "nominal_baseline": 300,
+    "nominal_ratio": 2.0
+  },
+  {
+    "paradigm_d_id": "PD-153",
+    "source_pair_id": "NUM-1181",
+    "prompt": "Which is larger, 900 or 300? Answer with only the larger number.",
+    "first_presented": 900,
+    "second_presented": 300,
+    "correct_answer": "900",
+    "nominal_baseline": 300,
+    "nominal_ratio": 3.0
+  },
+  {
+    "paradigm_d_id": "PD-154",
+    "source_pair_id": "NUM-0984",
+    "prompt": "Which is larger, 300 or 330? Answer with only the larger number.",
+    "first_presented": 300,
+    "second_presented": 330,
+    "correct_answer": "330",
+    "nominal_baseline": 300,
+    "nominal_ratio": 1.1
+  },
+  {
+    "paradigm_d_id": "PD-155",
+    "source_pair_id": "NUM-1035",
+    "prompt": "Which is larger, 360 or 300? Answer with only the larger number.",
+    "first_presented": 360,
+    "second_presented": 300,
+    "correct_answer": "360",
+    "nominal_baseline": 300,
+    "nominal_ratio": 1.2
+  },
+  {
+    "paradigm_d_id": "PD-156",
+    "source_pair_id": "NUM-1170",
+    "prompt": "Which is larger, 317 or 951? Answer with only the larger number.",
+    "first_presented": 317,
+    "second_presented": 951,
+    "correct_answer": "951",
+    "nominal_baseline": 300,
+    "nominal_ratio": 3.0
+  },
+  {
+    "paradigm_d_id": "PD-157",
+    "source_pair_id": "NUM-1116",
+    "prompt": "Which is larger, 322 or 644? Answer with only the larger number.",
+    "first_presented": 322,
+    "second_presented": 644,
+    "correct_answer": "644",
+    "nominal_baseline": 300,
+    "nominal_ratio": 2.0
+  },
+  {
+    "paradigm_d_id": "PD-158",
+    "source_pair_id": "NUM-1008",
+    "prompt": "Which is larger, 263 or 316? Answer with only the larger number.",
+    "first_presented": 263,
+    "second_presented": 316,
+    "correct_answer": "316",
+    "nominal_baseline": 300,
+    "nominal_ratio": 1.2
+  },
+  {
+    "paradigm_d_id": "PD-159",
+    "source_pair_id": "NUM-1002",
+    "prompt": "Which is larger, 299 or 359? Answer with only the larger number.",
+    "first_presented": 299,
+    "second_presented": 359,
+    "correct_answer": "359",
+    "nominal_baseline": 300,
+    "nominal_ratio": 1.2
+  },
+  {
+    "paradigm_d_id": "PD-160",
+    "source_pair_id": "NUM-1359",
+    "prompt": "Which is larger, 1593 or 1062? Answer with only the larger number.",
+    "first_presented": 1593,
+    "second_presented": 1062,
+    "correct_answer": "1593",
+    "nominal_baseline": 1000,
+    "nominal_ratio": 1.5
+  },
+  {
+    "paradigm_d_id": "PD-161",
+    "source_pair_id": "NUM-1404",
+    "prompt": "Which is larger, 1106 or 2212? Answer with only the larger number.",
+    "first_presented": 1106,
+    "second_presented": 2212,
+    "correct_answer": "2212",
+    "nominal_baseline": 1000,
+    "nominal_ratio": 2.0
+  },
+  {
+    "paradigm_d_id": "PD-162",
+    "source_pair_id": "NUM-1391",
+    "prompt": "Which is larger, 1500 or 1000? Answer with only the larger number.",
+    "first_presented": 1500,
+    "second_presented": 1000,
+    "correct_answer": "1500",
+    "nominal_baseline": 1000,
+    "nominal_ratio": 1.5
+  },
+  {
+    "paradigm_d_id": "PD-163",
+    "source_pair_id": "NUM-1424",
+    "prompt": "Which is larger, 864 or 1728? Answer with only the larger number.",
+    "first_presented": 864,
+    "second_presented": 1728,
+    "correct_answer": "1728",
+    "nominal_baseline": 1000,
+    "nominal_ratio": 2.0
+  },
+  {
+    "paradigm_d_id": "PD-164",
+    "source_pair_id": "NUM-1464",
+    "prompt": "Which is larger, 1120 or 3360? Answer with only the larger number.",
+    "first_presented": 1120,
+    "second_presented": 3360,
+    "correct_answer": "3360",
+    "nominal_baseline": 1000,
+    "nominal_ratio": 3.0
+  },
+  {
+    "paradigm_d_id": "PD-165",
+    "source_pair_id": "NUM-1431",
+    "prompt": "Which is larger, 2000 or 1000? Answer with only the larger number.",
+    "first_presented": 2000,
+    "second_presented": 1000,
+    "correct_answer": "2000",
+    "nominal_baseline": 1000,
+    "nominal_ratio": 2.0
+  },
+  {
+    "paradigm_d_id": "PD-166",
+    "source_pair_id": "NUM-1261",
+    "prompt": "Which is larger, 1142 or 1038? Answer with only the larger number.",
+    "first_presented": 1142,
+    "second_presented": 1038,
+    "correct_answer": "1142",
+    "nominal_baseline": 1000,
+    "nominal_ratio": 1.1
+  },
+  {
+    "paradigm_d_id": "PD-167",
+    "source_pair_id": "NUM-1326",
+    "prompt": "Which is larger, 1012 or 1214? Answer with only the larger number.",
+    "first_presented": 1012,
+    "second_presented": 1214,
+    "correct_answer": "1214",
+    "nominal_baseline": 1000,
+    "nominal_ratio": 1.2
+  },
+  {
+    "paradigm_d_id": "PD-168",
+    "source_pair_id": "NUM-1315",
+    "prompt": "Which is larger, 1304 or 1087? Answer with only the larger number.",
+    "first_presented": 1304,
+    "second_presented": 1087,
+    "correct_answer": "1304",
+    "nominal_baseline": 1000,
+    "nominal_ratio": 1.2
+  },
+  {
+    "paradigm_d_id": "PD-169",
+    "source_pair_id": "NUM-1232",
+    "prompt": "Which is larger, 1000 or 1050? Answer with only the larger number.",
+    "first_presented": 1000,
+    "second_presented": 1050,
+    "correct_answer": "1050",
+    "nominal_baseline": 1000,
+    "nominal_ratio": 1.05
+  },
+  {
+    "paradigm_d_id": "PD-170",
+    "source_pair_id": "NUM-1373",
+    "prompt": "Which is larger, 1480 or 987? Answer with only the larger number.",
+    "first_presented": 1480,
+    "second_presented": 987,
+    "correct_answer": "1480",
+    "nominal_baseline": 1000,
+    "nominal_ratio": 1.5
+  },
+  {
+    "paradigm_d_id": "PD-171",
+    "source_pair_id": "NUM-1210",
+    "prompt": "Which is larger, 991 or 1041? Answer with only the larger number.",
+    "first_presented": 991,
+    "second_presented": 1041,
+    "correct_answer": "1041",
+    "nominal_baseline": 1000,
+    "nominal_ratio": 1.05
+  },
+  {
+    "paradigm_d_id": "PD-172",
+    "source_pair_id": "NUM-1483",
+    "prompt": "Which is larger, 3000 or 1000? Answer with only the larger number.",
+    "first_presented": 3000,
+    "second_presented": 1000,
+    "correct_answer": "3000",
+    "nominal_baseline": 1000,
+    "nominal_ratio": 3.0
+  },
+  {
+    "paradigm_d_id": "PD-173",
+    "source_pair_id": "NUM-1317",
+    "prompt": "Which is larger, 1356 or 1130? Answer with only the larger number.",
+    "first_presented": 1356,
+    "second_presented": 1130,
+    "correct_answer": "1356",
+    "nominal_baseline": 1000,
+    "nominal_ratio": 1.2
+  },
+  {
+    "paradigm_d_id": "PD-174",
+    "source_pair_id": "NUM-1312",
+    "prompt": "Which is larger, 1114 or 1337? Answer with only the larger number.",
+    "first_presented": 1114,
+    "second_presented": 1337,
+    "correct_answer": "1337",
+    "nominal_baseline": 1000,
+    "nominal_ratio": 1.2
+  },
+  {
+    "paradigm_d_id": "PD-175",
+    "source_pair_id": "NUM-1203",
+    "prompt": "Which is larger, 1074 or 1023? Answer with only the larger number.",
+    "first_presented": 1074,
+    "second_presented": 1023,
+    "correct_answer": "1074",
+    "nominal_baseline": 1000,
+    "nominal_ratio": 1.05
+  },
+  {
+    "paradigm_d_id": "PD-176",
+    "source_pair_id": "NUM-1236",
+    "prompt": "Which is larger, 1000 or 1050? Answer with only the larger number.",
+    "first_presented": 1000,
+    "second_presented": 1050,
+    "correct_answer": "1050",
+    "nominal_baseline": 1000,
+    "nominal_ratio": 1.05
+  },
+  {
+    "paradigm_d_id": "PD-177",
+    "source_pair_id": "NUM-1230",
+    "prompt": "Which is larger, 1000 or 1050? Answer with only the larger number.",
+    "first_presented": 1000,
+    "second_presented": 1050,
+    "correct_answer": "1050",
+    "nominal_baseline": 1000,
+    "nominal_ratio": 1.05
+  },
+  {
+    "paradigm_d_id": "PD-178",
+    "source_pair_id": "NUM-1234",
+    "prompt": "Which is larger, 1000 or 1050? Answer with only the larger number.",
+    "first_presented": 1000,
+    "second_presented": 1050,
+    "correct_answer": "1050",
+    "nominal_baseline": 1000,
+    "nominal_ratio": 1.05
+  },
+  {
+    "paradigm_d_id": "PD-179",
+    "source_pair_id": "NUM-1216",
+    "prompt": "Which is larger, 998 or 1048? Answer with only the larger number.",
+    "first_presented": 998,
+    "second_presented": 1048,
+    "correct_answer": "1048",
+    "nominal_baseline": 1000,
+    "nominal_ratio": 1.05
+  },
+  {
+    "paradigm_d_id": "PD-180",
+    "source_pair_id": "NUM-1369",
+    "prompt": "Which is larger, 1666 or 1111? Answer with only the larger number.",
+    "first_presented": 1666,
+    "second_presented": 1111,
+    "correct_answer": "1666",
+    "nominal_baseline": 1000,
+    "nominal_ratio": 1.5
+  },
+  {
+    "paradigm_d_id": "PD-181",
+    "source_pair_id": "NUM-1463",
+    "prompt": "Which is larger, 3273 or 1091? Answer with only the larger number.",
+    "first_presented": 3273,
+    "second_presented": 1091,
+    "correct_answer": "3273",
+    "nominal_baseline": 1000,
+    "nominal_ratio": 3.0
+  },
+  {
+    "paradigm_d_id": "PD-182",
+    "source_pair_id": "NUM-1321",
+    "prompt": "Which is larger, 1128 or 940? Answer with only the larger number.",
+    "first_presented": 1128,
+    "second_presented": 940,
+    "correct_answer": "1128",
+    "nominal_baseline": 1000,
+    "nominal_ratio": 1.2
+  },
+  {
+    "paradigm_d_id": "PD-183",
+    "source_pair_id": "NUM-1342",
+    "prompt": "Which is larger, 1000 or 1200? Answer with only the larger number.",
+    "first_presented": 1000,
+    "second_presented": 1200,
+    "correct_answer": "1200",
+    "nominal_baseline": 1000,
+    "nominal_ratio": 1.2
+  },
+  {
+    "paradigm_d_id": "PD-184",
+    "source_pair_id": "NUM-1448",
+    "prompt": "Which is larger, 1000 or 2000? Answer with only the larger number.",
+    "first_presented": 1000,
+    "second_presented": 2000,
+    "correct_answer": "2000",
+    "nominal_baseline": 1000,
+    "nominal_ratio": 2.0
+  },
+  {
+    "paradigm_d_id": "PD-185",
+    "source_pair_id": "NUM-1309",
+    "prompt": "Which is larger, 1158 or 965? Answer with only the larger number.",
+    "first_presented": 1158,
+    "second_presented": 965,
+    "correct_answer": "1158",
+    "nominal_baseline": 1000,
+    "nominal_ratio": 1.2
+  },
+  {
+    "paradigm_d_id": "PD-186",
+    "source_pair_id": "NUM-1476",
+    "prompt": "Which is larger, 995 or 2985? Answer with only the larger number.",
+    "first_presented": 995,
+    "second_presented": 2985,
+    "correct_answer": "2985",
+    "nominal_baseline": 1000,
+    "nominal_ratio": 3.0
+  },
+  {
+    "paradigm_d_id": "PD-187",
+    "source_pair_id": "NUM-1267",
+    "prompt": "Which is larger, 1165 or 1059? Answer with only the larger number.",
+    "first_presented": 1165,
+    "second_presented": 1059,
+    "correct_answer": "1165",
+    "nominal_baseline": 1000,
+    "nominal_ratio": 1.1
+  },
+  {
+    "paradigm_d_id": "PD-188",
+    "source_pair_id": "NUM-1492",
+    "prompt": "Which is larger, 1000 or 3000? Answer with only the larger number.",
+    "first_presented": 1000,
+    "second_presented": 3000,
+    "correct_answer": "3000",
+    "nominal_baseline": 1000,
+    "nominal_ratio": 3.0
+  },
+  {
+    "paradigm_d_id": "PD-189",
+    "source_pair_id": "NUM-1495",
+    "prompt": "Which is larger, 3000 or 1000? Answer with only the larger number.",
+    "first_presented": 3000,
+    "second_presented": 1000,
+    "correct_answer": "3000",
+    "nominal_baseline": 1000,
+    "nominal_ratio": 3.0
+  },
+  {
+    "paradigm_d_id": "PD-190",
+    "source_pair_id": "NUM-1442",
+    "prompt": "Which is larger, 1000 or 2000? Answer with only the larger number.",
+    "first_presented": 1000,
+    "second_presented": 2000,
+    "correct_answer": "2000",
+    "nominal_baseline": 1000,
+    "nominal_ratio": 2.0
+  },
+  {
+    "paradigm_d_id": "PD-191",
+    "source_pair_id": "NUM-1324",
+    "prompt": "Which is larger, 997 or 1196? Answer with only the larger number.",
+    "first_presented": 997,
+    "second_presented": 1196,
+    "correct_answer": "1196",
+    "nominal_baseline": 1000,
+    "nominal_ratio": 1.2
+  },
+  {
+    "paradigm_d_id": "PD-192",
+    "source_pair_id": "NUM-1408",
+    "prompt": "Which is larger, 1066 or 2132? Answer with only the larger number.",
+    "first_presented": 1066,
+    "second_presented": 2132,
+    "correct_answer": "2132",
+    "nominal_baseline": 1000,
+    "nominal_ratio": 2.0
+  },
+  {
+    "paradigm_d_id": "PD-193",
+    "source_pair_id": "NUM-1297",
+    "prompt": "Which is larger, 1100 or 1000? Answer with only the larger number.",
+    "first_presented": 1100,
+    "second_presented": 1000,
+    "correct_answer": "1100",
+    "nominal_baseline": 1000,
+    "nominal_ratio": 1.1
+  },
+  {
+    "paradigm_d_id": "PD-194",
+    "source_pair_id": "NUM-1248",
+    "prompt": "Which is larger, 1000 or 1050? Answer with only the larger number.",
+    "first_presented": 1000,
+    "second_presented": 1050,
+    "correct_answer": "1050",
+    "nominal_baseline": 1000,
+    "nominal_ratio": 1.05
+  },
+  {
+    "paradigm_d_id": "PD-195",
+    "source_pair_id": "NUM-1249",
+    "prompt": "Which is larger, 1050 or 1000? Answer with only the larger number.",
+    "first_presented": 1050,
+    "second_presented": 1000,
+    "correct_answer": "1050",
+    "nominal_baseline": 1000,
+    "nominal_ratio": 1.05
+  },
+  {
+    "paradigm_d_id": "PD-196",
+    "source_pair_id": "NUM-1420",
+    "prompt": "Which is larger, 1112 or 2224? Answer with only the larger number.",
+    "first_presented": 1112,
+    "second_presented": 2224,
+    "correct_answer": "2224",
+    "nominal_baseline": 1000,
+    "nominal_ratio": 2.0
+  },
+  {
+    "paradigm_d_id": "PD-197",
+    "source_pair_id": "NUM-1381",
+    "prompt": "Which is larger, 1500 or 1000? Answer with only the larger number.",
+    "first_presented": 1500,
+    "second_presented": 1000,
+    "correct_answer": "1500",
+    "nominal_baseline": 1000,
+    "nominal_ratio": 1.5
+  },
+  {
+    "paradigm_d_id": "PD-198",
+    "source_pair_id": "NUM-1416",
+    "prompt": "Which is larger, 1074 or 2148? Answer with only the larger number.",
+    "first_presented": 1074,
+    "second_presented": 2148,
+    "correct_answer": "2148",
+    "nominal_baseline": 1000,
+    "nominal_ratio": 2.0
+  },
+  {
+    "paradigm_d_id": "PD-199",
+    "source_pair_id": "NUM-1410",
+    "prompt": "Which is larger, 1112 or 2224? Answer with only the larger number.",
+    "first_presented": 1112,
+    "second_presented": 2224,
+    "correct_answer": "2224",
+    "nominal_baseline": 1000,
+    "nominal_ratio": 2.0
+  }
+]

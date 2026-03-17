@@ -1,0 +1,50 @@
+{
+  "temporal": [
+    [
+      "60 seconds",
+      "1 minute"
+    ],
+    [
+      "120 seconds",
+      "2 minutes"
+    ],
+    [
+      "300 seconds",
+      "5 minutes"
+    ],
+    [
+      "3600 seconds",
+      "1 hour"
+    ],
+    [
+      "7200 seconds",
+      "2 hours"
+    ],
+    [
+      "86400 seconds",
+      "1 day"
+    ]
+  ],
+  "spatial": [
+    [
+      "1000 metres",
+      "1 km"
+    ],
+    [
+      "5000 metres",
+      "5 km"
+    ],
+    [
+      "10000 metres",
+      "10 km"
+    ],
+    [
+      "50000 metres",
+      "50 km"
+    ],
+    [
+      "100000 metres",
+      "100 km"
+    ]
+  ]
+}

@@ -1,0 +1,534 @@
+{
+  "model_key": "mistral_instruct",
+  "domain_key": "spatial",
+  "magnitudes_raw": [
+    "1 metre",
+    "2 metres",
+    "5 metres",
+    "10 metres",
+    "50 metres",
+    "100 metres",
+    "500 metres",
+    "1 km",
+    "5 km",
+    "10 km",
+    "50 km",
+    "100 km",
+    "500 km",
+    "1000 km"
+  ],
+  "magnitudes_numeric": [
+    1.0,
+    2.0,
+    5.0,
+    10.0,
+    50.0,
+    100.0,
+    500.0,
+    1000.0,
+    5000.0,
+    10000.0,
+    50000.0,
+    100000.0,
+    500000.0,
+    1000000.0
+  ],
+  "n_excluded": 0,
+  "centroid_shape": [
+    14,
+    33,
+    4096
+  ],
+  "extraction_log": [
+    {
+      "magnitude": "1 metre",
+      "carrier_idx": 0,
+      "sentence": "The distance was 1 metre.",
+      "elapsed_s": 1.8959,
+      "status": "ok"
+    },
+    {
+      "magnitude": "1 metre",
+      "carrier_idx": 1,
+      "sentence": "They travelled 1 metre to get there.",
+      "elapsed_s": 0.118,
+      "status": "ok"
+    },
+    {
+      "magnitude": "1 metre",
+      "carrier_idx": 2,
+      "sentence": "It was 1 metre away.",
+      "elapsed_s": 0.115,
+      "status": "ok"
+    },
+    {
+      "magnitude": "1 metre",
+      "carrier_idx": 3,
+      "sentence": "The gap measured 1 metre.",
+      "elapsed_s": 0.117,
+      "status": "ok"
+    },
+    {
+      "magnitude": "1 metre",
+      "carrier_idx": 4,
+      "sentence": "The total route covered 1 metre.",
+      "elapsed_s": 0.1175,
+      "status": "ok"
+    },
+    {
+      "magnitude": "2 metres",
+      "carrier_idx": 0,
+      "sentence": "The distance was 2 metres.",
+      "elapsed_s": 0.117,
+      "status": "ok"
+    },
+    {
+      "magnitude": "2 metres",
+      "carrier_idx": 1,
+      "sentence": "They travelled 2 metres to get there.",
+      "elapsed_s": 0.118,
+      "status": "ok"
+    },
+    {
+      "magnitude": "2 metres",
+      "carrier_idx": 2,
+      "sentence": "It was 2 metres away.",
+      "elapsed_s": 0.1185,
+      "status": "ok"
+    },
+    {
+      "magnitude": "2 metres",
+      "carrier_idx": 3,
+      "sentence": "The gap measured 2 metres.",
+      "elapsed_s": 0.1185,
+      "status": "ok"
+    },
+    {
+      "magnitude": "2 metres",
+      "carrier_idx": 4,
+      "sentence": "The total route covered 2 metres.",
+      "elapsed_s": 0.1156,
+      "status": "ok"
+    },
+    {
+      "magnitude": "5 metres",
+      "carrier_idx": 0,
+      "sentence": "The distance was 5 metres.",
+      "elapsed_s": 0.116,
+      "status": "ok"
+    },
+    {
+      "magnitude": "5 metres",
+      "carrier_idx": 1,
+      "sentence": "They travelled 5 metres to get there.",
+      "elapsed_s": 0.1205,
+      "status": "ok"
+    },
+    {
+      "magnitude": "5 metres",
+      "carrier_idx": 2,
+      "sentence": "It was 5 metres away.",
+      "elapsed_s": 0.1185,
+      "status": "ok"
+    },
+    {
+      "magnitude": "5 metres",
+      "carrier_idx": 3,
+      "sentence": "The gap measured 5 metres.",
+      "elapsed_s": 0.1185,
+      "status": "ok"
+    },
+    {
+      "magnitude": "5 metres",
+      "carrier_idx": 4,
+      "sentence": "The total route covered 5 metres.",
+      "elapsed_s": 0.1161,
+      "status": "ok"
+    },
+    {
+      "magnitude": "10 metres",
+      "carrier_idx": 0,
+      "sentence": "The distance was 10 metres.",
+      "elapsed_s": 0.116,
+      "status": "ok"
+    },
+    {
+      "magnitude": "10 metres",
+      "carrier_idx": 1,
+      "sentence": "They travelled 10 metres to get there.",
+      "elapsed_s": 0.12,
+      "status": "ok"
+    },
+    {
+      "magnitude": "10 metres",
+      "carrier_idx": 2,
+      "sentence": "It was 10 metres away.",
+      "elapsed_s": 0.118,
+      "status": "ok"
+    },
+    {
+      "magnitude": "10 metres",
+      "carrier_idx": 3,
+      "sentence": "The gap measured 10 metres.",
+      "elapsed_s": 0.116,
+      "status": "ok"
+    },
+    {
+      "magnitude": "10 metres",
+      "carrier_idx": 4,
+      "sentence": "The total route covered 10 metres.",
+      "elapsed_s": 0.114,
+      "status": "ok"
+    },
+    {
+      "magnitude": "50 metres",
+      "carrier_idx": 0,
+      "sentence": "The distance was 50 metres.",
+      "elapsed_s": 0.116,
+      "status": "ok"
+    },
+    {
+      "magnitude": "50 metres",
+      "carrier_idx": 1,
+      "sentence": "They travelled 50 metres to get there.",
+      "elapsed_s": 0.1171,
+      "status": "ok"
+    },
+    {
+      "magnitude": "50 metres",
+      "carrier_idx": 2,
+      "sentence": "It was 50 metres away.",
+      "elapsed_s": 0.117,
+      "status": "ok"
+    },
+    {
+      "magnitude": "50 metres",
+      "carrier_idx": 3,
+      "sentence": "The gap measured 50 metres.",
+      "elapsed_s": 0.1321,
+      "status": "ok"
+    },
+    {
+      "magnitude": "50 metres",
+      "carrier_idx": 4,
+      "sentence": "The total route covered 50 metres.",
+      "elapsed_s": 0.115,
+      "status": "ok"
+    },
+    {
+      "magnitude": "100 metres",
+      "carrier_idx": 0,
+      "sentence": "The distance was 100 metres.",
+      "elapsed_s": 0.115,
+      "status": "ok"
+    },
+    {
+      "magnitude": "100 metres",
+      "carrier_idx": 1,
+      "sentence": "They travelled 100 metres to get there.",
+      "elapsed_s": 0.117,
+      "status": "ok"
+    },
+    {
+      "magnitude": "100 metres",
+      "carrier_idx": 2,
+      "sentence": "It was 100 metres away.",
+      "elapsed_s": 0.1146,
+      "status": "ok"
+    },
+    {
+      "magnitude": "100 metres",
+      "carrier_idx": 3,
+      "sentence": "The gap measured 100 metres.",
+      "elapsed_s": 0.1155,
+      "status": "ok"
+    },
+    {
+      "magnitude": "100 metres",
+      "carrier_idx": 4,
+      "sentence": "The total route covered 100 metres.",
+      "elapsed_s": 0.1175,
+      "status": "ok"
+    },
+    {
+      "magnitude": "500 metres",
+      "carrier_idx": 0,
+      "sentence": "The distance was 500 metres.",
+      "elapsed_s": 0.1145,
+      "status": "ok"
+    },
+    {
+      "magnitude": "500 metres",
+      "carrier_idx": 1,
+      "sentence": "They travelled 500 metres to get there.",
+      "elapsed_s": 0.1205,
+      "status": "ok"
+    },
+    {
+      "magnitude": "500 metres",
+      "carrier_idx": 2,
+      "sentence": "It was 500 metres away.",
+      "elapsed_s": 0.1155,
+      "status": "ok"
+    },
+    {
+      "magnitude": "500 metres",
+      "carrier_idx": 3,
+      "sentence": "The gap measured 500 metres.",
+      "elapsed_s": 0.1156,
+      "status": "ok"
+    },
+    {
+      "magnitude": "500 metres",
+      "carrier_idx": 4,
+      "sentence": "The total route covered 500 metres.",
+      "elapsed_s": 0.118,
+      "status": "ok"
+    },
+    {
+      "magnitude": "1 km",
+      "carrier_idx": 0,
+      "sentence": "The distance was 1 km.",
+      "elapsed_s": 0.1165,
+      "status": "ok"
+    },
+    {
+      "magnitude": "1 km",
+      "carrier_idx": 1,
+      "sentence": "They travelled 1 km to get there.",
+      "elapsed_s": 0.1165,
+      "status": "ok"
+    },
+    {
+      "magnitude": "1 km",
+      "carrier_idx": 2,
+      "sentence": "It was 1 km away.",
+      "elapsed_s": 0.1155,
+      "status": "ok"
+    },
+    {
+      "magnitude": "1 km",
+      "carrier_idx": 3,
+      "sentence": "The gap measured 1 km.",
+      "elapsed_s": 0.1176,
+      "status": "ok"
+    },
+    {
+      "magnitude": "1 km",
+      "carrier_idx": 4,
+      "sentence": "The total route covered 1 km.",
+      "elapsed_s": 0.1165,
+      "status": "ok"
+    },
+    {
+      "magnitude": "5 km",
+      "carrier_idx": 0,
+      "sentence": "The distance was 5 km.",
+      "elapsed_s": 0.1175,
+      "status": "ok"
+    },
+    {
+      "magnitude": "5 km",
+      "carrier_idx": 1,
+      "sentence": "They travelled 5 km to get there.",
+      "elapsed_s": 0.116,
+      "status": "ok"
+    },
+    {
+      "magnitude": "5 km",
+      "carrier_idx": 2,
+      "sentence": "It was 5 km away.",
+      "elapsed_s": 0.1155,
+      "status": "ok"
+    },
+    {
+      "magnitude": "5 km",
+      "carrier_idx": 3,
+      "sentence": "The gap measured 5 km.",
+      "elapsed_s": 0.1165,
+      "status": "ok"
+    },
+    {
+      "magnitude": "5 km",
+      "carrier_idx": 4,
+      "sentence": "The total route covered 5 km.",
+      "elapsed_s": 0.1155,
+      "status": "ok"
+    },
+    {
+      "magnitude": "10 km",
+      "carrier_idx": 0,
+      "sentence": "The distance was 10 km.",
+      "elapsed_s": 0.1141,
+      "status": "ok"
+    },
+    {
+      "magnitude": "10 km",
+      "carrier_idx": 1,
+      "sentence": "They travelled 10 km to get there.",
+      "elapsed_s": 0.118,
+      "status": "ok"
+    },
+    {
+      "magnitude": "10 km",
+      "carrier_idx": 2,
+      "sentence": "It was 10 km away.",
+      "elapsed_s": 0.1145,
+      "status": "ok"
+    },
+    {
+      "magnitude": "10 km",
+      "carrier_idx": 3,
+      "sentence": "The gap measured 10 km.",
+      "elapsed_s": 0.1161,
+      "status": "ok"
+    },
+    {
+      "magnitude": "10 km",
+      "carrier_idx": 4,
+      "sentence": "The total route covered 10 km.",
+      "elapsed_s": 0.115,
+      "status": "ok"
+    },
+    {
+      "magnitude": "50 km",
+      "carrier_idx": 0,
+      "sentence": "The distance was 50 km.",
+      "elapsed_s": 0.119,
+      "status": "ok"
+    },
+    {
+      "magnitude": "50 km",
+      "carrier_idx": 1,
+      "sentence": "They travelled 50 km to get there.",
+      "elapsed_s": 0.118,
+      "status": "ok"
+    },
+    {
+      "magnitude": "50 km",
+      "carrier_idx": 2,
+      "sentence": "It was 50 km away.",
+      "elapsed_s": 0.1196,
+      "status": "ok"
+    },
+    {
+      "magnitude": "50 km",
+      "carrier_idx": 3,
+      "sentence": "The gap measured 50 km.",
+      "elapsed_s": 0.1155,
+      "status": "ok"
+    },
+    {
+      "magnitude": "50 km",
+      "carrier_idx": 4,
+      "sentence": "The total route covered 50 km.",
+      "elapsed_s": 0.1155,
+      "status": "ok"
+    },
+    {
+      "magnitude": "100 km",
+      "carrier_idx": 0,
+      "sentence": "The distance was 100 km.",
+      "elapsed_s": 0.1145,
+      "status": "ok"
+    },
+    {
+      "magnitude": "100 km",
+      "carrier_idx": 1,
+      "sentence": "They travelled 100 km to get there.",
+      "elapsed_s": 0.1171,
+      "status": "ok"
+    },
+    {
+      "magnitude": "100 km",
+      "carrier_idx": 2,
+      "sentence": "It was 100 km away.",
+      "elapsed_s": 0.1155,
+      "status": "ok"
+    },
+    {
+      "magnitude": "100 km",
+      "carrier_idx": 3,
+      "sentence": "The gap measured 100 km.",
+      "elapsed_s": 0.115,
+      "status": "ok"
+    },
+    {
+      "magnitude": "100 km",
+      "carrier_idx": 4,
+      "sentence": "The total route covered 100 km.",
+      "elapsed_s": 0.12,
+      "status": "ok"
+    },
+    {
+      "magnitude": "500 km",
+      "carrier_idx": 0,
+      "sentence": "The distance was 500 km.",
+      "elapsed_s": 0.1175,
+      "status": "ok"
+    },
+    {
+      "magnitude": "500 km",
+      "carrier_idx": 1,
+      "sentence": "They travelled 500 km to get there.",
+      "elapsed_s": 0.1195,
+      "status": "ok"
+    },
+    {
+      "magnitude": "500 km",
+      "carrier_idx": 2,
+      "sentence": "It was 500 km away.",
+      "elapsed_s": 0.1135,
+      "status": "ok"
+    },
+    {
+      "magnitude": "500 km",
+      "carrier_idx": 3,
+      "sentence": "The gap measured 500 km.",
+      "elapsed_s": 0.116,
+      "status": "ok"
+    },
+    {
+      "magnitude": "500 km",
+      "carrier_idx": 4,
+      "sentence": "The total route covered 500 km.",
+      "elapsed_s": 0.119,
+      "status": "ok"
+    },
+    {
+      "magnitude": "1000 km",
+      "carrier_idx": 0,
+      "sentence": "The distance was 1000 km.",
+      "elapsed_s": 0.118,
+      "status": "ok"
+    },
+    {
+      "magnitude": "1000 km",
+      "carrier_idx": 1,
+      "sentence": "They travelled 1000 km to get there.",
+      "elapsed_s": 0.1405,
+      "status": "ok"
+    },
+    {
+      "magnitude": "1000 km",
+      "carrier_idx": 2,
+      "sentence": "It was 1000 km away.",
+      "elapsed_s": 0.1285,
+      "status": "ok"
+    },
+    {
+      "magnitude": "1000 km",
+      "carrier_idx": 3,
+      "sentence": "The gap measured 1000 km.",
+      "elapsed_s": 0.1235,
+      "status": "ok"
+    },
+    {
+      "magnitude": "1000 km",
+      "carrier_idx": 4,
+      "sentence": "The total route covered 1000 km.",
+      "elapsed_s": 0.121,
+      "status": "ok"
+    }
+  ]
+}

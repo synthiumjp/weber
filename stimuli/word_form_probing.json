@@ -1,0 +1,782 @@
+[
+  {
+    "magnitude": 1,
+    "word_form": "one",
+    "carrier_template": "The number {N} is a quantity.",
+    "sentence": "The number one is a quantity."
+  },
+  {
+    "magnitude": 1,
+    "word_form": "one",
+    "carrier_template": "There are {N} items.",
+    "sentence": "There are one items."
+  },
+  {
+    "magnitude": 1,
+    "word_form": "one",
+    "carrier_template": "{N} was the value.",
+    "sentence": "one was the value."
+  },
+  {
+    "magnitude": 1,
+    "word_form": "one",
+    "carrier_template": "The count reached {N}.",
+    "sentence": "The count reached one."
+  },
+  {
+    "magnitude": 1,
+    "word_form": "one",
+    "carrier_template": "Exactly {N} were measured.",
+    "sentence": "Exactly one were measured."
+  },
+  {
+    "magnitude": 2,
+    "word_form": "two",
+    "carrier_template": "The number {N} is a quantity.",
+    "sentence": "The number two is a quantity."
+  },
+  {
+    "magnitude": 2,
+    "word_form": "two",
+    "carrier_template": "There are {N} items.",
+    "sentence": "There are two items."
+  },
+  {
+    "magnitude": 2,
+    "word_form": "two",
+    "carrier_template": "{N} was the value.",
+    "sentence": "two was the value."
+  },
+  {
+    "magnitude": 2,
+    "word_form": "two",
+    "carrier_template": "The count reached {N}.",
+    "sentence": "The count reached two."
+  },
+  {
+    "magnitude": 2,
+    "word_form": "two",
+    "carrier_template": "Exactly {N} were measured.",
+    "sentence": "Exactly two were measured."
+  },
+  {
+    "magnitude": 3,
+    "word_form": "three",
+    "carrier_template": "The number {N} is a quantity.",
+    "sentence": "The number three is a quantity."
+  },
+  {
+    "magnitude": 3,
+    "word_form": "three",
+    "carrier_template": "There are {N} items.",
+    "sentence": "There are three items."
+  },
+  {
+    "magnitude": 3,
+    "word_form": "three",
+    "carrier_template": "{N} was the value.",
+    "sentence": "three was the value."
+  },
+  {
+    "magnitude": 3,
+    "word_form": "three",
+    "carrier_template": "The count reached {N}.",
+    "sentence": "The count reached three."
+  },
+  {
+    "magnitude": 3,
+    "word_form": "three",
+    "carrier_template": "Exactly {N} were measured.",
+    "sentence": "Exactly three were measured."
+  },
+  {
+    "magnitude": 4,
+    "word_form": "four",
+    "carrier_template": "The number {N} is a quantity.",
+    "sentence": "The number four is a quantity."
+  },
+  {
+    "magnitude": 4,
+    "word_form": "four",
+    "carrier_template": "There are {N} items.",
+    "sentence": "There are four items."
+  },
+  {
+    "magnitude": 4,
+    "word_form": "four",
+    "carrier_template": "{N} was the value.",
+    "sentence": "four was the value."
+  },
+  {
+    "magnitude": 4,
+    "word_form": "four",
+    "carrier_template": "The count reached {N}.",
+    "sentence": "The count reached four."
+  },
+  {
+    "magnitude": 4,
+    "word_form": "four",
+    "carrier_template": "Exactly {N} were measured.",
+    "sentence": "Exactly four were measured."
+  },
+  {
+    "magnitude": 5,
+    "word_form": "five",
+    "carrier_template": "The number {N} is a quantity.",
+    "sentence": "The number five is a quantity."
+  },
+  {
+    "magnitude": 5,
+    "word_form": "five",
+    "carrier_template": "There are {N} items.",
+    "sentence": "There are five items."
+  },
+  {
+    "magnitude": 5,
+    "word_form": "five",
+    "carrier_template": "{N} was the value.",
+    "sentence": "five was the value."
+  },
+  {
+    "magnitude": 5,
+    "word_form": "five",
+    "carrier_template": "The count reached {N}.",
+    "sentence": "The count reached five."
+  },
+  {
+    "magnitude": 5,
+    "word_form": "five",
+    "carrier_template": "Exactly {N} were measured.",
+    "sentence": "Exactly five were measured."
+  },
+  {
+    "magnitude": 6,
+    "word_form": "six",
+    "carrier_template": "The number {N} is a quantity.",
+    "sentence": "The number six is a quantity."
+  },
+  {
+    "magnitude": 6,
+    "word_form": "six",
+    "carrier_template": "There are {N} items.",
+    "sentence": "There are six items."
+  },
+  {
+    "magnitude": 6,
+    "word_form": "six",
+    "carrier_template": "{N} was the value.",
+    "sentence": "six was the value."
+  },
+  {
+    "magnitude": 6,
+    "word_form": "six",
+    "carrier_template": "The count reached {N}.",
+    "sentence": "The count reached six."
+  },
+  {
+    "magnitude": 6,
+    "word_form": "six",
+    "carrier_template": "Exactly {N} were measured.",
+    "sentence": "Exactly six were measured."
+  },
+  {
+    "magnitude": 7,
+    "word_form": "seven",
+    "carrier_template": "The number {N} is a quantity.",
+    "sentence": "The number seven is a quantity."
+  },
+  {
+    "magnitude": 7,
+    "word_form": "seven",
+    "carrier_template": "There are {N} items.",
+    "sentence": "There are seven items."
+  },
+  {
+    "magnitude": 7,
+    "word_form": "seven",
+    "carrier_template": "{N} was the value.",
+    "sentence": "seven was the value."
+  },
+  {
+    "magnitude": 7,
+    "word_form": "seven",
+    "carrier_template": "The count reached {N}.",
+    "sentence": "The count reached seven."
+  },
+  {
+    "magnitude": 7,
+    "word_form": "seven",
+    "carrier_template": "Exactly {N} were measured.",
+    "sentence": "Exactly seven were measured."
+  },
+  {
+    "magnitude": 8,
+    "word_form": "eight",
+    "carrier_template": "The number {N} is a quantity.",
+    "sentence": "The number eight is a quantity."
+  },
+  {
+    "magnitude": 8,
+    "word_form": "eight",
+    "carrier_template": "There are {N} items.",
+    "sentence": "There are eight items."
+  },
+  {
+    "magnitude": 8,
+    "word_form": "eight",
+    "carrier_template": "{N} was the value.",
+    "sentence": "eight was the value."
+  },
+  {
+    "magnitude": 8,
+    "word_form": "eight",
+    "carrier_template": "The count reached {N}.",
+    "sentence": "The count reached eight."
+  },
+  {
+    "magnitude": 8,
+    "word_form": "eight",
+    "carrier_template": "Exactly {N} were measured.",
+    "sentence": "Exactly eight were measured."
+  },
+  {
+    "magnitude": 9,
+    "word_form": "nine",
+    "carrier_template": "The number {N} is a quantity.",
+    "sentence": "The number nine is a quantity."
+  },
+  {
+    "magnitude": 9,
+    "word_form": "nine",
+    "carrier_template": "There are {N} items.",
+    "sentence": "There are nine items."
+  },
+  {
+    "magnitude": 9,
+    "word_form": "nine",
+    "carrier_template": "{N} was the value.",
+    "sentence": "nine was the value."
+  },
+  {
+    "magnitude": 9,
+    "word_form": "nine",
+    "carrier_template": "The count reached {N}.",
+    "sentence": "The count reached nine."
+  },
+  {
+    "magnitude": 9,
+    "word_form": "nine",
+    "carrier_template": "Exactly {N} were measured.",
+    "sentence": "Exactly nine were measured."
+  },
+  {
+    "magnitude": 10,
+    "word_form": "ten",
+    "carrier_template": "The number {N} is a quantity.",
+    "sentence": "The number ten is a quantity."
+  },
+  {
+    "magnitude": 10,
+    "word_form": "ten",
+    "carrier_template": "There are {N} items.",
+    "sentence": "There are ten items."
+  },
+  {
+    "magnitude": 10,
+    "word_form": "ten",
+    "carrier_template": "{N} was the value.",
+    "sentence": "ten was the value."
+  },
+  {
+    "magnitude": 10,
+    "word_form": "ten",
+    "carrier_template": "The count reached {N}.",
+    "sentence": "The count reached ten."
+  },
+  {
+    "magnitude": 10,
+    "word_form": "ten",
+    "carrier_template": "Exactly {N} were measured.",
+    "sentence": "Exactly ten were measured."
+  },
+  {
+    "magnitude": 15,
+    "word_form": "fifteen",
+    "carrier_template": "The number {N} is a quantity.",
+    "sentence": "The number fifteen is a quantity."
+  },
+  {
+    "magnitude": 15,
+    "word_form": "fifteen",
+    "carrier_template": "There are {N} items.",
+    "sentence": "There are fifteen items."
+  },
+  {
+    "magnitude": 15,
+    "word_form": "fifteen",
+    "carrier_template": "{N} was the value.",
+    "sentence": "fifteen was the value."
+  },
+  {
+    "magnitude": 15,
+    "word_form": "fifteen",
+    "carrier_template": "The count reached {N}.",
+    "sentence": "The count reached fifteen."
+  },
+  {
+    "magnitude": 15,
+    "word_form": "fifteen",
+    "carrier_template": "Exactly {N} were measured.",
+    "sentence": "Exactly fifteen were measured."
+  },
+  {
+    "magnitude": 20,
+    "word_form": "twenty",
+    "carrier_template": "The number {N} is a quantity.",
+    "sentence": "The number twenty is a quantity."
+  },
+  {
+    "magnitude": 20,
+    "word_form": "twenty",
+    "carrier_template": "There are {N} items.",
+    "sentence": "There are twenty items."
+  },
+  {
+    "magnitude": 20,
+    "word_form": "twenty",
+    "carrier_template": "{N} was the value.",
+    "sentence": "twenty was the value."
+  },
+  {
+    "magnitude": 20,
+    "word_form": "twenty",
+    "carrier_template": "The count reached {N}.",
+    "sentence": "The count reached twenty."
+  },
+  {
+    "magnitude": 20,
+    "word_form": "twenty",
+    "carrier_template": "Exactly {N} were measured.",
+    "sentence": "Exactly twenty were measured."
+  },
+  {
+    "magnitude": 30,
+    "word_form": "thirty",
+    "carrier_template": "The number {N} is a quantity.",
+    "sentence": "The number thirty is a quantity."
+  },
+  {
+    "magnitude": 30,
+    "word_form": "thirty",
+    "carrier_template": "There are {N} items.",
+    "sentence": "There are thirty items."
+  },
+  {
+    "magnitude": 30,
+    "word_form": "thirty",
+    "carrier_template": "{N} was the value.",
+    "sentence": "thirty was the value."
+  },
+  {
+    "magnitude": 30,
+    "word_form": "thirty",
+    "carrier_template": "The count reached {N}.",
+    "sentence": "The count reached thirty."
+  },
+  {
+    "magnitude": 30,
+    "word_form": "thirty",
+    "carrier_template": "Exactly {N} were measured.",
+    "sentence": "Exactly thirty were measured."
+  },
+  {
+    "magnitude": 40,
+    "word_form": "forty",
+    "carrier_template": "The number {N} is a quantity.",
+    "sentence": "The number forty is a quantity."
+  },
+  {
+    "magnitude": 40,
+    "word_form": "forty",
+    "carrier_template": "There are {N} items.",
+    "sentence": "There are forty items."
+  },
+  {
+    "magnitude": 40,
+    "word_form": "forty",
+    "carrier_template": "{N} was the value.",
+    "sentence": "forty was the value."
+  },
+  {
+    "magnitude": 40,
+    "word_form": "forty",
+    "carrier_template": "The count reached {N}.",
+    "sentence": "The count reached forty."
+  },
+  {
+    "magnitude": 40,
+    "word_form": "forty",
+    "carrier_template": "Exactly {N} were measured.",
+    "sentence": "Exactly forty were measured."
+  },
+  {
+    "magnitude": 50,
+    "word_form": "fifty",
+    "carrier_template": "The number {N} is a quantity.",
+    "sentence": "The number fifty is a quantity."
+  },
+  {
+    "magnitude": 50,
+    "word_form": "fifty",
+    "carrier_template": "There are {N} items.",
+    "sentence": "There are fifty items."
+  },
+  {
+    "magnitude": 50,
+    "word_form": "fifty",
+    "carrier_template": "{N} was the value.",
+    "sentence": "fifty was the value."
+  },
+  {
+    "magnitude": 50,
+    "word_form": "fifty",
+    "carrier_template": "The count reached {N}.",
+    "sentence": "The count reached fifty."
+  },
+  {
+    "magnitude": 50,
+    "word_form": "fifty",
+    "carrier_template": "Exactly {N} were measured.",
+    "sentence": "Exactly fifty were measured."
+  },
+  {
+    "magnitude": 60,
+    "word_form": "sixty",
+    "carrier_template": "The number {N} is a quantity.",
+    "sentence": "The number sixty is a quantity."
+  },
+  {
+    "magnitude": 60,
+    "word_form": "sixty",
+    "carrier_template": "There are {N} items.",
+    "sentence": "There are sixty items."
+  },
+  {
+    "magnitude": 60,
+    "word_form": "sixty",
+    "carrier_template": "{N} was the value.",
+    "sentence": "sixty was the value."
+  },
+  {
+    "magnitude": 60,
+    "word_form": "sixty",
+    "carrier_template": "The count reached {N}.",
+    "sentence": "The count reached sixty."
+  },
+  {
+    "magnitude": 60,
+    "word_form": "sixty",
+    "carrier_template": "Exactly {N} were measured.",
+    "sentence": "Exactly sixty were measured."
+  },
+  {
+    "magnitude": 70,
+    "word_form": "seventy",
+    "carrier_template": "The number {N} is a quantity.",
+    "sentence": "The number seventy is a quantity."
+  },
+  {
+    "magnitude": 70,
+    "word_form": "seventy",
+    "carrier_template": "There are {N} items.",
+    "sentence": "There are seventy items."
+  },
+  {
+    "magnitude": 70,
+    "word_form": "seventy",
+    "carrier_template": "{N} was the value.",
+    "sentence": "seventy was the value."
+  },
+  {
+    "magnitude": 70,
+    "word_form": "seventy",
+    "carrier_template": "The count reached {N}.",
+    "sentence": "The count reached seventy."
+  },
+  {
+    "magnitude": 70,
+    "word_form": "seventy",
+    "carrier_template": "Exactly {N} were measured.",
+    "sentence": "Exactly seventy were measured."
+  },
+  {
+    "magnitude": 80,
+    "word_form": "eighty",
+    "carrier_template": "The number {N} is a quantity.",
+    "sentence": "The number eighty is a quantity."
+  },
+  {
+    "magnitude": 80,
+    "word_form": "eighty",
+    "carrier_template": "There are {N} items.",
+    "sentence": "There are eighty items."
+  },
+  {
+    "magnitude": 80,
+    "word_form": "eighty",
+    "carrier_template": "{N} was the value.",
+    "sentence": "eighty was the value."
+  },
+  {
+    "magnitude": 80,
+    "word_form": "eighty",
+    "carrier_template": "The count reached {N}.",
+    "sentence": "The count reached eighty."
+  },
+  {
+    "magnitude": 80,
+    "word_form": "eighty",
+    "carrier_template": "Exactly {N} were measured.",
+    "sentence": "Exactly eighty were measured."
+  },
+  {
+    "magnitude": 90,
+    "word_form": "ninety",
+    "carrier_template": "The number {N} is a quantity.",
+    "sentence": "The number ninety is a quantity."
+  },
+  {
+    "magnitude": 90,
+    "word_form": "ninety",
+    "carrier_template": "There are {N} items.",
+    "sentence": "There are ninety items."
+  },
+  {
+    "magnitude": 90,
+    "word_form": "ninety",
+    "carrier_template": "{N} was the value.",
+    "sentence": "ninety was the value."
+  },
+  {
+    "magnitude": 90,
+    "word_form": "ninety",
+    "carrier_template": "The count reached {N}.",
+    "sentence": "The count reached ninety."
+  },
+  {
+    "magnitude": 90,
+    "word_form": "ninety",
+    "carrier_template": "Exactly {N} were measured.",
+    "sentence": "Exactly ninety were measured."
+  },
+  {
+    "magnitude": 100,
+    "word_form": "one hundred",
+    "carrier_template": "The number {N} is a quantity.",
+    "sentence": "The number one hundred is a quantity."
+  },
+  {
+    "magnitude": 100,
+    "word_form": "one hundred",
+    "carrier_template": "There are {N} items.",
+    "sentence": "There are one hundred items."
+  },
+  {
+    "magnitude": 100,
+    "word_form": "one hundred",
+    "carrier_template": "{N} was the value.",
+    "sentence": "one hundred was the value."
+  },
+  {
+    "magnitude": 100,
+    "word_form": "one hundred",
+    "carrier_template": "The count reached {N}.",
+    "sentence": "The count reached one hundred."
+  },
+  {
+    "magnitude": 100,
+    "word_form": "one hundred",
+    "carrier_template": "Exactly {N} were measured.",
+    "sentence": "Exactly one hundred were measured."
+  },
+  {
+    "magnitude": 150,
+    "word_form": "one hundred and fifty",
+    "carrier_template": "The number {N} is a quantity.",
+    "sentence": "The number one hundred and fifty is a quantity."
+  },
+  {
+    "magnitude": 150,
+    "word_form": "one hundred and fifty",
+    "carrier_template": "There are {N} items.",
+    "sentence": "There are one hundred and fifty items."
+  },
+  {
+    "magnitude": 150,
+    "word_form": "one hundred and fifty",
+    "carrier_template": "{N} was the value.",
+    "sentence": "one hundred and fifty was the value."
+  },
+  {
+    "magnitude": 150,
+    "word_form": "one hundred and fifty",
+    "carrier_template": "The count reached {N}.",
+    "sentence": "The count reached one hundred and fifty."
+  },
+  {
+    "magnitude": 150,
+    "word_form": "one hundred and fifty",
+    "carrier_template": "Exactly {N} were measured.",
+    "sentence": "Exactly one hundred and fifty were measured."
+  },
+  {
+    "magnitude": 200,
+    "word_form": "two hundred",
+    "carrier_template": "The number {N} is a quantity.",
+    "sentence": "The number two hundred is a quantity."
+  },
+  {
+    "magnitude": 200,
+    "word_form": "two hundred",
+    "carrier_template": "There are {N} items.",
+    "sentence": "There are two hundred items."
+  },
+  {
+    "magnitude": 200,
+    "word_form": "two hundred",
+    "carrier_template": "{N} was the value.",
+    "sentence": "two hundred was the value."
+  },
+  {
+    "magnitude": 200,
+    "word_form": "two hundred",
+    "carrier_template": "The count reached {N}.",
+    "sentence": "The count reached two hundred."
+  },
+  {
+    "magnitude": 200,
+    "word_form": "two hundred",
+    "carrier_template": "Exactly {N} were measured.",
+    "sentence": "Exactly two hundred were measured."
+  },
+  {
+    "magnitude": 300,
+    "word_form": "three hundred",
+    "carrier_template": "The number {N} is a quantity.",
+    "sentence": "The number three hundred is a quantity."
+  },
+  {
+    "magnitude": 300,
+    "word_form": "three hundred",
+    "carrier_template": "There are {N} items.",
+    "sentence": "There are three hundred items."
+  },
+  {
+    "magnitude": 300,
+    "word_form": "three hundred",
+    "carrier_template": "{N} was the value.",
+    "sentence": "three hundred was the value."
+  },
+  {
+    "magnitude": 300,
+    "word_form": "three hundred",
+    "carrier_template": "The count reached {N}.",
+    "sentence": "The count reached three hundred."
+  },
+  {
+    "magnitude": 300,
+    "word_form": "three hundred",
+    "carrier_template": "Exactly {N} were measured.",
+    "sentence": "Exactly three hundred were measured."
+  },
+  {
+    "magnitude": 500,
+    "word_form": "five hundred",
+    "carrier_template": "The number {N} is a quantity.",
+    "sentence": "The number five hundred is a quantity."
+  },
+  {
+    "magnitude": 500,
+    "word_form": "five hundred",
+    "carrier_template": "There are {N} items.",
+    "sentence": "There are five hundred items."
+  },
+  {
+    "magnitude": 500,
+    "word_form": "five hundred",
+    "carrier_template": "{N} was the value.",
+    "sentence": "five hundred was the value."
+  },
+  {
+    "magnitude": 500,
+    "word_form": "five hundred",
+    "carrier_template": "The count reached {N}.",
+    "sentence": "The count reached five hundred."
+  },
+  {
+    "magnitude": 500,
+    "word_form": "five hundred",
+    "carrier_template": "Exactly {N} were measured.",
+    "sentence": "Exactly five hundred were measured."
+  },
+  {
+    "magnitude": 700,
+    "word_form": "seven hundred",
+    "carrier_template": "The number {N} is a quantity.",
+    "sentence": "The number seven hundred is a quantity."
+  },
+  {
+    "magnitude": 700,
+    "word_form": "seven hundred",
+    "carrier_template": "There are {N} items.",
+    "sentence": "There are seven hundred items."
+  },
+  {
+    "magnitude": 700,
+    "word_form": "seven hundred",
+    "carrier_template": "{N} was the value.",
+    "sentence": "seven hundred was the value."
+  },
+  {
+    "magnitude": 700,
+    "word_form": "seven hundred",
+    "carrier_template": "The count reached {N}.",
+    "sentence": "The count reached seven hundred."
+  },
+  {
+    "magnitude": 700,
+    "word_form": "seven hundred",
+    "carrier_template": "Exactly {N} were measured.",
+    "sentence": "Exactly seven hundred were measured."
+  },
+  {
+    "magnitude": 1000,
+    "word_form": "one thousand",
+    "carrier_template": "The number {N} is a quantity.",
+    "sentence": "The number one thousand is a quantity."
+  },
+  {
+    "magnitude": 1000,
+    "word_form": "one thousand",
+    "carrier_template": "There are {N} items.",
+    "sentence": "There are one thousand items."
+  },
+  {
+    "magnitude": 1000,
+    "word_form": "one thousand",
+    "carrier_template": "{N} was the value.",
+    "sentence": "one thousand was the value."
+  },
+  {
+    "magnitude": 1000,
+    "word_form": "one thousand",
+    "carrier_template": "The count reached {N}.",
+    "sentence": "The count reached one thousand."
+  },
+  {
+    "magnitude": 1000,
+    "word_form": "one thousand",
+    "carrier_template": "Exactly {N} were measured.",
+    "sentence": "Exactly one thousand were measured."
+  }
+]

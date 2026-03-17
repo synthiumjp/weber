@@ -1,0 +1,978 @@
+{
+  "model_key": "llama_instruct",
+  "domain_key": "numerical",
+  "magnitudes_raw": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "15",
+    "20",
+    "30",
+    "40",
+    "50",
+    "60",
+    "70",
+    "80",
+    "90",
+    "100",
+    "150",
+    "200",
+    "300",
+    "500",
+    "700",
+    "1000"
+  ],
+  "magnitudes_numeric": [
+    1.0,
+    2.0,
+    3.0,
+    4.0,
+    5.0,
+    6.0,
+    7.0,
+    8.0,
+    9.0,
+    10.0,
+    15.0,
+    20.0,
+    30.0,
+    40.0,
+    50.0,
+    60.0,
+    70.0,
+    80.0,
+    90.0,
+    100.0,
+    150.0,
+    200.0,
+    300.0,
+    500.0,
+    700.0,
+    1000.0
+  ],
+  "n_excluded": 0,
+  "centroid_shape": [
+    26,
+    33,
+    4096
+  ],
+  "extraction_log": [
+    {
+      "magnitude": "1",
+      "carrier_idx": 0,
+      "sentence": "The number 1 is a quantity.",
+      "elapsed_s": 1.6413,
+      "status": "ok"
+    },
+    {
+      "magnitude": "1",
+      "carrier_idx": 1,
+      "sentence": "There are 1 items.",
+      "elapsed_s": 0.1845,
+      "status": "ok"
+    },
+    {
+      "magnitude": "1",
+      "carrier_idx": 2,
+      "sentence": "1 was the value.",
+      "elapsed_s": 0.185,
+      "status": "ok"
+    },
+    {
+      "magnitude": "1",
+      "carrier_idx": 3,
+      "sentence": "The count reached 1.",
+      "elapsed_s": 0.1835,
+      "status": "ok"
+    },
+    {
+      "magnitude": "1",
+      "carrier_idx": 4,
+      "sentence": "Exactly 1 were measured.",
+      "elapsed_s": 0.1871,
+      "status": "ok"
+    },
+    {
+      "magnitude": "2",
+      "carrier_idx": 0,
+      "sentence": "The number 2 is a quantity.",
+      "elapsed_s": 0.1865,
+      "status": "ok"
+    },
+    {
+      "magnitude": "2",
+      "carrier_idx": 1,
+      "sentence": "There are 2 items.",
+      "elapsed_s": 0.1827,
+      "status": "ok"
+    },
+    {
+      "magnitude": "2",
+      "carrier_idx": 2,
+      "sentence": "2 was the value.",
+      "elapsed_s": 0.179,
+      "status": "ok"
+    },
+    {
+      "magnitude": "2",
+      "carrier_idx": 3,
+      "sentence": "The count reached 2.",
+      "elapsed_s": 0.1855,
+      "status": "ok"
+    },
+    {
+      "magnitude": "2",
+      "carrier_idx": 4,
+      "sentence": "Exactly 2 were measured.",
+      "elapsed_s": 0.184,
+      "status": "ok"
+    },
+    {
+      "magnitude": "3",
+      "carrier_idx": 0,
+      "sentence": "The number 3 is a quantity.",
+      "elapsed_s": 0.2085,
+      "status": "ok"
+    },
+    {
+      "magnitude": "3",
+      "carrier_idx": 1,
+      "sentence": "There are 3 items.",
+      "elapsed_s": 0.1855,
+      "status": "ok"
+    },
+    {
+      "magnitude": "3",
+      "carrier_idx": 2,
+      "sentence": "3 was the value.",
+      "elapsed_s": 0.1781,
+      "status": "ok"
+    },
+    {
+      "magnitude": "3",
+      "carrier_idx": 3,
+      "sentence": "The count reached 3.",
+      "elapsed_s": 0.1855,
+      "status": "ok"
+    },
+    {
+      "magnitude": "3",
+      "carrier_idx": 4,
+      "sentence": "Exactly 3 were measured.",
+      "elapsed_s": 0.186,
+      "status": "ok"
+    },
+    {
+      "magnitude": "4",
+      "carrier_idx": 0,
+      "sentence": "The number 4 is a quantity.",
+      "elapsed_s": 0.1875,
+      "status": "ok"
+    },
+    {
+      "magnitude": "4",
+      "carrier_idx": 1,
+      "sentence": "There are 4 items.",
+      "elapsed_s": 0.1845,
+      "status": "ok"
+    },
+    {
+      "magnitude": "4",
+      "carrier_idx": 2,
+      "sentence": "4 was the value.",
+      "elapsed_s": 0.178,
+      "status": "ok"
+    },
+    {
+      "magnitude": "4",
+      "carrier_idx": 3,
+      "sentence": "The count reached 4.",
+      "elapsed_s": 0.1856,
+      "status": "ok"
+    },
+    {
+      "magnitude": "4",
+      "carrier_idx": 4,
+      "sentence": "Exactly 4 were measured.",
+      "elapsed_s": 0.1845,
+      "status": "ok"
+    },
+    {
+      "magnitude": "5",
+      "carrier_idx": 0,
+      "sentence": "The number 5 is a quantity.",
+      "elapsed_s": 0.188,
+      "status": "ok"
+    },
+    {
+      "magnitude": "5",
+      "carrier_idx": 1,
+      "sentence": "There are 5 items.",
+      "elapsed_s": 0.1845,
+      "status": "ok"
+    },
+    {
+      "magnitude": "5",
+      "carrier_idx": 2,
+      "sentence": "5 was the value.",
+      "elapsed_s": 0.1835,
+      "status": "ok"
+    },
+    {
+      "magnitude": "5",
+      "carrier_idx": 3,
+      "sentence": "The count reached 5.",
+      "elapsed_s": 0.1845,
+      "status": "ok"
+    },
+    {
+      "magnitude": "5",
+      "carrier_idx": 4,
+      "sentence": "Exactly 5 were measured.",
+      "elapsed_s": 0.1865,
+      "status": "ok"
+    },
+    {
+      "magnitude": "6",
+      "carrier_idx": 0,
+      "sentence": "The number 6 is a quantity.",
+      "elapsed_s": 0.1886,
+      "status": "ok"
+    },
+    {
+      "magnitude": "6",
+      "carrier_idx": 1,
+      "sentence": "There are 6 items.",
+      "elapsed_s": 0.183,
+      "status": "ok"
+    },
+    {
+      "magnitude": "6",
+      "carrier_idx": 2,
+      "sentence": "6 was the value.",
+      "elapsed_s": 0.184,
+      "status": "ok"
+    },
+    {
+      "magnitude": "6",
+      "carrier_idx": 3,
+      "sentence": "The count reached 6.",
+      "elapsed_s": 0.183,
+      "status": "ok"
+    },
+    {
+      "magnitude": "6",
+      "carrier_idx": 4,
+      "sentence": "Exactly 6 were measured.",
+      "elapsed_s": 0.1866,
+      "status": "ok"
+    },
+    {
+      "magnitude": "7",
+      "carrier_idx": 0,
+      "sentence": "The number 7 is a quantity.",
+      "elapsed_s": 0.1865,
+      "status": "ok"
+    },
+    {
+      "magnitude": "7",
+      "carrier_idx": 1,
+      "sentence": "There are 7 items.",
+      "elapsed_s": 0.187,
+      "status": "ok"
+    },
+    {
+      "magnitude": "7",
+      "carrier_idx": 2,
+      "sentence": "7 was the value.",
+      "elapsed_s": 0.1826,
+      "status": "ok"
+    },
+    {
+      "magnitude": "7",
+      "carrier_idx": 3,
+      "sentence": "The count reached 7.",
+      "elapsed_s": 0.185,
+      "status": "ok"
+    },
+    {
+      "magnitude": "7",
+      "carrier_idx": 4,
+      "sentence": "Exactly 7 were measured.",
+      "elapsed_s": 0.1816,
+      "status": "ok"
+    },
+    {
+      "magnitude": "8",
+      "carrier_idx": 0,
+      "sentence": "The number 8 is a quantity.",
+      "elapsed_s": 0.1875,
+      "status": "ok"
+    },
+    {
+      "magnitude": "8",
+      "carrier_idx": 1,
+      "sentence": "There are 8 items.",
+      "elapsed_s": 0.1845,
+      "status": "ok"
+    },
+    {
+      "magnitude": "8",
+      "carrier_idx": 2,
+      "sentence": "8 was the value.",
+      "elapsed_s": 0.1986,
+      "status": "ok"
+    },
+    {
+      "magnitude": "8",
+      "carrier_idx": 3,
+      "sentence": "The count reached 8.",
+      "elapsed_s": 0.185,
+      "status": "ok"
+    },
+    {
+      "magnitude": "8",
+      "carrier_idx": 4,
+      "sentence": "Exactly 8 were measured.",
+      "elapsed_s": 0.184,
+      "status": "ok"
+    },
+    {
+      "magnitude": "9",
+      "carrier_idx": 0,
+      "sentence": "The number 9 is a quantity.",
+      "elapsed_s": 0.1911,
+      "status": "ok"
+    },
+    {
+      "magnitude": "9",
+      "carrier_idx": 1,
+      "sentence": "There are 9 items.",
+      "elapsed_s": 0.186,
+      "status": "ok"
+    },
+    {
+      "magnitude": "9",
+      "carrier_idx": 2,
+      "sentence": "9 was the value.",
+      "elapsed_s": 0.1805,
+      "status": "ok"
+    },
+    {
+      "magnitude": "9",
+      "carrier_idx": 3,
+      "sentence": "The count reached 9.",
+      "elapsed_s": 0.187,
+      "status": "ok"
+    },
+    {
+      "magnitude": "9",
+      "carrier_idx": 4,
+      "sentence": "Exactly 9 were measured.",
+      "elapsed_s": 0.182,
+      "status": "ok"
+    },
+    {
+      "magnitude": "10",
+      "carrier_idx": 0,
+      "sentence": "The number 10 is a quantity.",
+      "elapsed_s": 0.1865,
+      "status": "ok"
+    },
+    {
+      "magnitude": "10",
+      "carrier_idx": 1,
+      "sentence": "There are 10 items.",
+      "elapsed_s": 0.188,
+      "status": "ok"
+    },
+    {
+      "magnitude": "10",
+      "carrier_idx": 2,
+      "sentence": "10 was the value.",
+      "elapsed_s": 0.182,
+      "status": "ok"
+    },
+    {
+      "magnitude": "10",
+      "carrier_idx": 3,
+      "sentence": "The count reached 10.",
+      "elapsed_s": 0.1855,
+      "status": "ok"
+    },
+    {
+      "magnitude": "10",
+      "carrier_idx": 4,
+      "sentence": "Exactly 10 were measured.",
+      "elapsed_s": 0.182,
+      "status": "ok"
+    },
+    {
+      "magnitude": "15",
+      "carrier_idx": 0,
+      "sentence": "The number 15 is a quantity.",
+      "elapsed_s": 0.186,
+      "status": "ok"
+    },
+    {
+      "magnitude": "15",
+      "carrier_idx": 1,
+      "sentence": "There are 15 items.",
+      "elapsed_s": 0.1845,
+      "status": "ok"
+    },
+    {
+      "magnitude": "15",
+      "carrier_idx": 2,
+      "sentence": "15 was the value.",
+      "elapsed_s": 0.1805,
+      "status": "ok"
+    },
+    {
+      "magnitude": "15",
+      "carrier_idx": 3,
+      "sentence": "The count reached 15.",
+      "elapsed_s": 0.183,
+      "status": "ok"
+    },
+    {
+      "magnitude": "15",
+      "carrier_idx": 4,
+      "sentence": "Exactly 15 were measured.",
+      "elapsed_s": 0.1875,
+      "status": "ok"
+    },
+    {
+      "magnitude": "20",
+      "carrier_idx": 0,
+      "sentence": "The number 20 is a quantity.",
+      "elapsed_s": 0.187,
+      "status": "ok"
+    },
+    {
+      "magnitude": "20",
+      "carrier_idx": 1,
+      "sentence": "There are 20 items.",
+      "elapsed_s": 0.187,
+      "status": "ok"
+    },
+    {
+      "magnitude": "20",
+      "carrier_idx": 2,
+      "sentence": "20 was the value.",
+      "elapsed_s": 0.1811,
+      "status": "ok"
+    },
+    {
+      "magnitude": "20",
+      "carrier_idx": 3,
+      "sentence": "The count reached 20.",
+      "elapsed_s": 0.1825,
+      "status": "ok"
+    },
+    {
+      "magnitude": "20",
+      "carrier_idx": 4,
+      "sentence": "Exactly 20 were measured.",
+      "elapsed_s": 0.184,
+      "status": "ok"
+    },
+    {
+      "magnitude": "30",
+      "carrier_idx": 0,
+      "sentence": "The number 30 is a quantity.",
+      "elapsed_s": 0.185,
+      "status": "ok"
+    },
+    {
+      "magnitude": "30",
+      "carrier_idx": 1,
+      "sentence": "There are 30 items.",
+      "elapsed_s": 0.1855,
+      "status": "ok"
+    },
+    {
+      "magnitude": "30",
+      "carrier_idx": 2,
+      "sentence": "30 was the value.",
+      "elapsed_s": 0.1836,
+      "status": "ok"
+    },
+    {
+      "magnitude": "30",
+      "carrier_idx": 3,
+      "sentence": "The count reached 30.",
+      "elapsed_s": 0.1855,
+      "status": "ok"
+    },
+    {
+      "magnitude": "30",
+      "carrier_idx": 4,
+      "sentence": "Exactly 30 were measured.",
+      "elapsed_s": 0.2095,
+      "status": "ok"
+    },
+    {
+      "magnitude": "40",
+      "carrier_idx": 0,
+      "sentence": "The number 40 is a quantity.",
+      "elapsed_s": 0.1875,
+      "status": "ok"
+    },
+    {
+      "magnitude": "40",
+      "carrier_idx": 1,
+      "sentence": "There are 40 items.",
+      "elapsed_s": 0.1835,
+      "status": "ok"
+    },
+    {
+      "magnitude": "40",
+      "carrier_idx": 2,
+      "sentence": "40 was the value.",
+      "elapsed_s": 0.1811,
+      "status": "ok"
+    },
+    {
+      "magnitude": "40",
+      "carrier_idx": 3,
+      "sentence": "The count reached 40.",
+      "elapsed_s": 0.1875,
+      "status": "ok"
+    },
+    {
+      "magnitude": "40",
+      "carrier_idx": 4,
+      "sentence": "Exactly 40 were measured.",
+      "elapsed_s": 0.184,
+      "status": "ok"
+    },
+    {
+      "magnitude": "50",
+      "carrier_idx": 0,
+      "sentence": "The number 50 is a quantity.",
+      "elapsed_s": 0.184,
+      "status": "ok"
+    },
+    {
+      "magnitude": "50",
+      "carrier_idx": 1,
+      "sentence": "There are 50 items.",
+      "elapsed_s": 0.183,
+      "status": "ok"
+    },
+    {
+      "magnitude": "50",
+      "carrier_idx": 2,
+      "sentence": "50 was the value.",
+      "elapsed_s": 0.1806,
+      "status": "ok"
+    },
+    {
+      "magnitude": "50",
+      "carrier_idx": 3,
+      "sentence": "The count reached 50.",
+      "elapsed_s": 0.185,
+      "status": "ok"
+    },
+    {
+      "magnitude": "50",
+      "carrier_idx": 4,
+      "sentence": "Exactly 50 were measured.",
+      "elapsed_s": 0.1845,
+      "status": "ok"
+    },
+    {
+      "magnitude": "60",
+      "carrier_idx": 0,
+      "sentence": "The number 60 is a quantity.",
+      "elapsed_s": 0.1881,
+      "status": "ok"
+    },
+    {
+      "magnitude": "60",
+      "carrier_idx": 1,
+      "sentence": "There are 60 items.",
+      "elapsed_s": 0.181,
+      "status": "ok"
+    },
+    {
+      "magnitude": "60",
+      "carrier_idx": 2,
+      "sentence": "60 was the value.",
+      "elapsed_s": 0.18,
+      "status": "ok"
+    },
+    {
+      "magnitude": "60",
+      "carrier_idx": 3,
+      "sentence": "The count reached 60.",
+      "elapsed_s": 0.1855,
+      "status": "ok"
+    },
+    {
+      "magnitude": "60",
+      "carrier_idx": 4,
+      "sentence": "Exactly 60 were measured.",
+      "elapsed_s": 0.189,
+      "status": "ok"
+    },
+    {
+      "magnitude": "70",
+      "carrier_idx": 0,
+      "sentence": "The number 70 is a quantity.",
+      "elapsed_s": 0.1871,
+      "status": "ok"
+    },
+    {
+      "magnitude": "70",
+      "carrier_idx": 1,
+      "sentence": "There are 70 items.",
+      "elapsed_s": 0.185,
+      "status": "ok"
+    },
+    {
+      "magnitude": "70",
+      "carrier_idx": 2,
+      "sentence": "70 was the value.",
+      "elapsed_s": 0.1815,
+      "status": "ok"
+    },
+    {
+      "magnitude": "70",
+      "carrier_idx": 3,
+      "sentence": "The count reached 70.",
+      "elapsed_s": 0.1905,
+      "status": "ok"
+    },
+    {
+      "magnitude": "70",
+      "carrier_idx": 4,
+      "sentence": "Exactly 70 were measured.",
+      "elapsed_s": 0.1855,
+      "status": "ok"
+    },
+    {
+      "magnitude": "80",
+      "carrier_idx": 0,
+      "sentence": "The number 80 is a quantity.",
+      "elapsed_s": 0.1886,
+      "status": "ok"
+    },
+    {
+      "magnitude": "80",
+      "carrier_idx": 1,
+      "sentence": "There are 80 items.",
+      "elapsed_s": 0.183,
+      "status": "ok"
+    },
+    {
+      "magnitude": "80",
+      "carrier_idx": 2,
+      "sentence": "80 was the value.",
+      "elapsed_s": 0.1805,
+      "status": "ok"
+    },
+    {
+      "magnitude": "80",
+      "carrier_idx": 3,
+      "sentence": "The count reached 80.",
+      "elapsed_s": 0.184,
+      "status": "ok"
+    },
+    {
+      "magnitude": "80",
+      "carrier_idx": 4,
+      "sentence": "Exactly 80 were measured.",
+      "elapsed_s": 0.1846,
+      "status": "ok"
+    },
+    {
+      "magnitude": "90",
+      "carrier_idx": 0,
+      "sentence": "The number 90 is a quantity.",
+      "elapsed_s": 0.1885,
+      "status": "ok"
+    },
+    {
+      "magnitude": "90",
+      "carrier_idx": 1,
+      "sentence": "There are 90 items.",
+      "elapsed_s": 0.1915,
+      "status": "ok"
+    },
+    {
+      "magnitude": "90",
+      "carrier_idx": 2,
+      "sentence": "90 was the value.",
+      "elapsed_s": 0.183,
+      "status": "ok"
+    },
+    {
+      "magnitude": "90",
+      "carrier_idx": 3,
+      "sentence": "The count reached 90.",
+      "elapsed_s": 0.182,
+      "status": "ok"
+    },
+    {
+      "magnitude": "90",
+      "carrier_idx": 4,
+      "sentence": "Exactly 90 were measured.",
+      "elapsed_s": 0.1846,
+      "status": "ok"
+    },
+    {
+      "magnitude": "100",
+      "carrier_idx": 0,
+      "sentence": "The number 100 is a quantity.",
+      "elapsed_s": 0.1865,
+      "status": "ok"
+    },
+    {
+      "magnitude": "100",
+      "carrier_idx": 1,
+      "sentence": "There are 100 items.",
+      "elapsed_s": 0.1831,
+      "status": "ok"
+    },
+    {
+      "magnitude": "100",
+      "carrier_idx": 2,
+      "sentence": "100 was the value.",
+      "elapsed_s": 0.1812,
+      "status": "ok"
+    },
+    {
+      "magnitude": "100",
+      "carrier_idx": 3,
+      "sentence": "The count reached 100.",
+      "elapsed_s": 0.1855,
+      "status": "ok"
+    },
+    {
+      "magnitude": "100",
+      "carrier_idx": 4,
+      "sentence": "Exactly 100 were measured.",
+      "elapsed_s": 0.1815,
+      "status": "ok"
+    },
+    {
+      "magnitude": "150",
+      "carrier_idx": 0,
+      "sentence": "The number 150 is a quantity.",
+      "elapsed_s": 0.1896,
+      "status": "ok"
+    },
+    {
+      "magnitude": "150",
+      "carrier_idx": 1,
+      "sentence": "There are 150 items.",
+      "elapsed_s": 0.1865,
+      "status": "ok"
+    },
+    {
+      "magnitude": "150",
+      "carrier_idx": 2,
+      "sentence": "150 was the value.",
+      "elapsed_s": 0.1836,
+      "status": "ok"
+    },
+    {
+      "magnitude": "150",
+      "carrier_idx": 3,
+      "sentence": "The count reached 150.",
+      "elapsed_s": 0.1825,
+      "status": "ok"
+    },
+    {
+      "magnitude": "150",
+      "carrier_idx": 4,
+      "sentence": "Exactly 150 were measured.",
+      "elapsed_s": 0.1845,
+      "status": "ok"
+    },
+    {
+      "magnitude": "200",
+      "carrier_idx": 0,
+      "sentence": "The number 200 is a quantity.",
+      "elapsed_s": 0.1886,
+      "status": "ok"
+    },
+    {
+      "magnitude": "200",
+      "carrier_idx": 1,
+      "sentence": "There are 200 items.",
+      "elapsed_s": 0.184,
+      "status": "ok"
+    },
+    {
+      "magnitude": "200",
+      "carrier_idx": 2,
+      "sentence": "200 was the value.",
+      "elapsed_s": 0.1815,
+      "status": "ok"
+    },
+    {
+      "magnitude": "200",
+      "carrier_idx": 3,
+      "sentence": "The count reached 200.",
+      "elapsed_s": 0.1846,
+      "status": "ok"
+    },
+    {
+      "magnitude": "200",
+      "carrier_idx": 4,
+      "sentence": "Exactly 200 were measured.",
+      "elapsed_s": 0.182,
+      "status": "ok"
+    },
+    {
+      "magnitude": "300",
+      "carrier_idx": 0,
+      "sentence": "The number 300 is a quantity.",
+      "elapsed_s": 0.1851,
+      "status": "ok"
+    },
+    {
+      "magnitude": "300",
+      "carrier_idx": 1,
+      "sentence": "There are 300 items.",
+      "elapsed_s": 0.1855,
+      "status": "ok"
+    },
+    {
+      "magnitude": "300",
+      "carrier_idx": 2,
+      "sentence": "300 was the value.",
+      "elapsed_s": 0.1831,
+      "status": "ok"
+    },
+    {
+      "magnitude": "300",
+      "carrier_idx": 3,
+      "sentence": "The count reached 300.",
+      "elapsed_s": 0.184,
+      "status": "ok"
+    },
+    {
+      "magnitude": "300",
+      "carrier_idx": 4,
+      "sentence": "Exactly 300 were measured.",
+      "elapsed_s": 0.182,
+      "status": "ok"
+    },
+    {
+      "magnitude": "500",
+      "carrier_idx": 0,
+      "sentence": "The number 500 is a quantity.",
+      "elapsed_s": 0.184,
+      "status": "ok"
+    },
+    {
+      "magnitude": "500",
+      "carrier_idx": 1,
+      "sentence": "There are 500 items.",
+      "elapsed_s": 0.185,
+      "status": "ok"
+    },
+    {
+      "magnitude": "500",
+      "carrier_idx": 2,
+      "sentence": "500 was the value.",
+      "elapsed_s": 0.1806,
+      "status": "ok"
+    },
+    {
+      "magnitude": "500",
+      "carrier_idx": 3,
+      "sentence": "The count reached 500.",
+      "elapsed_s": 0.192,
+      "status": "ok"
+    },
+    {
+      "magnitude": "500",
+      "carrier_idx": 4,
+      "sentence": "Exactly 500 were measured.",
+      "elapsed_s": 0.1837,
+      "status": "ok"
+    },
+    {
+      "magnitude": "700",
+      "carrier_idx": 0,
+      "sentence": "The number 700 is a quantity.",
+      "elapsed_s": 0.1855,
+      "status": "ok"
+    },
+    {
+      "magnitude": "700",
+      "carrier_idx": 1,
+      "sentence": "There are 700 items.",
+      "elapsed_s": 0.1855,
+      "status": "ok"
+    },
+    {
+      "magnitude": "700",
+      "carrier_idx": 2,
+      "sentence": "700 was the value.",
+      "elapsed_s": 0.183,
+      "status": "ok"
+    },
+    {
+      "magnitude": "700",
+      "carrier_idx": 3,
+      "sentence": "The count reached 700.",
+      "elapsed_s": 0.1855,
+      "status": "ok"
+    },
+    {
+      "magnitude": "700",
+      "carrier_idx": 4,
+      "sentence": "Exactly 700 were measured.",
+      "elapsed_s": 0.1855,
+      "status": "ok"
+    },
+    {
+      "magnitude": "1000",
+      "carrier_idx": 0,
+      "sentence": "The number 1000 is a quantity.",
+      "elapsed_s": 0.1856,
+      "status": "ok"
+    },
+    {
+      "magnitude": "1000",
+      "carrier_idx": 1,
+      "sentence": "There are 1000 items.",
+      "elapsed_s": 0.1905,
+      "status": "ok"
+    },
+    {
+      "magnitude": "1000",
+      "carrier_idx": 2,
+      "sentence": "1000 was the value.",
+      "elapsed_s": 0.1865,
+      "status": "ok"
+    },
+    {
+      "magnitude": "1000",
+      "carrier_idx": 3,
+      "sentence": "The count reached 1000.",
+      "elapsed_s": 0.19,
+      "status": "ok"
+    },
+    {
+      "magnitude": "1000",
+      "carrier_idx": 4,
+      "sentence": "Exactly 1000 were measured.",
+      "elapsed_s": 0.191,
+      "status": "ok"
+    }
+  ]
+}

@@ -1,0 +1,267 @@
+{
+  "model_key": "mistral_instruct",
+  "domain_key": "numerical",
+  "n_stimuli": 6000,
+  "n_results": 6000,
+  "overall_accuracy": 0.5753333333333334,
+  "cells": {
+    "10.0": {
+      "1.05": {
+        "accuracy": 0.66,
+        "n_trials": 50,
+        "n_correct": 33
+      },
+      "1.1": {
+        "accuracy": 0.62,
+        "n_trials": 50,
+        "n_correct": 31
+      },
+      "1.2": {
+        "accuracy": 0.62,
+        "n_trials": 50,
+        "n_correct": 31
+      },
+      "1.5": {
+        "accuracy": 0.64,
+        "n_trials": 50,
+        "n_correct": 32
+      },
+      "2.0": {
+        "accuracy": 0.64,
+        "n_trials": 50,
+        "n_correct": 32
+      },
+      "3.0": {
+        "accuracy": 0.76,
+        "n_trials": 50,
+        "n_correct": 38
+      }
+    },
+    "30.0": {
+      "1.05": {
+        "accuracy": 0.66,
+        "n_trials": 50,
+        "n_correct": 33
+      },
+      "1.1": {
+        "accuracy": 0.56,
+        "n_trials": 50,
+        "n_correct": 28
+      },
+      "1.2": {
+        "accuracy": 0.66,
+        "n_trials": 50,
+        "n_correct": 33
+      },
+      "1.5": {
+        "accuracy": 0.66,
+        "n_trials": 50,
+        "n_correct": 33
+      },
+      "2.0": {
+        "accuracy": 0.76,
+        "n_trials": 50,
+        "n_correct": 38
+      },
+      "3.0": {
+        "accuracy": 0.74,
+        "n_trials": 50,
+        "n_correct": 37
+      }
+    },
+    "100.0": {
+      "1.05": {
+        "accuracy": 0.74,
+        "n_trials": 50,
+        "n_correct": 37
+      },
+      "1.1": {
+        "accuracy": 0.72,
+        "n_trials": 50,
+        "n_correct": 36
+      },
+      "1.2": {
+        "accuracy": 0.76,
+        "n_trials": 50,
+        "n_correct": 38
+      },
+      "1.5": {
+        "accuracy": 0.74,
+        "n_trials": 50,
+        "n_correct": 37
+      },
+      "2.0": {
+        "accuracy": 0.86,
+        "n_trials": 50,
+        "n_correct": 43
+      },
+      "3.0": {
+        "accuracy": 0.76,
+        "n_trials": 50,
+        "n_correct": 38
+      }
+    },
+    "300.0": {
+      "1.05": {
+        "accuracy": 0.68,
+        "n_trials": 50,
+        "n_correct": 34
+      },
+      "1.1": {
+        "accuracy": 0.76,
+        "n_trials": 50,
+        "n_correct": 38
+      },
+      "1.2": {
+        "accuracy": 0.72,
+        "n_trials": 50,
+        "n_correct": 36
+      },
+      "1.5": {
+        "accuracy": 0.7,
+        "n_trials": 50,
+        "n_correct": 35
+      },
+      "2.0": {
+        "accuracy": 0.82,
+        "n_trials": 50,
+        "n_correct": 41
+      },
+      "3.0": {
+        "accuracy": 0.94,
+        "n_trials": 50,
+        "n_correct": 47
+      }
+    },
+    "1000.0": {
+      "1.05": {
+        "accuracy": 0.92,
+        "n_trials": 50,
+        "n_correct": 46
+      },
+      "1.1": {
+        "accuracy": 0.96,
+        "n_trials": 50,
+        "n_correct": 48
+      },
+      "1.2": {
+        "accuracy": 0.8,
+        "n_trials": 50,
+        "n_correct": 40
+      },
+      "1.5": {
+        "accuracy": 0.86,
+        "n_trials": 50,
+        "n_correct": 43
+      },
+      "2.0": {
+        "accuracy": 0.8,
+        "n_trials": 50,
+        "n_correct": 40
+      },
+      "3.0": {
+        "accuracy": 0.92,
+        "n_trials": 50,
+        "n_correct": 46
+      }
+    }
+  },
+  "psychometric_fits": {
+    "10.0": {
+      "mu": -29.218409354387262,
+      "sigma": 2.7914550635028164,
+      "lapse": 0.1,
+      "weber_fraction": null,
+      "converged": true,
+      "neg_loglik": 207.9441541679836
+    },
+    "30.0": {
+      "mu": -29.218409354387262,
+      "sigma": 2.7914550635028164,
+      "lapse": 0.1,
+      "weber_fraction": null,
+      "converged": true,
+      "neg_loglik": 207.94415416798358
+    },
+    "100.0": {
+      "mu": -29.218409354387262,
+      "sigma": 2.7914550635028164,
+      "lapse": 0.1,
+      "weber_fraction": null,
+      "converged": true,
+      "neg_loglik": 207.94415416798358
+    },
+    "300.0": {
+      "mu": -29.218409354387262,
+      "sigma": 2.7914550635028164,
+      "lapse": 0.1,
+      "weber_fraction": null,
+      "converged": true,
+      "neg_loglik": 207.94415416798358
+    },
+    "1000.0": {
+      "mu": -29.218409354387262,
+      "sigma": 2.7914550635028164,
+      "lapse": 0.1,
+      "weber_fraction": null,
+      "converged": true,
+      "neg_loglik": 207.9441541679836
+    }
+  },
+  "h2_evaluation": {
+    "task_type": "B1",
+    "n_items": 1451,
+    "accuracy": 0.7636113025499656,
+    "deviance_ratio_model": 1575.9532165540554,
+    "deviance_diff_model": 1563.8849873574918,
+    "deviance_null": 1587.049765161259,
+    "delta_deviance": -12.068229196563607,
+    "p_ratio_vs_null": 0.0008648853090372777,
+    "p_diff_vs_null": 1.486960730878728e-06,
+    "p_comparison": 0.0005128839387751327,
+    "ratio_model_better": false,
+    "h2_passes": false,
+    "beta_log_ratio": 0.5703958412605767,
+    "beta_abs_diff": 0.0009708615160266618
+  },
+  "entropy_diagnostic": {
+    "B1": {
+      "mean_entropy": 0.2254587515347327,
+      "median_entropy": 0.07808973267674446,
+      "fraction_below_0.1": 0.5633333333333334,
+      "flagged_exact": true,
+      "entropy_ratio_spearman_rho": 0.003654226660942141,
+      "entropy_ratio_spearman_p": 0.8875459938016845
+    },
+    "B2": {
+      "mean_entropy": 1.0045507386575143,
+      "median_entropy": 1.0893142223358154,
+      "fraction_below_0.1": 0.0026666666666666666,
+      "flagged_exact": false,
+      "entropy_ratio_spearman_rho": -0.35063992980147934,
+      "entropy_ratio_spearman_p": 1.2389601593442263e-44
+    },
+    "B3": {
+      "mean_entropy": 0.256602269521604,
+      "median_entropy": 0.11413224786520004,
+      "fraction_below_0.1": 0.4673333333333333,
+      "flagged_exact": false,
+      "entropy_ratio_spearman_rho": -0.26319591743458304,
+      "entropy_ratio_spearman_p": 3.453471018078928e-25
+    },
+    "symbolic_control": {
+      "mean_entropy": 0.19881199899936716,
+      "median_entropy": 0.161617211997509,
+      "fraction_below_0.1": 0.2806666666666667,
+      "flagged_exact": false,
+      "entropy_ratio_spearman_rho": -0.13178921033420105,
+      "entropy_ratio_spearman_p": 3.0187046478497696e-07
+    }
+  },
+  "bootstrap_weber_fractions": [],
+  "ceiling_check": {
+    "n_ceiling_cells": 0,
+    "n_fine_cells": 15,
+    "ceiling_limited": false
+  }
+}

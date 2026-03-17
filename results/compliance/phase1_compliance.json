@@ -1,0 +1,511 @@
+{
+  "semantic_diagnostic": {
+    "layers": [
+      {
+        "layer": 0,
+        "rho_semantic": 1.0,
+        "rho_frequency": 0.10644674945182236,
+        "winner": "semantic"
+      },
+      {
+        "layer": 1,
+        "rho_semantic": 0.728477094366665,
+        "rho_frequency": 0.12120766506850467,
+        "winner": "semantic"
+      },
+      {
+        "layer": 2,
+        "rho_semantic": 0.712126964151504,
+        "rho_frequency": 0.17508915585263218,
+        "winner": "semantic"
+      },
+      {
+        "layer": 3,
+        "rho_semantic": 0.6056123608270848,
+        "rho_frequency": 0.18565087263848773,
+        "winner": "semantic"
+      },
+      {
+        "layer": 4,
+        "rho_semantic": 0.6644898886616679,
+        "rho_frequency": 0.17729501313407492,
+        "winner": "semantic"
+      },
+      {
+        "layer": 5,
+        "rho_semantic": 0.6438288500865188,
+        "rho_frequency": 0.17126054664682044,
+        "winner": "semantic"
+      },
+      {
+        "layer": 6,
+        "rho_semantic": 0.6450663310786011,
+        "rho_frequency": 0.14819733809410254,
+        "winner": "semantic"
+      },
+      {
+        "layer": 7,
+        "rho_semantic": 0.6084403894219846,
+        "rho_frequency": 0.14655200418502548,
+        "winner": "semantic"
+      },
+      {
+        "layer": 8,
+        "rho_semantic": 0.6293269012287418,
+        "rho_frequency": 0.17329152483738458,
+        "winner": "semantic"
+      },
+      {
+        "layer": 9,
+        "rho_semantic": 0.6286176218691557,
+        "rho_frequency": 0.18154445250452347,
+        "winner": "semantic"
+      },
+      {
+        "layer": 10,
+        "rho_semantic": 0.642027860800867,
+        "rho_frequency": 0.1579338496403167,
+        "winner": "semantic"
+      },
+      {
+        "layer": 11,
+        "rho_semantic": 0.6271106217118487,
+        "rho_frequency": 0.1435862368600352,
+        "winner": "semantic"
+      },
+      {
+        "layer": 12,
+        "rho_semantic": 0.6427395871567652,
+        "rho_frequency": 0.14520723824295395,
+        "winner": "semantic"
+      },
+      {
+        "layer": 13,
+        "rho_semantic": 0.6363469840770456,
+        "rho_frequency": 0.13799343198067532,
+        "winner": "semantic"
+      },
+      {
+        "layer": 14,
+        "rho_semantic": 0.6588904619579468,
+        "rho_frequency": 0.16163939578217687,
+        "winner": "semantic"
+      },
+      {
+        "layer": 15,
+        "rho_semantic": 0.5533494135948124,
+        "rho_frequency": 0.20084242145192815,
+        "winner": "semantic"
+      },
+      {
+        "layer": 16,
+        "rho_semantic": 0.5732459406079039,
+        "rho_frequency": 0.07185377469126827,
+        "winner": "semantic"
+      },
+      {
+        "layer": 17,
+        "rho_semantic": 0.5958512925384093,
+        "rho_frequency": 0.10520596567189489,
+        "winner": "semantic"
+      },
+      {
+        "layer": 18,
+        "rho_semantic": 0.6622061419607433,
+        "rho_frequency": 0.1697879911788817,
+        "winner": "semantic"
+      },
+      {
+        "layer": 19,
+        "rho_semantic": 0.6621659413070456,
+        "rho_frequency": 0.12830418505361751,
+        "winner": "semantic"
+      },
+      {
+        "layer": 20,
+        "rho_semantic": 0.5854774264590216,
+        "rho_frequency": 0.13089078510048663,
+        "winner": "semantic"
+      },
+      {
+        "layer": 21,
+        "rho_semantic": 0.5692402076451156,
+        "rho_frequency": 0.1294436124835763,
+        "winner": "semantic"
+      },
+      {
+        "layer": 22,
+        "rho_semantic": 0.5635331131036653,
+        "rho_frequency": 0.1341406653028503,
+        "winner": "semantic"
+      },
+      {
+        "layer": 23,
+        "rho_semantic": 0.5241120025169106,
+        "rho_frequency": 0.12395513987465051,
+        "winner": "semantic"
+      },
+      {
+        "layer": 24,
+        "rho_semantic": 0.4991505427088249,
+        "rho_frequency": 0.13303117213169052,
+        "winner": "semantic"
+      },
+      {
+        "layer": 25,
+        "rho_semantic": 0.43867232971527453,
+        "rho_frequency": 0.1199639053681118,
+        "winner": "semantic"
+      },
+      {
+        "layer": 26,
+        "rho_semantic": 0.4483945956338595,
+        "rho_frequency": 0.09604765796669378,
+        "winner": "semantic"
+      },
+      {
+        "layer": 27,
+        "rho_semantic": 0.4148221558037509,
+        "rho_frequency": 0.07330147247061367,
+        "winner": "semantic"
+      },
+      {
+        "layer": 28,
+        "rho_semantic": 0.4045584045584046,
+        "rho_frequency": 0.0738499171069727,
+        "winner": "semantic"
+      },
+      {
+        "layer": 29,
+        "rho_semantic": 0.37989198259136914,
+        "rho_frequency": 0.06240102591413742,
+        "winner": "semantic"
+      },
+      {
+        "layer": 30,
+        "rho_semantic": 0.33585968224005036,
+        "rho_frequency": 0.043027958738517585,
+        "winner": "semantic"
+      },
+      {
+        "layer": 31,
+        "rho_semantic": 0.36335378323108386,
+        "rho_frequency": 0.06037337375232874,
+        "winner": "semantic"
+      },
+      {
+        "layer": 32,
+        "rho_semantic": 0.5107545487913586,
+        "rho_frequency": 0.12116932821074451,
+        "winner": "semantic"
+      }
+    ],
+    "summary": {
+      "semantic_wins_primary": 17,
+      "frequency_wins_primary": 0,
+      "interpretation": "semantic"
+    }
+  },
+  "h5": {
+    "llama_instruct": {
+      "numerical": {
+        "spearman_rho": -0.4670678963821091,
+        "p_value": 0.006137646610080968,
+        "n_layers": 33,
+        "passes": true,
+        "beta_range": [
+          0.010000000000000002,
+          0.14497908528249395
+        ]
+      },
+      "temporal": {
+        "spearman_rho": 0.07894299465500064,
+        "p_value": 0.6623364185629523,
+        "n_layers": 33,
+        "passes": false,
+        "beta_range": [
+          0.010000000000000002,
+          0.04208028148705165
+        ]
+      },
+      "spatial": {
+        "spearman_rho": -0.35067445467211383,
+        "p_value": 0.04540929973406782,
+        "n_layers": 33,
+        "passes": true,
+        "beta_range": [
+          0.010000000000000002,
+          0.010000000450312541
+        ]
+      },
+      "n_domains_pass": 2,
+      "h5_supported": true
+    },
+    "mistral_instruct": {
+      "numerical": {
+        "spearman_rho": -0.4774239439286185,
+        "p_value": 0.004960649907927223,
+        "n_layers": 33,
+        "passes": true,
+        "beta_range": [
+          0.010000000000000002,
+          0.13187279665023954
+        ]
+      },
+      "temporal": {
+        "spearman_rho": 0.2909277594494725,
+        "p_value": 0.10047373231717359,
+        "n_layers": 33,
+        "passes": false,
+        "beta_range": [
+          0.010000000000000002,
+          0.02593461610780261
+        ]
+      },
+      "spatial": {
+        "spearman_rho": -0.14238470558937558,
+        "p_value": 0.42927131425342485,
+        "n_layers": 33,
+        "passes": false,
+        "beta_range": [
+          0.010000000000000002,
+          0.010000000452669367
+        ]
+      },
+      "n_domains_pass": 1,
+      "h5_supported": false
+    },
+    "programme_level": false
+  },
+  "h6": {
+    "llama_instruct": {
+      "n_trials": 1500,
+      "distance_effect_p": 9.253890384282722e-05,
+      "distance_effect_pass": true,
+      "ratio_effect_delta_dev": 0.03215339764028613,
+      "ratio_effect_p": 0.8576914019014723,
+      "ratio_effect_pass": false,
+      "interaction_p": 0.020939456267114596,
+      "interaction_pass": true,
+      "h6_passes": false
+    },
+    "mistral_instruct": {
+      "n_trials": 1500,
+      "distance_effect_p": 1.331793392752383e-05,
+      "distance_effect_pass": true,
+      "ratio_effect_delta_dev": 26.62002446311567,
+      "ratio_effect_p": 2.4766351622424327e-07,
+      "ratio_effect_pass": true,
+      "interaction_p": 0.11480958193789746,
+      "interaction_pass": false,
+      "h6_passes": false
+    }
+  },
+  "single_token_control": {
+    "layers": [
+      {
+        "layer": 0,
+        "r2_weber_full": 0.3762141900837199,
+        "r2_weber_single": 0.5918557609569437,
+        "delta_r2": 0.21564157087322378
+      },
+      {
+        "layer": 1,
+        "r2_weber_full": 0.6684274438141911,
+        "r2_weber_single": 0.6943857096078813,
+        "delta_r2": 0.025958265793690205
+      },
+      {
+        "layer": 2,
+        "r2_weber_full": 0.6892600314535715,
+        "r2_weber_single": 0.7199806420207742,
+        "delta_r2": 0.030720610567202655
+      },
+      {
+        "layer": 3,
+        "r2_weber_full": 0.7198977304256037,
+        "r2_weber_single": 0.7210176076800541,
+        "delta_r2": 0.0011198772544503965
+      },
+      {
+        "layer": 4,
+        "r2_weber_full": 0.6962895911490344,
+        "r2_weber_single": 0.6954026704871111,
+        "delta_r2": 0.0008869206619233072
+      },
+      {
+        "layer": 5,
+        "r2_weber_full": 0.7255554312362729,
+        "r2_weber_single": 0.7294488424111918,
+        "delta_r2": 0.003893411174918926
+      },
+      {
+        "layer": 6,
+        "r2_weber_full": 0.8064570859253097,
+        "r2_weber_single": 0.8028356089303087,
+        "delta_r2": 0.0036214769950010384
+      },
+      {
+        "layer": 7,
+        "r2_weber_full": 0.8412421612873834,
+        "r2_weber_single": 0.8392379654667965,
+        "delta_r2": 0.0020041958205868626
+      },
+      {
+        "layer": 8,
+        "r2_weber_full": 0.8357710908030984,
+        "r2_weber_single": 0.837983595171701,
+        "delta_r2": 0.0022125043686025414
+      },
+      {
+        "layer": 9,
+        "r2_weber_full": 0.8321562999561277,
+        "r2_weber_single": 0.8428168298641237,
+        "delta_r2": 0.01066052990799593
+      },
+      {
+        "layer": 10,
+        "r2_weber_full": 0.839959311176177,
+        "r2_weber_single": 0.851653820797684,
+        "delta_r2": 0.011694509621507088
+      },
+      {
+        "layer": 11,
+        "r2_weber_full": 0.8558607613538873,
+        "r2_weber_single": 0.8711231011842439,
+        "delta_r2": 0.01526233983035652
+      },
+      {
+        "layer": 12,
+        "r2_weber_full": 0.839017060577459,
+        "r2_weber_single": 0.8563011805193796,
+        "delta_r2": 0.017284119941920695
+      },
+      {
+        "layer": 13,
+        "r2_weber_full": 0.8182957899058271,
+        "r2_weber_single": 0.8209490146093161,
+        "delta_r2": 0.0026532247034890544
+      },
+      {
+        "layer": 14,
+        "r2_weber_full": 0.787307956675894,
+        "r2_weber_single": 0.7989022538007514,
+        "delta_r2": 0.011594297124857378
+      },
+      {
+        "layer": 15,
+        "r2_weber_full": 0.8013168857916075,
+        "r2_weber_single": 0.8123971069570152,
+        "delta_r2": 0.011080221165407633
+      },
+      {
+        "layer": 16,
+        "r2_weber_full": 0.8401487849124191,
+        "r2_weber_single": 0.8507404797512753,
+        "delta_r2": 0.010591694838856247
+      },
+      {
+        "layer": 17,
+        "r2_weber_full": 0.8166135670783127,
+        "r2_weber_single": 0.8233625366373728,
+        "delta_r2": 0.006748969559060125
+      },
+      {
+        "layer": 18,
+        "r2_weber_full": 0.8273025128845588,
+        "r2_weber_single": 0.8227101955832915,
+        "delta_r2": 0.004592317301267301
+      },
+      {
+        "layer": 19,
+        "r2_weber_full": 0.852572402895565,
+        "r2_weber_single": 0.8513100393233797,
+        "delta_r2": 0.0012623635721853432
+      },
+      {
+        "layer": 20,
+        "r2_weber_full": 0.8575804514330794,
+        "r2_weber_single": 0.850516988125179,
+        "delta_r2": 0.007063463307900419
+      },
+      {
+        "layer": 21,
+        "r2_weber_full": 0.8435535554709334,
+        "r2_weber_single": 0.8371799311059662,
+        "delta_r2": 0.006373624364967134
+      },
+      {
+        "layer": 22,
+        "r2_weber_full": 0.8365493670493065,
+        "r2_weber_single": 0.8355401760307789,
+        "delta_r2": 0.0010091910185275887
+      },
+      {
+        "layer": 23,
+        "r2_weber_full": 0.8406074157762782,
+        "r2_weber_single": 0.8413810267890393,
+        "delta_r2": 0.0007736110127610774
+      },
+      {
+        "layer": 24,
+        "r2_weber_full": 0.8354150531856138,
+        "r2_weber_single": 0.8353306904277529,
+        "delta_r2": 8.436275786094516e-05
+      },
+      {
+        "layer": 25,
+        "r2_weber_full": 0.8355744495753162,
+        "r2_weber_single": 0.8365206116483405,
+        "delta_r2": 0.000946162073024226
+      },
+      {
+        "layer": 26,
+        "r2_weber_full": 0.8502392804984901,
+        "r2_weber_single": 0.8535462953134089,
+        "delta_r2": 0.003307014814918796
+      },
+      {
+        "layer": 27,
+        "r2_weber_full": 0.8455805634931389,
+        "r2_weber_single": 0.8498360024153133,
+        "delta_r2": 0.004255438922174393
+      },
+      {
+        "layer": 28,
+        "r2_weber_full": 0.8406980579308796,
+        "r2_weber_single": 0.8480175860292332,
+        "delta_r2": 0.007319528098353567
+      },
+      {
+        "layer": 29,
+        "r2_weber_full": 0.8487663045809394,
+        "r2_weber_single": 0.8546654920149345,
+        "delta_r2": 0.00589918743399509
+      },
+      {
+        "layer": 30,
+        "r2_weber_full": 0.8538397367922559,
+        "r2_weber_single": 0.8657005245508267,
+        "delta_r2": 0.011860787758570801
+      },
+      {
+        "layer": 31,
+        "r2_weber_full": 0.8647527119927347,
+        "r2_weber_single": 0.8805780318712814,
+        "delta_r2": 0.01582531987854663
+      },
+      {
+        "layer": 32,
+        "r2_weber_full": 0.8409512595777705,
+        "r2_weber_single": 0.8584652421451041,
+        "delta_r2": 0.017513982567333608
+      }
+    ],
+    "summary": {
+      "mean_delta_r2_primary": 0.006201589369429605,
+      "max_delta_r2": 0.21564157087322378,
+      "verdict": "RULED OUT \u2014 tokenisation effect is negligible"
+    }
+  }
+}

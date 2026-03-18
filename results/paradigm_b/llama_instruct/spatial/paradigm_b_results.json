@@ -1,0 +1,251 @@
+{
+  "model_key": "llama_instruct",
+  "domain_key": "spatial",
+  "n_stimuli": 1800,
+  "n_results": 1800,
+  "overall_accuracy": 0.49666666666666665,
+  "cells": {
+    "10.0": {
+      "1.05": {
+        "accuracy": 0.9333333333333333,
+        "n_trials": 30,
+        "n_correct": 28
+      },
+      "1.1": {
+        "accuracy": 0.9666666666666667,
+        "n_trials": 30,
+        "n_correct": 29
+      },
+      "1.2": {
+        "accuracy": 1.0,
+        "n_trials": 30,
+        "n_correct": 30
+      },
+      "1.5": {
+        "accuracy": 1.0,
+        "n_trials": 30,
+        "n_correct": 30
+      },
+      "2.0": {
+        "accuracy": 1.0,
+        "n_trials": 30,
+        "n_correct": 30
+      },
+      "3.0": {
+        "accuracy": 1.0,
+        "n_trials": 30,
+        "n_correct": 30
+      }
+    },
+    "200.0": {
+      "1.05": {
+        "accuracy": 1.0,
+        "n_trials": 30,
+        "n_correct": 30
+      },
+      "1.1": {
+        "accuracy": 1.0,
+        "n_trials": 30,
+        "n_correct": 30
+      },
+      "1.2": {
+        "accuracy": 0.9666666666666667,
+        "n_trials": 30,
+        "n_correct": 29
+      },
+      "1.5": {
+        "accuracy": 1.0,
+        "n_trials": 30,
+        "n_correct": 30
+      },
+      "2.0": {
+        "accuracy": 1.0,
+        "n_trials": 30,
+        "n_correct": 30
+      },
+      "3.0": {
+        "accuracy": 1.0,
+        "n_trials": 30,
+        "n_correct": 30
+      }
+    },
+    "5.0": {
+      "1.05": {
+        "accuracy": 0.9666666666666667,
+        "n_trials": 30,
+        "n_correct": 29
+      },
+      "1.1": {
+        "accuracy": 0.9666666666666667,
+        "n_trials": 30,
+        "n_correct": 29
+      },
+      "1.2": {
+        "accuracy": 1.0,
+        "n_trials": 30,
+        "n_correct": 30
+      },
+      "1.5": {
+        "accuracy": 1.0,
+        "n_trials": 30,
+        "n_correct": 30
+      },
+      "2.0": {
+        "accuracy": 1.0,
+        "n_trials": 30,
+        "n_correct": 30
+      },
+      "3.0": {
+        "accuracy": 1.0,
+        "n_trials": 30,
+        "n_correct": 30
+      }
+    },
+    "50.0": {
+      "1.05": {
+        "accuracy": 1.0,
+        "n_trials": 30,
+        "n_correct": 30
+      },
+      "1.1": {
+        "accuracy": 1.0,
+        "n_trials": 30,
+        "n_correct": 30
+      },
+      "1.2": {
+        "accuracy": 1.0,
+        "n_trials": 30,
+        "n_correct": 30
+      },
+      "1.5": {
+        "accuracy": 1.0,
+        "n_trials": 30,
+        "n_correct": 30
+      },
+      "2.0": {
+        "accuracy": 1.0,
+        "n_trials": 30,
+        "n_correct": 30
+      },
+      "3.0": {
+        "accuracy": 1.0,
+        "n_trials": 30,
+        "n_correct": 30
+      }
+    },
+    "500.0": {
+      "1.05": {
+        "accuracy": 1.0,
+        "n_trials": 30,
+        "n_correct": 30
+      },
+      "1.1": {
+        "accuracy": 1.0,
+        "n_trials": 30,
+        "n_correct": 30
+      },
+      "1.2": {
+        "accuracy": 1.0,
+        "n_trials": 30,
+        "n_correct": 30
+      },
+      "1.5": {
+        "accuracy": 1.0,
+        "n_trials": 30,
+        "n_correct": 30
+      },
+      "2.0": {
+        "accuracy": 1.0,
+        "n_trials": 30,
+        "n_correct": 30
+      },
+      "3.0": {
+        "accuracy": 1.0,
+        "n_trials": 30,
+        "n_correct": 30
+      }
+    }
+  },
+  "psychometric_fits": {
+    "10.0": {
+      "mu": -29.218409354387262,
+      "sigma": 2.7914550635028164,
+      "lapse": 0.1,
+      "weber_fraction": null,
+      "converged": true,
+      "neg_loglik": 124.76649250079015
+    },
+    "200.0": {
+      "mu": -29.218409354387262,
+      "sigma": 2.7914550635028164,
+      "lapse": 0.1,
+      "weber_fraction": null,
+      "converged": true,
+      "neg_loglik": 124.76649250079015
+    },
+    "5.0": {
+      "mu": -29.218409354387262,
+      "sigma": 2.7914550635028164,
+      "lapse": 0.1,
+      "weber_fraction": null,
+      "converged": true,
+      "neg_loglik": 124.76649250079015
+    },
+    "50.0": {
+      "mu": -29.218409354387262,
+      "sigma": 2.7914550635028164,
+      "lapse": 0.1,
+      "weber_fraction": null,
+      "converged": true,
+      "neg_loglik": 124.76649250079015
+    },
+    "500.0": {
+      "mu": -29.218409354387262,
+      "sigma": 2.7914550635028164,
+      "lapse": 0.1,
+      "weber_fraction": null,
+      "converged": true,
+      "neg_loglik": 124.76649250079015
+    }
+  },
+  "h2_evaluation": {
+    "task_type": "B1",
+    "n_items": 900,
+    "accuracy": 0.9933333333333333,
+    "deviance_ratio_model": 62.89064945902465,
+    "deviance_diff_model": 83.66761469629276,
+    "deviance_null": 72.08753434277946,
+    "delta_deviance": 20.776965237268108,
+    "p_ratio_vs_null": 0.0024242732986613502,
+    "p_diff_vs_null": 1.0,
+    "p_comparison": 5.159987601754956e-06,
+    "ratio_model_better": true,
+    "h2_passes": true,
+    "beta_log_ratio": 10.504698342738946,
+    "beta_abs_diff": 1.8437052468621842
+  },
+  "entropy_diagnostic": {
+    "B1": {
+      "mean_entropy": 0.02862437927102696,
+      "median_entropy": 0.0022196354111656547,
+      "fraction_below_0.1": 0.9388888888888889,
+      "flagged_exact": true,
+      "entropy_ratio_spearman_rho": -0.22777115504523232,
+      "entropy_ratio_spearman_p": 4.687680847608984e-12
+    },
+    "symbolic_control": {
+      "mean_entropy": 0.10036457375240085,
+      "median_entropy": 0.009700987953692675,
+      "fraction_below_0.1": 0.7166666666666667,
+      "flagged_exact": true,
+      "entropy_ratio_spearman_rho": -0.15577392070786683,
+      "entropy_ratio_spearman_p": 2.66067334920822e-06
+    }
+  },
+  "bootstrap_weber_fractions": [],
+  "ceiling_check": {
+    "n_ceiling_cells": 10,
+    "n_fine_cells": 15,
+    "ceiling_limited": true
+  }
+}

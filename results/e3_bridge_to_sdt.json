@@ -1,0 +1,820 @@
+{
+  "llama_instruct": {
+    "model": "llama_instruct",
+    "method": "2AFC d-prime: sqrt(2) * Phi_inv(accuracy)",
+    "note": "Weber prediction: d-prime should be constant across baselines at each ratio level",
+    "per_cell": {
+      "10_1.05": {
+        "baseline": 10,
+        "ratio": 1.05,
+        "n_trials": 50,
+        "accuracy": 0.74,
+        "dprime": 0.9098
+      },
+      "10_1.1": {
+        "baseline": 10,
+        "ratio": 1.1,
+        "n_trials": 50,
+        "accuracy": 0.7,
+        "dprime": 0.7416
+      },
+      "10_1.2": {
+        "baseline": 10,
+        "ratio": 1.2,
+        "n_trials": 50,
+        "accuracy": 0.68,
+        "dprime": 0.6614
+      },
+      "10_1.5": {
+        "baseline": 10,
+        "ratio": 1.5,
+        "n_trials": 50,
+        "accuracy": 0.88,
+        "dprime": 1.6617
+      },
+      "10_2.0": {
+        "baseline": 10,
+        "ratio": 2.0,
+        "n_trials": 50,
+        "accuracy": 0.76,
+        "dprime": 0.9989
+      },
+      "10_3.0": {
+        "baseline": 10,
+        "ratio": 3.0,
+        "n_trials": 50,
+        "accuracy": 0.94,
+        "dprime": 2.1988
+      },
+      "30_1.05": {
+        "baseline": 30,
+        "ratio": 1.05,
+        "n_trials": 50,
+        "accuracy": 0.78,
+        "dprime": 1.092
+      },
+      "30_1.1": {
+        "baseline": 30,
+        "ratio": 1.1,
+        "n_trials": 50,
+        "accuracy": 0.66,
+        "dprime": 0.5833
+      },
+      "30_1.2": {
+        "baseline": 30,
+        "ratio": 1.2,
+        "n_trials": 50,
+        "accuracy": 0.74,
+        "dprime": 0.9098
+      },
+      "30_1.5": {
+        "baseline": 30,
+        "ratio": 1.5,
+        "n_trials": 50,
+        "accuracy": 0.74,
+        "dprime": 0.9098
+      },
+      "30_2.0": {
+        "baseline": 30,
+        "ratio": 2.0,
+        "n_trials": 50,
+        "accuracy": 0.76,
+        "dprime": 0.9989
+      },
+      "30_3.0": {
+        "baseline": 30,
+        "ratio": 3.0,
+        "n_trials": 50,
+        "accuracy": 0.84,
+        "dprime": 1.4064
+      },
+      "100_1.05": {
+        "baseline": 100,
+        "ratio": 1.05,
+        "n_trials": 50,
+        "accuracy": 0.78,
+        "dprime": 1.092
+      },
+      "100_1.1": {
+        "baseline": 100,
+        "ratio": 1.1,
+        "n_trials": 50,
+        "accuracy": 0.74,
+        "dprime": 0.9098
+      },
+      "100_1.2": {
+        "baseline": 100,
+        "ratio": 1.2,
+        "n_trials": 50,
+        "accuracy": 0.74,
+        "dprime": 0.9098
+      },
+      "100_1.5": {
+        "baseline": 100,
+        "ratio": 1.5,
+        "n_trials": 50,
+        "accuracy": 0.7,
+        "dprime": 0.7416
+      },
+      "100_2.0": {
+        "baseline": 100,
+        "ratio": 2.0,
+        "n_trials": 50,
+        "accuracy": 0.82,
+        "dprime": 1.2945
+      },
+      "100_3.0": {
+        "baseline": 100,
+        "ratio": 3.0,
+        "n_trials": 50,
+        "accuracy": 0.82,
+        "dprime": 1.2945
+      },
+      "300_1.05": {
+        "baseline": 300,
+        "ratio": 1.05,
+        "n_trials": 50,
+        "accuracy": 0.64,
+        "dprime": 0.5069
+      },
+      "300_1.1": {
+        "baseline": 300,
+        "ratio": 1.1,
+        "n_trials": 50,
+        "accuracy": 0.68,
+        "dprime": 0.6614
+      },
+      "300_1.2": {
+        "baseline": 300,
+        "ratio": 1.2,
+        "n_trials": 50,
+        "accuracy": 0.78,
+        "dprime": 1.092
+      },
+      "300_1.5": {
+        "baseline": 300,
+        "ratio": 1.5,
+        "n_trials": 50,
+        "accuracy": 0.66,
+        "dprime": 0.5833
+      },
+      "300_2.0": {
+        "baseline": 300,
+        "ratio": 2.0,
+        "n_trials": 50,
+        "accuracy": 0.88,
+        "dprime": 1.6617
+      },
+      "300_3.0": {
+        "baseline": 300,
+        "ratio": 3.0,
+        "n_trials": 50,
+        "accuracy": 0.96,
+        "dprime": 2.4758
+      },
+      "1000_1.05": {
+        "baseline": 1000,
+        "ratio": 1.05,
+        "n_trials": 50,
+        "accuracy": 0.82,
+        "dprime": 1.2945
+      },
+      "1000_1.1": {
+        "baseline": 1000,
+        "ratio": 1.1,
+        "n_trials": 50,
+        "accuracy": 0.84,
+        "dprime": 1.4064
+      },
+      "1000_1.2": {
+        "baseline": 1000,
+        "ratio": 1.2,
+        "n_trials": 50,
+        "accuracy": 0.8,
+        "dprime": 1.1902
+      },
+      "1000_1.5": {
+        "baseline": 1000,
+        "ratio": 1.5,
+        "n_trials": 50,
+        "accuracy": 0.86,
+        "dprime": 1.5278
+      },
+      "1000_2.0": {
+        "baseline": 1000,
+        "ratio": 2.0,
+        "n_trials": 50,
+        "accuracy": 0.92,
+        "dprime": 1.9871
+      },
+      "1000_3.0": {
+        "baseline": 1000,
+        "ratio": 3.0,
+        "n_trials": 50,
+        "accuracy": 0.9,
+        "dprime": 1.8124
+      }
+    },
+    "per_ratio": {
+      "1.05": {
+        "ratio": 1.05,
+        "mean_dprime": 0.9791,
+        "std_dprime": 0.2656,
+        "cv": 0.2713,
+        "n_baselines": 5,
+        "dprime_values": [
+          0.9098,
+          1.092,
+          1.092,
+          0.5069,
+          1.2945
+        ]
+      },
+      "1.1": {
+        "ratio": 1.1,
+        "mean_dprime": 0.8605,
+        "std_dprime": 0.2936,
+        "cv": 0.3412,
+        "n_baselines": 5,
+        "dprime_values": [
+          0.7416,
+          0.5833,
+          0.9098,
+          0.6614,
+          1.4064
+        ]
+      },
+      "1.2": {
+        "ratio": 1.2,
+        "mean_dprime": 0.9527,
+        "std_dprime": 0.1813,
+        "cv": 0.1903,
+        "n_baselines": 5,
+        "dprime_values": [
+          0.6614,
+          0.9098,
+          0.9098,
+          1.092,
+          1.1902
+        ]
+      },
+      "1.5": {
+        "ratio": 1.5,
+        "mean_dprime": 1.0848,
+        "std_dprime": 0.431,
+        "cv": 0.3973,
+        "n_baselines": 5,
+        "dprime_values": [
+          1.6617,
+          0.9098,
+          0.7416,
+          0.5833,
+          1.5278
+        ]
+      },
+      "2.0": {
+        "ratio": 2.0,
+        "mean_dprime": 1.3882,
+        "std_dprime": 0.3861,
+        "cv": 0.2781,
+        "n_baselines": 5,
+        "dprime_values": [
+          0.9989,
+          0.9989,
+          1.2945,
+          1.6617,
+          1.9871
+        ]
+      },
+      "3.0": {
+        "ratio": 3.0,
+        "mean_dprime": 1.8376,
+        "std_dprime": 0.4515,
+        "cv": 0.2457,
+        "n_baselines": 5,
+        "dprime_values": [
+          2.1988,
+          1.4064,
+          1.2945,
+          2.4758,
+          1.8124
+        ]
+      }
+    },
+    "per_baseline": {
+      "10": {
+        "baseline": 10,
+        "ratios": [
+          1.05,
+          1.1,
+          1.2,
+          1.5,
+          2.0,
+          3.0
+        ],
+        "dprimes": [
+          0.9098,
+          0.7416,
+          0.6614,
+          1.6617,
+          0.9989,
+          2.1988
+        ],
+        "mean_dprime": 1.1954
+      },
+      "30": {
+        "baseline": 30,
+        "ratios": [
+          1.05,
+          1.1,
+          1.2,
+          1.5,
+          2.0,
+          3.0
+        ],
+        "dprimes": [
+          1.092,
+          0.5833,
+          0.9098,
+          0.9098,
+          0.9989,
+          1.4064
+        ],
+        "mean_dprime": 0.9834
+      },
+      "100": {
+        "baseline": 100,
+        "ratios": [
+          1.05,
+          1.1,
+          1.2,
+          1.5,
+          2.0,
+          3.0
+        ],
+        "dprimes": [
+          1.092,
+          0.9098,
+          0.9098,
+          0.7416,
+          1.2945,
+          1.2945
+        ],
+        "mean_dprime": 1.0404
+      },
+      "300": {
+        "baseline": 300,
+        "ratios": [
+          1.05,
+          1.1,
+          1.2,
+          1.5,
+          2.0,
+          3.0
+        ],
+        "dprimes": [
+          0.5069,
+          0.6614,
+          1.092,
+          0.5833,
+          1.6617,
+          2.4758
+        ],
+        "mean_dprime": 1.1635
+      },
+      "1000": {
+        "baseline": 1000,
+        "ratios": [
+          1.05,
+          1.1,
+          1.2,
+          1.5,
+          2.0,
+          3.0
+        ],
+        "dprimes": [
+          1.2945,
+          1.4064,
+          1.1902,
+          1.5278,
+          1.9871,
+          1.8124
+        ],
+        "mean_dprime": 1.5364
+      }
+    },
+    "weber_constancy": {
+      "mean_cv_across_ratios": 0.2873,
+      "interpretation": "Low CV = d-prime is constant across baselines (Weber holds). High CV = d-prime varies with baseline (absolute difference dominates)."
+    }
+  },
+  "mistral_instruct": {
+    "model": "mistral_instruct",
+    "method": "2AFC d-prime: sqrt(2) * Phi_inv(accuracy)",
+    "note": "Weber prediction: d-prime should be constant across baselines at each ratio level",
+    "per_cell": {
+      "10_1.05": {
+        "baseline": 10,
+        "ratio": 1.05,
+        "n_trials": 50,
+        "accuracy": 0.66,
+        "dprime": 0.5833
+      },
+      "10_1.1": {
+        "baseline": 10,
+        "ratio": 1.1,
+        "n_trials": 50,
+        "accuracy": 0.62,
+        "dprime": 0.432
+      },
+      "10_1.2": {
+        "baseline": 10,
+        "ratio": 1.2,
+        "n_trials": 50,
+        "accuracy": 0.62,
+        "dprime": 0.432
+      },
+      "10_1.5": {
+        "baseline": 10,
+        "ratio": 1.5,
+        "n_trials": 50,
+        "accuracy": 0.64,
+        "dprime": 0.5069
+      },
+      "10_2.0": {
+        "baseline": 10,
+        "ratio": 2.0,
+        "n_trials": 50,
+        "accuracy": 0.64,
+        "dprime": 0.5069
+      },
+      "10_3.0": {
+        "baseline": 10,
+        "ratio": 3.0,
+        "n_trials": 50,
+        "accuracy": 0.76,
+        "dprime": 0.9989
+      },
+      "30_1.05": {
+        "baseline": 30,
+        "ratio": 1.05,
+        "n_trials": 50,
+        "accuracy": 0.66,
+        "dprime": 0.5833
+      },
+      "30_1.1": {
+        "baseline": 30,
+        "ratio": 1.1,
+        "n_trials": 50,
+        "accuracy": 0.56,
+        "dprime": 0.2135
+      },
+      "30_1.2": {
+        "baseline": 30,
+        "ratio": 1.2,
+        "n_trials": 50,
+        "accuracy": 0.66,
+        "dprime": 0.5833
+      },
+      "30_1.5": {
+        "baseline": 30,
+        "ratio": 1.5,
+        "n_trials": 50,
+        "accuracy": 0.66,
+        "dprime": 0.5833
+      },
+      "30_2.0": {
+        "baseline": 30,
+        "ratio": 2.0,
+        "n_trials": 50,
+        "accuracy": 0.76,
+        "dprime": 0.9989
+      },
+      "30_3.0": {
+        "baseline": 30,
+        "ratio": 3.0,
+        "n_trials": 50,
+        "accuracy": 0.74,
+        "dprime": 0.9098
+      },
+      "100_1.05": {
+        "baseline": 100,
+        "ratio": 1.05,
+        "n_trials": 50,
+        "accuracy": 0.74,
+        "dprime": 0.9098
+      },
+      "100_1.1": {
+        "baseline": 100,
+        "ratio": 1.1,
+        "n_trials": 50,
+        "accuracy": 0.72,
+        "dprime": 0.8243
+      },
+      "100_1.2": {
+        "baseline": 100,
+        "ratio": 1.2,
+        "n_trials": 50,
+        "accuracy": 0.76,
+        "dprime": 0.9989
+      },
+      "100_1.5": {
+        "baseline": 100,
+        "ratio": 1.5,
+        "n_trials": 50,
+        "accuracy": 0.74,
+        "dprime": 0.9098
+      },
+      "100_2.0": {
+        "baseline": 100,
+        "ratio": 2.0,
+        "n_trials": 50,
+        "accuracy": 0.86,
+        "dprime": 1.5278
+      },
+      "100_3.0": {
+        "baseline": 100,
+        "ratio": 3.0,
+        "n_trials": 50,
+        "accuracy": 0.76,
+        "dprime": 0.9989
+      },
+      "300_1.05": {
+        "baseline": 300,
+        "ratio": 1.05,
+        "n_trials": 50,
+        "accuracy": 0.68,
+        "dprime": 0.6614
+      },
+      "300_1.1": {
+        "baseline": 300,
+        "ratio": 1.1,
+        "n_trials": 50,
+        "accuracy": 0.76,
+        "dprime": 0.9989
+      },
+      "300_1.2": {
+        "baseline": 300,
+        "ratio": 1.2,
+        "n_trials": 50,
+        "accuracy": 0.72,
+        "dprime": 0.8243
+      },
+      "300_1.5": {
+        "baseline": 300,
+        "ratio": 1.5,
+        "n_trials": 50,
+        "accuracy": 0.7,
+        "dprime": 0.7416
+      },
+      "300_2.0": {
+        "baseline": 300,
+        "ratio": 2.0,
+        "n_trials": 50,
+        "accuracy": 0.82,
+        "dprime": 1.2945
+      },
+      "300_3.0": {
+        "baseline": 300,
+        "ratio": 3.0,
+        "n_trials": 50,
+        "accuracy": 0.94,
+        "dprime": 2.1988
+      },
+      "1000_1.05": {
+        "baseline": 1000,
+        "ratio": 1.05,
+        "n_trials": 50,
+        "accuracy": 0.92,
+        "dprime": 1.9871
+      },
+      "1000_1.1": {
+        "baseline": 1000,
+        "ratio": 1.1,
+        "n_trials": 50,
+        "accuracy": 0.96,
+        "dprime": 2.4758
+      },
+      "1000_1.2": {
+        "baseline": 1000,
+        "ratio": 1.2,
+        "n_trials": 50,
+        "accuracy": 0.8,
+        "dprime": 1.1902
+      },
+      "1000_1.5": {
+        "baseline": 1000,
+        "ratio": 1.5,
+        "n_trials": 50,
+        "accuracy": 0.86,
+        "dprime": 1.5278
+      },
+      "1000_2.0": {
+        "baseline": 1000,
+        "ratio": 2.0,
+        "n_trials": 50,
+        "accuracy": 0.8,
+        "dprime": 1.1902
+      },
+      "1000_3.0": {
+        "baseline": 1000,
+        "ratio": 3.0,
+        "n_trials": 50,
+        "accuracy": 0.92,
+        "dprime": 1.9871
+      }
+    },
+    "per_ratio": {
+      "1.05": {
+        "ratio": 1.05,
+        "mean_dprime": 0.945,
+        "std_dprime": 0.5346,
+        "cv": 0.5658,
+        "n_baselines": 5,
+        "dprime_values": [
+          0.5833,
+          0.5833,
+          0.9098,
+          0.6614,
+          1.9871
+        ]
+      },
+      "1.1": {
+        "ratio": 1.1,
+        "mean_dprime": 0.9889,
+        "std_dprime": 0.7937,
+        "cv": 0.8026,
+        "n_baselines": 5,
+        "dprime_values": [
+          0.432,
+          0.2135,
+          0.8243,
+          0.9989,
+          2.4758
+        ]
+      },
+      "1.2": {
+        "ratio": 1.2,
+        "mean_dprime": 0.8057,
+        "std_dprime": 0.2737,
+        "cv": 0.3397,
+        "n_baselines": 5,
+        "dprime_values": [
+          0.432,
+          0.5833,
+          0.9989,
+          0.8243,
+          1.1902
+        ]
+      },
+      "1.5": {
+        "ratio": 1.5,
+        "mean_dprime": 0.8539,
+        "std_dprime": 0.3643,
+        "cv": 0.4266,
+        "n_baselines": 5,
+        "dprime_values": [
+          0.5069,
+          0.5833,
+          0.9098,
+          0.7416,
+          1.5278
+        ]
+      },
+      "2.0": {
+        "ratio": 2.0,
+        "mean_dprime": 1.1037,
+        "std_dprime": 0.3438,
+        "cv": 0.3115,
+        "n_baselines": 5,
+        "dprime_values": [
+          0.5069,
+          0.9989,
+          1.5278,
+          1.2945,
+          1.1902
+        ]
+      },
+      "3.0": {
+        "ratio": 3.0,
+        "mean_dprime": 1.4187,
+        "std_dprime": 0.5555,
+        "cv": 0.3916,
+        "n_baselines": 5,
+        "dprime_values": [
+          0.9989,
+          0.9098,
+          0.9989,
+          2.1988,
+          1.9871
+        ]
+      }
+    },
+    "per_baseline": {
+      "10": {
+        "baseline": 10,
+        "ratios": [
+          1.05,
+          1.1,
+          1.2,
+          1.5,
+          2.0,
+          3.0
+        ],
+        "dprimes": [
+          0.5833,
+          0.432,
+          0.432,
+          0.5069,
+          0.5069,
+          0.9989
+        ],
+        "mean_dprime": 0.5767
+      },
+      "30": {
+        "baseline": 30,
+        "ratios": [
+          1.05,
+          1.1,
+          1.2,
+          1.5,
+          2.0,
+          3.0
+        ],
+        "dprimes": [
+          0.5833,
+          0.2135,
+          0.5833,
+          0.5833,
+          0.9989,
+          0.9098
+        ],
+        "mean_dprime": 0.6454
+      },
+      "100": {
+        "baseline": 100,
+        "ratios": [
+          1.05,
+          1.1,
+          1.2,
+          1.5,
+          2.0,
+          3.0
+        ],
+        "dprimes": [
+          0.9098,
+          0.8243,
+          0.9989,
+          0.9098,
+          1.5278,
+          0.9989
+        ],
+        "mean_dprime": 1.0282
+      },
+      "300": {
+        "baseline": 300,
+        "ratios": [
+          1.05,
+          1.1,
+          1.2,
+          1.5,
+          2.0,
+          3.0
+        ],
+        "dprimes": [
+          0.6614,
+          0.9989,
+          0.8243,
+          0.7416,
+          1.2945,
+          2.1988
+        ],
+        "mean_dprime": 1.1199
+      },
+      "1000": {
+        "baseline": 1000,
+        "ratios": [
+          1.05,
+          1.1,
+          1.2,
+          1.5,
+          2.0,
+          3.0
+        ],
+        "dprimes": [
+          1.9871,
+          2.4758,
+          1.1902,
+          1.5278,
+          1.1902,
+          1.9871
+        ],
+        "mean_dprime": 1.7264
+      }
+    },
+    "weber_constancy": {
+      "mean_cv_across_ratios": 0.473,
+      "interpretation": "Low CV = d-prime is constant across baselines (Weber holds). High CV = d-prime varies with baseline (absolute difference dominates)."
+    }
+  }
+}

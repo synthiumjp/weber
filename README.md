@@ -7,8 +7,6 @@ Code, stimuli, and results for:
 > JP Cacioli · *Classical Minds, Modern Machines*
 
 **Pre-registration:** [OSF (v2.7 + v2.8 amendment)](https://osf.io/u4wp5/overview?view_only=516e8b0c44964c688f6c3161f4d16da4)
-**Target venue:** TMLR
-
 ---
 
 ## Overview
@@ -176,7 +174,6 @@ CUDA users can ignore the ROCm environment variable. Any GPU supporting HuggingF
 @article{cacioli2026weber,
   title={Weber's Law in Transformer Magnitude Representations: Efficient Coding, Representational Geometry, and Psychophysical Laws in Language Models},
   author={Cacioli, JP},
-  journal={Transactions on Machine Learning Research},
   year={2026},
   note={Pre-registered: \url{https://osf.io/u4wp5}}
 }

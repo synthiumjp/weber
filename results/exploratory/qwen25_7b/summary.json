@@ -1,0 +1,12 @@
+{
+  "model": "Qwen/Qwen2.5-7B-Instruct",
+  "h1_supported_cosine": true,
+  "h1_supported_euclidean": true,
+  "h1_pass_cosine": 14,
+  "h1_pass_euclidean": 14,
+  "mean_stevens_beta": 0.010000000023041078,
+  "h3_significant_layers": 0,
+  "b1_accuracy": 0.9993333333333333,
+  "b1_mean_entropy": 1.2526177615390826e-05,
+  "runtime_seconds": 335.42593359947205
+}

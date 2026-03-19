@@ -1,0 +1,28 @@
+{
+  "model": "Qwen/Qwen2.5-7B-Instruct",
+  "task": "B1_cross_format",
+  "delta_deviance": {
+    "value": 10.469438018940082,
+    "p_value": 0.001213656327482715,
+    "direction": "log_ratio_better",
+    "h2_pass": true,
+    "deviance_abs": 1302.8020604015587,
+    "deviance_log": 1292.3326223826186
+  },
+  "weber_fraction": {
+    "aggregate": 0.17930485121703343,
+    "per_baseline": {
+      "10.0": -0.2212125912641456,
+      "30.0": -0.051304556086976705,
+      "100.0": -0.45688472353243537,
+      "300.0": 0.17930485121703343,
+      "1000.0": -0.36772343737131763
+    },
+    "bca_ci_low": 0.037230401843592914,
+    "bca_ci_high": 1.5332223199055943,
+    "in_human_range": true
+  },
+  "position_bias": 0.4033333333333333,
+  "mean_entropy": 0.0771782176976418,
+  "overall_accuracy": 0.8393333333333334
+}

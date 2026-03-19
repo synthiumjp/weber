@@ -1,0 +1,8 @@
+{
+  "hf_id": "Qwen/Qwen2.5-7B-Instruct",
+  "short_name": "qwen25_7b",
+  "n_layers": 29,
+  "d_model": 3584,
+  "dtype": "torch.float16",
+  "status": "exploratory (post-registration)"
+}

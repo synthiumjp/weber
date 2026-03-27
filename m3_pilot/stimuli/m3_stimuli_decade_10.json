@@ -1,0 +1,4067 @@
+{
+  "metadata": {
+    "condition": "decade_10",
+    "boundary": 10,
+    "seed": 42,
+    "version": "0.4",
+    "paper": "M3",
+    "programme": "Classical Minds, Modern Machines",
+    "description": "Stimulus file for M3 pilot \u2014 condition 'decade_10'. Boundary at 10. 17 probing values, 8 carrier sentences, 136 total probing sentences, 136 pairwise distance entries."
+  },
+  "probing_values": [
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20
+  ],
+  "carrier_sentences": {
+    "all": [
+      "The number {N} is a quantity.",
+      "There are {N} items in the collection.",
+      "A total of {N} units were recorded.",
+      "The measurement showed {N}.",
+      "Approximately {N} cases were observed.",
+      "The count reached {N} in total.",
+      "A value of {N} was reported.",
+      "The survey found {N} instances."
+    ],
+    "b0_indices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "rsa_indices": [
+      4,
+      5,
+      6,
+      7
+    ]
+  },
+  "probing_sentences": [
+    {
+      "value": 4,
+      "sentence_idx": 0,
+      "sentence_type": "b0",
+      "text": "The number 4 is a quantity.",
+      "magnitude_token": "4"
+    },
+    {
+      "value": 4,
+      "sentence_idx": 1,
+      "sentence_type": "b0",
+      "text": "There are 4 items in the collection.",
+      "magnitude_token": "4"
+    },
+    {
+      "value": 4,
+      "sentence_idx": 2,
+      "sentence_type": "b0",
+      "text": "A total of 4 units were recorded.",
+      "magnitude_token": "4"
+    },
+    {
+      "value": 4,
+      "sentence_idx": 3,
+      "sentence_type": "b0",
+      "text": "The measurement showed 4.",
+      "magnitude_token": "4"
+    },
+    {
+      "value": 4,
+      "sentence_idx": 4,
+      "sentence_type": "rsa",
+      "text": "Approximately 4 cases were observed.",
+      "magnitude_token": "4"
+    },
+    {
+      "value": 4,
+      "sentence_idx": 5,
+      "sentence_type": "rsa",
+      "text": "The count reached 4 in total.",
+      "magnitude_token": "4"
+    },
+    {
+      "value": 4,
+      "sentence_idx": 6,
+      "sentence_type": "rsa",
+      "text": "A value of 4 was reported.",
+      "magnitude_token": "4"
+    },
+    {
+      "value": 4,
+      "sentence_idx": 7,
+      "sentence_type": "rsa",
+      "text": "The survey found 4 instances.",
+      "magnitude_token": "4"
+    },
+    {
+      "value": 5,
+      "sentence_idx": 0,
+      "sentence_type": "b0",
+      "text": "The number 5 is a quantity.",
+      "magnitude_token": "5"
+    },
+    {
+      "value": 5,
+      "sentence_idx": 1,
+      "sentence_type": "b0",
+      "text": "There are 5 items in the collection.",
+      "magnitude_token": "5"
+    },
+    {
+      "value": 5,
+      "sentence_idx": 2,
+      "sentence_type": "b0",
+      "text": "A total of 5 units were recorded.",
+      "magnitude_token": "5"
+    },
+    {
+      "value": 5,
+      "sentence_idx": 3,
+      "sentence_type": "b0",
+      "text": "The measurement showed 5.",
+      "magnitude_token": "5"
+    },
+    {
+      "value": 5,
+      "sentence_idx": 4,
+      "sentence_type": "rsa",
+      "text": "Approximately 5 cases were observed.",
+      "magnitude_token": "5"
+    },
+    {
+      "value": 5,
+      "sentence_idx": 5,
+      "sentence_type": "rsa",
+      "text": "The count reached 5 in total.",
+      "magnitude_token": "5"
+    },
+    {
+      "value": 5,
+      "sentence_idx": 6,
+      "sentence_type": "rsa",
+      "text": "A value of 5 was reported.",
+      "magnitude_token": "5"
+    },
+    {
+      "value": 5,
+      "sentence_idx": 7,
+      "sentence_type": "rsa",
+      "text": "The survey found 5 instances.",
+      "magnitude_token": "5"
+    },
+    {
+      "value": 6,
+      "sentence_idx": 0,
+      "sentence_type": "b0",
+      "text": "The number 6 is a quantity.",
+      "magnitude_token": "6"
+    },
+    {
+      "value": 6,
+      "sentence_idx": 1,
+      "sentence_type": "b0",
+      "text": "There are 6 items in the collection.",
+      "magnitude_token": "6"
+    },
+    {
+      "value": 6,
+      "sentence_idx": 2,
+      "sentence_type": "b0",
+      "text": "A total of 6 units were recorded.",
+      "magnitude_token": "6"
+    },
+    {
+      "value": 6,
+      "sentence_idx": 3,
+      "sentence_type": "b0",
+      "text": "The measurement showed 6.",
+      "magnitude_token": "6"
+    },
+    {
+      "value": 6,
+      "sentence_idx": 4,
+      "sentence_type": "rsa",
+      "text": "Approximately 6 cases were observed.",
+      "magnitude_token": "6"
+    },
+    {
+      "value": 6,
+      "sentence_idx": 5,
+      "sentence_type": "rsa",
+      "text": "The count reached 6 in total.",
+      "magnitude_token": "6"
+    },
+    {
+      "value": 6,
+      "sentence_idx": 6,
+      "sentence_type": "rsa",
+      "text": "A value of 6 was reported.",
+      "magnitude_token": "6"
+    },
+    {
+      "value": 6,
+      "sentence_idx": 7,
+      "sentence_type": "rsa",
+      "text": "The survey found 6 instances.",
+      "magnitude_token": "6"
+    },
+    {
+      "value": 7,
+      "sentence_idx": 0,
+      "sentence_type": "b0",
+      "text": "The number 7 is a quantity.",
+      "magnitude_token": "7"
+    },
+    {
+      "value": 7,
+      "sentence_idx": 1,
+      "sentence_type": "b0",
+      "text": "There are 7 items in the collection.",
+      "magnitude_token": "7"
+    },
+    {
+      "value": 7,
+      "sentence_idx": 2,
+      "sentence_type": "b0",
+      "text": "A total of 7 units were recorded.",
+      "magnitude_token": "7"
+    },
+    {
+      "value": 7,
+      "sentence_idx": 3,
+      "sentence_type": "b0",
+      "text": "The measurement showed 7.",
+      "magnitude_token": "7"
+    },
+    {
+      "value": 7,
+      "sentence_idx": 4,
+      "sentence_type": "rsa",
+      "text": "Approximately 7 cases were observed.",
+      "magnitude_token": "7"
+    },
+    {
+      "value": 7,
+      "sentence_idx": 5,
+      "sentence_type": "rsa",
+      "text": "The count reached 7 in total.",
+      "magnitude_token": "7"
+    },
+    {
+      "value": 7,
+      "sentence_idx": 6,
+      "sentence_type": "rsa",
+      "text": "A value of 7 was reported.",
+      "magnitude_token": "7"
+    },
+    {
+      "value": 7,
+      "sentence_idx": 7,
+      "sentence_type": "rsa",
+      "text": "The survey found 7 instances.",
+      "magnitude_token": "7"
+    },
+    {
+      "value": 8,
+      "sentence_idx": 0,
+      "sentence_type": "b0",
+      "text": "The number 8 is a quantity.",
+      "magnitude_token": "8"
+    },
+    {
+      "value": 8,
+      "sentence_idx": 1,
+      "sentence_type": "b0",
+      "text": "There are 8 items in the collection.",
+      "magnitude_token": "8"
+    },
+    {
+      "value": 8,
+      "sentence_idx": 2,
+      "sentence_type": "b0",
+      "text": "A total of 8 units were recorded.",
+      "magnitude_token": "8"
+    },
+    {
+      "value": 8,
+      "sentence_idx": 3,
+      "sentence_type": "b0",
+      "text": "The measurement showed 8.",
+      "magnitude_token": "8"
+    },
+    {
+      "value": 8,
+      "sentence_idx": 4,
+      "sentence_type": "rsa",
+      "text": "Approximately 8 cases were observed.",
+      "magnitude_token": "8"
+    },
+    {
+      "value": 8,
+      "sentence_idx": 5,
+      "sentence_type": "rsa",
+      "text": "The count reached 8 in total.",
+      "magnitude_token": "8"
+    },
+    {
+      "value": 8,
+      "sentence_idx": 6,
+      "sentence_type": "rsa",
+      "text": "A value of 8 was reported.",
+      "magnitude_token": "8"
+    },
+    {
+      "value": 8,
+      "sentence_idx": 7,
+      "sentence_type": "rsa",
+      "text": "The survey found 8 instances.",
+      "magnitude_token": "8"
+    },
+    {
+      "value": 9,
+      "sentence_idx": 0,
+      "sentence_type": "b0",
+      "text": "The number 9 is a quantity.",
+      "magnitude_token": "9"
+    },
+    {
+      "value": 9,
+      "sentence_idx": 1,
+      "sentence_type": "b0",
+      "text": "There are 9 items in the collection.",
+      "magnitude_token": "9"
+    },
+    {
+      "value": 9,
+      "sentence_idx": 2,
+      "sentence_type": "b0",
+      "text": "A total of 9 units were recorded.",
+      "magnitude_token": "9"
+    },
+    {
+      "value": 9,
+      "sentence_idx": 3,
+      "sentence_type": "b0",
+      "text": "The measurement showed 9.",
+      "magnitude_token": "9"
+    },
+    {
+      "value": 9,
+      "sentence_idx": 4,
+      "sentence_type": "rsa",
+      "text": "Approximately 9 cases were observed.",
+      "magnitude_token": "9"
+    },
+    {
+      "value": 9,
+      "sentence_idx": 5,
+      "sentence_type": "rsa",
+      "text": "The count reached 9 in total.",
+      "magnitude_token": "9"
+    },
+    {
+      "value": 9,
+      "sentence_idx": 6,
+      "sentence_type": "rsa",
+      "text": "A value of 9 was reported.",
+      "magnitude_token": "9"
+    },
+    {
+      "value": 9,
+      "sentence_idx": 7,
+      "sentence_type": "rsa",
+      "text": "The survey found 9 instances.",
+      "magnitude_token": "9"
+    },
+    {
+      "value": 10,
+      "sentence_idx": 0,
+      "sentence_type": "b0",
+      "text": "The number 10 is a quantity.",
+      "magnitude_token": "10"
+    },
+    {
+      "value": 10,
+      "sentence_idx": 1,
+      "sentence_type": "b0",
+      "text": "There are 10 items in the collection.",
+      "magnitude_token": "10"
+    },
+    {
+      "value": 10,
+      "sentence_idx": 2,
+      "sentence_type": "b0",
+      "text": "A total of 10 units were recorded.",
+      "magnitude_token": "10"
+    },
+    {
+      "value": 10,
+      "sentence_idx": 3,
+      "sentence_type": "b0",
+      "text": "The measurement showed 10.",
+      "magnitude_token": "10"
+    },
+    {
+      "value": 10,
+      "sentence_idx": 4,
+      "sentence_type": "rsa",
+      "text": "Approximately 10 cases were observed.",
+      "magnitude_token": "10"
+    },
+    {
+      "value": 10,
+      "sentence_idx": 5,
+      "sentence_type": "rsa",
+      "text": "The count reached 10 in total.",
+      "magnitude_token": "10"
+    },
+    {
+      "value": 10,
+      "sentence_idx": 6,
+      "sentence_type": "rsa",
+      "text": "A value of 10 was reported.",
+      "magnitude_token": "10"
+    },
+    {
+      "value": 10,
+      "sentence_idx": 7,
+      "sentence_type": "rsa",
+      "text": "The survey found 10 instances.",
+      "magnitude_token": "10"
+    },
+    {
+      "value": 11,
+      "sentence_idx": 0,
+      "sentence_type": "b0",
+      "text": "The number 11 is a quantity.",
+      "magnitude_token": "11"
+    },
+    {
+      "value": 11,
+      "sentence_idx": 1,
+      "sentence_type": "b0",
+      "text": "There are 11 items in the collection.",
+      "magnitude_token": "11"
+    },
+    {
+      "value": 11,
+      "sentence_idx": 2,
+      "sentence_type": "b0",
+      "text": "A total of 11 units were recorded.",
+      "magnitude_token": "11"
+    },
+    {
+      "value": 11,
+      "sentence_idx": 3,
+      "sentence_type": "b0",
+      "text": "The measurement showed 11.",
+      "magnitude_token": "11"
+    },
+    {
+      "value": 11,
+      "sentence_idx": 4,
+      "sentence_type": "rsa",
+      "text": "Approximately 11 cases were observed.",
+      "magnitude_token": "11"
+    },
+    {
+      "value": 11,
+      "sentence_idx": 5,
+      "sentence_type": "rsa",
+      "text": "The count reached 11 in total.",
+      "magnitude_token": "11"
+    },
+    {
+      "value": 11,
+      "sentence_idx": 6,
+      "sentence_type": "rsa",
+      "text": "A value of 11 was reported.",
+      "magnitude_token": "11"
+    },
+    {
+      "value": 11,
+      "sentence_idx": 7,
+      "sentence_type": "rsa",
+      "text": "The survey found 11 instances.",
+      "magnitude_token": "11"
+    },
+    {
+      "value": 12,
+      "sentence_idx": 0,
+      "sentence_type": "b0",
+      "text": "The number 12 is a quantity.",
+      "magnitude_token": "12"
+    },
+    {
+      "value": 12,
+      "sentence_idx": 1,
+      "sentence_type": "b0",
+      "text": "There are 12 items in the collection.",
+      "magnitude_token": "12"
+    },
+    {
+      "value": 12,
+      "sentence_idx": 2,
+      "sentence_type": "b0",
+      "text": "A total of 12 units were recorded.",
+      "magnitude_token": "12"
+    },
+    {
+      "value": 12,
+      "sentence_idx": 3,
+      "sentence_type": "b0",
+      "text": "The measurement showed 12.",
+      "magnitude_token": "12"
+    },
+    {
+      "value": 12,
+      "sentence_idx": 4,
+      "sentence_type": "rsa",
+      "text": "Approximately 12 cases were observed.",
+      "magnitude_token": "12"
+    },
+    {
+      "value": 12,
+      "sentence_idx": 5,
+      "sentence_type": "rsa",
+      "text": "The count reached 12 in total.",
+      "magnitude_token": "12"
+    },
+    {
+      "value": 12,
+      "sentence_idx": 6,
+      "sentence_type": "rsa",
+      "text": "A value of 12 was reported.",
+      "magnitude_token": "12"
+    },
+    {
+      "value": 12,
+      "sentence_idx": 7,
+      "sentence_type": "rsa",
+      "text": "The survey found 12 instances.",
+      "magnitude_token": "12"
+    },
+    {
+      "value": 13,
+      "sentence_idx": 0,
+      "sentence_type": "b0",
+      "text": "The number 13 is a quantity.",
+      "magnitude_token": "13"
+    },
+    {
+      "value": 13,
+      "sentence_idx": 1,
+      "sentence_type": "b0",
+      "text": "There are 13 items in the collection.",
+      "magnitude_token": "13"
+    },
+    {
+      "value": 13,
+      "sentence_idx": 2,
+      "sentence_type": "b0",
+      "text": "A total of 13 units were recorded.",
+      "magnitude_token": "13"
+    },
+    {
+      "value": 13,
+      "sentence_idx": 3,
+      "sentence_type": "b0",
+      "text": "The measurement showed 13.",
+      "magnitude_token": "13"
+    },
+    {
+      "value": 13,
+      "sentence_idx": 4,
+      "sentence_type": "rsa",
+      "text": "Approximately 13 cases were observed.",
+      "magnitude_token": "13"
+    },
+    {
+      "value": 13,
+      "sentence_idx": 5,
+      "sentence_type": "rsa",
+      "text": "The count reached 13 in total.",
+      "magnitude_token": "13"
+    },
+    {
+      "value": 13,
+      "sentence_idx": 6,
+      "sentence_type": "rsa",
+      "text": "A value of 13 was reported.",
+      "magnitude_token": "13"
+    },
+    {
+      "value": 13,
+      "sentence_idx": 7,
+      "sentence_type": "rsa",
+      "text": "The survey found 13 instances.",
+      "magnitude_token": "13"
+    },
+    {
+      "value": 14,
+      "sentence_idx": 0,
+      "sentence_type": "b0",
+      "text": "The number 14 is a quantity.",
+      "magnitude_token": "14"
+    },
+    {
+      "value": 14,
+      "sentence_idx": 1,
+      "sentence_type": "b0",
+      "text": "There are 14 items in the collection.",
+      "magnitude_token": "14"
+    },
+    {
+      "value": 14,
+      "sentence_idx": 2,
+      "sentence_type": "b0",
+      "text": "A total of 14 units were recorded.",
+      "magnitude_token": "14"
+    },
+    {
+      "value": 14,
+      "sentence_idx": 3,
+      "sentence_type": "b0",
+      "text": "The measurement showed 14.",
+      "magnitude_token": "14"
+    },
+    {
+      "value": 14,
+      "sentence_idx": 4,
+      "sentence_type": "rsa",
+      "text": "Approximately 14 cases were observed.",
+      "magnitude_token": "14"
+    },
+    {
+      "value": 14,
+      "sentence_idx": 5,
+      "sentence_type": "rsa",
+      "text": "The count reached 14 in total.",
+      "magnitude_token": "14"
+    },
+    {
+      "value": 14,
+      "sentence_idx": 6,
+      "sentence_type": "rsa",
+      "text": "A value of 14 was reported.",
+      "magnitude_token": "14"
+    },
+    {
+      "value": 14,
+      "sentence_idx": 7,
+      "sentence_type": "rsa",
+      "text": "The survey found 14 instances.",
+      "magnitude_token": "14"
+    },
+    {
+      "value": 15,
+      "sentence_idx": 0,
+      "sentence_type": "b0",
+      "text": "The number 15 is a quantity.",
+      "magnitude_token": "15"
+    },
+    {
+      "value": 15,
+      "sentence_idx": 1,
+      "sentence_type": "b0",
+      "text": "There are 15 items in the collection.",
+      "magnitude_token": "15"
+    },
+    {
+      "value": 15,
+      "sentence_idx": 2,
+      "sentence_type": "b0",
+      "text": "A total of 15 units were recorded.",
+      "magnitude_token": "15"
+    },
+    {
+      "value": 15,
+      "sentence_idx": 3,
+      "sentence_type": "b0",
+      "text": "The measurement showed 15.",
+      "magnitude_token": "15"
+    },
+    {
+      "value": 15,
+      "sentence_idx": 4,
+      "sentence_type": "rsa",
+      "text": "Approximately 15 cases were observed.",
+      "magnitude_token": "15"
+    },
+    {
+      "value": 15,
+      "sentence_idx": 5,
+      "sentence_type": "rsa",
+      "text": "The count reached 15 in total.",
+      "magnitude_token": "15"
+    },
+    {
+      "value": 15,
+      "sentence_idx": 6,
+      "sentence_type": "rsa",
+      "text": "A value of 15 was reported.",
+      "magnitude_token": "15"
+    },
+    {
+      "value": 15,
+      "sentence_idx": 7,
+      "sentence_type": "rsa",
+      "text": "The survey found 15 instances.",
+      "magnitude_token": "15"
+    },
+    {
+      "value": 16,
+      "sentence_idx": 0,
+      "sentence_type": "b0",
+      "text": "The number 16 is a quantity.",
+      "magnitude_token": "16"
+    },
+    {
+      "value": 16,
+      "sentence_idx": 1,
+      "sentence_type": "b0",
+      "text": "There are 16 items in the collection.",
+      "magnitude_token": "16"
+    },
+    {
+      "value": 16,
+      "sentence_idx": 2,
+      "sentence_type": "b0",
+      "text": "A total of 16 units were recorded.",
+      "magnitude_token": "16"
+    },
+    {
+      "value": 16,
+      "sentence_idx": 3,
+      "sentence_type": "b0",
+      "text": "The measurement showed 16.",
+      "magnitude_token": "16"
+    },
+    {
+      "value": 16,
+      "sentence_idx": 4,
+      "sentence_type": "rsa",
+      "text": "Approximately 16 cases were observed.",
+      "magnitude_token": "16"
+    },
+    {
+      "value": 16,
+      "sentence_idx": 5,
+      "sentence_type": "rsa",
+      "text": "The count reached 16 in total.",
+      "magnitude_token": "16"
+    },
+    {
+      "value": 16,
+      "sentence_idx": 6,
+      "sentence_type": "rsa",
+      "text": "A value of 16 was reported.",
+      "magnitude_token": "16"
+    },
+    {
+      "value": 16,
+      "sentence_idx": 7,
+      "sentence_type": "rsa",
+      "text": "The survey found 16 instances.",
+      "magnitude_token": "16"
+    },
+    {
+      "value": 17,
+      "sentence_idx": 0,
+      "sentence_type": "b0",
+      "text": "The number 17 is a quantity.",
+      "magnitude_token": "17"
+    },
+    {
+      "value": 17,
+      "sentence_idx": 1,
+      "sentence_type": "b0",
+      "text": "There are 17 items in the collection.",
+      "magnitude_token": "17"
+    },
+    {
+      "value": 17,
+      "sentence_idx": 2,
+      "sentence_type": "b0",
+      "text": "A total of 17 units were recorded.",
+      "magnitude_token": "17"
+    },
+    {
+      "value": 17,
+      "sentence_idx": 3,
+      "sentence_type": "b0",
+      "text": "The measurement showed 17.",
+      "magnitude_token": "17"
+    },
+    {
+      "value": 17,
+      "sentence_idx": 4,
+      "sentence_type": "rsa",
+      "text": "Approximately 17 cases were observed.",
+      "magnitude_token": "17"
+    },
+    {
+      "value": 17,
+      "sentence_idx": 5,
+      "sentence_type": "rsa",
+      "text": "The count reached 17 in total.",
+      "magnitude_token": "17"
+    },
+    {
+      "value": 17,
+      "sentence_idx": 6,
+      "sentence_type": "rsa",
+      "text": "A value of 17 was reported.",
+      "magnitude_token": "17"
+    },
+    {
+      "value": 17,
+      "sentence_idx": 7,
+      "sentence_type": "rsa",
+      "text": "The survey found 17 instances.",
+      "magnitude_token": "17"
+    },
+    {
+      "value": 18,
+      "sentence_idx": 0,
+      "sentence_type": "b0",
+      "text": "The number 18 is a quantity.",
+      "magnitude_token": "18"
+    },
+    {
+      "value": 18,
+      "sentence_idx": 1,
+      "sentence_type": "b0",
+      "text": "There are 18 items in the collection.",
+      "magnitude_token": "18"
+    },
+    {
+      "value": 18,
+      "sentence_idx": 2,
+      "sentence_type": "b0",
+      "text": "A total of 18 units were recorded.",
+      "magnitude_token": "18"
+    },
+    {
+      "value": 18,
+      "sentence_idx": 3,
+      "sentence_type": "b0",
+      "text": "The measurement showed 18.",
+      "magnitude_token": "18"
+    },
+    {
+      "value": 18,
+      "sentence_idx": 4,
+      "sentence_type": "rsa",
+      "text": "Approximately 18 cases were observed.",
+      "magnitude_token": "18"
+    },
+    {
+      "value": 18,
+      "sentence_idx": 5,
+      "sentence_type": "rsa",
+      "text": "The count reached 18 in total.",
+      "magnitude_token": "18"
+    },
+    {
+      "value": 18,
+      "sentence_idx": 6,
+      "sentence_type": "rsa",
+      "text": "A value of 18 was reported.",
+      "magnitude_token": "18"
+    },
+    {
+      "value": 18,
+      "sentence_idx": 7,
+      "sentence_type": "rsa",
+      "text": "The survey found 18 instances.",
+      "magnitude_token": "18"
+    },
+    {
+      "value": 19,
+      "sentence_idx": 0,
+      "sentence_type": "b0",
+      "text": "The number 19 is a quantity.",
+      "magnitude_token": "19"
+    },
+    {
+      "value": 19,
+      "sentence_idx": 1,
+      "sentence_type": "b0",
+      "text": "There are 19 items in the collection.",
+      "magnitude_token": "19"
+    },
+    {
+      "value": 19,
+      "sentence_idx": 2,
+      "sentence_type": "b0",
+      "text": "A total of 19 units were recorded.",
+      "magnitude_token": "19"
+    },
+    {
+      "value": 19,
+      "sentence_idx": 3,
+      "sentence_type": "b0",
+      "text": "The measurement showed 19.",
+      "magnitude_token": "19"
+    },
+    {
+      "value": 19,
+      "sentence_idx": 4,
+      "sentence_type": "rsa",
+      "text": "Approximately 19 cases were observed.",
+      "magnitude_token": "19"
+    },
+    {
+      "value": 19,
+      "sentence_idx": 5,
+      "sentence_type": "rsa",
+      "text": "The count reached 19 in total.",
+      "magnitude_token": "19"
+    },
+    {
+      "value": 19,
+      "sentence_idx": 6,
+      "sentence_type": "rsa",
+      "text": "A value of 19 was reported.",
+      "magnitude_token": "19"
+    },
+    {
+      "value": 19,
+      "sentence_idx": 7,
+      "sentence_type": "rsa",
+      "text": "The survey found 19 instances.",
+      "magnitude_token": "19"
+    },
+    {
+      "value": 20,
+      "sentence_idx": 0,
+      "sentence_type": "b0",
+      "text": "The number 20 is a quantity.",
+      "magnitude_token": "20"
+    },
+    {
+      "value": 20,
+      "sentence_idx": 1,
+      "sentence_type": "b0",
+      "text": "There are 20 items in the collection.",
+      "magnitude_token": "20"
+    },
+    {
+      "value": 20,
+      "sentence_idx": 2,
+      "sentence_type": "b0",
+      "text": "A total of 20 units were recorded.",
+      "magnitude_token": "20"
+    },
+    {
+      "value": 20,
+      "sentence_idx": 3,
+      "sentence_type": "b0",
+      "text": "The measurement showed 20.",
+      "magnitude_token": "20"
+    },
+    {
+      "value": 20,
+      "sentence_idx": 4,
+      "sentence_type": "rsa",
+      "text": "Approximately 20 cases were observed.",
+      "magnitude_token": "20"
+    },
+    {
+      "value": 20,
+      "sentence_idx": 5,
+      "sentence_type": "rsa",
+      "text": "The count reached 20 in total.",
+      "magnitude_token": "20"
+    },
+    {
+      "value": 20,
+      "sentence_idx": 6,
+      "sentence_type": "rsa",
+      "text": "A value of 20 was reported.",
+      "magnitude_token": "20"
+    },
+    {
+      "value": 20,
+      "sentence_idx": 7,
+      "sentence_type": "rsa",
+      "text": "The survey found 20 instances.",
+      "magnitude_token": "20"
+    }
+  ],
+  "identification_stimuli": [
+    {
+      "value": 4,
+      "framing": "small_large",
+      "prompt": "Is 4 a small number or a large number? Answer with one word: small or large.",
+      "targets": {
+        "category_a": [
+          "small",
+          "Small"
+        ],
+        "category_b": [
+          "large",
+          "Large"
+        ]
+      }
+    },
+    {
+      "value": 4,
+      "framing": "single_multi",
+      "prompt": "Is 4 a single-digit number or a multi-digit number? Answer with one word: single-digit or multi-digit.",
+      "targets": {
+        "category_a": [
+          "single",
+          "Single"
+        ],
+        "category_b": [
+          "multi",
+          "Multi"
+        ]
+      }
+    },
+    {
+      "value": 5,
+      "framing": "small_large",
+      "prompt": "Is 5 a small number or a large number? Answer with one word: small or large.",
+      "targets": {
+        "category_a": [
+          "small",
+          "Small"
+        ],
+        "category_b": [
+          "large",
+          "Large"
+        ]
+      }
+    },
+    {
+      "value": 5,
+      "framing": "single_multi",
+      "prompt": "Is 5 a single-digit number or a multi-digit number? Answer with one word: single-digit or multi-digit.",
+      "targets": {
+        "category_a": [
+          "single",
+          "Single"
+        ],
+        "category_b": [
+          "multi",
+          "Multi"
+        ]
+      }
+    },
+    {
+      "value": 6,
+      "framing": "small_large",
+      "prompt": "Is 6 a small number or a large number? Answer with one word: small or large.",
+      "targets": {
+        "category_a": [
+          "small",
+          "Small"
+        ],
+        "category_b": [
+          "large",
+          "Large"
+        ]
+      }
+    },
+    {
+      "value": 6,
+      "framing": "single_multi",
+      "prompt": "Is 6 a single-digit number or a multi-digit number? Answer with one word: single-digit or multi-digit.",
+      "targets": {
+        "category_a": [
+          "single",
+          "Single"
+        ],
+        "category_b": [
+          "multi",
+          "Multi"
+        ]
+      }
+    },
+    {
+      "value": 7,
+      "framing": "small_large",
+      "prompt": "Is 7 a small number or a large number? Answer with one word: small or large.",
+      "targets": {
+        "category_a": [
+          "small",
+          "Small"
+        ],
+        "category_b": [
+          "large",
+          "Large"
+        ]
+      }
+    },
+    {
+      "value": 7,
+      "framing": "single_multi",
+      "prompt": "Is 7 a single-digit number or a multi-digit number? Answer with one word: single-digit or multi-digit.",
+      "targets": {
+        "category_a": [
+          "single",
+          "Single"
+        ],
+        "category_b": [
+          "multi",
+          "Multi"
+        ]
+      }
+    },
+    {
+      "value": 8,
+      "framing": "small_large",
+      "prompt": "Is 8 a small number or a large number? Answer with one word: small or large.",
+      "targets": {
+        "category_a": [
+          "small",
+          "Small"
+        ],
+        "category_b": [
+          "large",
+          "Large"
+        ]
+      }
+    },
+    {
+      "value": 8,
+      "framing": "single_multi",
+      "prompt": "Is 8 a single-digit number or a multi-digit number? Answer with one word: single-digit or multi-digit.",
+      "targets": {
+        "category_a": [
+          "single",
+          "Single"
+        ],
+        "category_b": [
+          "multi",
+          "Multi"
+        ]
+      }
+    },
+    {
+      "value": 9,
+      "framing": "small_large",
+      "prompt": "Is 9 a small number or a large number? Answer with one word: small or large.",
+      "targets": {
+        "category_a": [
+          "small",
+          "Small"
+        ],
+        "category_b": [
+          "large",
+          "Large"
+        ]
+      }
+    },
+    {
+      "value": 9,
+      "framing": "single_multi",
+      "prompt": "Is 9 a single-digit number or a multi-digit number? Answer with one word: single-digit or multi-digit.",
+      "targets": {
+        "category_a": [
+          "single",
+          "Single"
+        ],
+        "category_b": [
+          "multi",
+          "Multi"
+        ]
+      }
+    },
+    {
+      "value": 10,
+      "framing": "small_large",
+      "prompt": "Is 10 a small number or a large number? Answer with one word: small or large.",
+      "targets": {
+        "category_a": [
+          "small",
+          "Small"
+        ],
+        "category_b": [
+          "large",
+          "Large"
+        ]
+      }
+    },
+    {
+      "value": 10,
+      "framing": "single_multi",
+      "prompt": "Is 10 a single-digit number or a multi-digit number? Answer with one word: single-digit or multi-digit.",
+      "targets": {
+        "category_a": [
+          "single",
+          "Single"
+        ],
+        "category_b": [
+          "multi",
+          "Multi"
+        ]
+      }
+    },
+    {
+      "value": 11,
+      "framing": "small_large",
+      "prompt": "Is 11 a small number or a large number? Answer with one word: small or large.",
+      "targets": {
+        "category_a": [
+          "small",
+          "Small"
+        ],
+        "category_b": [
+          "large",
+          "Large"
+        ]
+      }
+    },
+    {
+      "value": 11,
+      "framing": "single_multi",
+      "prompt": "Is 11 a single-digit number or a multi-digit number? Answer with one word: single-digit or multi-digit.",
+      "targets": {
+        "category_a": [
+          "single",
+          "Single"
+        ],
+        "category_b": [
+          "multi",
+          "Multi"
+        ]
+      }
+    },
+    {
+      "value": 12,
+      "framing": "small_large",
+      "prompt": "Is 12 a small number or a large number? Answer with one word: small or large.",
+      "targets": {
+        "category_a": [
+          "small",
+          "Small"
+        ],
+        "category_b": [
+          "large",
+          "Large"
+        ]
+      }
+    },
+    {
+      "value": 12,
+      "framing": "single_multi",
+      "prompt": "Is 12 a single-digit number or a multi-digit number? Answer with one word: single-digit or multi-digit.",
+      "targets": {
+        "category_a": [
+          "single",
+          "Single"
+        ],
+        "category_b": [
+          "multi",
+          "Multi"
+        ]
+      }
+    },
+    {
+      "value": 13,
+      "framing": "small_large",
+      "prompt": "Is 13 a small number or a large number? Answer with one word: small or large.",
+      "targets": {
+        "category_a": [
+          "small",
+          "Small"
+        ],
+        "category_b": [
+          "large",
+          "Large"
+        ]
+      }
+    },
+    {
+      "value": 13,
+      "framing": "single_multi",
+      "prompt": "Is 13 a single-digit number or a multi-digit number? Answer with one word: single-digit or multi-digit.",
+      "targets": {
+        "category_a": [
+          "single",
+          "Single"
+        ],
+        "category_b": [
+          "multi",
+          "Multi"
+        ]
+      }
+    },
+    {
+      "value": 14,
+      "framing": "small_large",
+      "prompt": "Is 14 a small number or a large number? Answer with one word: small or large.",
+      "targets": {
+        "category_a": [
+          "small",
+          "Small"
+        ],
+        "category_b": [
+          "large",
+          "Large"
+        ]
+      }
+    },
+    {
+      "value": 14,
+      "framing": "single_multi",
+      "prompt": "Is 14 a single-digit number or a multi-digit number? Answer with one word: single-digit or multi-digit.",
+      "targets": {
+        "category_a": [
+          "single",
+          "Single"
+        ],
+        "category_b": [
+          "multi",
+          "Multi"
+        ]
+      }
+    },
+    {
+      "value": 15,
+      "framing": "small_large",
+      "prompt": "Is 15 a small number or a large number? Answer with one word: small or large.",
+      "targets": {
+        "category_a": [
+          "small",
+          "Small"
+        ],
+        "category_b": [
+          "large",
+          "Large"
+        ]
+      }
+    },
+    {
+      "value": 15,
+      "framing": "single_multi",
+      "prompt": "Is 15 a single-digit number or a multi-digit number? Answer with one word: single-digit or multi-digit.",
+      "targets": {
+        "category_a": [
+          "single",
+          "Single"
+        ],
+        "category_b": [
+          "multi",
+          "Multi"
+        ]
+      }
+    },
+    {
+      "value": 16,
+      "framing": "small_large",
+      "prompt": "Is 16 a small number or a large number? Answer with one word: small or large.",
+      "targets": {
+        "category_a": [
+          "small",
+          "Small"
+        ],
+        "category_b": [
+          "large",
+          "Large"
+        ]
+      }
+    },
+    {
+      "value": 16,
+      "framing": "single_multi",
+      "prompt": "Is 16 a single-digit number or a multi-digit number? Answer with one word: single-digit or multi-digit.",
+      "targets": {
+        "category_a": [
+          "single",
+          "Single"
+        ],
+        "category_b": [
+          "multi",
+          "Multi"
+        ]
+      }
+    },
+    {
+      "value": 17,
+      "framing": "small_large",
+      "prompt": "Is 17 a small number or a large number? Answer with one word: small or large.",
+      "targets": {
+        "category_a": [
+          "small",
+          "Small"
+        ],
+        "category_b": [
+          "large",
+          "Large"
+        ]
+      }
+    },
+    {
+      "value": 17,
+      "framing": "single_multi",
+      "prompt": "Is 17 a single-digit number or a multi-digit number? Answer with one word: single-digit or multi-digit.",
+      "targets": {
+        "category_a": [
+          "single",
+          "Single"
+        ],
+        "category_b": [
+          "multi",
+          "Multi"
+        ]
+      }
+    },
+    {
+      "value": 18,
+      "framing": "small_large",
+      "prompt": "Is 18 a small number or a large number? Answer with one word: small or large.",
+      "targets": {
+        "category_a": [
+          "small",
+          "Small"
+        ],
+        "category_b": [
+          "large",
+          "Large"
+        ]
+      }
+    },
+    {
+      "value": 18,
+      "framing": "single_multi",
+      "prompt": "Is 18 a single-digit number or a multi-digit number? Answer with one word: single-digit or multi-digit.",
+      "targets": {
+        "category_a": [
+          "single",
+          "Single"
+        ],
+        "category_b": [
+          "multi",
+          "Multi"
+        ]
+      }
+    },
+    {
+      "value": 19,
+      "framing": "small_large",
+      "prompt": "Is 19 a small number or a large number? Answer with one word: small or large.",
+      "targets": {
+        "category_a": [
+          "small",
+          "Small"
+        ],
+        "category_b": [
+          "large",
+          "Large"
+        ]
+      }
+    },
+    {
+      "value": 19,
+      "framing": "single_multi",
+      "prompt": "Is 19 a single-digit number or a multi-digit number? Answer with one word: single-digit or multi-digit.",
+      "targets": {
+        "category_a": [
+          "single",
+          "Single"
+        ],
+        "category_b": [
+          "multi",
+          "Multi"
+        ]
+      }
+    },
+    {
+      "value": 20,
+      "framing": "small_large",
+      "prompt": "Is 20 a small number or a large number? Answer with one word: small or large.",
+      "targets": {
+        "category_a": [
+          "small",
+          "Small"
+        ],
+        "category_b": [
+          "large",
+          "Large"
+        ]
+      }
+    },
+    {
+      "value": 20,
+      "framing": "single_multi",
+      "prompt": "Is 20 a single-digit number or a multi-digit number? Answer with one word: single-digit or multi-digit.",
+      "targets": {
+        "category_a": [
+          "single",
+          "Single"
+        ],
+        "category_b": [
+          "multi",
+          "Multi"
+        ]
+      }
+    }
+  ],
+  "pairwise_distances": [
+    {
+      "value_a": 4,
+      "value_b": 5,
+      "log_distance": 0.223144,
+      "linear_distance": 1,
+      "crosses_boundary": false,
+      "pair_type": "within_below",
+      "boundary": 10
+    },
+    {
+      "value_a": 4,
+      "value_b": 6,
+      "log_distance": 0.405465,
+      "linear_distance": 2,
+      "crosses_boundary": false,
+      "pair_type": "within_below",
+      "boundary": 10
+    },
+    {
+      "value_a": 4,
+      "value_b": 7,
+      "log_distance": 0.559616,
+      "linear_distance": 3,
+      "crosses_boundary": false,
+      "pair_type": "within_below",
+      "boundary": 10
+    },
+    {
+      "value_a": 4,
+      "value_b": 8,
+      "log_distance": 0.693147,
+      "linear_distance": 4,
+      "crosses_boundary": false,
+      "pair_type": "within_below",
+      "boundary": 10
+    },
+    {
+      "value_a": 4,
+      "value_b": 9,
+      "log_distance": 0.81093,
+      "linear_distance": 5,
+      "crosses_boundary": false,
+      "pair_type": "within_below",
+      "boundary": 10
+    },
+    {
+      "value_a": 4,
+      "value_b": 10,
+      "log_distance": 0.916291,
+      "linear_distance": 6,
+      "crosses_boundary": true,
+      "pair_type": "cross_boundary",
+      "boundary": 10
+    },
+    {
+      "value_a": 4,
+      "value_b": 11,
+      "log_distance": 1.011601,
+      "linear_distance": 7,
+      "crosses_boundary": true,
+      "pair_type": "cross_boundary",
+      "boundary": 10
+    },
+    {
+      "value_a": 4,
+      "value_b": 12,
+      "log_distance": 1.098612,
+      "linear_distance": 8,
+      "crosses_boundary": true,
+      "pair_type": "cross_boundary",
+      "boundary": 10
+    },
+    {
+      "value_a": 4,
+      "value_b": 13,
+      "log_distance": 1.178655,
+      "linear_distance": 9,
+      "crosses_boundary": true,
+      "pair_type": "cross_boundary",
+      "boundary": 10
+    },
+    {
+      "value_a": 4,
+      "value_b": 14,
+      "log_distance": 1.252763,
+      "linear_distance": 10,
+      "crosses_boundary": true,
+      "pair_type": "cross_boundary",
+      "boundary": 10
+    },
+    {
+      "value_a": 4,
+      "value_b": 15,
+      "log_distance": 1.321756,
+      "linear_distance": 11,
+      "crosses_boundary": true,
+      "pair_type": "cross_boundary",
+      "boundary": 10
+    },
+    {
+      "value_a": 4,
+      "value_b": 16,
+      "log_distance": 1.386294,
+      "linear_distance": 12,
+      "crosses_boundary": true,
+      "pair_type": "cross_boundary",
+      "boundary": 10
+    },
+    {
+      "value_a": 4,
+      "value_b": 17,
+      "log_distance": 1.446919,
+      "linear_distance": 13,
+      "crosses_boundary": true,
+      "pair_type": "cross_boundary",
+      "boundary": 10
+    },
+    {
+      "value_a": 4,
+      "value_b": 18,
+      "log_distance": 1.504077,
+      "linear_distance": 14,
+      "crosses_boundary": true,
+      "pair_type": "cross_boundary",
+      "boundary": 10
+    },
+    {
+      "value_a": 4,
+      "value_b": 19,
+      "log_distance": 1.558145,
+      "linear_distance": 15,
+      "crosses_boundary": true,
+      "pair_type": "cross_boundary",
+      "boundary": 10
+    },
+    {
+      "value_a": 4,
+      "value_b": 20,
+      "log_distance": 1.609438,
+      "linear_distance": 16,
+      "crosses_boundary": true,
+      "pair_type": "cross_boundary",
+      "boundary": 10
+    },
+    {
+      "value_a": 5,
+      "value_b": 6,
+      "log_distance": 0.182322,
+      "linear_distance": 1,
+      "crosses_boundary": false,
+      "pair_type": "within_below",
+      "boundary": 10
+    },
+    {
+      "value_a": 5,
+      "value_b": 7,
+      "log_distance": 0.336472,
+      "linear_distance": 2,
+      "crosses_boundary": false,
+      "pair_type": "within_below",
+      "boundary": 10
+    },
+    {
+      "value_a": 5,
+      "value_b": 8,
+      "log_distance": 0.470004,
+      "linear_distance": 3,
+      "crosses_boundary": false,
+      "pair_type": "within_below",
+      "boundary": 10
+    },
+    {
+      "value_a": 5,
+      "value_b": 9,
+      "log_distance": 0.587787,
+      "linear_distance": 4,
+      "crosses_boundary": false,
+      "pair_type": "within_below",
+      "boundary": 10
+    },
+    {
+      "value_a": 5,
+      "value_b": 10,
+      "log_distance": 0.693147,
+      "linear_distance": 5,
+      "crosses_boundary": true,
+      "pair_type": "cross_boundary",
+      "boundary": 10
+    },
+    {
+      "value_a": 5,
+      "value_b": 11,
+      "log_distance": 0.788457,
+      "linear_distance": 6,
+      "crosses_boundary": true,
+      "pair_type": "cross_boundary",
+      "boundary": 10
+    },
+    {
+      "value_a": 5,
+      "value_b": 12,
+      "log_distance": 0.875469,
+      "linear_distance": 7,
+      "crosses_boundary": true,
+      "pair_type": "cross_boundary",
+      "boundary": 10
+    },
+    {
+      "value_a": 5,
+      "value_b": 13,
+      "log_distance": 0.955511,
+      "linear_distance": 8,
+      "crosses_boundary": true,
+      "pair_type": "cross_boundary",
+      "boundary": 10
+    },
+    {
+      "value_a": 5,
+      "value_b": 14,
+      "log_distance": 1.029619,
+      "linear_distance": 9,
+      "crosses_boundary": true,
+      "pair_type": "cross_boundary",
+      "boundary": 10
+    },
+    {
+      "value_a": 5,
+      "value_b": 15,
+      "log_distance": 1.098612,
+      "linear_distance": 10,
+      "crosses_boundary": true,
+      "pair_type": "cross_boundary",
+      "boundary": 10
+    },
+    {
+      "value_a": 5,
+      "value_b": 16,
+      "log_distance": 1.163151,
+      "linear_distance": 11,
+      "crosses_boundary": true,
+      "pair_type": "cross_boundary",
+      "boundary": 10
+    },
+    {
+      "value_a": 5,
+      "value_b": 17,
+      "log_distance": 1.223775,
+      "linear_distance": 12,
+      "crosses_boundary": true,
+      "pair_type": "cross_boundary",
+      "boundary": 10
+    },
+    {
+      "value_a": 5,
+      "value_b": 18,
+      "log_distance": 1.280934,
+      "linear_distance": 13,
+      "crosses_boundary": true,
+      "pair_type": "cross_boundary",
+      "boundary": 10
+    },
+    {
+      "value_a": 5,
+      "value_b": 19,
+      "log_distance": 1.335001,
+      "linear_distance": 14,
+      "crosses_boundary": true,
+      "pair_type": "cross_boundary",
+      "boundary": 10
+    },
+    {
+      "value_a": 5,
+      "value_b": 20,
+      "log_distance": 1.386294,
+      "linear_distance": 15,
+      "crosses_boundary": true,
+      "pair_type": "cross_boundary",
+      "boundary": 10
+    },
+    {
+      "value_a": 6,
+      "value_b": 7,
+      "log_distance": 0.154151,
+      "linear_distance": 1,
+      "crosses_boundary": false,
+      "pair_type": "within_below",
+      "boundary": 10
+    },
+    {
+      "value_a": 6,
+      "value_b": 8,
+      "log_distance": 0.287682,
+      "linear_distance": 2,
+      "crosses_boundary": false,
+      "pair_type": "within_below",
+      "boundary": 10
+    },
+    {
+      "value_a": 6,
+      "value_b": 9,
+      "log_distance": 0.405465,
+      "linear_distance": 3,
+      "crosses_boundary": false,
+      "pair_type": "within_below",
+      "boundary": 10
+    },
+    {
+      "value_a": 6,
+      "value_b": 10,
+      "log_distance": 0.510826,
+      "linear_distance": 4,
+      "crosses_boundary": true,
+      "pair_type": "cross_boundary",
+      "boundary": 10
+    },
+    {
+      "value_a": 6,
+      "value_b": 11,
+      "log_distance": 0.606136,
+      "linear_distance": 5,
+      "crosses_boundary": true,
+      "pair_type": "cross_boundary",
+      "boundary": 10
+    },
+    {
+      "value_a": 6,
+      "value_b": 12,
+      "log_distance": 0.693147,
+      "linear_distance": 6,
+      "crosses_boundary": true,
+      "pair_type": "cross_boundary",
+      "boundary": 10
+    },
+    {
+      "value_a": 6,
+      "value_b": 13,
+      "log_distance": 0.77319,
+      "linear_distance": 7,
+      "crosses_boundary": true,
+      "pair_type": "cross_boundary",
+      "boundary": 10
+    },
+    {
+      "value_a": 6,
+      "value_b": 14,
+      "log_distance": 0.847298,
+      "linear_distance": 8,
+      "crosses_boundary": true,
+      "pair_type": "cross_boundary",
+      "boundary": 10
+    },
+    {
+      "value_a": 6,
+      "value_b": 15,
+      "log_distance": 0.916291,
+      "linear_distance": 9,
+      "crosses_boundary": true,
+      "pair_type": "cross_boundary",
+      "boundary": 10
+    },
+    {
+      "value_a": 6,
+      "value_b": 16,
+      "log_distance": 0.980829,
+      "linear_distance": 10,
+      "crosses_boundary": true,
+      "pair_type": "cross_boundary",
+      "boundary": 10
+    },
+    {
+      "value_a": 6,
+      "value_b": 17,
+      "log_distance": 1.041454,
+      "linear_distance": 11,
+      "crosses_boundary": true,
+      "pair_type": "cross_boundary",
+      "boundary": 10
+    },
+    {
+      "value_a": 6,
+      "value_b": 18,
+      "log_distance": 1.098612,
+      "linear_distance": 12,
+      "crosses_boundary": true,
+      "pair_type": "cross_boundary",
+      "boundary": 10
+    },
+    {
+      "value_a": 6,
+      "value_b": 19,
+      "log_distance": 1.15268,
+      "linear_distance": 13,
+      "crosses_boundary": true,
+      "pair_type": "cross_boundary",
+      "boundary": 10
+    },
+    {
+      "value_a": 6,
+      "value_b": 20,
+      "log_distance": 1.203973,
+      "linear_distance": 14,
+      "crosses_boundary": true,
+      "pair_type": "cross_boundary",
+      "boundary": 10
+    },
+    {
+      "value_a": 7,
+      "value_b": 8,
+      "log_distance": 0.133531,
+      "linear_distance": 1,
+      "crosses_boundary": false,
+      "pair_type": "within_below",
+      "boundary": 10
+    },
+    {
+      "value_a": 7,
+      "value_b": 9,
+      "log_distance": 0.251314,
+      "linear_distance": 2,
+      "crosses_boundary": false,
+      "pair_type": "within_below",
+      "boundary": 10
+    },
+    {
+      "value_a": 7,
+      "value_b": 10,
+      "log_distance": 0.356675,
+      "linear_distance": 3,
+      "crosses_boundary": true,
+      "pair_type": "cross_boundary",
+      "boundary": 10
+    },
+    {
+      "value_a": 7,
+      "value_b": 11,
+      "log_distance": 0.451985,
+      "linear_distance": 4,
+      "crosses_boundary": true,
+      "pair_type": "cross_boundary",
+      "boundary": 10
+    },
+    {
+      "value_a": 7,
+      "value_b": 12,
+      "log_distance": 0.538997,
+      "linear_distance": 5,
+      "crosses_boundary": true,
+      "pair_type": "cross_boundary",
+      "boundary": 10
+    },
+    {
+      "value_a": 7,
+      "value_b": 13,
+      "log_distance": 0.619039,
+      "linear_distance": 6,
+      "crosses_boundary": true,
+      "pair_type": "cross_boundary",
+      "boundary": 10
+    },
+    {
+      "value_a": 7,
+      "value_b": 14,
+      "log_distance": 0.693147,
+      "linear_distance": 7,
+      "crosses_boundary": true,
+      "pair_type": "cross_boundary",
+      "boundary": 10
+    },
+    {
+      "value_a": 7,
+      "value_b": 15,
+      "log_distance": 0.76214,
+      "linear_distance": 8,
+      "crosses_boundary": true,
+      "pair_type": "cross_boundary",
+      "boundary": 10
+    },
+    {
+      "value_a": 7,
+      "value_b": 16,
+      "log_distance": 0.826679,
+      "linear_distance": 9,
+      "crosses_boundary": true,
+      "pair_type": "cross_boundary",
+      "boundary": 10
+    },
+    {
+      "value_a": 7,
+      "value_b": 17,
+      "log_distance": 0.887303,
+      "linear_distance": 10,
+      "crosses_boundary": true,
+      "pair_type": "cross_boundary",
+      "boundary": 10
+    },
+    {
+      "value_a": 7,
+      "value_b": 18,
+      "log_distance": 0.944462,
+      "linear_distance": 11,
+      "crosses_boundary": true,
+      "pair_type": "cross_boundary",
+      "boundary": 10
+    },
+    {
+      "value_a": 7,
+      "value_b": 19,
+      "log_distance": 0.998529,
+      "linear_distance": 12,
+      "crosses_boundary": true,
+      "pair_type": "cross_boundary",
+      "boundary": 10
+    },
+    {
+      "value_a": 7,
+      "value_b": 20,
+      "log_distance": 1.049822,
+      "linear_distance": 13,
+      "crosses_boundary": true,
+      "pair_type": "cross_boundary",
+      "boundary": 10
+    },
+    {
+      "value_a": 8,
+      "value_b": 9,
+      "log_distance": 0.117783,
+      "linear_distance": 1,
+      "crosses_boundary": false,
+      "pair_type": "within_below",
+      "boundary": 10
+    },
+    {
+      "value_a": 8,
+      "value_b": 10,
+      "log_distance": 0.223144,
+      "linear_distance": 2,
+      "crosses_boundary": true,
+      "pair_type": "cross_boundary",
+      "boundary": 10
+    },
+    {
+      "value_a": 8,
+      "value_b": 11,
+      "log_distance": 0.318454,
+      "linear_distance": 3,
+      "crosses_boundary": true,
+      "pair_type": "cross_boundary",
+      "boundary": 10
+    },
+    {
+      "value_a": 8,
+      "value_b": 12,
+      "log_distance": 0.405465,
+      "linear_distance": 4,
+      "crosses_boundary": true,
+      "pair_type": "cross_boundary",
+      "boundary": 10
+    },
+    {
+      "value_a": 8,
+      "value_b": 13,
+      "log_distance": 0.485508,
+      "linear_distance": 5,
+      "crosses_boundary": true,
+      "pair_type": "cross_boundary",
+      "boundary": 10
+    },
+    {
+      "value_a": 8,
+      "value_b": 14,
+      "log_distance": 0.559616,
+      "linear_distance": 6,
+      "crosses_boundary": true,
+      "pair_type": "cross_boundary",
+      "boundary": 10
+    },
+    {
+      "value_a": 8,
+      "value_b": 15,
+      "log_distance": 0.628609,
+      "linear_distance": 7,
+      "crosses_boundary": true,
+      "pair_type": "cross_boundary",
+      "boundary": 10
+    },
+    {
+      "value_a": 8,
+      "value_b": 16,
+      "log_distance": 0.693147,
+      "linear_distance": 8,
+      "crosses_boundary": true,
+      "pair_type": "cross_boundary",
+      "boundary": 10
+    },
+    {
+      "value_a": 8,
+      "value_b": 17,
+      "log_distance": 0.753772,
+      "linear_distance": 9,
+      "crosses_boundary": true,
+      "pair_type": "cross_boundary",
+      "boundary": 10
+    },
+    {
+      "value_a": 8,
+      "value_b": 18,
+      "log_distance": 0.81093,
+      "linear_distance": 10,
+      "crosses_boundary": true,
+      "pair_type": "cross_boundary",
+      "boundary": 10
+    },
+    {
+      "value_a": 8,
+      "value_b": 19,
+      "log_distance": 0.864997,
+      "linear_distance": 11,
+      "crosses_boundary": true,
+      "pair_type": "cross_boundary",
+      "boundary": 10
+    },
+    {
+      "value_a": 8,
+      "value_b": 20,
+      "log_distance": 0.916291,
+      "linear_distance": 12,
+      "crosses_boundary": true,
+      "pair_type": "cross_boundary",
+      "boundary": 10
+    },
+    {
+      "value_a": 9,
+      "value_b": 10,
+      "log_distance": 0.105361,
+      "linear_distance": 1,
+      "crosses_boundary": true,
+      "pair_type": "cross_boundary",
+      "boundary": 10
+    },
+    {
+      "value_a": 9,
+      "value_b": 11,
+      "log_distance": 0.200671,
+      "linear_distance": 2,
+      "crosses_boundary": true,
+      "pair_type": "cross_boundary",
+      "boundary": 10
+    },
+    {
+      "value_a": 9,
+      "value_b": 12,
+      "log_distance": 0.287682,
+      "linear_distance": 3,
+      "crosses_boundary": true,
+      "pair_type": "cross_boundary",
+      "boundary": 10
+    },
+    {
+      "value_a": 9,
+      "value_b": 13,
+      "log_distance": 0.367725,
+      "linear_distance": 4,
+      "crosses_boundary": true,
+      "pair_type": "cross_boundary",
+      "boundary": 10
+    },
+    {
+      "value_a": 9,
+      "value_b": 14,
+      "log_distance": 0.441833,
+      "linear_distance": 5,
+      "crosses_boundary": true,
+      "pair_type": "cross_boundary",
+      "boundary": 10
+    },
+    {
+      "value_a": 9,
+      "value_b": 15,
+      "log_distance": 0.510826,
+      "linear_distance": 6,
+      "crosses_boundary": true,
+      "pair_type": "cross_boundary",
+      "boundary": 10
+    },
+    {
+      "value_a": 9,
+      "value_b": 16,
+      "log_distance": 0.575364,
+      "linear_distance": 7,
+      "crosses_boundary": true,
+      "pair_type": "cross_boundary",
+      "boundary": 10
+    },
+    {
+      "value_a": 9,
+      "value_b": 17,
+      "log_distance": 0.635989,
+      "linear_distance": 8,
+      "crosses_boundary": true,
+      "pair_type": "cross_boundary",
+      "boundary": 10
+    },
+    {
+      "value_a": 9,
+      "value_b": 18,
+      "log_distance": 0.693147,
+      "linear_distance": 9,
+      "crosses_boundary": true,
+      "pair_type": "cross_boundary",
+      "boundary": 10
+    },
+    {
+      "value_a": 9,
+      "value_b": 19,
+      "log_distance": 0.747214,
+      "linear_distance": 10,
+      "crosses_boundary": true,
+      "pair_type": "cross_boundary",
+      "boundary": 10
+    },
+    {
+      "value_a": 9,
+      "value_b": 20,
+      "log_distance": 0.798508,
+      "linear_distance": 11,
+      "crosses_boundary": true,
+      "pair_type": "cross_boundary",
+      "boundary": 10
+    },
+    {
+      "value_a": 10,
+      "value_b": 11,
+      "log_distance": 0.09531,
+      "linear_distance": 1,
+      "crosses_boundary": false,
+      "pair_type": "within_above",
+      "boundary": 10
+    },
+    {
+      "value_a": 10,
+      "value_b": 12,
+      "log_distance": 0.182322,
+      "linear_distance": 2,
+      "crosses_boundary": false,
+      "pair_type": "within_above",
+      "boundary": 10
+    },
+    {
+      "value_a": 10,
+      "value_b": 13,
+      "log_distance": 0.262364,
+      "linear_distance": 3,
+      "crosses_boundary": false,
+      "pair_type": "within_above",
+      "boundary": 10
+    },
+    {
+      "value_a": 10,
+      "value_b": 14,
+      "log_distance": 0.336472,
+      "linear_distance": 4,
+      "crosses_boundary": false,
+      "pair_type": "within_above",
+      "boundary": 10
+    },
+    {
+      "value_a": 10,
+      "value_b": 15,
+      "log_distance": 0.405465,
+      "linear_distance": 5,
+      "crosses_boundary": false,
+      "pair_type": "within_above",
+      "boundary": 10
+    },
+    {
+      "value_a": 10,
+      "value_b": 16,
+      "log_distance": 0.470004,
+      "linear_distance": 6,
+      "crosses_boundary": false,
+      "pair_type": "within_above",
+      "boundary": 10
+    },
+    {
+      "value_a": 10,
+      "value_b": 17,
+      "log_distance": 0.530628,
+      "linear_distance": 7,
+      "crosses_boundary": false,
+      "pair_type": "within_above",
+      "boundary": 10
+    },
+    {
+      "value_a": 10,
+      "value_b": 18,
+      "log_distance": 0.587787,
+      "linear_distance": 8,
+      "crosses_boundary": false,
+      "pair_type": "within_above",
+      "boundary": 10
+    },
+    {
+      "value_a": 10,
+      "value_b": 19,
+      "log_distance": 0.641854,
+      "linear_distance": 9,
+      "crosses_boundary": false,
+      "pair_type": "within_above",
+      "boundary": 10
+    },
+    {
+      "value_a": 10,
+      "value_b": 20,
+      "log_distance": 0.693147,
+      "linear_distance": 10,
+      "crosses_boundary": false,
+      "pair_type": "within_above",
+      "boundary": 10
+    },
+    {
+      "value_a": 11,
+      "value_b": 12,
+      "log_distance": 0.087011,
+      "linear_distance": 1,
+      "crosses_boundary": false,
+      "pair_type": "within_above",
+      "boundary": 10
+    },
+    {
+      "value_a": 11,
+      "value_b": 13,
+      "log_distance": 0.167054,
+      "linear_distance": 2,
+      "crosses_boundary": false,
+      "pair_type": "within_above",
+      "boundary": 10
+    },
+    {
+      "value_a": 11,
+      "value_b": 14,
+      "log_distance": 0.241162,
+      "linear_distance": 3,
+      "crosses_boundary": false,
+      "pair_type": "within_above",
+      "boundary": 10
+    },
+    {
+      "value_a": 11,
+      "value_b": 15,
+      "log_distance": 0.310155,
+      "linear_distance": 4,
+      "crosses_boundary": false,
+      "pair_type": "within_above",
+      "boundary": 10
+    },
+    {
+      "value_a": 11,
+      "value_b": 16,
+      "log_distance": 0.374693,
+      "linear_distance": 5,
+      "crosses_boundary": false,
+      "pair_type": "within_above",
+      "boundary": 10
+    },
+    {
+      "value_a": 11,
+      "value_b": 17,
+      "log_distance": 0.435318,
+      "linear_distance": 6,
+      "crosses_boundary": false,
+      "pair_type": "within_above",
+      "boundary": 10
+    },
+    {
+      "value_a": 11,
+      "value_b": 18,
+      "log_distance": 0.492476,
+      "linear_distance": 7,
+      "crosses_boundary": false,
+      "pair_type": "within_above",
+      "boundary": 10
+    },
+    {
+      "value_a": 11,
+      "value_b": 19,
+      "log_distance": 0.546544,
+      "linear_distance": 8,
+      "crosses_boundary": false,
+      "pair_type": "within_above",
+      "boundary": 10
+    },
+    {
+      "value_a": 11,
+      "value_b": 20,
+      "log_distance": 0.597837,
+      "linear_distance": 9,
+      "crosses_boundary": false,
+      "pair_type": "within_above",
+      "boundary": 10
+    },
+    {
+      "value_a": 12,
+      "value_b": 13,
+      "log_distance": 0.080043,
+      "linear_distance": 1,
+      "crosses_boundary": false,
+      "pair_type": "within_above",
+      "boundary": 10
+    },
+    {
+      "value_a": 12,
+      "value_b": 14,
+      "log_distance": 0.154151,
+      "linear_distance": 2,
+      "crosses_boundary": false,
+      "pair_type": "within_above",
+      "boundary": 10
+    },
+    {
+      "value_a": 12,
+      "value_b": 15,
+      "log_distance": 0.223144,
+      "linear_distance": 3,
+      "crosses_boundary": false,
+      "pair_type": "within_above",
+      "boundary": 10
+    },
+    {
+      "value_a": 12,
+      "value_b": 16,
+      "log_distance": 0.287682,
+      "linear_distance": 4,
+      "crosses_boundary": false,
+      "pair_type": "within_above",
+      "boundary": 10
+    },
+    {
+      "value_a": 12,
+      "value_b": 17,
+      "log_distance": 0.348307,
+      "linear_distance": 5,
+      "crosses_boundary": false,
+      "pair_type": "within_above",
+      "boundary": 10
+    },
+    {
+      "value_a": 12,
+      "value_b": 18,
+      "log_distance": 0.405465,
+      "linear_distance": 6,
+      "crosses_boundary": false,
+      "pair_type": "within_above",
+      "boundary": 10
+    },
+    {
+      "value_a": 12,
+      "value_b": 19,
+      "log_distance": 0.459532,
+      "linear_distance": 7,
+      "crosses_boundary": false,
+      "pair_type": "within_above",
+      "boundary": 10
+    },
+    {
+      "value_a": 12,
+      "value_b": 20,
+      "log_distance": 0.510826,
+      "linear_distance": 8,
+      "crosses_boundary": false,
+      "pair_type": "within_above",
+      "boundary": 10
+    },
+    {
+      "value_a": 13,
+      "value_b": 14,
+      "log_distance": 0.074108,
+      "linear_distance": 1,
+      "crosses_boundary": false,
+      "pair_type": "within_above",
+      "boundary": 10
+    },
+    {
+      "value_a": 13,
+      "value_b": 15,
+      "log_distance": 0.143101,
+      "linear_distance": 2,
+      "crosses_boundary": false,
+      "pair_type": "within_above",
+      "boundary": 10
+    },
+    {
+      "value_a": 13,
+      "value_b": 16,
+      "log_distance": 0.207639,
+      "linear_distance": 3,
+      "crosses_boundary": false,
+      "pair_type": "within_above",
+      "boundary": 10
+    },
+    {
+      "value_a": 13,
+      "value_b": 17,
+      "log_distance": 0.268264,
+      "linear_distance": 4,
+      "crosses_boundary": false,
+      "pair_type": "within_above",
+      "boundary": 10
+    },
+    {
+      "value_a": 13,
+      "value_b": 18,
+      "log_distance": 0.325422,
+      "linear_distance": 5,
+      "crosses_boundary": false,
+      "pair_type": "within_above",
+      "boundary": 10
+    },
+    {
+      "value_a": 13,
+      "value_b": 19,
+      "log_distance": 0.37949,
+      "linear_distance": 6,
+      "crosses_boundary": false,
+      "pair_type": "within_above",
+      "boundary": 10
+    },
+    {
+      "value_a": 13,
+      "value_b": 20,
+      "log_distance": 0.430783,
+      "linear_distance": 7,
+      "crosses_boundary": false,
+      "pair_type": "within_above",
+      "boundary": 10
+    },
+    {
+      "value_a": 14,
+      "value_b": 15,
+      "log_distance": 0.068993,
+      "linear_distance": 1,
+      "crosses_boundary": false,
+      "pair_type": "within_above",
+      "boundary": 10
+    },
+    {
+      "value_a": 14,
+      "value_b": 16,
+      "log_distance": 0.133531,
+      "linear_distance": 2,
+      "crosses_boundary": false,
+      "pair_type": "within_above",
+      "boundary": 10
+    },
+    {
+      "value_a": 14,
+      "value_b": 17,
+      "log_distance": 0.194156,
+      "linear_distance": 3,
+      "crosses_boundary": false,
+      "pair_type": "within_above",
+      "boundary": 10
+    },
+    {
+      "value_a": 14,
+      "value_b": 18,
+      "log_distance": 0.251314,
+      "linear_distance": 4,
+      "crosses_boundary": false,
+      "pair_type": "within_above",
+      "boundary": 10
+    },
+    {
+      "value_a": 14,
+      "value_b": 19,
+      "log_distance": 0.305382,
+      "linear_distance": 5,
+      "crosses_boundary": false,
+      "pair_type": "within_above",
+      "boundary": 10
+    },
+    {
+      "value_a": 14,
+      "value_b": 20,
+      "log_distance": 0.356675,
+      "linear_distance": 6,
+      "crosses_boundary": false,
+      "pair_type": "within_above",
+      "boundary": 10
+    },
+    {
+      "value_a": 15,
+      "value_b": 16,
+      "log_distance": 0.064539,
+      "linear_distance": 1,
+      "crosses_boundary": false,
+      "pair_type": "within_above",
+      "boundary": 10
+    },
+    {
+      "value_a": 15,
+      "value_b": 17,
+      "log_distance": 0.125163,
+      "linear_distance": 2,
+      "crosses_boundary": false,
+      "pair_type": "within_above",
+      "boundary": 10
+    },
+    {
+      "value_a": 15,
+      "value_b": 18,
+      "log_distance": 0.182322,
+      "linear_distance": 3,
+      "crosses_boundary": false,
+      "pair_type": "within_above",
+      "boundary": 10
+    },
+    {
+      "value_a": 15,
+      "value_b": 19,
+      "log_distance": 0.236389,
+      "linear_distance": 4,
+      "crosses_boundary": false,
+      "pair_type": "within_above",
+      "boundary": 10
+    },
+    {
+      "value_a": 15,
+      "value_b": 20,
+      "log_distance": 0.287682,
+      "linear_distance": 5,
+      "crosses_boundary": false,
+      "pair_type": "within_above",
+      "boundary": 10
+    },
+    {
+      "value_a": 16,
+      "value_b": 17,
+      "log_distance": 0.060625,
+      "linear_distance": 1,
+      "crosses_boundary": false,
+      "pair_type": "within_above",
+      "boundary": 10
+    },
+    {
+      "value_a": 16,
+      "value_b": 18,
+      "log_distance": 0.117783,
+      "linear_distance": 2,
+      "crosses_boundary": false,
+      "pair_type": "within_above",
+      "boundary": 10
+    },
+    {
+      "value_a": 16,
+      "value_b": 19,
+      "log_distance": 0.17185,
+      "linear_distance": 3,
+      "crosses_boundary": false,
+      "pair_type": "within_above",
+      "boundary": 10
+    },
+    {
+      "value_a": 16,
+      "value_b": 20,
+      "log_distance": 0.223144,
+      "linear_distance": 4,
+      "crosses_boundary": false,
+      "pair_type": "within_above",
+      "boundary": 10
+    },
+    {
+      "value_a": 17,
+      "value_b": 18,
+      "log_distance": 0.057158,
+      "linear_distance": 1,
+      "crosses_boundary": false,
+      "pair_type": "within_above",
+      "boundary": 10
+    },
+    {
+      "value_a": 17,
+      "value_b": 19,
+      "log_distance": 0.111226,
+      "linear_distance": 2,
+      "crosses_boundary": false,
+      "pair_type": "within_above",
+      "boundary": 10
+    },
+    {
+      "value_a": 17,
+      "value_b": 20,
+      "log_distance": 0.162519,
+      "linear_distance": 3,
+      "crosses_boundary": false,
+      "pair_type": "within_above",
+      "boundary": 10
+    },
+    {
+      "value_a": 18,
+      "value_b": 19,
+      "log_distance": 0.054067,
+      "linear_distance": 1,
+      "crosses_boundary": false,
+      "pair_type": "within_above",
+      "boundary": 10
+    },
+    {
+      "value_a": 18,
+      "value_b": 20,
+      "log_distance": 0.105361,
+      "linear_distance": 2,
+      "crosses_boundary": false,
+      "pair_type": "within_above",
+      "boundary": 10
+    },
+    {
+      "value_a": 19,
+      "value_b": 20,
+      "log_distance": 0.051293,
+      "linear_distance": 1,
+      "crosses_boundary": false,
+      "pair_type": "within_above",
+      "boundary": 10
+    }
+  ],
+  "theoretical_rdms": {
+    "continuous": [
+      [
+        0.0,
+        0.2231435513142097,
+        0.4054651081081644,
+        0.5596157879354227,
+        0.6931471805599452,
+        0.810930216216329,
+        0.9162907318741553,
+        1.01160091167848,
+        1.0986122886681098,
+        1.1786549963416462,
+        1.2527629684953678,
+        1.3217558399823195,
+        1.3862943611198906,
+        1.4469189829363256,
+        1.504077396776274,
+        1.5581446180465497,
+        1.6094379124341003
+      ],
+      [
+        0.2231435513142097,
+        0.0,
+        0.18232155679395468,
+        0.33647223662121295,
+        0.47000362924573547,
+        0.5877866649021193,
+        0.6931471805599456,
+        0.7884573603642704,
+        0.8754687373539001,
+        0.9555114450274365,
+        1.0296194171811581,
+        1.0986122886681098,
+        1.1631508098056809,
+        1.2237754316221159,
+        1.2809338454620642,
+        1.33500106673234,
+        1.3862943611198906
+      ],
+      [
+        0.4054651081081644,
+        0.18232155679395468,
+        0.0,
+        0.15415067982725827,
+        0.2876820724517808,
+        0.4054651081081646,
+        0.5108256237659909,
+        0.6061358035703157,
+        0.6931471805599454,
+        0.7731898882334818,
+        0.8472978603872034,
+        0.9162907318741551,
+        0.9808292530117262,
+        1.0414538748281612,
+        1.0986122886681096,
+        1.1526795099383853,
+        1.203972804325936
+      ],
+      [
+        0.5596157879354227,
+        0.33647223662121295,
+        0.15415067982725827,
+        0.0,
+        0.13353139262452252,
+        0.25131442828090633,
+        0.35667494393873267,
+        0.45198512374305744,
+        0.5389965007326871,
+        0.6190392084062235,
+        0.6931471805599452,
+        0.7621400520468968,
+        0.8266785731844679,
+        0.8873031950009029,
+        0.9444616088408513,
+        0.998528830111127,
+        1.0498221244986776
+      ],
+      [
+        0.6931471805599452,
+        0.47000362924573547,
+        0.2876820724517808,
+        0.13353139262452252,
+        0.0,
+        0.11778303565638382,
+        0.22314355131421015,
+        0.3184537311185349,
+        0.4054651081081646,
+        0.485507815781701,
+        0.5596157879354227,
+        0.6286086594223743,
+        0.6931471805599454,
+        0.7537718023763804,
+        0.8109302162163288,
+        0.8649974374866045,
+        0.9162907318741551
+      ],
+      [
+        0.810930216216329,
+        0.5877866649021193,
+        0.4054651081081646,
+        0.25131442828090633,
+        0.11778303565638382,
+        0.0,
+        0.10536051565782634,
+        0.2006706954621511,
+        0.2876820724517808,
+        0.3677247801253172,
+        0.44183275227903884,
+        0.5108256237659905,
+        0.5753641449035616,
+        0.6359887667199966,
+        0.693147180559945,
+        0.7472144018302207,
+        0.7985076962177713
+      ],
+      [
+        0.9162907318741553,
+        0.6931471805599456,
+        0.5108256237659909,
+        0.35667494393873267,
+        0.22314355131421015,
+        0.10536051565782634,
+        0.0,
+        0.09531017980432477,
+        0.18232155679395445,
+        0.26236426446749084,
+        0.3364722366212125,
+        0.40546510810816416,
+        0.47000362924573524,
+        0.5306282510621703,
+        0.5877866649021186,
+        0.6418538861723944,
+        0.693147180559945
+      ],
+      [
+        1.01160091167848,
+        0.7884573603642704,
+        0.6061358035703157,
+        0.45198512374305744,
+        0.3184537311185349,
+        0.2006706954621511,
+        0.09531017980432477,
+        0.0,
+        0.08701137698962969,
+        0.16705408466316607,
+        0.24116205681688774,
+        0.3101549283038394,
+        0.3746934494414105,
+        0.4353180712578455,
+        0.49247648509779385,
+        0.5465437063680696,
+        0.5978370007556202
+      ],
+      [
+        1.0986122886681098,
+        0.8754687373539001,
+        0.6931471805599454,
+        0.5389965007326871,
+        0.4054651081081646,
+        0.2876820724517808,
+        0.18232155679395445,
+        0.08701137698962969,
+        0.0,
+        0.08004270767353638,
+        0.15415067982725805,
+        0.2231435513142097,
+        0.2876820724517808,
+        0.3483066942682158,
+        0.40546510810816416,
+        0.4595323293784399,
+        0.5108256237659905
+      ],
+      [
+        1.1786549963416462,
+        0.9555114450274365,
+        0.7731898882334818,
+        0.6190392084062235,
+        0.485507815781701,
+        0.3677247801253172,
+        0.26236426446749084,
+        0.16705408466316607,
+        0.08004270767353638,
+        0.0,
+        0.07410797215372167,
+        0.14310084364067333,
+        0.2076393647782444,
+        0.2682639865946794,
+        0.3254224004346278,
+        0.3794896217049035,
+        0.4307829160924541
+      ],
+      [
+        1.2527629684953678,
+        1.0296194171811581,
+        0.8472978603872034,
+        0.6931471805599452,
+        0.5596157879354227,
+        0.44183275227903884,
+        0.3364722366212125,
+        0.24116205681688774,
+        0.15415067982725805,
+        0.07410797215372167,
+        0.0,
+        0.06899287148695166,
+        0.13353139262452274,
+        0.19415601444095776,
+        0.2513144282809061,
+        0.30538164955118186,
+        0.35667494393873245
+      ],
+      [
+        1.3217558399823195,
+        1.0986122886681098,
+        0.9162907318741551,
+        0.7621400520468968,
+        0.6286086594223743,
+        0.5108256237659905,
+        0.40546510810816416,
+        0.3101549283038394,
+        0.2231435513142097,
+        0.14310084364067333,
+        0.06899287148695166,
+        0.0,
+        0.06453852113757108,
+        0.1251631429540061,
+        0.18232155679395445,
+        0.2363887780642302,
+        0.2876820724517808
+      ],
+      [
+        1.3862943611198906,
+        1.1631508098056809,
+        0.9808292530117262,
+        0.8266785731844679,
+        0.6931471805599454,
+        0.5753641449035616,
+        0.47000362924573524,
+        0.3746934494414105,
+        0.2876820724517808,
+        0.2076393647782444,
+        0.13353139262452274,
+        0.06453852113757108,
+        0.0,
+        0.06062462181643502,
+        0.11778303565638337,
+        0.17185025692665912,
+        0.2231435513142097
+      ],
+      [
+        1.4469189829363256,
+        1.2237754316221159,
+        1.0414538748281612,
+        0.8873031950009029,
+        0.7537718023763804,
+        0.6359887667199966,
+        0.5306282510621703,
+        0.4353180712578455,
+        0.3483066942682158,
+        0.2682639865946794,
+        0.19415601444095776,
+        0.1251631429540061,
+        0.06062462181643502,
+        0.0,
+        0.05715841383994835,
+        0.1112256351102241,
+        0.1625189294977747
+      ],
+      [
+        1.504077396776274,
+        1.2809338454620642,
+        1.0986122886681096,
+        0.9444616088408513,
+        0.8109302162163288,
+        0.693147180559945,
+        0.5877866649021186,
+        0.49247648509779385,
+        0.40546510810816416,
+        0.3254224004346278,
+        0.2513144282809061,
+        0.18232155679395445,
+        0.11778303565638337,
+        0.05715841383994835,
+        0.0,
+        0.054067221270275745,
+        0.10536051565782634
+      ],
+      [
+        1.5581446180465497,
+        1.33500106673234,
+        1.1526795099383853,
+        0.998528830111127,
+        0.8649974374866045,
+        0.7472144018302207,
+        0.6418538861723944,
+        0.5465437063680696,
+        0.4595323293784399,
+        0.3794896217049035,
+        0.30538164955118186,
+        0.2363887780642302,
+        0.17185025692665912,
+        0.1112256351102241,
+        0.054067221270275745,
+        0.0,
+        0.05129329438755059
+      ],
+      [
+        1.6094379124341003,
+        1.3862943611198906,
+        1.203972804325936,
+        1.0498221244986776,
+        0.9162907318741551,
+        0.7985076962177713,
+        0.693147180559945,
+        0.5978370007556202,
+        0.5108256237659905,
+        0.4307829160924541,
+        0.35667494393873245,
+        0.2876820724517808,
+        0.2231435513142097,
+        0.1625189294977747,
+        0.10536051565782634,
+        0.05129329438755059,
+        0.0
+      ]
+    ],
+    "categorical": [
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "cp_additive": [
+      [
+        0.0,
+        0.2231435513142097,
+        0.4054651081081644,
+        0.5596157879354227,
+        0.6931471805599452,
+        0.810930216216329,
+        1.9162907318741553,
+        2.01160091167848,
+        2.09861228866811,
+        2.1786549963416464,
+        2.252762968495368,
+        2.3217558399823197,
+        2.386294361119891,
+        2.4469189829363254,
+        2.5040773967762737,
+        2.5581446180465495,
+        2.6094379124341005
+      ],
+      [
+        0.2231435513142097,
+        0.0,
+        0.18232155679395468,
+        0.33647223662121295,
+        0.47000362924573547,
+        0.5877866649021193,
+        1.6931471805599456,
+        1.7884573603642704,
+        1.8754687373539,
+        1.9555114450274365,
+        2.0296194171811583,
+        2.09861228866811,
+        2.163150809805681,
+        2.2237754316221157,
+        2.280933845462064,
+        2.3350010667323398,
+        2.386294361119891
+      ],
+      [
+        0.4054651081081644,
+        0.18232155679395468,
+        0.0,
+        0.15415067982725827,
+        0.2876820724517808,
+        0.4054651081081646,
+        1.510825623765991,
+        1.6061358035703157,
+        1.6931471805599454,
+        1.7731898882334818,
+        1.8472978603872034,
+        1.916290731874155,
+        1.9808292530117262,
+        2.041453874828161,
+        2.0986122886681096,
+        2.1526795099383853,
+        2.203972804325936
+      ],
+      [
+        0.5596157879354227,
+        0.33647223662121295,
+        0.15415067982725827,
+        0.0,
+        0.13353139262452252,
+        0.25131442828090633,
+        1.3566749439387327,
+        1.4519851237430574,
+        1.5389965007326871,
+        1.6190392084062235,
+        1.6931471805599452,
+        1.7621400520468968,
+        1.826678573184468,
+        1.887303195000903,
+        1.9444616088408513,
+        1.998528830111127,
+        2.049822124498678
+      ],
+      [
+        0.6931471805599452,
+        0.47000362924573547,
+        0.2876820724517808,
+        0.13353139262452252,
+        0.0,
+        0.11778303565638382,
+        1.2231435513142102,
+        1.318453731118535,
+        1.4054651081081646,
+        1.485507815781701,
+        1.5596157879354227,
+        1.6286086594223743,
+        1.6931471805599454,
+        1.7537718023763804,
+        1.8109302162163288,
+        1.8649974374866045,
+        1.916290731874155
+      ],
+      [
+        0.810930216216329,
+        0.5877866649021193,
+        0.4054651081081646,
+        0.25131442828090633,
+        0.11778303565638382,
+        0.0,
+        1.1053605156578263,
+        1.200670695462151,
+        1.2876820724517808,
+        1.3677247801253172,
+        1.4418327522790388,
+        1.5108256237659905,
+        1.5753641449035616,
+        1.6359887667199966,
+        1.693147180559945,
+        1.7472144018302207,
+        1.7985076962177713
+      ],
+      [
+        1.9162907318741553,
+        1.6931471805599456,
+        1.510825623765991,
+        1.3566749439387327,
+        1.2231435513142102,
+        1.1053605156578263,
+        0.0,
+        0.09531017980432477,
+        0.18232155679395445,
+        0.26236426446749084,
+        0.3364722366212125,
+        0.40546510810816416,
+        0.47000362924573524,
+        0.5306282510621703,
+        0.5877866649021186,
+        0.6418538861723944,
+        0.693147180559945
+      ],
+      [
+        2.01160091167848,
+        1.7884573603642704,
+        1.6061358035703157,
+        1.4519851237430574,
+        1.318453731118535,
+        1.200670695462151,
+        0.09531017980432477,
+        0.0,
+        0.08701137698962969,
+        0.16705408466316607,
+        0.24116205681688774,
+        0.3101549283038394,
+        0.3746934494414105,
+        0.4353180712578455,
+        0.49247648509779385,
+        0.5465437063680696,
+        0.5978370007556202
+      ],
+      [
+        2.09861228866811,
+        1.8754687373539,
+        1.6931471805599454,
+        1.5389965007326871,
+        1.4054651081081646,
+        1.2876820724517808,
+        0.18232155679395445,
+        0.08701137698962969,
+        0.0,
+        0.08004270767353638,
+        0.15415067982725805,
+        0.2231435513142097,
+        0.2876820724517808,
+        0.3483066942682158,
+        0.40546510810816416,
+        0.4595323293784399,
+        0.5108256237659905
+      ],
+      [
+        2.1786549963416464,
+        1.9555114450274365,
+        1.7731898882334818,
+        1.6190392084062235,
+        1.485507815781701,
+        1.3677247801253172,
+        0.26236426446749084,
+        0.16705408466316607,
+        0.08004270767353638,
+        0.0,
+        0.07410797215372167,
+        0.14310084364067333,
+        0.2076393647782444,
+        0.2682639865946794,
+        0.3254224004346278,
+        0.3794896217049035,
+        0.4307829160924541
+      ],
+      [
+        2.252762968495368,
+        2.0296194171811583,
+        1.8472978603872034,
+        1.6931471805599452,
+        1.5596157879354227,
+        1.4418327522790388,
+        0.3364722366212125,
+        0.24116205681688774,
+        0.15415067982725805,
+        0.07410797215372167,
+        0.0,
+        0.06899287148695166,
+        0.13353139262452274,
+        0.19415601444095776,
+        0.2513144282809061,
+        0.30538164955118186,
+        0.35667494393873245
+      ],
+      [
+        2.3217558399823197,
+        2.09861228866811,
+        1.916290731874155,
+        1.7621400520468968,
+        1.6286086594223743,
+        1.5108256237659905,
+        0.40546510810816416,
+        0.3101549283038394,
+        0.2231435513142097,
+        0.14310084364067333,
+        0.06899287148695166,
+        0.0,
+        0.06453852113757108,
+        0.1251631429540061,
+        0.18232155679395445,
+        0.2363887780642302,
+        0.2876820724517808
+      ],
+      [
+        2.386294361119891,
+        2.163150809805681,
+        1.9808292530117262,
+        1.826678573184468,
+        1.6931471805599454,
+        1.5753641449035616,
+        0.47000362924573524,
+        0.3746934494414105,
+        0.2876820724517808,
+        0.2076393647782444,
+        0.13353139262452274,
+        0.06453852113757108,
+        0.0,
+        0.06062462181643502,
+        0.11778303565638337,
+        0.17185025692665912,
+        0.2231435513142097
+      ],
+      [
+        2.4469189829363254,
+        2.2237754316221157,
+        2.041453874828161,
+        1.887303195000903,
+        1.7537718023763804,
+        1.6359887667199966,
+        0.5306282510621703,
+        0.4353180712578455,
+        0.3483066942682158,
+        0.2682639865946794,
+        0.19415601444095776,
+        0.1251631429540061,
+        0.06062462181643502,
+        0.0,
+        0.05715841383994835,
+        0.1112256351102241,
+        0.1625189294977747
+      ],
+      [
+        2.5040773967762737,
+        2.280933845462064,
+        2.0986122886681096,
+        1.9444616088408513,
+        1.8109302162163288,
+        1.693147180559945,
+        0.5877866649021186,
+        0.49247648509779385,
+        0.40546510810816416,
+        0.3254224004346278,
+        0.2513144282809061,
+        0.18232155679395445,
+        0.11778303565638337,
+        0.05715841383994835,
+        0.0,
+        0.054067221270275745,
+        0.10536051565782634
+      ],
+      [
+        2.5581446180465495,
+        2.3350010667323398,
+        2.1526795099383853,
+        1.998528830111127,
+        1.8649974374866045,
+        1.7472144018302207,
+        0.6418538861723944,
+        0.5465437063680696,
+        0.4595323293784399,
+        0.3794896217049035,
+        0.30538164955118186,
+        0.2363887780642302,
+        0.17185025692665912,
+        0.1112256351102241,
+        0.054067221270275745,
+        0.0,
+        0.05129329438755059
+      ],
+      [
+        2.6094379124341005,
+        2.386294361119891,
+        2.203972804325936,
+        2.049822124498678,
+        1.916290731874155,
+        1.7985076962177713,
+        0.693147180559945,
+        0.5978370007556202,
+        0.5108256237659905,
+        0.4307829160924541,
+        0.35667494393873245,
+        0.2876820724517808,
+        0.2231435513142097,
+        0.1625189294977747,
+        0.10536051565782634,
+        0.05129329438755059,
+        0.0
+      ]
+    ],
+    "linear": [
+      [
+        0.0,
+        1.0,
+        2.0,
+        3.0,
+        4.0,
+        5.0,
+        6.0,
+        7.0,
+        8.0,
+        9.0,
+        10.0,
+        11.0,
+        12.0,
+        13.0,
+        14.0,
+        15.0,
+        16.0
+      ],
+      [
+        1.0,
+        0.0,
+        1.0,
+        2.0,
+        3.0,
+        4.0,
+        5.0,
+        6.0,
+        7.0,
+        8.0,
+        9.0,
+        10.0,
+        11.0,
+        12.0,
+        13.0,
+        14.0,
+        15.0
+      ],
+      [
+        2.0,
+        1.0,
+        0.0,
+        1.0,
+        2.0,
+        3.0,
+        4.0,
+        5.0,
+        6.0,
+        7.0,
+        8.0,
+        9.0,
+        10.0,
+        11.0,
+        12.0,
+        13.0,
+        14.0
+      ],
+      [
+        3.0,
+        2.0,
+        1.0,
+        0.0,
+        1.0,
+        2.0,
+        3.0,
+        4.0,
+        5.0,
+        6.0,
+        7.0,
+        8.0,
+        9.0,
+        10.0,
+        11.0,
+        12.0,
+        13.0
+      ],
+      [
+        4.0,
+        3.0,
+        2.0,
+        1.0,
+        0.0,
+        1.0,
+        2.0,
+        3.0,
+        4.0,
+        5.0,
+        6.0,
+        7.0,
+        8.0,
+        9.0,
+        10.0,
+        11.0,
+        12.0
+      ],
+      [
+        5.0,
+        4.0,
+        3.0,
+        2.0,
+        1.0,
+        0.0,
+        1.0,
+        2.0,
+        3.0,
+        4.0,
+        5.0,
+        6.0,
+        7.0,
+        8.0,
+        9.0,
+        10.0,
+        11.0
+      ],
+      [
+        6.0,
+        5.0,
+        4.0,
+        3.0,
+        2.0,
+        1.0,
+        0.0,
+        1.0,
+        2.0,
+        3.0,
+        4.0,
+        5.0,
+        6.0,
+        7.0,
+        8.0,
+        9.0,
+        10.0
+      ],
+      [
+        7.0,
+        6.0,
+        5.0,
+        4.0,
+        3.0,
+        2.0,
+        1.0,
+        0.0,
+        1.0,
+        2.0,
+        3.0,
+        4.0,
+        5.0,
+        6.0,
+        7.0,
+        8.0,
+        9.0
+      ],
+      [
+        8.0,
+        7.0,
+        6.0,
+        5.0,
+        4.0,
+        3.0,
+        2.0,
+        1.0,
+        0.0,
+        1.0,
+        2.0,
+        3.0,
+        4.0,
+        5.0,
+        6.0,
+        7.0,
+        8.0
+      ],
+      [
+        9.0,
+        8.0,
+        7.0,
+        6.0,
+        5.0,
+        4.0,
+        3.0,
+        2.0,
+        1.0,
+        0.0,
+        1.0,
+        2.0,
+        3.0,
+        4.0,
+        5.0,
+        6.0,
+        7.0
+      ],
+      [
+        10.0,
+        9.0,
+        8.0,
+        7.0,
+        6.0,
+        5.0,
+        4.0,
+        3.0,
+        2.0,
+        1.0,
+        0.0,
+        1.0,
+        2.0,
+        3.0,
+        4.0,
+        5.0,
+        6.0
+      ],
+      [
+        11.0,
+        10.0,
+        9.0,
+        8.0,
+        7.0,
+        6.0,
+        5.0,
+        4.0,
+        3.0,
+        2.0,
+        1.0,
+        0.0,
+        1.0,
+        2.0,
+        3.0,
+        4.0,
+        5.0
+      ],
+      [
+        12.0,
+        11.0,
+        10.0,
+        9.0,
+        8.0,
+        7.0,
+        6.0,
+        5.0,
+        4.0,
+        3.0,
+        2.0,
+        1.0,
+        0.0,
+        1.0,
+        2.0,
+        3.0,
+        4.0
+      ],
+      [
+        13.0,
+        12.0,
+        11.0,
+        10.0,
+        9.0,
+        8.0,
+        7.0,
+        6.0,
+        5.0,
+        4.0,
+        3.0,
+        2.0,
+        1.0,
+        0.0,
+        1.0,
+        2.0,
+        3.0
+      ],
+      [
+        14.0,
+        13.0,
+        12.0,
+        11.0,
+        10.0,
+        9.0,
+        8.0,
+        7.0,
+        6.0,
+        5.0,
+        4.0,
+        3.0,
+        2.0,
+        1.0,
+        0.0,
+        1.0,
+        2.0
+      ],
+      [
+        15.0,
+        14.0,
+        13.0,
+        12.0,
+        11.0,
+        10.0,
+        9.0,
+        8.0,
+        7.0,
+        6.0,
+        5.0,
+        4.0,
+        3.0,
+        2.0,
+        1.0,
+        0.0,
+        1.0
+      ],
+      [
+        16.0,
+        15.0,
+        14.0,
+        13.0,
+        12.0,
+        11.0,
+        10.0,
+        9.0,
+        8.0,
+        7.0,
+        6.0,
+        5.0,
+        4.0,
+        3.0,
+        2.0,
+        1.0,
+        0.0
+      ]
+    ]
+  },
+  "rdm_labels": [
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20
+  ]
+}

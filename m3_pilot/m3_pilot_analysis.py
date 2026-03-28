@@ -717,9 +717,12 @@ def plot_identification_function(
     framing_labels = {
         "small_large": "Small vs Large",
         "single_multi": "Single-digit vs Multi-digit",
+        "digit_count": "One Digit vs Two Digits",
     }
     
-    for ax, framing in zip(axes, ["small_large", "single_multi"]):
+    available_framings = [k for k in ["small_large", "single_multi", "digit_count"]
+                          if k in id_analysis]
+    for ax, framing in zip(axes, available_framings):
         if framing not in id_analysis:
             continue
         

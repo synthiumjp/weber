@@ -1,0 +1,1484 @@
+{
+  "condition": "control_150",
+  "boundary": 150,
+  "is_control": true,
+  "probing_values": [
+    130,
+    135,
+    140,
+    145,
+    150,
+    155,
+    160,
+    165,
+    170
+  ],
+  "n_values": 9,
+  "probing_sentences": [
+    {
+      "text": "The number 130 is a quantity.",
+      "magnitude_token": "130",
+      "value": 130,
+      "sentence_idx": 0,
+      "is_rsa": false,
+      "is_b0": true
+    },
+    {
+      "text": "There are 130 items in the collection.",
+      "magnitude_token": "130",
+      "value": 130,
+      "sentence_idx": 1,
+      "is_rsa": false,
+      "is_b0": true
+    },
+    {
+      "text": "A total of 130 units were recorded.",
+      "magnitude_token": "130",
+      "value": 130,
+      "sentence_idx": 2,
+      "is_rsa": false,
+      "is_b0": true
+    },
+    {
+      "text": "The measurement showed 130.",
+      "magnitude_token": "130",
+      "value": 130,
+      "sentence_idx": 3,
+      "is_rsa": false,
+      "is_b0": true
+    },
+    {
+      "text": "Approximately 130 cases were observed.",
+      "magnitude_token": "130",
+      "value": 130,
+      "sentence_idx": 4,
+      "is_rsa": true,
+      "is_b0": false
+    },
+    {
+      "text": "The count reached 130 in total.",
+      "magnitude_token": "130",
+      "value": 130,
+      "sentence_idx": 5,
+      "is_rsa": true,
+      "is_b0": false
+    },
+    {
+      "text": "A value of 130 was reported.",
+      "magnitude_token": "130",
+      "value": 130,
+      "sentence_idx": 6,
+      "is_rsa": true,
+      "is_b0": false
+    },
+    {
+      "text": "The survey found 130 instances.",
+      "magnitude_token": "130",
+      "value": 130,
+      "sentence_idx": 7,
+      "is_rsa": true,
+      "is_b0": false
+    },
+    {
+      "text": "The number 135 is a quantity.",
+      "magnitude_token": "135",
+      "value": 135,
+      "sentence_idx": 0,
+      "is_rsa": false,
+      "is_b0": true
+    },
+    {
+      "text": "There are 135 items in the collection.",
+      "magnitude_token": "135",
+      "value": 135,
+      "sentence_idx": 1,
+      "is_rsa": false,
+      "is_b0": true
+    },
+    {
+      "text": "A total of 135 units were recorded.",
+      "magnitude_token": "135",
+      "value": 135,
+      "sentence_idx": 2,
+      "is_rsa": false,
+      "is_b0": true
+    },
+    {
+      "text": "The measurement showed 135.",
+      "magnitude_token": "135",
+      "value": 135,
+      "sentence_idx": 3,
+      "is_rsa": false,
+      "is_b0": true
+    },
+    {
+      "text": "Approximately 135 cases were observed.",
+      "magnitude_token": "135",
+      "value": 135,
+      "sentence_idx": 4,
+      "is_rsa": true,
+      "is_b0": false
+    },
+    {
+      "text": "The count reached 135 in total.",
+      "magnitude_token": "135",
+      "value": 135,
+      "sentence_idx": 5,
+      "is_rsa": true,
+      "is_b0": false
+    },
+    {
+      "text": "A value of 135 was reported.",
+      "magnitude_token": "135",
+      "value": 135,
+      "sentence_idx": 6,
+      "is_rsa": true,
+      "is_b0": false
+    },
+    {
+      "text": "The survey found 135 instances.",
+      "magnitude_token": "135",
+      "value": 135,
+      "sentence_idx": 7,
+      "is_rsa": true,
+      "is_b0": false
+    },
+    {
+      "text": "The number 140 is a quantity.",
+      "magnitude_token": "140",
+      "value": 140,
+      "sentence_idx": 0,
+      "is_rsa": false,
+      "is_b0": true
+    },
+    {
+      "text": "There are 140 items in the collection.",
+      "magnitude_token": "140",
+      "value": 140,
+      "sentence_idx": 1,
+      "is_rsa": false,
+      "is_b0": true
+    },
+    {
+      "text": "A total of 140 units were recorded.",
+      "magnitude_token": "140",
+      "value": 140,
+      "sentence_idx": 2,
+      "is_rsa": false,
+      "is_b0": true
+    },
+    {
+      "text": "The measurement showed 140.",
+      "magnitude_token": "140",
+      "value": 140,
+      "sentence_idx": 3,
+      "is_rsa": false,
+      "is_b0": true
+    },
+    {
+      "text": "Approximately 140 cases were observed.",
+      "magnitude_token": "140",
+      "value": 140,
+      "sentence_idx": 4,
+      "is_rsa": true,
+      "is_b0": false
+    },
+    {
+      "text": "The count reached 140 in total.",
+      "magnitude_token": "140",
+      "value": 140,
+      "sentence_idx": 5,
+      "is_rsa": true,
+      "is_b0": false
+    },
+    {
+      "text": "A value of 140 was reported.",
+      "magnitude_token": "140",
+      "value": 140,
+      "sentence_idx": 6,
+      "is_rsa": true,
+      "is_b0": false
+    },
+    {
+      "text": "The survey found 140 instances.",
+      "magnitude_token": "140",
+      "value": 140,
+      "sentence_idx": 7,
+      "is_rsa": true,
+      "is_b0": false
+    },
+    {
+      "text": "The number 145 is a quantity.",
+      "magnitude_token": "145",
+      "value": 145,
+      "sentence_idx": 0,
+      "is_rsa": false,
+      "is_b0": true
+    },
+    {
+      "text": "There are 145 items in the collection.",
+      "magnitude_token": "145",
+      "value": 145,
+      "sentence_idx": 1,
+      "is_rsa": false,
+      "is_b0": true
+    },
+    {
+      "text": "A total of 145 units were recorded.",
+      "magnitude_token": "145",
+      "value": 145,
+      "sentence_idx": 2,
+      "is_rsa": false,
+      "is_b0": true
+    },
+    {
+      "text": "The measurement showed 145.",
+      "magnitude_token": "145",
+      "value": 145,
+      "sentence_idx": 3,
+      "is_rsa": false,
+      "is_b0": true
+    },
+    {
+      "text": "Approximately 145 cases were observed.",
+      "magnitude_token": "145",
+      "value": 145,
+      "sentence_idx": 4,
+      "is_rsa": true,
+      "is_b0": false
+    },
+    {
+      "text": "The count reached 145 in total.",
+      "magnitude_token": "145",
+      "value": 145,
+      "sentence_idx": 5,
+      "is_rsa": true,
+      "is_b0": false
+    },
+    {
+      "text": "A value of 145 was reported.",
+      "magnitude_token": "145",
+      "value": 145,
+      "sentence_idx": 6,
+      "is_rsa": true,
+      "is_b0": false
+    },
+    {
+      "text": "The survey found 145 instances.",
+      "magnitude_token": "145",
+      "value": 145,
+      "sentence_idx": 7,
+      "is_rsa": true,
+      "is_b0": false
+    },
+    {
+      "text": "The number 150 is a quantity.",
+      "magnitude_token": "150",
+      "value": 150,
+      "sentence_idx": 0,
+      "is_rsa": false,
+      "is_b0": true
+    },
+    {
+      "text": "There are 150 items in the collection.",
+      "magnitude_token": "150",
+      "value": 150,
+      "sentence_idx": 1,
+      "is_rsa": false,
+      "is_b0": true
+    },
+    {
+      "text": "A total of 150 units were recorded.",
+      "magnitude_token": "150",
+      "value": 150,
+      "sentence_idx": 2,
+      "is_rsa": false,
+      "is_b0": true
+    },
+    {
+      "text": "The measurement showed 150.",
+      "magnitude_token": "150",
+      "value": 150,
+      "sentence_idx": 3,
+      "is_rsa": false,
+      "is_b0": true
+    },
+    {
+      "text": "Approximately 150 cases were observed.",
+      "magnitude_token": "150",
+      "value": 150,
+      "sentence_idx": 4,
+      "is_rsa": true,
+      "is_b0": false
+    },
+    {
+      "text": "The count reached 150 in total.",
+      "magnitude_token": "150",
+      "value": 150,
+      "sentence_idx": 5,
+      "is_rsa": true,
+      "is_b0": false
+    },
+    {
+      "text": "A value of 150 was reported.",
+      "magnitude_token": "150",
+      "value": 150,
+      "sentence_idx": 6,
+      "is_rsa": true,
+      "is_b0": false
+    },
+    {
+      "text": "The survey found 150 instances.",
+      "magnitude_token": "150",
+      "value": 150,
+      "sentence_idx": 7,
+      "is_rsa": true,
+      "is_b0": false
+    },
+    {
+      "text": "The number 155 is a quantity.",
+      "magnitude_token": "155",
+      "value": 155,
+      "sentence_idx": 0,
+      "is_rsa": false,
+      "is_b0": true
+    },
+    {
+      "text": "There are 155 items in the collection.",
+      "magnitude_token": "155",
+      "value": 155,
+      "sentence_idx": 1,
+      "is_rsa": false,
+      "is_b0": true
+    },
+    {
+      "text": "A total of 155 units were recorded.",
+      "magnitude_token": "155",
+      "value": 155,
+      "sentence_idx": 2,
+      "is_rsa": false,
+      "is_b0": true
+    },
+    {
+      "text": "The measurement showed 155.",
+      "magnitude_token": "155",
+      "value": 155,
+      "sentence_idx": 3,
+      "is_rsa": false,
+      "is_b0": true
+    },
+    {
+      "text": "Approximately 155 cases were observed.",
+      "magnitude_token": "155",
+      "value": 155,
+      "sentence_idx": 4,
+      "is_rsa": true,
+      "is_b0": false
+    },
+    {
+      "text": "The count reached 155 in total.",
+      "magnitude_token": "155",
+      "value": 155,
+      "sentence_idx": 5,
+      "is_rsa": true,
+      "is_b0": false
+    },
+    {
+      "text": "A value of 155 was reported.",
+      "magnitude_token": "155",
+      "value": 155,
+      "sentence_idx": 6,
+      "is_rsa": true,
+      "is_b0": false
+    },
+    {
+      "text": "The survey found 155 instances.",
+      "magnitude_token": "155",
+      "value": 155,
+      "sentence_idx": 7,
+      "is_rsa": true,
+      "is_b0": false
+    },
+    {
+      "text": "The number 160 is a quantity.",
+      "magnitude_token": "160",
+      "value": 160,
+      "sentence_idx": 0,
+      "is_rsa": false,
+      "is_b0": true
+    },
+    {
+      "text": "There are 160 items in the collection.",
+      "magnitude_token": "160",
+      "value": 160,
+      "sentence_idx": 1,
+      "is_rsa": false,
+      "is_b0": true
+    },
+    {
+      "text": "A total of 160 units were recorded.",
+      "magnitude_token": "160",
+      "value": 160,
+      "sentence_idx": 2,
+      "is_rsa": false,
+      "is_b0": true
+    },
+    {
+      "text": "The measurement showed 160.",
+      "magnitude_token": "160",
+      "value": 160,
+      "sentence_idx": 3,
+      "is_rsa": false,
+      "is_b0": true
+    },
+    {
+      "text": "Approximately 160 cases were observed.",
+      "magnitude_token": "160",
+      "value": 160,
+      "sentence_idx": 4,
+      "is_rsa": true,
+      "is_b0": false
+    },
+    {
+      "text": "The count reached 160 in total.",
+      "magnitude_token": "160",
+      "value": 160,
+      "sentence_idx": 5,
+      "is_rsa": true,
+      "is_b0": false
+    },
+    {
+      "text": "A value of 160 was reported.",
+      "magnitude_token": "160",
+      "value": 160,
+      "sentence_idx": 6,
+      "is_rsa": true,
+      "is_b0": false
+    },
+    {
+      "text": "The survey found 160 instances.",
+      "magnitude_token": "160",
+      "value": 160,
+      "sentence_idx": 7,
+      "is_rsa": true,
+      "is_b0": false
+    },
+    {
+      "text": "The number 165 is a quantity.",
+      "magnitude_token": "165",
+      "value": 165,
+      "sentence_idx": 0,
+      "is_rsa": false,
+      "is_b0": true
+    },
+    {
+      "text": "There are 165 items in the collection.",
+      "magnitude_token": "165",
+      "value": 165,
+      "sentence_idx": 1,
+      "is_rsa": false,
+      "is_b0": true
+    },
+    {
+      "text": "A total of 165 units were recorded.",
+      "magnitude_token": "165",
+      "value": 165,
+      "sentence_idx": 2,
+      "is_rsa": false,
+      "is_b0": true
+    },
+    {
+      "text": "The measurement showed 165.",
+      "magnitude_token": "165",
+      "value": 165,
+      "sentence_idx": 3,
+      "is_rsa": false,
+      "is_b0": true
+    },
+    {
+      "text": "Approximately 165 cases were observed.",
+      "magnitude_token": "165",
+      "value": 165,
+      "sentence_idx": 4,
+      "is_rsa": true,
+      "is_b0": false
+    },
+    {
+      "text": "The count reached 165 in total.",
+      "magnitude_token": "165",
+      "value": 165,
+      "sentence_idx": 5,
+      "is_rsa": true,
+      "is_b0": false
+    },
+    {
+      "text": "A value of 165 was reported.",
+      "magnitude_token": "165",
+      "value": 165,
+      "sentence_idx": 6,
+      "is_rsa": true,
+      "is_b0": false
+    },
+    {
+      "text": "The survey found 165 instances.",
+      "magnitude_token": "165",
+      "value": 165,
+      "sentence_idx": 7,
+      "is_rsa": true,
+      "is_b0": false
+    },
+    {
+      "text": "The number 170 is a quantity.",
+      "magnitude_token": "170",
+      "value": 170,
+      "sentence_idx": 0,
+      "is_rsa": false,
+      "is_b0": true
+    },
+    {
+      "text": "There are 170 items in the collection.",
+      "magnitude_token": "170",
+      "value": 170,
+      "sentence_idx": 1,
+      "is_rsa": false,
+      "is_b0": true
+    },
+    {
+      "text": "A total of 170 units were recorded.",
+      "magnitude_token": "170",
+      "value": 170,
+      "sentence_idx": 2,
+      "is_rsa": false,
+      "is_b0": true
+    },
+    {
+      "text": "The measurement showed 170.",
+      "magnitude_token": "170",
+      "value": 170,
+      "sentence_idx": 3,
+      "is_rsa": false,
+      "is_b0": true
+    },
+    {
+      "text": "Approximately 170 cases were observed.",
+      "magnitude_token": "170",
+      "value": 170,
+      "sentence_idx": 4,
+      "is_rsa": true,
+      "is_b0": false
+    },
+    {
+      "text": "The count reached 170 in total.",
+      "magnitude_token": "170",
+      "value": 170,
+      "sentence_idx": 5,
+      "is_rsa": true,
+      "is_b0": false
+    },
+    {
+      "text": "A value of 170 was reported.",
+      "magnitude_token": "170",
+      "value": 170,
+      "sentence_idx": 6,
+      "is_rsa": true,
+      "is_b0": false
+    },
+    {
+      "text": "The survey found 170 instances.",
+      "magnitude_token": "170",
+      "value": 170,
+      "sentence_idx": 7,
+      "is_rsa": true,
+      "is_b0": false
+    }
+  ],
+  "identification_stimuli": [
+    {
+      "value": 130,
+      "framing": "small_large",
+      "prompt": "Is 130 a small number or a large number?",
+      "targets": {
+        "category_a": [
+          "small",
+          "Small"
+        ],
+        "category_b": [
+          "large",
+          "Large"
+        ]
+      },
+      "category_a": "small",
+      "category_b": "large"
+    },
+    {
+      "value": 135,
+      "framing": "small_large",
+      "prompt": "Is 135 a small number or a large number?",
+      "targets": {
+        "category_a": [
+          "small",
+          "Small"
+        ],
+        "category_b": [
+          "large",
+          "Large"
+        ]
+      },
+      "category_a": "small",
+      "category_b": "large"
+    },
+    {
+      "value": 140,
+      "framing": "small_large",
+      "prompt": "Is 140 a small number or a large number?",
+      "targets": {
+        "category_a": [
+          "small",
+          "Small"
+        ],
+        "category_b": [
+          "large",
+          "Large"
+        ]
+      },
+      "category_a": "small",
+      "category_b": "large"
+    },
+    {
+      "value": 145,
+      "framing": "small_large",
+      "prompt": "Is 145 a small number or a large number?",
+      "targets": {
+        "category_a": [
+          "small",
+          "Small"
+        ],
+        "category_b": [
+          "large",
+          "Large"
+        ]
+      },
+      "category_a": "small",
+      "category_b": "large"
+    },
+    {
+      "value": 150,
+      "framing": "small_large",
+      "prompt": "Is 150 a small number or a large number?",
+      "targets": {
+        "category_a": [
+          "small",
+          "Small"
+        ],
+        "category_b": [
+          "large",
+          "Large"
+        ]
+      },
+      "category_a": "small",
+      "category_b": "large"
+    },
+    {
+      "value": 155,
+      "framing": "small_large",
+      "prompt": "Is 155 a small number or a large number?",
+      "targets": {
+        "category_a": [
+          "small",
+          "Small"
+        ],
+        "category_b": [
+          "large",
+          "Large"
+        ]
+      },
+      "category_a": "small",
+      "category_b": "large"
+    },
+    {
+      "value": 160,
+      "framing": "small_large",
+      "prompt": "Is 160 a small number or a large number?",
+      "targets": {
+        "category_a": [
+          "small",
+          "Small"
+        ],
+        "category_b": [
+          "large",
+          "Large"
+        ]
+      },
+      "category_a": "small",
+      "category_b": "large"
+    },
+    {
+      "value": 165,
+      "framing": "small_large",
+      "prompt": "Is 165 a small number or a large number?",
+      "targets": {
+        "category_a": [
+          "small",
+          "Small"
+        ],
+        "category_b": [
+          "large",
+          "Large"
+        ]
+      },
+      "category_a": "small",
+      "category_b": "large"
+    },
+    {
+      "value": 170,
+      "framing": "small_large",
+      "prompt": "Is 170 a small number or a large number?",
+      "targets": {
+        "category_a": [
+          "small",
+          "Small"
+        ],
+        "category_b": [
+          "large",
+          "Large"
+        ]
+      },
+      "category_a": "small",
+      "category_b": "large"
+    }
+  ],
+  "n_pairs": 36,
+  "pairs": [
+    {
+      "i": 0,
+      "j": 1,
+      "value_i": 130,
+      "value_j": 135,
+      "log_distance": 0.03774,
+      "linear_distance": 5,
+      "crosses_boundary": false
+    },
+    {
+      "i": 0,
+      "j": 2,
+      "value_i": 130,
+      "value_j": 140,
+      "log_distance": 0.074108,
+      "linear_distance": 10,
+      "crosses_boundary": false
+    },
+    {
+      "i": 0,
+      "j": 3,
+      "value_i": 130,
+      "value_j": 145,
+      "log_distance": 0.109199,
+      "linear_distance": 15,
+      "crosses_boundary": false
+    },
+    {
+      "i": 0,
+      "j": 4,
+      "value_i": 130,
+      "value_j": 150,
+      "log_distance": 0.143101,
+      "linear_distance": 20,
+      "crosses_boundary": true
+    },
+    {
+      "i": 0,
+      "j": 5,
+      "value_i": 130,
+      "value_j": 155,
+      "log_distance": 0.175891,
+      "linear_distance": 25,
+      "crosses_boundary": true
+    },
+    {
+      "i": 0,
+      "j": 6,
+      "value_i": 130,
+      "value_j": 160,
+      "log_distance": 0.207639,
+      "linear_distance": 30,
+      "crosses_boundary": true
+    },
+    {
+      "i": 0,
+      "j": 7,
+      "value_i": 130,
+      "value_j": 165,
+      "log_distance": 0.238411,
+      "linear_distance": 35,
+      "crosses_boundary": true
+    },
+    {
+      "i": 0,
+      "j": 8,
+      "value_i": 130,
+      "value_j": 170,
+      "log_distance": 0.268264,
+      "linear_distance": 40,
+      "crosses_boundary": true
+    },
+    {
+      "i": 1,
+      "j": 2,
+      "value_i": 135,
+      "value_j": 140,
+      "log_distance": 0.036368,
+      "linear_distance": 5,
+      "crosses_boundary": false
+    },
+    {
+      "i": 1,
+      "j": 3,
+      "value_i": 135,
+      "value_j": 145,
+      "log_distance": 0.071459,
+      "linear_distance": 10,
+      "crosses_boundary": false
+    },
+    {
+      "i": 1,
+      "j": 4,
+      "value_i": 135,
+      "value_j": 150,
+      "log_distance": 0.105361,
+      "linear_distance": 15,
+      "crosses_boundary": true
+    },
+    {
+      "i": 1,
+      "j": 5,
+      "value_i": 135,
+      "value_j": 155,
+      "log_distance": 0.13815,
+      "linear_distance": 20,
+      "crosses_boundary": true
+    },
+    {
+      "i": 1,
+      "j": 6,
+      "value_i": 135,
+      "value_j": 160,
+      "log_distance": 0.169899,
+      "linear_distance": 25,
+      "crosses_boundary": true
+    },
+    {
+      "i": 1,
+      "j": 7,
+      "value_i": 135,
+      "value_j": 165,
+      "log_distance": 0.200671,
+      "linear_distance": 30,
+      "crosses_boundary": true
+    },
+    {
+      "i": 1,
+      "j": 8,
+      "value_i": 135,
+      "value_j": 170,
+      "log_distance": 0.230524,
+      "linear_distance": 35,
+      "crosses_boundary": true
+    },
+    {
+      "i": 2,
+      "j": 3,
+      "value_i": 140,
+      "value_j": 145,
+      "log_distance": 0.035091,
+      "linear_distance": 5,
+      "crosses_boundary": false
+    },
+    {
+      "i": 2,
+      "j": 4,
+      "value_i": 140,
+      "value_j": 150,
+      "log_distance": 0.068993,
+      "linear_distance": 10,
+      "crosses_boundary": true
+    },
+    {
+      "i": 2,
+      "j": 5,
+      "value_i": 140,
+      "value_j": 155,
+      "log_distance": 0.101783,
+      "linear_distance": 15,
+      "crosses_boundary": true
+    },
+    {
+      "i": 2,
+      "j": 6,
+      "value_i": 140,
+      "value_j": 160,
+      "log_distance": 0.133531,
+      "linear_distance": 20,
+      "crosses_boundary": true
+    },
+    {
+      "i": 2,
+      "j": 7,
+      "value_i": 140,
+      "value_j": 165,
+      "log_distance": 0.164303,
+      "linear_distance": 25,
+      "crosses_boundary": true
+    },
+    {
+      "i": 2,
+      "j": 8,
+      "value_i": 140,
+      "value_j": 170,
+      "log_distance": 0.194156,
+      "linear_distance": 30,
+      "crosses_boundary": true
+    },
+    {
+      "i": 3,
+      "j": 4,
+      "value_i": 145,
+      "value_j": 150,
+      "log_distance": 0.033902,
+      "linear_distance": 5,
+      "crosses_boundary": true
+    },
+    {
+      "i": 3,
+      "j": 5,
+      "value_i": 145,
+      "value_j": 155,
+      "log_distance": 0.066691,
+      "linear_distance": 10,
+      "crosses_boundary": true
+    },
+    {
+      "i": 3,
+      "j": 6,
+      "value_i": 145,
+      "value_j": 160,
+      "log_distance": 0.09844,
+      "linear_distance": 15,
+      "crosses_boundary": true
+    },
+    {
+      "i": 3,
+      "j": 7,
+      "value_i": 145,
+      "value_j": 165,
+      "log_distance": 0.129212,
+      "linear_distance": 20,
+      "crosses_boundary": true
+    },
+    {
+      "i": 3,
+      "j": 8,
+      "value_i": 145,
+      "value_j": 170,
+      "log_distance": 0.159065,
+      "linear_distance": 25,
+      "crosses_boundary": true
+    },
+    {
+      "i": 4,
+      "j": 5,
+      "value_i": 150,
+      "value_j": 155,
+      "log_distance": 0.03279,
+      "linear_distance": 5,
+      "crosses_boundary": false
+    },
+    {
+      "i": 4,
+      "j": 6,
+      "value_i": 150,
+      "value_j": 160,
+      "log_distance": 0.064539,
+      "linear_distance": 10,
+      "crosses_boundary": false
+    },
+    {
+      "i": 4,
+      "j": 7,
+      "value_i": 150,
+      "value_j": 165,
+      "log_distance": 0.09531,
+      "linear_distance": 15,
+      "crosses_boundary": false
+    },
+    {
+      "i": 4,
+      "j": 8,
+      "value_i": 150,
+      "value_j": 170,
+      "log_distance": 0.125163,
+      "linear_distance": 20,
+      "crosses_boundary": false
+    },
+    {
+      "i": 5,
+      "j": 6,
+      "value_i": 155,
+      "value_j": 160,
+      "log_distance": 0.031749,
+      "linear_distance": 5,
+      "crosses_boundary": false
+    },
+    {
+      "i": 5,
+      "j": 7,
+      "value_i": 155,
+      "value_j": 165,
+      "log_distance": 0.06252,
+      "linear_distance": 10,
+      "crosses_boundary": false
+    },
+    {
+      "i": 5,
+      "j": 8,
+      "value_i": 155,
+      "value_j": 170,
+      "log_distance": 0.092373,
+      "linear_distance": 15,
+      "crosses_boundary": false
+    },
+    {
+      "i": 6,
+      "j": 7,
+      "value_i": 160,
+      "value_j": 165,
+      "log_distance": 0.030772,
+      "linear_distance": 5,
+      "crosses_boundary": false
+    },
+    {
+      "i": 6,
+      "j": 8,
+      "value_i": 160,
+      "value_j": 170,
+      "log_distance": 0.060625,
+      "linear_distance": 10,
+      "crosses_boundary": false
+    },
+    {
+      "i": 7,
+      "j": 8,
+      "value_i": 165,
+      "value_j": 170,
+      "log_distance": 0.029853,
+      "linear_distance": 5,
+      "crosses_boundary": false
+    }
+  ],
+  "theoretical_rdms": {
+    "Continuous": [
+      [
+        0.0,
+        0.03774032798284743,
+        0.07410797215372167,
+        0.109199291964992,
+        0.14310084364067333,
+        0.17589066646366458,
+        0.2076393647782444,
+        0.2384110234449981,
+        0.26826398659467987
+      ],
+      [
+        0.03774032798284743,
+        0.0,
+        0.036367644170874236,
+        0.07145896398214457,
+        0.10536051565782589,
+        0.13815033848081715,
+        0.16989903679539697,
+        0.20067069546215066,
+        0.23052365861183244
+      ],
+      [
+        0.07410797215372167,
+        0.036367644170874236,
+        0.0,
+        0.03509131981127034,
+        0.06899287148695166,
+        0.10178269430994291,
+        0.13353139262452274,
+        0.16430305129127643,
+        0.1941560144409582
+      ],
+      [
+        0.109199291964992,
+        0.07145896398214457,
+        0.03509131981127034,
+        0.0,
+        0.03390155167568132,
+        0.06669137449867257,
+        0.0984400728132524,
+        0.1292117314800061,
+        0.15906469462968786
+      ],
+      [
+        0.14310084364067333,
+        0.10536051565782589,
+        0.06899287148695166,
+        0.03390155167568132,
+        0.0,
+        0.032789822822991255,
+        0.06453852113757108,
+        0.09531017980432477,
+        0.12516314295400655
+      ],
+      [
+        0.17589066646366458,
+        0.13815033848081715,
+        0.10178269430994291,
+        0.06669137449867257,
+        0.032789822822991255,
+        0.0,
+        0.031748698314579826,
+        0.06252035698133351,
+        0.09237332013101529
+      ],
+      [
+        0.2076393647782444,
+        0.16989903679539697,
+        0.13353139262452274,
+        0.0984400728132524,
+        0.06453852113757108,
+        0.031748698314579826,
+        0.0,
+        0.030771658666753687,
+        0.060624621816435464
+      ],
+      [
+        0.2384110234449981,
+        0.20067069546215066,
+        0.16430305129127643,
+        0.1292117314800061,
+        0.09531017980432477,
+        0.06252035698133351,
+        0.030771658666753687,
+        0.0,
+        0.029852963149681777
+      ],
+      [
+        0.26826398659467987,
+        0.23052365861183244,
+        0.1941560144409582,
+        0.15906469462968786,
+        0.12516314295400655,
+        0.09237332013101529,
+        0.060624621816435464,
+        0.029852963149681777,
+        0.0
+      ]
+    ],
+    "CP-Additive": [
+      [
+        0.0,
+        0.03774032798284743,
+        0.07410797215372167,
+        0.109199291964992,
+        0.2547020765580561,
+        0.28749189938104736,
+        0.3192405976956272,
+        0.35001225636238087,
+        0.37986521951206265
+      ],
+      [
+        0.03774032798284743,
+        0.0,
+        0.036367644170874236,
+        0.07145896398214457,
+        0.21696174857520864,
+        0.2497515713981999,
+        0.28150026971277975,
+        0.31227192837953344,
+        0.3421248915292152
+      ],
+      [
+        0.07410797215372167,
+        0.036367644170874236,
+        0.0,
+        0.03509131981127034,
+        0.1805941044043344,
+        0.21338392722732566,
+        0.24513262554190549,
+        0.2759042842086592,
+        0.305757247358341
+      ],
+      [
+        0.109199291964992,
+        0.07145896398214457,
+        0.03509131981127034,
+        0.0,
+        0.14550278459306407,
+        0.17829260741605532,
+        0.21004130573063515,
+        0.24081296439738883,
+        0.27066592754707064
+      ],
+      [
+        0.2547020765580561,
+        0.21696174857520864,
+        0.1805941044043344,
+        0.14550278459306407,
+        0.0,
+        0.032789822822991255,
+        0.06453852113757108,
+        0.09531017980432477,
+        0.12516314295400655
+      ],
+      [
+        0.28749189938104736,
+        0.2497515713981999,
+        0.21338392722732566,
+        0.17829260741605532,
+        0.032789822822991255,
+        0.0,
+        0.031748698314579826,
+        0.06252035698133351,
+        0.09237332013101529
+      ],
+      [
+        0.3192405976956272,
+        0.28150026971277975,
+        0.24513262554190549,
+        0.21004130573063515,
+        0.06453852113757108,
+        0.031748698314579826,
+        0.0,
+        0.030771658666753687,
+        0.060624621816435464
+      ],
+      [
+        0.35001225636238087,
+        0.31227192837953344,
+        0.2759042842086592,
+        0.24081296439738883,
+        0.09531017980432477,
+        0.06252035698133351,
+        0.030771658666753687,
+        0.0,
+        0.029852963149681777
+      ],
+      [
+        0.37986521951206265,
+        0.3421248915292152,
+        0.305757247358341,
+        0.27066592754707064,
+        0.12516314295400655,
+        0.09237332013101529,
+        0.060624621816435464,
+        0.029852963149681777,
+        0.0
+      ]
+    ],
+    "Categorical": [
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "Linear": [
+      [
+        0.0,
+        5.0,
+        10.0,
+        15.0,
+        20.0,
+        25.0,
+        30.0,
+        35.0,
+        40.0
+      ],
+      [
+        5.0,
+        0.0,
+        5.0,
+        10.0,
+        15.0,
+        20.0,
+        25.0,
+        30.0,
+        35.0
+      ],
+      [
+        10.0,
+        5.0,
+        0.0,
+        5.0,
+        10.0,
+        15.0,
+        20.0,
+        25.0,
+        30.0
+      ],
+      [
+        15.0,
+        10.0,
+        5.0,
+        0.0,
+        5.0,
+        10.0,
+        15.0,
+        20.0,
+        25.0
+      ],
+      [
+        20.0,
+        15.0,
+        10.0,
+        5.0,
+        0.0,
+        5.0,
+        10.0,
+        15.0,
+        20.0
+      ],
+      [
+        25.0,
+        20.0,
+        15.0,
+        10.0,
+        5.0,
+        0.0,
+        5.0,
+        10.0,
+        15.0
+      ],
+      [
+        30.0,
+        25.0,
+        20.0,
+        15.0,
+        10.0,
+        5.0,
+        0.0,
+        5.0,
+        10.0
+      ],
+      [
+        35.0,
+        30.0,
+        25.0,
+        20.0,
+        15.0,
+        10.0,
+        5.0,
+        0.0,
+        5.0
+      ],
+      [
+        40.0,
+        35.0,
+        30.0,
+        25.0,
+        20.0,
+        15.0,
+        10.0,
+        5.0,
+        0.0
+      ]
+    ],
+    "lambda": 0.11160123291738275
+  }
+}

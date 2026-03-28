@@ -75,9 +75,16 @@ RSA_SENTENCE_INDICES = [4, 5, 6, 7]
 # 3. Identification Prompts (Paradigm B0, Section 5.0 of v0.4)
 # =============================================================================
 
-# Two framings for identification robustness check.
-# Framing 1: "small/large" — general magnitude category
-# Framing 2: "single-digit/multi-digit" — precise for decade boundary
+# Three framings for identification:
+# Framing 1: "small/large" — semantic magnitude category
+# Framing 2: "single-digit/multi-digit" — structural (original v0.4 wording)
+# Framing 3: "one digit/two digits" — structural, factual (added post-pilot)
+#   Rationale: pilot showed "small/large" boundary at 6.13, not 10.
+#   "single-digit/multi-digit" failed to fit. Need a framing that can
+#   produce a clean boundary at the decade transition to enable the
+#   McMurray (2022) predicted-vs-observed test. The dissociation between
+#   semantic (framing 1) and structural (framing 3) boundaries is itself
+#   a pre-registered finding.
 
 IDENTIFICATION_PROMPTS = {
     "small_large": (
@@ -87,6 +94,10 @@ IDENTIFICATION_PROMPTS = {
     "single_multi": (
         "Is {N} a single-digit number or a multi-digit number? "
         "Answer with one word: single-digit or multi-digit."
+    ),
+    "digit_count": (
+        "Does the number {N} have one digit or two digits? "
+        "Answer with one word: one or two."
     ),
 }
 
@@ -99,6 +110,10 @@ IDENTIFICATION_TARGETS = {
     "single_multi": {
         "category_a": ["single", "Single"],
         "category_b": ["multi", "Multi"],
+    },
+    "digit_count": {
+        "category_a": ["one", "One"],
+        "category_b": ["two", "Two"],
     },
 }
 

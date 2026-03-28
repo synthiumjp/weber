@@ -1,0 +1,1654 @@
+{
+  "condition": "temp_control",
+  "domain": "temperature",
+  "boundary": 43,
+  "boundary_unit": "degrees_celsius",
+  "is_control": true,
+  "probing_values": [
+    35,
+    37,
+    39,
+    41,
+    43,
+    45,
+    47,
+    49,
+    51
+  ],
+  "n_values": 9,
+  "probing_sentences": [
+    {
+      "text": "The temperature outside was 35 degrees.",
+      "magnitude_token": "35",
+      "value": 35,
+      "sentence_idx": 0,
+      "is_rsa": false,
+      "is_b0": true
+    },
+    {
+      "text": "The forecast predicted 35 degrees for the afternoon.",
+      "magnitude_token": "35",
+      "value": 35,
+      "sentence_idx": 1,
+      "is_rsa": false,
+      "is_b0": true
+    },
+    {
+      "text": "At 35 degrees, the conditions were notable.",
+      "magnitude_token": "35",
+      "value": 35,
+      "sentence_idx": 2,
+      "is_rsa": false,
+      "is_b0": true
+    },
+    {
+      "text": "The thermometer read 35 degrees.",
+      "magnitude_token": "35",
+      "value": 35,
+      "sentence_idx": 3,
+      "is_rsa": false,
+      "is_b0": true
+    },
+    {
+      "text": "The weather report showed 35 degrees Celsius.",
+      "magnitude_token": "35",
+      "value": 35,
+      "sentence_idx": 4,
+      "is_rsa": true,
+      "is_b0": false
+    },
+    {
+      "text": "It was 35 degrees outside that day.",
+      "magnitude_token": "35",
+      "value": 35,
+      "sentence_idx": 5,
+      "is_rsa": true,
+      "is_b0": false
+    },
+    {
+      "text": "The outdoor temperature reached 35 degrees.",
+      "magnitude_token": "35",
+      "value": 35,
+      "sentence_idx": 6,
+      "is_rsa": true,
+      "is_b0": false
+    },
+    {
+      "text": "Conditions were measured at 35 degrees Celsius.",
+      "magnitude_token": "35",
+      "value": 35,
+      "sentence_idx": 7,
+      "is_rsa": true,
+      "is_b0": false
+    },
+    {
+      "text": "The temperature outside was 37 degrees.",
+      "magnitude_token": "37",
+      "value": 37,
+      "sentence_idx": 0,
+      "is_rsa": false,
+      "is_b0": true
+    },
+    {
+      "text": "The forecast predicted 37 degrees for the afternoon.",
+      "magnitude_token": "37",
+      "value": 37,
+      "sentence_idx": 1,
+      "is_rsa": false,
+      "is_b0": true
+    },
+    {
+      "text": "At 37 degrees, the conditions were notable.",
+      "magnitude_token": "37",
+      "value": 37,
+      "sentence_idx": 2,
+      "is_rsa": false,
+      "is_b0": true
+    },
+    {
+      "text": "The thermometer read 37 degrees.",
+      "magnitude_token": "37",
+      "value": 37,
+      "sentence_idx": 3,
+      "is_rsa": false,
+      "is_b0": true
+    },
+    {
+      "text": "The weather report showed 37 degrees Celsius.",
+      "magnitude_token": "37",
+      "value": 37,
+      "sentence_idx": 4,
+      "is_rsa": true,
+      "is_b0": false
+    },
+    {
+      "text": "It was 37 degrees outside that day.",
+      "magnitude_token": "37",
+      "value": 37,
+      "sentence_idx": 5,
+      "is_rsa": true,
+      "is_b0": false
+    },
+    {
+      "text": "The outdoor temperature reached 37 degrees.",
+      "magnitude_token": "37",
+      "value": 37,
+      "sentence_idx": 6,
+      "is_rsa": true,
+      "is_b0": false
+    },
+    {
+      "text": "Conditions were measured at 37 degrees Celsius.",
+      "magnitude_token": "37",
+      "value": 37,
+      "sentence_idx": 7,
+      "is_rsa": true,
+      "is_b0": false
+    },
+    {
+      "text": "The temperature outside was 39 degrees.",
+      "magnitude_token": "39",
+      "value": 39,
+      "sentence_idx": 0,
+      "is_rsa": false,
+      "is_b0": true
+    },
+    {
+      "text": "The forecast predicted 39 degrees for the afternoon.",
+      "magnitude_token": "39",
+      "value": 39,
+      "sentence_idx": 1,
+      "is_rsa": false,
+      "is_b0": true
+    },
+    {
+      "text": "At 39 degrees, the conditions were notable.",
+      "magnitude_token": "39",
+      "value": 39,
+      "sentence_idx": 2,
+      "is_rsa": false,
+      "is_b0": true
+    },
+    {
+      "text": "The thermometer read 39 degrees.",
+      "magnitude_token": "39",
+      "value": 39,
+      "sentence_idx": 3,
+      "is_rsa": false,
+      "is_b0": true
+    },
+    {
+      "text": "The weather report showed 39 degrees Celsius.",
+      "magnitude_token": "39",
+      "value": 39,
+      "sentence_idx": 4,
+      "is_rsa": true,
+      "is_b0": false
+    },
+    {
+      "text": "It was 39 degrees outside that day.",
+      "magnitude_token": "39",
+      "value": 39,
+      "sentence_idx": 5,
+      "is_rsa": true,
+      "is_b0": false
+    },
+    {
+      "text": "The outdoor temperature reached 39 degrees.",
+      "magnitude_token": "39",
+      "value": 39,
+      "sentence_idx": 6,
+      "is_rsa": true,
+      "is_b0": false
+    },
+    {
+      "text": "Conditions were measured at 39 degrees Celsius.",
+      "magnitude_token": "39",
+      "value": 39,
+      "sentence_idx": 7,
+      "is_rsa": true,
+      "is_b0": false
+    },
+    {
+      "text": "The temperature outside was 41 degrees.",
+      "magnitude_token": "41",
+      "value": 41,
+      "sentence_idx": 0,
+      "is_rsa": false,
+      "is_b0": true
+    },
+    {
+      "text": "The forecast predicted 41 degrees for the afternoon.",
+      "magnitude_token": "41",
+      "value": 41,
+      "sentence_idx": 1,
+      "is_rsa": false,
+      "is_b0": true
+    },
+    {
+      "text": "At 41 degrees, the conditions were notable.",
+      "magnitude_token": "41",
+      "value": 41,
+      "sentence_idx": 2,
+      "is_rsa": false,
+      "is_b0": true
+    },
+    {
+      "text": "The thermometer read 41 degrees.",
+      "magnitude_token": "41",
+      "value": 41,
+      "sentence_idx": 3,
+      "is_rsa": false,
+      "is_b0": true
+    },
+    {
+      "text": "The weather report showed 41 degrees Celsius.",
+      "magnitude_token": "41",
+      "value": 41,
+      "sentence_idx": 4,
+      "is_rsa": true,
+      "is_b0": false
+    },
+    {
+      "text": "It was 41 degrees outside that day.",
+      "magnitude_token": "41",
+      "value": 41,
+      "sentence_idx": 5,
+      "is_rsa": true,
+      "is_b0": false
+    },
+    {
+      "text": "The outdoor temperature reached 41 degrees.",
+      "magnitude_token": "41",
+      "value": 41,
+      "sentence_idx": 6,
+      "is_rsa": true,
+      "is_b0": false
+    },
+    {
+      "text": "Conditions were measured at 41 degrees Celsius.",
+      "magnitude_token": "41",
+      "value": 41,
+      "sentence_idx": 7,
+      "is_rsa": true,
+      "is_b0": false
+    },
+    {
+      "text": "The temperature outside was 43 degrees.",
+      "magnitude_token": "43",
+      "value": 43,
+      "sentence_idx": 0,
+      "is_rsa": false,
+      "is_b0": true
+    },
+    {
+      "text": "The forecast predicted 43 degrees for the afternoon.",
+      "magnitude_token": "43",
+      "value": 43,
+      "sentence_idx": 1,
+      "is_rsa": false,
+      "is_b0": true
+    },
+    {
+      "text": "At 43 degrees, the conditions were notable.",
+      "magnitude_token": "43",
+      "value": 43,
+      "sentence_idx": 2,
+      "is_rsa": false,
+      "is_b0": true
+    },
+    {
+      "text": "The thermometer read 43 degrees.",
+      "magnitude_token": "43",
+      "value": 43,
+      "sentence_idx": 3,
+      "is_rsa": false,
+      "is_b0": true
+    },
+    {
+      "text": "The weather report showed 43 degrees Celsius.",
+      "magnitude_token": "43",
+      "value": 43,
+      "sentence_idx": 4,
+      "is_rsa": true,
+      "is_b0": false
+    },
+    {
+      "text": "It was 43 degrees outside that day.",
+      "magnitude_token": "43",
+      "value": 43,
+      "sentence_idx": 5,
+      "is_rsa": true,
+      "is_b0": false
+    },
+    {
+      "text": "The outdoor temperature reached 43 degrees.",
+      "magnitude_token": "43",
+      "value": 43,
+      "sentence_idx": 6,
+      "is_rsa": true,
+      "is_b0": false
+    },
+    {
+      "text": "Conditions were measured at 43 degrees Celsius.",
+      "magnitude_token": "43",
+      "value": 43,
+      "sentence_idx": 7,
+      "is_rsa": true,
+      "is_b0": false
+    },
+    {
+      "text": "The temperature outside was 45 degrees.",
+      "magnitude_token": "45",
+      "value": 45,
+      "sentence_idx": 0,
+      "is_rsa": false,
+      "is_b0": true
+    },
+    {
+      "text": "The forecast predicted 45 degrees for the afternoon.",
+      "magnitude_token": "45",
+      "value": 45,
+      "sentence_idx": 1,
+      "is_rsa": false,
+      "is_b0": true
+    },
+    {
+      "text": "At 45 degrees, the conditions were notable.",
+      "magnitude_token": "45",
+      "value": 45,
+      "sentence_idx": 2,
+      "is_rsa": false,
+      "is_b0": true
+    },
+    {
+      "text": "The thermometer read 45 degrees.",
+      "magnitude_token": "45",
+      "value": 45,
+      "sentence_idx": 3,
+      "is_rsa": false,
+      "is_b0": true
+    },
+    {
+      "text": "The weather report showed 45 degrees Celsius.",
+      "magnitude_token": "45",
+      "value": 45,
+      "sentence_idx": 4,
+      "is_rsa": true,
+      "is_b0": false
+    },
+    {
+      "text": "It was 45 degrees outside that day.",
+      "magnitude_token": "45",
+      "value": 45,
+      "sentence_idx": 5,
+      "is_rsa": true,
+      "is_b0": false
+    },
+    {
+      "text": "The outdoor temperature reached 45 degrees.",
+      "magnitude_token": "45",
+      "value": 45,
+      "sentence_idx": 6,
+      "is_rsa": true,
+      "is_b0": false
+    },
+    {
+      "text": "Conditions were measured at 45 degrees Celsius.",
+      "magnitude_token": "45",
+      "value": 45,
+      "sentence_idx": 7,
+      "is_rsa": true,
+      "is_b0": false
+    },
+    {
+      "text": "The temperature outside was 47 degrees.",
+      "magnitude_token": "47",
+      "value": 47,
+      "sentence_idx": 0,
+      "is_rsa": false,
+      "is_b0": true
+    },
+    {
+      "text": "The forecast predicted 47 degrees for the afternoon.",
+      "magnitude_token": "47",
+      "value": 47,
+      "sentence_idx": 1,
+      "is_rsa": false,
+      "is_b0": true
+    },
+    {
+      "text": "At 47 degrees, the conditions were notable.",
+      "magnitude_token": "47",
+      "value": 47,
+      "sentence_idx": 2,
+      "is_rsa": false,
+      "is_b0": true
+    },
+    {
+      "text": "The thermometer read 47 degrees.",
+      "magnitude_token": "47",
+      "value": 47,
+      "sentence_idx": 3,
+      "is_rsa": false,
+      "is_b0": true
+    },
+    {
+      "text": "The weather report showed 47 degrees Celsius.",
+      "magnitude_token": "47",
+      "value": 47,
+      "sentence_idx": 4,
+      "is_rsa": true,
+      "is_b0": false
+    },
+    {
+      "text": "It was 47 degrees outside that day.",
+      "magnitude_token": "47",
+      "value": 47,
+      "sentence_idx": 5,
+      "is_rsa": true,
+      "is_b0": false
+    },
+    {
+      "text": "The outdoor temperature reached 47 degrees.",
+      "magnitude_token": "47",
+      "value": 47,
+      "sentence_idx": 6,
+      "is_rsa": true,
+      "is_b0": false
+    },
+    {
+      "text": "Conditions were measured at 47 degrees Celsius.",
+      "magnitude_token": "47",
+      "value": 47,
+      "sentence_idx": 7,
+      "is_rsa": true,
+      "is_b0": false
+    },
+    {
+      "text": "The temperature outside was 49 degrees.",
+      "magnitude_token": "49",
+      "value": 49,
+      "sentence_idx": 0,
+      "is_rsa": false,
+      "is_b0": true
+    },
+    {
+      "text": "The forecast predicted 49 degrees for the afternoon.",
+      "magnitude_token": "49",
+      "value": 49,
+      "sentence_idx": 1,
+      "is_rsa": false,
+      "is_b0": true
+    },
+    {
+      "text": "At 49 degrees, the conditions were notable.",
+      "magnitude_token": "49",
+      "value": 49,
+      "sentence_idx": 2,
+      "is_rsa": false,
+      "is_b0": true
+    },
+    {
+      "text": "The thermometer read 49 degrees.",
+      "magnitude_token": "49",
+      "value": 49,
+      "sentence_idx": 3,
+      "is_rsa": false,
+      "is_b0": true
+    },
+    {
+      "text": "The weather report showed 49 degrees Celsius.",
+      "magnitude_token": "49",
+      "value": 49,
+      "sentence_idx": 4,
+      "is_rsa": true,
+      "is_b0": false
+    },
+    {
+      "text": "It was 49 degrees outside that day.",
+      "magnitude_token": "49",
+      "value": 49,
+      "sentence_idx": 5,
+      "is_rsa": true,
+      "is_b0": false
+    },
+    {
+      "text": "The outdoor temperature reached 49 degrees.",
+      "magnitude_token": "49",
+      "value": 49,
+      "sentence_idx": 6,
+      "is_rsa": true,
+      "is_b0": false
+    },
+    {
+      "text": "Conditions were measured at 49 degrees Celsius.",
+      "magnitude_token": "49",
+      "value": 49,
+      "sentence_idx": 7,
+      "is_rsa": true,
+      "is_b0": false
+    },
+    {
+      "text": "The temperature outside was 51 degrees.",
+      "magnitude_token": "51",
+      "value": 51,
+      "sentence_idx": 0,
+      "is_rsa": false,
+      "is_b0": true
+    },
+    {
+      "text": "The forecast predicted 51 degrees for the afternoon.",
+      "magnitude_token": "51",
+      "value": 51,
+      "sentence_idx": 1,
+      "is_rsa": false,
+      "is_b0": true
+    },
+    {
+      "text": "At 51 degrees, the conditions were notable.",
+      "magnitude_token": "51",
+      "value": 51,
+      "sentence_idx": 2,
+      "is_rsa": false,
+      "is_b0": true
+    },
+    {
+      "text": "The thermometer read 51 degrees.",
+      "magnitude_token": "51",
+      "value": 51,
+      "sentence_idx": 3,
+      "is_rsa": false,
+      "is_b0": true
+    },
+    {
+      "text": "The weather report showed 51 degrees Celsius.",
+      "magnitude_token": "51",
+      "value": 51,
+      "sentence_idx": 4,
+      "is_rsa": true,
+      "is_b0": false
+    },
+    {
+      "text": "It was 51 degrees outside that day.",
+      "magnitude_token": "51",
+      "value": 51,
+      "sentence_idx": 5,
+      "is_rsa": true,
+      "is_b0": false
+    },
+    {
+      "text": "The outdoor temperature reached 51 degrees.",
+      "magnitude_token": "51",
+      "value": 51,
+      "sentence_idx": 6,
+      "is_rsa": true,
+      "is_b0": false
+    },
+    {
+      "text": "Conditions were measured at 51 degrees Celsius.",
+      "magnitude_token": "51",
+      "value": 51,
+      "sentence_idx": 7,
+      "is_rsa": true,
+      "is_b0": false
+    }
+  ],
+  "identification_stimuli": [
+    {
+      "value": 35,
+      "framing": "hot_cold",
+      "prompt": "Is 35 degrees Celsius hot or cold?",
+      "targets": {
+        "category_a": [
+          "cold",
+          "Cold"
+        ],
+        "category_b": [
+          "hot",
+          "Hot"
+        ]
+      },
+      "category_a": "cold",
+      "category_b": "hot"
+    },
+    {
+      "value": 37,
+      "framing": "hot_cold",
+      "prompt": "Is 37 degrees Celsius hot or cold?",
+      "targets": {
+        "category_a": [
+          "cold",
+          "Cold"
+        ],
+        "category_b": [
+          "hot",
+          "Hot"
+        ]
+      },
+      "category_a": "cold",
+      "category_b": "hot"
+    },
+    {
+      "value": 39,
+      "framing": "hot_cold",
+      "prompt": "Is 39 degrees Celsius hot or cold?",
+      "targets": {
+        "category_a": [
+          "cold",
+          "Cold"
+        ],
+        "category_b": [
+          "hot",
+          "Hot"
+        ]
+      },
+      "category_a": "cold",
+      "category_b": "hot"
+    },
+    {
+      "value": 41,
+      "framing": "hot_cold",
+      "prompt": "Is 41 degrees Celsius hot or cold?",
+      "targets": {
+        "category_a": [
+          "cold",
+          "Cold"
+        ],
+        "category_b": [
+          "hot",
+          "Hot"
+        ]
+      },
+      "category_a": "cold",
+      "category_b": "hot"
+    },
+    {
+      "value": 43,
+      "framing": "hot_cold",
+      "prompt": "Is 43 degrees Celsius hot or cold?",
+      "targets": {
+        "category_a": [
+          "cold",
+          "Cold"
+        ],
+        "category_b": [
+          "hot",
+          "Hot"
+        ]
+      },
+      "category_a": "cold",
+      "category_b": "hot"
+    },
+    {
+      "value": 45,
+      "framing": "hot_cold",
+      "prompt": "Is 45 degrees Celsius hot or cold?",
+      "targets": {
+        "category_a": [
+          "cold",
+          "Cold"
+        ],
+        "category_b": [
+          "hot",
+          "Hot"
+        ]
+      },
+      "category_a": "cold",
+      "category_b": "hot"
+    },
+    {
+      "value": 47,
+      "framing": "hot_cold",
+      "prompt": "Is 47 degrees Celsius hot or cold?",
+      "targets": {
+        "category_a": [
+          "cold",
+          "Cold"
+        ],
+        "category_b": [
+          "hot",
+          "Hot"
+        ]
+      },
+      "category_a": "cold",
+      "category_b": "hot"
+    },
+    {
+      "value": 49,
+      "framing": "hot_cold",
+      "prompt": "Is 49 degrees Celsius hot or cold?",
+      "targets": {
+        "category_a": [
+          "cold",
+          "Cold"
+        ],
+        "category_b": [
+          "hot",
+          "Hot"
+        ]
+      },
+      "category_a": "cold",
+      "category_b": "hot"
+    },
+    {
+      "value": 51,
+      "framing": "hot_cold",
+      "prompt": "Is 51 degrees Celsius hot or cold?",
+      "targets": {
+        "category_a": [
+          "cold",
+          "Cold"
+        ],
+        "category_b": [
+          "hot",
+          "Hot"
+        ]
+      },
+      "category_a": "cold",
+      "category_b": "hot"
+    }
+  ],
+  "n_pairs": 36,
+  "pairs": [
+    {
+      "i": 0,
+      "j": 1,
+      "value_i": 35,
+      "value_j": 37,
+      "linear_distance": 2,
+      "crosses_boundary": false
+    },
+    {
+      "i": 0,
+      "j": 2,
+      "value_i": 35,
+      "value_j": 39,
+      "linear_distance": 4,
+      "crosses_boundary": false
+    },
+    {
+      "i": 0,
+      "j": 3,
+      "value_i": 35,
+      "value_j": 41,
+      "linear_distance": 6,
+      "crosses_boundary": false
+    },
+    {
+      "i": 0,
+      "j": 4,
+      "value_i": 35,
+      "value_j": 43,
+      "linear_distance": 8,
+      "crosses_boundary": true
+    },
+    {
+      "i": 0,
+      "j": 5,
+      "value_i": 35,
+      "value_j": 45,
+      "linear_distance": 10,
+      "crosses_boundary": true
+    },
+    {
+      "i": 0,
+      "j": 6,
+      "value_i": 35,
+      "value_j": 47,
+      "linear_distance": 12,
+      "crosses_boundary": true
+    },
+    {
+      "i": 0,
+      "j": 7,
+      "value_i": 35,
+      "value_j": 49,
+      "linear_distance": 14,
+      "crosses_boundary": true
+    },
+    {
+      "i": 0,
+      "j": 8,
+      "value_i": 35,
+      "value_j": 51,
+      "linear_distance": 16,
+      "crosses_boundary": true
+    },
+    {
+      "i": 1,
+      "j": 2,
+      "value_i": 37,
+      "value_j": 39,
+      "linear_distance": 2,
+      "crosses_boundary": false
+    },
+    {
+      "i": 1,
+      "j": 3,
+      "value_i": 37,
+      "value_j": 41,
+      "linear_distance": 4,
+      "crosses_boundary": false
+    },
+    {
+      "i": 1,
+      "j": 4,
+      "value_i": 37,
+      "value_j": 43,
+      "linear_distance": 6,
+      "crosses_boundary": true
+    },
+    {
+      "i": 1,
+      "j": 5,
+      "value_i": 37,
+      "value_j": 45,
+      "linear_distance": 8,
+      "crosses_boundary": true
+    },
+    {
+      "i": 1,
+      "j": 6,
+      "value_i": 37,
+      "value_j": 47,
+      "linear_distance": 10,
+      "crosses_boundary": true
+    },
+    {
+      "i": 1,
+      "j": 7,
+      "value_i": 37,
+      "value_j": 49,
+      "linear_distance": 12,
+      "crosses_boundary": true
+    },
+    {
+      "i": 1,
+      "j": 8,
+      "value_i": 37,
+      "value_j": 51,
+      "linear_distance": 14,
+      "crosses_boundary": true
+    },
+    {
+      "i": 2,
+      "j": 3,
+      "value_i": 39,
+      "value_j": 41,
+      "linear_distance": 2,
+      "crosses_boundary": false
+    },
+    {
+      "i": 2,
+      "j": 4,
+      "value_i": 39,
+      "value_j": 43,
+      "linear_distance": 4,
+      "crosses_boundary": true
+    },
+    {
+      "i": 2,
+      "j": 5,
+      "value_i": 39,
+      "value_j": 45,
+      "linear_distance": 6,
+      "crosses_boundary": true
+    },
+    {
+      "i": 2,
+      "j": 6,
+      "value_i": 39,
+      "value_j": 47,
+      "linear_distance": 8,
+      "crosses_boundary": true
+    },
+    {
+      "i": 2,
+      "j": 7,
+      "value_i": 39,
+      "value_j": 49,
+      "linear_distance": 10,
+      "crosses_boundary": true
+    },
+    {
+      "i": 2,
+      "j": 8,
+      "value_i": 39,
+      "value_j": 51,
+      "linear_distance": 12,
+      "crosses_boundary": true
+    },
+    {
+      "i": 3,
+      "j": 4,
+      "value_i": 41,
+      "value_j": 43,
+      "linear_distance": 2,
+      "crosses_boundary": true
+    },
+    {
+      "i": 3,
+      "j": 5,
+      "value_i": 41,
+      "value_j": 45,
+      "linear_distance": 4,
+      "crosses_boundary": true
+    },
+    {
+      "i": 3,
+      "j": 6,
+      "value_i": 41,
+      "value_j": 47,
+      "linear_distance": 6,
+      "crosses_boundary": true
+    },
+    {
+      "i": 3,
+      "j": 7,
+      "value_i": 41,
+      "value_j": 49,
+      "linear_distance": 8,
+      "crosses_boundary": true
+    },
+    {
+      "i": 3,
+      "j": 8,
+      "value_i": 41,
+      "value_j": 51,
+      "linear_distance": 10,
+      "crosses_boundary": true
+    },
+    {
+      "i": 4,
+      "j": 5,
+      "value_i": 43,
+      "value_j": 45,
+      "linear_distance": 2,
+      "crosses_boundary": false
+    },
+    {
+      "i": 4,
+      "j": 6,
+      "value_i": 43,
+      "value_j": 47,
+      "linear_distance": 4,
+      "crosses_boundary": false
+    },
+    {
+      "i": 4,
+      "j": 7,
+      "value_i": 43,
+      "value_j": 49,
+      "linear_distance": 6,
+      "crosses_boundary": false
+    },
+    {
+      "i": 4,
+      "j": 8,
+      "value_i": 43,
+      "value_j": 51,
+      "linear_distance": 8,
+      "crosses_boundary": false
+    },
+    {
+      "i": 5,
+      "j": 6,
+      "value_i": 45,
+      "value_j": 47,
+      "linear_distance": 2,
+      "crosses_boundary": false
+    },
+    {
+      "i": 5,
+      "j": 7,
+      "value_i": 45,
+      "value_j": 49,
+      "linear_distance": 4,
+      "crosses_boundary": false
+    },
+    {
+      "i": 5,
+      "j": 8,
+      "value_i": 45,
+      "value_j": 51,
+      "linear_distance": 6,
+      "crosses_boundary": false
+    },
+    {
+      "i": 6,
+      "j": 7,
+      "value_i": 47,
+      "value_j": 49,
+      "linear_distance": 2,
+      "crosses_boundary": false
+    },
+    {
+      "i": 6,
+      "j": 8,
+      "value_i": 47,
+      "value_j": 51,
+      "linear_distance": 4,
+      "crosses_boundary": false
+    },
+    {
+      "i": 7,
+      "j": 8,
+      "value_i": 49,
+      "value_j": 51,
+      "linear_distance": 2,
+      "crosses_boundary": false
+    }
+  ],
+  "theoretical_rdms": {
+    "continuous": [
+      [
+        0.0,
+        2.0,
+        4.0,
+        6.0,
+        8.0,
+        10.0,
+        12.0,
+        14.0,
+        16.0
+      ],
+      [
+        2.0,
+        0.0,
+        2.0,
+        4.0,
+        6.0,
+        8.0,
+        10.0,
+        12.0,
+        14.0
+      ],
+      [
+        4.0,
+        2.0,
+        0.0,
+        2.0,
+        4.0,
+        6.0,
+        8.0,
+        10.0,
+        12.0
+      ],
+      [
+        6.0,
+        4.0,
+        2.0,
+        0.0,
+        2.0,
+        4.0,
+        6.0,
+        8.0,
+        10.0
+      ],
+      [
+        8.0,
+        6.0,
+        4.0,
+        2.0,
+        0.0,
+        2.0,
+        4.0,
+        6.0,
+        8.0
+      ],
+      [
+        10.0,
+        8.0,
+        6.0,
+        4.0,
+        2.0,
+        0.0,
+        2.0,
+        4.0,
+        6.0
+      ],
+      [
+        12.0,
+        10.0,
+        8.0,
+        6.0,
+        4.0,
+        2.0,
+        0.0,
+        2.0,
+        4.0
+      ],
+      [
+        14.0,
+        12.0,
+        10.0,
+        8.0,
+        6.0,
+        4.0,
+        2.0,
+        0.0,
+        2.0
+      ],
+      [
+        16.0,
+        14.0,
+        12.0,
+        10.0,
+        8.0,
+        6.0,
+        4.0,
+        2.0,
+        0.0
+      ]
+    ],
+    "continuous_log": [
+      [
+        0.0,
+        1.0986122886681098,
+        1.6094379124341003,
+        1.9459101490553132,
+        2.1972245773362196,
+        2.3978952727983707,
+        2.5649493574615367,
+        2.70805020110221,
+        2.833213344056216
+      ],
+      [
+        1.0986122886681098,
+        0.0,
+        0.5108256237659905,
+        0.8472978603872034,
+        1.0986122886681098,
+        1.2992829841302609,
+        1.466337068793427,
+        1.6094379124341003,
+        1.7346010553881064
+      ],
+      [
+        1.6094379124341003,
+        0.5108256237659905,
+        0.0,
+        0.33647223662121295,
+        0.5877866649021193,
+        0.7884573603642704,
+        0.9555114450274365,
+        1.0986122886681098,
+        1.2237754316221159
+      ],
+      [
+        1.9459101490553132,
+        0.8472978603872034,
+        0.33647223662121295,
+        0.0,
+        0.25131442828090633,
+        0.45198512374305744,
+        0.6190392084062235,
+        0.7621400520468968,
+        0.8873031950009029
+      ],
+      [
+        2.1972245773362196,
+        1.0986122886681098,
+        0.5877866649021193,
+        0.25131442828090633,
+        0.0,
+        0.2006706954621511,
+        0.3677247801253172,
+        0.5108256237659905,
+        0.6359887667199966
+      ],
+      [
+        2.3978952727983707,
+        1.2992829841302609,
+        0.7884573603642704,
+        0.45198512374305744,
+        0.2006706954621511,
+        0.0,
+        0.16705408466316607,
+        0.3101549283038394,
+        0.4353180712578455
+      ],
+      [
+        2.5649493574615367,
+        1.466337068793427,
+        0.9555114450274365,
+        0.6190392084062235,
+        0.3677247801253172,
+        0.16705408466316607,
+        0.0,
+        0.14310084364067333,
+        0.2682639865946794
+      ],
+      [
+        2.70805020110221,
+        1.6094379124341003,
+        1.0986122886681098,
+        0.7621400520468968,
+        0.5108256237659905,
+        0.3101549283038394,
+        0.14310084364067333,
+        0.0,
+        0.1251631429540061
+      ],
+      [
+        2.833213344056216,
+        1.7346010553881064,
+        1.2237754316221159,
+        0.8873031950009029,
+        0.6359887667199966,
+        0.4353180712578455,
+        0.2682639865946794,
+        0.1251631429540061,
+        0.0
+      ]
+    ],
+    "categorical": [
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "cp_additive": [
+      [
+        0.0,
+        2.0,
+        4.0,
+        6.0,
+        14.666666666666668,
+        16.666666666666668,
+        18.666666666666668,
+        20.666666666666668,
+        22.666666666666668
+      ],
+      [
+        2.0,
+        0.0,
+        2.0,
+        4.0,
+        12.666666666666668,
+        14.666666666666668,
+        16.666666666666668,
+        18.666666666666668,
+        20.666666666666668
+      ],
+      [
+        4.0,
+        2.0,
+        0.0,
+        2.0,
+        10.666666666666668,
+        12.666666666666668,
+        14.666666666666668,
+        16.666666666666668,
+        18.666666666666668
+      ],
+      [
+        6.0,
+        4.0,
+        2.0,
+        0.0,
+        8.666666666666668,
+        10.666666666666668,
+        12.666666666666668,
+        14.666666666666668,
+        16.666666666666668
+      ],
+      [
+        14.666666666666668,
+        12.666666666666668,
+        10.666666666666668,
+        8.666666666666668,
+        0.0,
+        2.0,
+        4.0,
+        6.0,
+        8.0
+      ],
+      [
+        16.666666666666668,
+        14.666666666666668,
+        12.666666666666668,
+        10.666666666666668,
+        2.0,
+        0.0,
+        2.0,
+        4.0,
+        6.0
+      ],
+      [
+        18.666666666666668,
+        16.666666666666668,
+        14.666666666666668,
+        12.666666666666668,
+        4.0,
+        2.0,
+        0.0,
+        2.0,
+        4.0
+      ],
+      [
+        20.666666666666668,
+        18.666666666666668,
+        16.666666666666668,
+        14.666666666666668,
+        6.0,
+        4.0,
+        2.0,
+        0.0,
+        2.0
+      ],
+      [
+        22.666666666666668,
+        20.666666666666668,
+        18.666666666666668,
+        16.666666666666668,
+        8.0,
+        6.0,
+        4.0,
+        2.0,
+        0.0
+      ]
+    ],
+    "cp_additive_log": [
+      [
+        0.0,
+        1.0986122886681098,
+        1.6094379124341003,
+        1.9459101490553132,
+        3.226345417743169,
+        3.4270161132053207,
+        3.5940701978684864,
+        3.7371710415091597,
+        3.8623341844631662
+      ],
+      [
+        1.0986122886681098,
+        0.0,
+        0.5108256237659905,
+        0.8472978603872034,
+        2.1277331290750596,
+        2.3284038245372107,
+        2.495457909200377,
+        2.63855875284105,
+        2.7637218957950562
+      ],
+      [
+        1.6094379124341003,
+        0.5108256237659905,
+        0.0,
+        0.33647223662121295,
+        1.6169075053090691,
+        1.8175782007712202,
+        1.9846322854343863,
+        2.1277331290750596,
+        2.2528962720290657
+      ],
+      [
+        1.9459101490553132,
+        0.8472978603872034,
+        0.33647223662121295,
+        0.0,
+        1.2804352686878562,
+        1.4811059641500073,
+        1.6481600488131734,
+        1.7912608924538467,
+        1.9164240354078528
+      ],
+      [
+        3.226345417743169,
+        2.1277331290750596,
+        1.6169075053090691,
+        1.2804352686878562,
+        0.0,
+        0.2006706954621511,
+        0.3677247801253172,
+        0.5108256237659905,
+        0.6359887667199966
+      ],
+      [
+        3.4270161132053207,
+        2.3284038245372107,
+        1.8175782007712202,
+        1.4811059641500073,
+        0.2006706954621511,
+        0.0,
+        0.16705408466316607,
+        0.3101549283038394,
+        0.4353180712578455
+      ],
+      [
+        3.5940701978684864,
+        2.495457909200377,
+        1.9846322854343863,
+        1.6481600488131734,
+        0.3677247801253172,
+        0.16705408466316607,
+        0.0,
+        0.14310084364067333,
+        0.2682639865946794
+      ],
+      [
+        3.7371710415091597,
+        2.63855875284105,
+        2.1277331290750596,
+        1.7912608924538467,
+        0.5108256237659905,
+        0.3101549283038394,
+        0.14310084364067333,
+        0.0,
+        0.1251631429540061
+      ],
+      [
+        3.8623341844631662,
+        2.7637218957950562,
+        2.2528962720290657,
+        1.9164240354078528,
+        0.6359887667199966,
+        0.4353180712578455,
+        0.2682639865946794,
+        0.1251631429540061,
+        0.0
+      ]
+    ],
+    "linear": [
+      [
+        0.0,
+        2.0,
+        4.0,
+        6.0,
+        8.0,
+        10.0,
+        12.0,
+        14.0,
+        16.0
+      ],
+      [
+        2.0,
+        0.0,
+        2.0,
+        4.0,
+        6.0,
+        8.0,
+        10.0,
+        12.0,
+        14.0
+      ],
+      [
+        4.0,
+        2.0,
+        0.0,
+        2.0,
+        4.0,
+        6.0,
+        8.0,
+        10.0,
+        12.0
+      ],
+      [
+        6.0,
+        4.0,
+        2.0,
+        0.0,
+        2.0,
+        4.0,
+        6.0,
+        8.0,
+        10.0
+      ],
+      [
+        8.0,
+        6.0,
+        4.0,
+        2.0,
+        0.0,
+        2.0,
+        4.0,
+        6.0,
+        8.0
+      ],
+      [
+        10.0,
+        8.0,
+        6.0,
+        4.0,
+        2.0,
+        0.0,
+        2.0,
+        4.0,
+        6.0
+      ],
+      [
+        12.0,
+        10.0,
+        8.0,
+        6.0,
+        4.0,
+        2.0,
+        0.0,
+        2.0,
+        4.0
+      ],
+      [
+        14.0,
+        12.0,
+        10.0,
+        8.0,
+        6.0,
+        4.0,
+        2.0,
+        0.0,
+        2.0
+      ],
+      [
+        16.0,
+        14.0,
+        12.0,
+        10.0,
+        8.0,
+        6.0,
+        4.0,
+        2.0,
+        0.0
+      ]
+    ],
+    "lambda": 6.666666666666667,
+    "lambda_log": 1.0291208404069498
+  },
+  "notes": "Temperature domain. Boundary is approximate (~20-22C). Empirical boundary from identification task per model. Functional form (linear vs log) determined from RSA fit."
+}

@@ -5,8 +5,8 @@ Paper M3, "Classical Minds, Modern Machines" programme.
 Author: JP Cacioli
 Research assistant: Claude (Anthropic)
 
-Extracts hidden states from LLM forward passes for M3 pilot:
-  - Load model via HF Transformers (FP16, output_hidden_states=True)
+Extracts hidden states from LLM forward passes:
+  - Load model via HF Transformers (FP16/BF16/8-bit, output_hidden_states=True)
   - Forward pass each probing sentence
   - Extract hidden states at all layers at the magnitude token position
   - Character-to-token offset verification (zero mismatches target)
@@ -14,7 +14,23 @@ Extracts hidden states from LLM forward passes for M3 pilot:
   - Save centroids as .npz
 
 Following Weber Paradigm A methodology exactly.
-Pilot model: meta-llama/Meta-Llama-3-8B-Instruct (FP16).
+
+Usage:
+  # Original pilot (Llama-3-8B-Instruct, both conditions):
+  python m3_extract.py
+
+  # Specific model and condition:
+  python m3_extract.py --model mistralai/Mistral-7B-Instruct-v0.3 \\
+                       --output-tag mistral-7b-instruct \\
+                       --condition decade_10
+
+  # Gemma-2-9B with CPU offload (VRAM constraint):
+  python m3_extract.py --model google/gemma-2-9b-it \\
+                       --output-tag gemma2-9b-it \\
+                       --precision bfloat16 --cpu-offload
+
+  # Extraction only (skip identification):
+  python m3_extract.py --model <hf_id> --skip-identification
 
 Technical environment:
   - Python 3.12, PyTorch 2.8.0a0 with ROCm 6.4
@@ -22,6 +38,7 @@ Technical environment:
   - Critical: $env:HSA_OVERRIDE_GFX_VERSION = "11.0.0"
 """
 
+import argparse
 import json
 import sys
 import time
@@ -82,11 +99,33 @@ def load_model_and_tokenizer(config: ExtractionConfig):
     if tokenizer.pad_token is None:
         tokenizer.pad_token = tokenizer.eos_token
     
-    model = AutoModelForCausalLM.from_pretrained(
-        config.model_name,
-        torch_dtype=torch.float16,
+    # Resolve precision dtype
+    dtype_map = {
+        "fp16": torch.float16,
+        "float16": torch.float16,
+        "bf16": torch.bfloat16,
+        "bfloat16": torch.bfloat16,
+        "fp32": torch.float32,
+        "float32": torch.float32,
+    }
+    torch_dtype = dtype_map.get(config.precision, torch.float16)
+    
+    # Build loading kwargs
+    load_kwargs = dict(
+        torch_dtype=torch_dtype,
         device_map=config.device,
         trust_remote_code=True,
+    )
+    
+    # CPU offload for models that exceed VRAM (e.g., Gemma-2-9B at 16GB)
+    # device_map="auto" splits layers across GPU and CPU, preserving full precision
+    if getattr(config, "cpu_offload", False):
+        load_kwargs["device_map"] = "auto"
+        print("  Using device_map='auto' (GPU+CPU offload, full precision preserved)")
+    
+    model = AutoModelForCausalLM.from_pretrained(
+        config.model_name,
+        **load_kwargs,
     )
     model.eval()
     
@@ -492,12 +531,75 @@ def save_extractions(
 # =============================================================================
 
 def main():
-    config = ExtractionConfig()
+    parser = argparse.ArgumentParser(
+        description="M3 Hidden-State Extraction — Paradigm A",
+        formatter_class=argparse.RawDescriptionHelpFormatter,
+    )
+    parser.add_argument(
+        "--model", type=str, default="meta-llama/Meta-Llama-3-8B-Instruct",
+        help="HuggingFace model ID (default: Meta-Llama-3-8B-Instruct)",
+    )
+    parser.add_argument(
+        "--output-tag", type=str, default=None,
+        help="Short name for output files (default: derived from model name)",
+    )
+    parser.add_argument(
+        "--condition", type=str, default=None,
+        # No choices constraint — condition maps to stimuli/m3_stimuli_{condition}.json
+        help="Run a single condition (default: both)",
+    )
+    parser.add_argument(
+        "--precision", type=str, default="float16",
+        choices=["float16", "fp16", "bfloat16", "bf16", "float32", "fp32"],
+        help="Model precision (default: float16)",
+    )
+    parser.add_argument(
+        "--cpu-offload", action="store_true",
+        help="Use device_map='auto' for GPU+CPU offload (models exceeding VRAM)",
+    )
+    parser.add_argument(
+        "--stimulus-dir", type=str, default="stimuli",
+        help="Directory containing stimulus JSON files",
+    )
+    parser.add_argument(
+        "--output-dir", type=str, default="extractions",
+        help="Directory for output files",
+    )
+    parser.add_argument(
+        "--skip-identification", action="store_true",
+        help="Skip Paradigm B0 identification task (extraction only)",
+    )
+    args = parser.parse_args()
+    
+    # Derive output tag from model name if not specified
+    if args.output_tag is None:
+        # e.g., "meta-llama/Meta-Llama-3-8B-Instruct" -> "llama3-8b-instruct"
+        # Keep it simple: take the last part, lowercase, truncate
+        tag = args.model.split("/")[-1].lower()
+        # Common substitutions
+        tag = tag.replace("meta-llama-3", "llama3")
+        tag = tag.replace("meta-llama-", "llama-")
+        args.output_tag = tag
+    
+    # Build config
+    conditions = (args.condition,) if args.condition else ("decade_10", "control_15")
+    config = ExtractionConfig(
+        model_name=args.model,
+        model_short=args.output_tag,
+        precision=args.precision,
+        stimulus_dir=Path(args.stimulus_dir),
+        output_dir=Path(args.output_dir),
+        conditions=conditions,
+    )
+    config.cpu_offload = args.cpu_offload
     
     print("=" * 70)
-    print("M3 Pilot Hidden-State Extraction")
+    print("M3 Hidden-State Extraction")
     print(f"Model: {config.model_name}")
+    print(f"Output tag: {config.model_short}")
     print(f"Precision: {config.precision}")
+    if config.cpu_offload:
+        print("CPU offload: ENABLED (device_map='auto')")
     print(f"Conditions: {config.conditions}")
     print(f"Seed: {config.seed}")
     print("=" * 70)
@@ -567,8 +669,12 @@ def main():
         )
         
         # Step 3: Run identification task (Paradigm B0)
-        print("\n  Step 3: Identification task (Paradigm B0)")
-        id_results = run_identification(model, tokenizer, id_stimuli, config)
+        if args.skip_identification:
+            print("\n  Step 3: Identification SKIPPED (--skip-identification)")
+            id_results = []
+        else:
+            print("\n  Step 3: Identification task (Paradigm B0)")
+            id_results = run_identification(model, tokenizer, id_stimuli, config)
         
         # Step 4: Save results
         print("\n  Step 4: Saving results")

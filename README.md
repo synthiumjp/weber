@@ -1,132 +1,258 @@
-# SDT Calibration: Signal Detection Theory for LLM Calibration
+# Classical Minds, Modern Machines — Psychophysics of LLM Representations
 
-## Overview
+This repository contains code, stimuli, and results for two papers in the *Classical Minds, Modern Machines* programme, which applies formal cognitive science tools to large language model representations.
 
-This repository contains code, data, and analysis scripts for a pre-registered study applying formal parametric Signal Detection Theory (SDT) to large language models (LLMs) as signal detectors on factual question-answering tasks.
+**Anonymous repository:** [anonymous.4open.science/r/weber-B02C](https://anonymous.4open.science/r/weber-B02C/README.md)
 
-The study tests whether temperature scaling functions as a criterion shift—changing response bias without affecting sensitivity—analogous to payoff manipulations in human psychophysics.
+---
 
-## Key Findings
+## Paper 1: Weber's Law in Transformer Magnitude Representations
 
-- **Temperature is not a pure criterion manipulation.** It simultaneously changes sensitivity (AUC) and criterion (c).
-- **LLMs exhibit unequal-variance evidence distributions.** z-ROC slopes range from 0.52 to 0.84.
-- **The SDT decomposition reveals structure invisible to ECE.** Models with different sensitivity and bias profiles cannot be distinguished by calibration metrics alone.
+> **Weber's Law in Transformer Magnitude Representations: Efficient Coding, Representational Geometry, and Psychophysical Laws in Language Models**
 
-## Pre-Registration
+**Pre-registration:** [OSF (v2.7 + v2.8 amendment)](https://osf.io/u4wp5/overview?view_only=516e8b0c44964c688f6c3161f4d16da4)
 
-The study was pre-registered on the Open Science Framework before data collection:  
-[OSF Pre-Registration](https://osf.io/qpk9a/overview?view_only=28f2894d9fcf4679a8afd2b7d70f6f0b)
+**Status:** Under review at *Computational Brain & Behavior*
+
+**Code:** Root directory (`scripts/`, `stimuli/`, `results/`)
+
+### Overview
+
+Four converging psychophysics paradigms test whether transformer LLMs develop log-compressed magnitude representations consistent with efficient coding theory.
+
+| Paradigm | Question | Method |
+|----------|----------|--------|
+| **A** | Is distance structure log-compressive? | RSA + AIC model comparison |
+| **B** | Do models show Weber's Law behaviourally? | Forced-choice discrimination, psychometric functions |
+| **C** | Does precision decrease with magnitude? | Local precision gradient analysis |
+| **D** | Which layers are functionally implicated? | Activation patching along probe direction |
+
+Three magnitude domains (numerical, temporal, spatial) across three models:
+
+- **Llama-3-8B-Instruct** (Meta) — primary
+- **Mistral-7B-Instruct-v0.3** (Mistral AI) — primary
+- **Qwen-2.5-7B-Instruct** (Alibaba) — exploratory
+
+### Key Findings
+
+1. **Log-compressive geometry is universal.** RSA ρ = .68–.96 across all 96 model × domain × layer cells.
+2. **Geometry dissociates from behaviour.** Llama and Qwen show human-range Weber fractions (WF ≈ 0.20); Mistral does not. Temporal/spatial: chance performance despite strong geometry.
+3. **Causal layer inversion.** Early layers (weak geometry) are functionally active (4.1× specificity); late layers (strong geometry) are not causally engaged (1.2×).
+4. **Geometry is a pretraining property; behaviour is an instruction-tuning property.** Base Llama has equal geometry but zero behavioural competence.
+
+---
+
+## Paper 2: Categorical Perception in LLM Hidden States
+
+> **Categorical Perception in Large Language Model Hidden States: Structural Warping at Digit-Count Boundaries**
+
+**Pre-registration:** [OSF](https://osf.io/qrxf3/overview?view_only=4afe7fbd28764087a65a4222578ad625)
+
+**Status:** Targeting *Neural Computation*
+
+**Code:** `m3_pilot/` directory
+
+### Overview
+
+Five paradigms test whether LLM hidden states exhibit categorical perception — geometric warping at digit-count boundaries — using the Weber paper's log-compressive geometry as the continuous baseline.
+
+| Paradigm | Question | Method |
+|----------|----------|--------|
+| **A** | Does representational geometry warp at boundaries? | RSA + Mantel permutation tests |
+| **B0** | Can models explicitly identify the category? | Counterbalanced forced-choice identification |
+| **B** | Does discrimination confidence track boundaries? | Forced-choice with |Δlogit| confidence |
+| **C** | Does precision spike at the boundary? | Local precision gradient |
+| **E** | Are boundary representations causally implicated? | Activation patching along category direction |
+
+Six models from five architecture families:
+
+- **Llama-3-8B-Instruct** (Meta) — primary
+- **Mistral-7B-Instruct-v0.3** (Mistral AI) — primary
+- **Gemma-2-9B-IT** (Google) — primary
+- **Qwen2.5-7B-Instruct** (Alibaba) — primary
+- **Phi-3.5-mini-instruct** (Microsoft) — primary (scale probe)
+- **Llama-3-8B-Base** (Meta) — exploratory (instruction-tuning control)
+
+Three control conditions: temperature domain (linguistic boundary, no tokenisation discontinuity), non-boundary positions (15, 150), nonce-token remapping (ordinal context without numerical surface form).
+
+### Key Findings
+
+1. **Universal geometric CP.** CP-Additive > Continuous at 100% of primary layers for all 6 models at both decade boundaries (10 and 100).
+2. **Structural, not semantic.** Temperature domain shows no CP; nonce tokens show 3–10× weaker effects than real numbers. Tokenisation discontinuity is the dominant driver.
+3. **Classic vs structural CP dissociation.** Gemma/Qwen show both identification and geometry ("classic CP"); Llama/Mistral/Phi show geometry without identification ("structural CP"). The dissociation is architecture-dependent, not stimulus-dependent.
+4. **Geometry-function dissociation.** Early layers are causally implicated (specificity 44–70×); late layers where geometry peaks are causally inert. Replicates the Weber finding for magnitude.
+
+---
 
 ## Repository Structure
 
 ```
+weber/
 ├── README.md
-├── .gitignore
+├── config.json                     # Model paths, layer ranges, HF commit hashes
+├── model_checksums.json            # SHA256 checksums for reproducibility
 │
-├── # Data Preparation
-├── prepare_datasets.py          # Download and filter TriviaQA (5K) and NQ (3K)
-├── classify_domains.py          # Domain classification for TriviaQA questions
-├── build_4afc.py                # 4AFC distractor pipeline (embedding-based)
+├── scripts/                        # Weber paper code
+│   ├── config.py                   # Shared configuration
+│   ├── stimuli_generation.py       # Generate all stimuli (seed 42)
+│   ├── paradigm_a_extract.py       # Extract hidden states
+│   ├── paradigm_a_analyse.py       # RSA, AIC, Stevens exponent
+│   ├── paradigm_b_behaviour.py     # Behavioural discrimination (B1)
+│   ├── paradigm_b_additional.py    # B2/B3 tasks
+│   ├── paradigm_c_supplement.py    # Precision gradient analysis
+│   ├── paradigm_c_robustness.py    # Normalised precision
+│   ├── paradigm_d_causal.py        # Activation patching (H7)
+│   ├── exploratory_e5_b1_patching.py  # E5: patching with B1-format prompts
+│   ├── corpus_distribution.py      # OpenWebText magnitude frequency analysis
+│   ├── shuffled_magnitude_check.py # Shuffled-magnitude control
+│   ├── unit_boundary_check.py      # Unit-boundary control
+│   ├── psychometric_corrected.py   # Position-corrected Weber fractions
+│   ├── compute_e3_dprime.py        # E3: SDT bridge (d-prime)
+│   ├── evaluate_hypotheses.py      # Formal hypothesis evaluation
+│   ├── run_exploratory_models.py   # Qwen replication
+│   ├── generate_all_figures.py     # Figure generation
+│   ├── generate_paper_figures.py   # Combined manuscript figures
+│   ├── phase0_verify.py            # Phase 0 infrastructure verification
+│   ├── phase1_compliance.py        # Pre-registration compliance audit
+│   └── check_*.py / debug_*.py     # Diagnostic scripts
 │
-├── # Inference
-├── inference_engine.py          # llama-cpp-python wrapper with logit extraction
-├── run_paradigm_a.py            # Paradigm A: generation at 7 temperatures
-├── run_paradigm_b.py            # Paradigm B: 4AFC forced choice
-├── run_analysis_a.py            # Analysis A: force-decode
-├── run_e2_prompt_criterion.py   # E2: prompt-based criterion manipulation
+├── stimuli/                        # Weber stimuli (deterministic, seed 42)
+├── results/                        # Weber results (paradigm_a/, paradigm_b/, etc.)
 │
-├── # Analysis
-├── scoring.py                   # Exact match + string similarity scoring
-├── analysis_pipeline.py         # ROC construction, UVSD fitting, bootstrap CIs
-├── scoring_robustness.py        # Robustness across similarity thresholds
-├── secondary_analyses.py        # H4-H6, E1, E5 analyses
-├── sdt_equivalence_simulation.py # Monte Carlo equivalence bounds
-├── quantile_bins_robustness.py  # Equal-count bin robustness check
-├── build_spotcheck.py           # Human spot-check sampling tool
-├── generate_figures.py          # 8 publication figures
+├── m3_pilot/                       # Categorical perception paper code
+│   ├── m3_stimuli.py               # Stimulus generation (decade_10, control_15)
+│   ├── m3_stimuli_100.py           # 100-boundary stimuli
+│   ├── m3_stimuli_temp.py          # Temperature domain stimuli
+│   ├── m3_stimuli_nonce.py         # Nonce-token remapping stimuli (E10)
+│   ├── m3_extract.py               # Hidden-state extraction (CLI-enabled)
+│   ├── m3_pilot_analysis.py        # RSA + precision + identification analysis
+│   ├── m3_batch_run.py             # Batch extraction runner (all models)
+│   ├── m3_run_analysis.py          # Multi-model RSA analysis runner
+│   ├── m3_run_identification.py    # Multi-model identification runner
+│   ├── m3_rerun_identification.py  # Counterbalanced identification
+│   ├── m3_discrimination_stimuli.py # Paradigm B stimulus generation
+│   ├── m3_discrimination.py        # Single-model discrimination runner
+│   ├── m3_run_discrimination.py    # Batch discrimination runner
+│   ├── m3_discrimination_analysis.py # Discrimination analysis pipeline
+│   ├── m3_run_nonce_analysis.py    # E10 RSA analysis runner
+│   ├── m3_causal.py                # E5 causal intervention
+│   ├── m3_supplementary.py         # Pre-registration compliance analyses
+│   │
+│   ├── stimuli/                    # M3 stimulus files
+│   │   ├── m3_stimuli_decade_10.json
+│   │   ├── m3_stimuli_control_15.json
+│   │   ├── m3_stimuli_decade_100.json
+│   │   ├── m3_stimuli_control_150.json
+│   │   ├── m3_stimuli_temp_hotcold.json
+│   │   ├── m3_stimuli_temp_control.json
+│   │   ├── m3_stimuli_nonce_no_order.json
+│   │   ├── m3_stimuli_nonce_ordered.json
+│   │   └── m3_discrimination_stimuli.json
+│   │
+│   ├── extractions/                # Hidden states (gitignored — regenerate via m3_extract.py)
+│   ├── results/                    # Per-model RSA results + cross-model summaries
+│   ├── discrimination_results/     # Paradigm B results
+│   ├── causal_results/             # E5 activation patching results
+│   └── logs/                       # Extraction logs
 │
-├── # Spot-check
-├── spotcheck_final.xlsx         # 1,200 human-scored judgments
-│
-├── data/                        # Prepared datasets (not tracked)
-│   ├── triviaqa_5000.json
-│   ├── nq_3000.json
-│   └── 4afc_2000.json
-│
-├── results/                     # Raw outputs and analysis results
-│   ├── paradigm_a/              # Raw generation outputs per model × temperature
-│   ├── paradigm_b/              # 4AFC outputs
-│   ├── analysis_a/              # Force-decode outputs
-│   └── analysis/                # Analysis results
-│       ├── full_results.json         # All SDT parameters, all conditions
-│       ├── bootstrap_results.json    # 10,000-resample bootstrap CIs
-│       ├── roc_data.json             # ROC curve data (hit rates, FA rates, bin counts)
-│       ├── scoring_robustness.json   # Robustness across similarity thresholds
-│       ├── secondary_analyses.json   # H4-H6, E1, E5
-│       ├── quantile_bins_robustness.json # Quantile-bin robustness check
-│       └── figures/                  # Publication figures (PNG + PDF)
-│
-└── simulation_results/
-    └── equivalence_bounds.json  # Monte Carlo equivalence bounds (20 conditions)
+└── models/                         # NOT in git — download from HuggingFace
 ```
 
-## Models
+## Requirements
 
-| Model | Parameters | Quantisation | Source |
-|-------|-----------|-------------|--------|
-| Llama-3-8B-Instruct | 8B | Q5_K_M | meta-llama |
-| Mistral-7B-Instruct-v0.3 | 7B | Q5_K_M | mistralai |
-| Llama-3-8B-Base | 8B | Q5_K_M | meta-llama |
+- Python 3.12
+- PyTorch 2.8+ with ROCm 6.4 (AMD) or CUDA
+- HuggingFace Transformers 5.0.0
+- ~16 GB VRAM
 
-Inference via llama-cpp-python 0.3.16 (Vulkan backend) on AMD RX 7900 GRE (16GB VRAM).
+Key packages: `torch`, `transformers`, `numpy`, `scipy`, `matplotlib`, `statsmodels`, `scikit-learn`
 
-## Datasets
+Models download automatically from HuggingFace Hub on first run. Commit hashes are recorded in `config.json`.
 
-- **TriviaQA**: 5,000 questions (unfiltered set, seed=42), stratified by domain
-- **Natural Questions**: 3,000 short-answer questions (NQ-Open subset)
+## Reproducing the Results
 
-## Design
+### Weber paper
 
-- **Paradigm A**: 3 models × 2 datasets × 7 temperatures × 5,000/3,000 questions = 168,000 trials
-- **Paradigm B**: 3 models × 2,000 TriviaQA questions × 4AFC at T=1.0 = 6,000 trials
-- **Analysis A**: Force-decode at T=1.0 for all models × both datasets
-
-## Reproduction
-
-### Requirements
-
-```
-pip install numpy scipy matplotlib seaborn
-```
-
-### Generate Figures
+The complete experiment runs in under 30 minutes per model on a single GPU.
 
 ```bash
-python generate_figures.py
+cd scripts
+python stimuli_generation.py
+python paradigm_a_extract.py
+python paradigm_a_analyse.py
+python paradigm_b_behaviour.py
+python paradigm_b_additional.py
+python paradigm_c_supplement.py
+python paradigm_d_causal.py
+python shuffled_magnitude_check.py
+python unit_boundary_check.py
+python corpus_distribution.py
+python generate_paper_figures.py
+python evaluate_hypotheses.py
 ```
 
-Reads from `results/analysis/` and outputs to `results/analysis/figures/`.
+### M3 (categorical perception) paper
 
-### Full Pipeline
+```bash
+cd m3_pilot
 
-The full inference pipeline requires local GPU access and model files. Scripts are provided for transparency and reproducibility. Key dependencies:
+# 1. Generate stimuli
+python m3_stimuli.py                    # decade_10, control_15
+python m3_stimuli_100.py                # decade_100, control_150
+python m3_stimuli_temp.py               # temperature domain
+python m3_stimuli_nonce.py              # nonce-token remapping (E10)
+python m3_discrimination_stimuli.py     # Paradigm B pairs
 
-- `llama-cpp-python >= 0.3.16` (with Vulkan or CUDA backend)
-- `nomic-ai/nomic-embed-text-v1.5` (for 4AFC distractor pipeline)
-- `difflib` (standard library, for scoring)
+# 2. Extract hidden states (all models × conditions)
+python m3_extract.py --model llama3-8b-instruct --condition decade_10
+# ... repeat for all model × condition combinations, or use:
+python m3_batch_run.py
 
-## Pre-Registration Deviations
+# 3. Run analyses
+python m3_run_analysis.py               # RSA (all models, 10K Mantel permutations)
+python m3_run_identification.py         # Counterbalanced identification
+python m3_run_discrimination.py         # Paradigm B discrimination
+python m3_run_nonce_analysis.py         # E10 nonce-token RSA
+python m3_causal.py                     # E5 activation patching
+python m3_supplementary.py              # Pre-registration compliance analyses
+```
 
-Seven deviations from the pre-registered plan are documented in the paper's Supplementary Materials:
+## Hardware
 
-1. Domain classification: LLM fallback after Wikipedia API failure (93% entity resolution failure)
-2. Llama-3-Base source: QuantFactory instead of bartowski repository
-3. NQ dataset: nq_open subset instead of full NQ filtering
-4. MLE optimisation: z-ROC regression initialisation (11 total fits) instead of 50 random restarts
-5. Paradigm B implementation: minor adjustments to 4AFC format
-6. NLL vectorisation: computational optimisation (no analytical change)
-7. Scoring pipeline: missed-match rate 30.1% (exceeds 3% threshold; documented, not revised)
+All experiments ran on:
 
-## License
+- AMD Radeon RX 7900 GRE (16 GB VRAM)
+- Windows 11, `HSA_OVERRIDE_GFX_VERSION=11.0.0`
+- PyTorch 2.8.0a0 with ROCm 6.4
+
+CUDA users can ignore the ROCm environment variable. Any GPU with ≥16 GB VRAM supporting HuggingFace `output_hidden_states=True` should work.
+
+### M3-specific notes
+
+- Phi-3.5-mini loaded via `Lexius/Phi-3.5-mini-instruct` (community fork, same weights) with local DynamicCache compatibility patch for Transformers 5.0.0.
+- Gemma-2-9B loaded in BF16 (all others FP16).
+- All models loaded with `.to('cuda')` directly — `device_map='auto'` causes ROCm RoPE kernel failures.
+
+## Citation
+
+```bibtex
+@article{cacioli2026weber,
+  title={Weber's Law in Transformer Magnitude Representations: Efficient Coding, 
+         Representational Geometry, and Psychophysical Laws in Language Models},
+  author={Cacioli, JP},
+  year={2026},
+  note={Pre-registered: \url{https://osf.io/u4wp5}}
+}
+
+@article{cacioli2026cp,
+  title={Categorical Perception in Large Language Model Hidden States: 
+         Structural Warping at Digit-Count Boundaries},
+  author={Cacioli, JP},
+  year={2026},
+  note={Pre-registered: \url{https://osf.io/qrxf3}}
+}
+```
+
+## Licence
 
 MIT

@@ -1,6 +1,6 @@
 # Classical Minds, Modern Machines — Psychophysics of LLM Representations
 
-This repository contains code, stimuli, and results for two papers in the *Classical Minds, Modern Machines* programme, which applies formal cognitive science tools to large language model representations.
+This repository contains code, stimuli, and results for three papers in the *Classical Minds, Modern Machines* programme, which applies formal cognitive science tools to large language model representations.
 
 **Anonymous repository:** [anonymous.4open.science/r/weber-B02C](https://anonymous.4open.science/r/weber-B02C/README.md)
 
@@ -84,6 +84,36 @@ Three control conditions: temperature domain (linguistic boundary, no tokenisati
 
 ---
 
+## Paper 3: Scalar Variability in Transformer Magnitude Representations
+
+> **Same Geometry, Opposite Noise: Transformer Magnitude Representations Lack Scalar Variability**
+
+**Pre-registration:** [OSF](https://osf.io/w4892/overview)
+
+**Status:** arXiv preprint
+
+**Code:** `scripts/scalar_variability_v2.py`, `scripts/scalar_variability_exploratory.py`
+
+### Overview
+
+Pre-registered companion analysis to Paper 1 (Weber). Tests whether transformer magnitude representations exhibit scalar variability — the biological signature that representational noise scales proportionally with magnitude (constant CV; Gibbon, 1977). Uses existing Paradigm A hidden states (no new model inference).
+
+| Hypothesis | Prediction | Result |
+|---|---|---|
+| **H1** (α > 0) | Variability increases with magnitude | **Not supported** (α ≈ −0.04, all layers, all models) |
+| **H2** (α ≈ 1) | Constant CV (scalar property) | **Not supported** |
+| **H3** (α < 1) | Sub-scalar (no metabolic constraint) | **Supported** (3/3 models, 48/48 cells) |
+| **H4** (layerwise) | Non-flat α profile | **Not supported** (stable across depth) |
+
+### Key Findings
+
+1. **Anti-scalar variability.** Representational variability *decreases* with magnitude (α ≈ −0.04 raw, −0.19 on the magnitude axis). The opposite of biological scalar variability.
+2. **Corpus frequency mechanism.** Per-magnitude variability correlates with corpus frequency (ρ = .84): frequent numbers appear in more diverse contexts, producing wider representational dispersion.
+3. **Magnitude-specific.** The anti-scalar pattern is 3–5× stronger along the magnitude axis (PC1) than orthogonal dimensions.
+4. **Instruction tuning amplifies.** Llama-Instruct is more anti-scalar than Llama-Base (p < .001).
+
+---
+
 ## Repository Structure
 
 ```
@@ -114,10 +144,12 @@ weber/
 │   ├── generate_paper_figures.py   # Combined manuscript figures
 │   ├── phase0_verify.py            # Phase 0 infrastructure verification
 │   ├── phase1_compliance.py        # Pre-registration compliance audit
+│   ├── scalar_variability_v2.py    # Paper 3: scalar variability analysis (H1-H4)
+│   ├── scalar_variability_exploratory.py  # Paper 3: exploratory analyses (E4-E6)
 │   └── check_*.py / debug_*.py     # Diagnostic scripts
 │
 ├── stimuli/                        # Weber stimuli (deterministic, seed 42)
-├── results/                        # Weber results (paradigm_a/, paradigm_b/, etc.)
+├── results/                        # Weber + scalar variability results
 │
 ├── m3_pilot/                       # Categorical perception paper code
 │   ├── m3_stimuli.py               # Stimulus generation (decade_10, control_15)
@@ -191,6 +223,16 @@ python generate_paper_figures.py
 python evaluate_hypotheses.py
 ```
 
+### Scalar variability paper (Paper 3)
+
+Requires existing Paradigm A hidden states in `results/paradigm_a/` (generated above). No GPU needed — pure numpy on saved tensors.
+
+```bash
+cd scripts
+python scalar_variability_v2.py          # Confirmatory analysis (H1-H4)
+python scalar_variability_exploratory.py  # Exploratory analyses (E4-E6)
+```
+
 ### M3 (categorical perception) paper
 
 ```bash
@@ -250,6 +292,14 @@ CUDA users can ignore the ROCm environment variable. Any GPU with ≥16 GB VRAM 
   author={Cacioli, JP},
   year={2026},
   note={Pre-registered: \url{https://osf.io/qrxf3}}
+}
+
+@article{cacioli2026scalar,
+  title={Same Geometry, Opposite Noise: Transformer Magnitude Representations 
+         Lack Scalar Variability},
+  author={Cacioli, JP},
+  year={2026},
+  note={Pre-registered: \url{https://osf.io/w4892}}
 }
 ```
 
